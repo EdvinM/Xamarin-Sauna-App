@@ -8,4 +8,6 @@
     <string name="setting_off">Off</string>
     
     <string name="setting_ventilation">Ventilation</string>
+    
+    <string name="res_setting_tag_id">90000</string>
 </resources>

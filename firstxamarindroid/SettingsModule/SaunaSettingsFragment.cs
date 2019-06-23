@@ -60,6 +60,14 @@ namespace firstxamarindroid.SettingsModule
 
             this.recyclerViewSettings.SetAdapter(this.settingsListAdapter);
             this.recyclerViewSettings.SetLayoutManager(new LinearLayoutManager(view.Context));
+
+            this.settingsListAdapter.OnItemClick += SettingsListAdapter_OnItemClick;
+        }
+
+
+        private void SettingsListAdapter_OnItemClick(object sender, SettingItemModel e)
+        {
+            this.Activity.SupportFragmentManager.BeginTransaction().Replace(this.Id, e.GetFragment).AddToBackStack(e.GetFragment.Class.Name).Commit();
         }
     }
 }

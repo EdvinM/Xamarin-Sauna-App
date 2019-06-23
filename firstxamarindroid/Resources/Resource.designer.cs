@@ -4333,6 +4333,9 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0d0034
 			public const int path_password_strike_through = 2131558452;
 			
+			// aapt resource value: 0x7f0d003b
+			public const int res_setting_tag_id = 2131558459;
+			
 			// aapt resource value: 0x7f0d001b
 			public const int search_menu_title = 2131558427;
 			

@@ -7,6 +7,7 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using Com.Lilarcor.Cheeseknife;
+using firstxamarindroid.SettingsModule;
 
 namespace firstxamarindroid
 {
@@ -34,17 +35,17 @@ namespace firstxamarindroid
 
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
-            MenuInflater.Inflate(Resource.Menu.menu_main, menu);
+            //MenuInflater.Inflate(Resource.Menu.menu_main, menu);
             return true;
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-            int id = item.ItemId;
-            if (id == Resource.Id.action_settings)
-            {
-                return true;
-            }
+            //int id = item.ItemId;
+            //if (id == Resource.Id.action_settings)
+            //{
+            //    return true;
+            //}
 
             return base.OnOptionsItemSelected(item);
         }
