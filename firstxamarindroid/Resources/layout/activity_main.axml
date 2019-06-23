@@ -31,20 +31,10 @@
         </android.support.v7.widget.Toolbar>
         
 	</android.support.design.widget.AppBarLayout>
-
-	<RelativeLayout
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		app:layout_behavior="@string/appbar_scrolling_view_behavior"
-		tools:showIn="@layout/activity_main">
-		
-		<android.support.v7.widget.RecyclerView
-			android:minWidth="25px"
-			android:minHeight="25px"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:id="@+id/recyclerViewSettings" />
-        
-	</RelativeLayout>
+    
+    <FrameLayout android:id="@+id/frame_layout_settings"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
 </android.support.design.widget.CoordinatorLayout>

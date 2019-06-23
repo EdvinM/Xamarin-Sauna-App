@@ -63,6 +63,12 @@
     <Compile Include="Helpers\SettingsListAdapter.cs" />
     <Compile Include="Helpers\SettingsItemViewHolder.cs" />
     <Compile Include="Cheeseknife.cs" />
+    <Compile Include="Models\SettingItemModel.cs" />
+    <Compile Include="SettingsModule\SaunaSettingsFragment.cs" />
+    <Compile Include="SettingsModule\VentilationFragment.cs" />
+    <Compile Include="SettingsModule\HeaterFragment.cs" />
+    <Compile Include="SettingsModule\LightsFragment.cs" />
+    <Compile Include="SettingsModule\SoundFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -96,6 +102,13 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
+    <AndroidResource Include="Resources\layout\setting_item_layout.axml" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_right_arrow.png" />
+    <AndroidResource Include="Resources\layout\sauna_settings_fragment.axml" />
+    <AndroidResource Include="Resources\layout\ventilation_fragment.axml" />
+    <AndroidResource Include="Resources\layout\heater_fragment.axml" />
+    <AndroidResource Include="Resources\layout\lights_fragment.axml" />
+    <AndroidResource Include="Resources\layout\sound_fragment.axml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
@@ -108,6 +121,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helpers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="SettingsModule\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
