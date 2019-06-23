@@ -26,6 +26,234 @@ namespace firstxamarindroid
 		
 		public static void UpdateIdValues()
 		{
+			global::Top.Defaults.ColorPickerLib.Resource.Animation.top_defaults_view_color_picker_popup_hide = global::firstxamarindroid.Resource.Animation.top_defaults_view_color_picker_popup_hide;
+			global::Top.Defaults.ColorPickerLib.Resource.Animation.top_defaults_view_color_picker_popup_show = global::firstxamarindroid.Resource.Animation.top_defaults_view_color_picker_popup_show;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.barrierAllowsGoneWidgets = global::firstxamarindroid.Resource.Attribute.barrierAllowsGoneWidgets;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.barrierDirection = global::firstxamarindroid.Resource.Attribute.barrierDirection;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.chainUseRtl = global::firstxamarindroid.Resource.Attribute.chainUseRtl;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.constraintSet = global::firstxamarindroid.Resource.Attribute.constraintSet;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.constraint_referenced_ids = global::firstxamarindroid.Resource.Attribute.constraint_referenced_ids;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.content = global::firstxamarindroid.Resource.Attribute.content;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.emptyVisibility = global::firstxamarindroid.Resource.Attribute.emptyVisibility;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.enableAlpha = global::firstxamarindroid.Resource.Attribute.enableAlpha;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constrainedHeight = global::firstxamarindroid.Resource.Attribute.layout_constrainedHeight;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constrainedWidth = global::firstxamarindroid.Resource.Attribute.layout_constrainedWidth;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintBaseline_creator = global::firstxamarindroid.Resource.Attribute.layout_constraintBaseline_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintBaseline_toBaselineOf = global::firstxamarindroid.Resource.Attribute.layout_constraintBaseline_toBaselineOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintBottom_creator = global::firstxamarindroid.Resource.Attribute.layout_constraintBottom_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintBottom_toBottomOf = global::firstxamarindroid.Resource.Attribute.layout_constraintBottom_toBottomOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintBottom_toTopOf = global::firstxamarindroid.Resource.Attribute.layout_constraintBottom_toTopOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintCircle = global::firstxamarindroid.Resource.Attribute.layout_constraintCircle;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintCircleAngle = global::firstxamarindroid.Resource.Attribute.layout_constraintCircleAngle;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintCircleRadius = global::firstxamarindroid.Resource.Attribute.layout_constraintCircleRadius;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintDimensionRatio = global::firstxamarindroid.Resource.Attribute.layout_constraintDimensionRatio;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintEnd_toEndOf = global::firstxamarindroid.Resource.Attribute.layout_constraintEnd_toEndOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintEnd_toStartOf = global::firstxamarindroid.Resource.Attribute.layout_constraintEnd_toStartOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintGuide_begin = global::firstxamarindroid.Resource.Attribute.layout_constraintGuide_begin;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintGuide_end = global::firstxamarindroid.Resource.Attribute.layout_constraintGuide_end;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintGuide_percent = global::firstxamarindroid.Resource.Attribute.layout_constraintGuide_percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintHeight_default = global::firstxamarindroid.Resource.Attribute.layout_constraintHeight_default;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintHeight_max = global::firstxamarindroid.Resource.Attribute.layout_constraintHeight_max;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintHeight_min = global::firstxamarindroid.Resource.Attribute.layout_constraintHeight_min;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintHeight_percent = global::firstxamarindroid.Resource.Attribute.layout_constraintHeight_percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintHorizontal_bias = global::firstxamarindroid.Resource.Attribute.layout_constraintHorizontal_bias;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintHorizontal_chainStyle = global::firstxamarindroid.Resource.Attribute.layout_constraintHorizontal_chainStyle;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintHorizontal_weight = global::firstxamarindroid.Resource.Attribute.layout_constraintHorizontal_weight;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintLeft_creator = global::firstxamarindroid.Resource.Attribute.layout_constraintLeft_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintLeft_toLeftOf = global::firstxamarindroid.Resource.Attribute.layout_constraintLeft_toLeftOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintLeft_toRightOf = global::firstxamarindroid.Resource.Attribute.layout_constraintLeft_toRightOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintRight_creator = global::firstxamarindroid.Resource.Attribute.layout_constraintRight_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintRight_toLeftOf = global::firstxamarindroid.Resource.Attribute.layout_constraintRight_toLeftOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintRight_toRightOf = global::firstxamarindroid.Resource.Attribute.layout_constraintRight_toRightOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintStart_toEndOf = global::firstxamarindroid.Resource.Attribute.layout_constraintStart_toEndOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintStart_toStartOf = global::firstxamarindroid.Resource.Attribute.layout_constraintStart_toStartOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintTop_creator = global::firstxamarindroid.Resource.Attribute.layout_constraintTop_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintTop_toBottomOf = global::firstxamarindroid.Resource.Attribute.layout_constraintTop_toBottomOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintTop_toTopOf = global::firstxamarindroid.Resource.Attribute.layout_constraintTop_toTopOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintVertical_bias = global::firstxamarindroid.Resource.Attribute.layout_constraintVertical_bias;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintVertical_chainStyle = global::firstxamarindroid.Resource.Attribute.layout_constraintVertical_chainStyle;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintVertical_weight = global::firstxamarindroid.Resource.Attribute.layout_constraintVertical_weight;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintWidth_default = global::firstxamarindroid.Resource.Attribute.layout_constraintWidth_default;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintWidth_max = global::firstxamarindroid.Resource.Attribute.layout_constraintWidth_max;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintWidth_min = global::firstxamarindroid.Resource.Attribute.layout_constraintWidth_min;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_constraintWidth_percent = global::firstxamarindroid.Resource.Attribute.layout_constraintWidth_percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_editor_absoluteX = global::firstxamarindroid.Resource.Attribute.layout_editor_absoluteX;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_editor_absoluteY = global::firstxamarindroid.Resource.Attribute.layout_editor_absoluteY;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_goneMarginBottom = global::firstxamarindroid.Resource.Attribute.layout_goneMarginBottom;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_goneMarginEnd = global::firstxamarindroid.Resource.Attribute.layout_goneMarginEnd;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_goneMarginLeft = global::firstxamarindroid.Resource.Attribute.layout_goneMarginLeft;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_goneMarginRight = global::firstxamarindroid.Resource.Attribute.layout_goneMarginRight;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_goneMarginStart = global::firstxamarindroid.Resource.Attribute.layout_goneMarginStart;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_goneMarginTop = global::firstxamarindroid.Resource.Attribute.layout_goneMarginTop;
+			global::Top.Defaults.ColorPickerLib.Resource.Attribute.layout_optimizationLevel = global::firstxamarindroid.Resource.Attribute.layout_optimizationLevel;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.barrier = global::firstxamarindroid.Resource.Id.barrier;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.bottom = global::firstxamarindroid.Resource.Id.bottom;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.cancel = global::firstxamarindroid.Resource.Id.cancel;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.chains = global::firstxamarindroid.Resource.Id.chains;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.colorHex = global::firstxamarindroid.Resource.Id.colorHex;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.colorIndicator = global::firstxamarindroid.Resource.Id.colorIndicator;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.colorPickerView = global::firstxamarindroid.Resource.Id.colorPickerView;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.dimensions = global::firstxamarindroid.Resource.Id.dimensions;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.direct = global::firstxamarindroid.Resource.Id.direct;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.end = global::firstxamarindroid.Resource.Id.end;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.gone = global::firstxamarindroid.Resource.Id.gone;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.invisible = global::firstxamarindroid.Resource.Id.invisible;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.left = global::firstxamarindroid.Resource.Id.left;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.none = global::firstxamarindroid.Resource.Id.none;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.ok = global::firstxamarindroid.Resource.Id.ok;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.packed = global::firstxamarindroid.Resource.Id.packed;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.parent = global::firstxamarindroid.Resource.Id.parent;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.percent = global::firstxamarindroid.Resource.Id.percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.right = global::firstxamarindroid.Resource.Id.right;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.spread = global::firstxamarindroid.Resource.Id.spread;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.spread_inside = global::firstxamarindroid.Resource.Id.spread_inside;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.standard = global::firstxamarindroid.Resource.Id.standard;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.start = global::firstxamarindroid.Resource.Id.start;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.top = global::firstxamarindroid.Resource.Id.top;
+			global::Top.Defaults.ColorPickerLib.Resource.Id.wrap = global::firstxamarindroid.Resource.Id.wrap;
+			global::Top.Defaults.ColorPickerLib.Resource.Layout.top_defaults_view_color_picker_popup = global::firstxamarindroid.Resource.Layout.top_defaults_view_color_picker_popup;
+			global::Top.Defaults.ColorPickerLib.Resource.Style.TopDefaultsViewColorPickerPopupAnimation = global::firstxamarindroid.Resource.Style.TopDefaultsViewColorPickerPopupAnimation;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ColorPickerView = global::firstxamarindroid.Resource.Styleable.ColorPickerView;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ColorPickerView_enableAlpha = global::firstxamarindroid.Resource.Styleable.ColorPickerView_enableAlpha;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_android_minHeight = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_android_minWidth = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_android_orientation = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_android_orientation;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_barrierDirection = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_constraintSet = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_constraintSet;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_placeholder = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_placeholder;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_placeholder_content = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_placeholder_content;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintLayout_placeholder_emptyVisibility = global::firstxamarindroid.Resource.Styleable.ConstraintLayout_placeholder_emptyVisibility;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet = global::firstxamarindroid.Resource.Styleable.ConstraintSet;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_alpha = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_alpha;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_elevation = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_elevation;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_id = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_id;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_layout_height = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_layout_height;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_layout_marginBottom = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_layout_marginBottom;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_layout_marginEnd = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_layout_marginEnd;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_layout_marginLeft = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_layout_marginLeft;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_layout_marginRight = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_layout_marginRight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_layout_marginStart = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_layout_marginStart;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_layout_marginTop = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_layout_marginTop;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_layout_width = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_layout_width;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_orientation = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_orientation;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_rotation = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_rotation;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_rotationX = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_rotationX;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_rotationY = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_rotationY;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_scaleX = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_scaleX;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_scaleY = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_scaleY;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_transformPivotX = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_transformPivotX;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_transformPivotY = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_transformPivotY;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_translationX = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_translationX;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_translationY = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_translationY;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_translationZ = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_translationZ;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_android_visibility = global::firstxamarindroid.Resource.Styleable.ConstraintSet_android_visibility;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constrainedHeight = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constrainedHeight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constrainedWidth = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constrainedWidth;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintCircle = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintCircle;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintGuide_end = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintHeight_default = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintHeight_max = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintHeight_min = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintRight_creator = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintTop_creator = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintWidth_default = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintWidth_max = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintWidth_min = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_editor_absoluteX = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_editor_absoluteY = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_goneMarginBottom = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_goneMarginEnd = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_goneMarginLeft = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_goneMarginRight = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_goneMarginRight;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_goneMarginStart = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_goneMarginStart;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.ConstraintSet_layout_goneMarginTop = global::firstxamarindroid.Resource.Styleable.ConstraintSet_layout_goneMarginTop;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.LinearConstraintLayout = global::firstxamarindroid.Resource.Styleable.LinearConstraintLayout;
+			global::Top.Defaults.ColorPickerLib.Resource.Styleable.LinearConstraintLayout_android_orientation = global::firstxamarindroid.Resource.Styleable.LinearConstraintLayout_android_orientation;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::firstxamarindroid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::firstxamarindroid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::firstxamarindroid.Resource.Attribute.font;
@@ -261,6 +489,12 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f05000f
 			public const int design_snackbar_out = 2131034127;
 			
+			// aapt resource value: 0x7f050010
+			public const int top_defaults_view_color_picker_popup_hide = 2131034128;
+			
+			// aapt resource value: 0x7f050011
+			public const int top_defaults_view_color_picker_popup_show = 2131034129;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -434,8 +668,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0100c4
 			public const int allowStacking = 2130772164;
 			
-			// aapt resource value: 0x7f0101d1
-			public const int alpha = 2130772433;
+			// aapt resource value: 0x7f01020a
+			public const int alpha = 2130772490;
 			
 			// aapt resource value: 0x7f0100d2
 			public const int alphabeticModifiers = 2130772178;
@@ -481,6 +715,12 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f0100cd
 			public const int barLength = 2130772173;
+			
+			// aapt resource value: 0x7f0101d1
+			public const int barrierAllowsGoneWidgets = 2130772433;
+			
+			// aapt resource value: 0x7f0101d2
+			public const int barrierDirection = 2130772434;
 			
 			// aapt resource value: 0x7f01017e
 			public const int behavior_autoHide = 2130772350;
@@ -601,6 +841,9 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f010009
 			public const int cardViewStyle = 2130771977;
+			
+			// aapt resource value: 0x7f0101d3
+			public const int chainUseRtl = 2130772435;
 			
 			// aapt resource value: 0x7f0100b5
 			public const int checkboxStyle = 2130772149;
@@ -749,6 +992,15 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0100eb
 			public const int commitIcon = 2130772203;
 			
+			// aapt resource value: 0x7f0101d4
+			public const int constraintSet = 2130772436;
+			
+			// aapt resource value: 0x7f0101d5
+			public const int constraint_referenced_ids = 2130772437;
+			
+			// aapt resource value: 0x7f0101d6
+			public const int content = 2130772438;
+			
 			// aapt resource value: 0x7f0100d8
 			public const int contentDescription = 2130772184;
 			
@@ -863,6 +1115,12 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010031
 			public const int elevation = 2130772017;
 			
+			// aapt resource value: 0x7f0101d7
+			public const int emptyVisibility = 2130772439;
+			
+			// aapt resource value: 0x7f010216
+			public const int enableAlpha = 2130772502;
+			
 			// aapt resource value: 0x7f0101c6
 			public const int enforceMaterialTheme = 2130772422;
 			
@@ -941,38 +1199,38 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010118
 			public const int floatingActionButtonStyle = 2130772248;
 			
-			// aapt resource value: 0x7f0101d9
-			public const int font = 2130772441;
+			// aapt resource value: 0x7f010212
+			public const int font = 2130772498;
 			
 			// aapt resource value: 0x7f010049
 			public const int fontFamily = 2130772041;
 			
-			// aapt resource value: 0x7f0101d2
-			public const int fontProviderAuthority = 2130772434;
+			// aapt resource value: 0x7f01020b
+			public const int fontProviderAuthority = 2130772491;
 			
-			// aapt resource value: 0x7f0101d5
-			public const int fontProviderCerts = 2130772437;
+			// aapt resource value: 0x7f01020e
+			public const int fontProviderCerts = 2130772494;
 			
-			// aapt resource value: 0x7f0101d6
-			public const int fontProviderFetchStrategy = 2130772438;
+			// aapt resource value: 0x7f01020f
+			public const int fontProviderFetchStrategy = 2130772495;
 			
-			// aapt resource value: 0x7f0101d7
-			public const int fontProviderFetchTimeout = 2130772439;
+			// aapt resource value: 0x7f010210
+			public const int fontProviderFetchTimeout = 2130772496;
 			
-			// aapt resource value: 0x7f0101d3
-			public const int fontProviderPackage = 2130772435;
+			// aapt resource value: 0x7f01020c
+			public const int fontProviderPackage = 2130772492;
 			
-			// aapt resource value: 0x7f0101d4
-			public const int fontProviderQuery = 2130772436;
+			// aapt resource value: 0x7f01020d
+			public const int fontProviderQuery = 2130772493;
 			
-			// aapt resource value: 0x7f0101d8
-			public const int fontStyle = 2130772440;
+			// aapt resource value: 0x7f010211
+			public const int fontStyle = 2130772497;
 			
-			// aapt resource value: 0x7f0101db
-			public const int fontVariationSettings = 2130772443;
+			// aapt resource value: 0x7f010214
+			public const int fontVariationSettings = 2130772500;
 			
-			// aapt resource value: 0x7f0101da
-			public const int fontWeight = 2130772442;
+			// aapt resource value: 0x7f010213
+			public const int fontWeight = 2130772499;
 			
 			// aapt resource value: 0x7f010181
 			public const int foregroundInsidePadding = 2130772353;
@@ -1133,14 +1391,164 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010176
 			public const int layout_collapseParallaxMultiplier = 2130772342;
 			
+			// aapt resource value: 0x7f0101d8
+			public const int layout_constrainedHeight = 2130772440;
+			
+			// aapt resource value: 0x7f0101d9
+			public const int layout_constrainedWidth = 2130772441;
+			
+			// aapt resource value: 0x7f0101da
+			public const int layout_constraintBaseline_creator = 2130772442;
+			
+			// aapt resource value: 0x7f0101db
+			public const int layout_constraintBaseline_toBaselineOf = 2130772443;
+			
+			// aapt resource value: 0x7f0101dc
+			public const int layout_constraintBottom_creator = 2130772444;
+			
+			// aapt resource value: 0x7f0101dd
+			public const int layout_constraintBottom_toBottomOf = 2130772445;
+			
+			// aapt resource value: 0x7f0101de
+			public const int layout_constraintBottom_toTopOf = 2130772446;
+			
+			// aapt resource value: 0x7f0101df
+			public const int layout_constraintCircle = 2130772447;
+			
+			// aapt resource value: 0x7f0101e0
+			public const int layout_constraintCircleAngle = 2130772448;
+			
+			// aapt resource value: 0x7f0101e1
+			public const int layout_constraintCircleRadius = 2130772449;
+			
+			// aapt resource value: 0x7f0101e2
+			public const int layout_constraintDimensionRatio = 2130772450;
+			
+			// aapt resource value: 0x7f0101e3
+			public const int layout_constraintEnd_toEndOf = 2130772451;
+			
+			// aapt resource value: 0x7f0101e4
+			public const int layout_constraintEnd_toStartOf = 2130772452;
+			
+			// aapt resource value: 0x7f0101e5
+			public const int layout_constraintGuide_begin = 2130772453;
+			
+			// aapt resource value: 0x7f0101e6
+			public const int layout_constraintGuide_end = 2130772454;
+			
+			// aapt resource value: 0x7f0101e7
+			public const int layout_constraintGuide_percent = 2130772455;
+			
+			// aapt resource value: 0x7f0101e8
+			public const int layout_constraintHeight_default = 2130772456;
+			
+			// aapt resource value: 0x7f0101e9
+			public const int layout_constraintHeight_max = 2130772457;
+			
+			// aapt resource value: 0x7f0101ea
+			public const int layout_constraintHeight_min = 2130772458;
+			
+			// aapt resource value: 0x7f0101eb
+			public const int layout_constraintHeight_percent = 2130772459;
+			
+			// aapt resource value: 0x7f0101ec
+			public const int layout_constraintHorizontal_bias = 2130772460;
+			
+			// aapt resource value: 0x7f0101ed
+			public const int layout_constraintHorizontal_chainStyle = 2130772461;
+			
+			// aapt resource value: 0x7f0101ee
+			public const int layout_constraintHorizontal_weight = 2130772462;
+			
+			// aapt resource value: 0x7f0101ef
+			public const int layout_constraintLeft_creator = 2130772463;
+			
+			// aapt resource value: 0x7f0101f0
+			public const int layout_constraintLeft_toLeftOf = 2130772464;
+			
+			// aapt resource value: 0x7f0101f1
+			public const int layout_constraintLeft_toRightOf = 2130772465;
+			
+			// aapt resource value: 0x7f0101f2
+			public const int layout_constraintRight_creator = 2130772466;
+			
+			// aapt resource value: 0x7f0101f3
+			public const int layout_constraintRight_toLeftOf = 2130772467;
+			
+			// aapt resource value: 0x7f0101f4
+			public const int layout_constraintRight_toRightOf = 2130772468;
+			
+			// aapt resource value: 0x7f0101f5
+			public const int layout_constraintStart_toEndOf = 2130772469;
+			
+			// aapt resource value: 0x7f0101f6
+			public const int layout_constraintStart_toStartOf = 2130772470;
+			
+			// aapt resource value: 0x7f0101f7
+			public const int layout_constraintTop_creator = 2130772471;
+			
+			// aapt resource value: 0x7f0101f8
+			public const int layout_constraintTop_toBottomOf = 2130772472;
+			
+			// aapt resource value: 0x7f0101f9
+			public const int layout_constraintTop_toTopOf = 2130772473;
+			
+			// aapt resource value: 0x7f0101fa
+			public const int layout_constraintVertical_bias = 2130772474;
+			
+			// aapt resource value: 0x7f0101fb
+			public const int layout_constraintVertical_chainStyle = 2130772475;
+			
+			// aapt resource value: 0x7f0101fc
+			public const int layout_constraintVertical_weight = 2130772476;
+			
+			// aapt resource value: 0x7f0101fd
+			public const int layout_constraintWidth_default = 2130772477;
+			
+			// aapt resource value: 0x7f0101fe
+			public const int layout_constraintWidth_max = 2130772478;
+			
+			// aapt resource value: 0x7f0101ff
+			public const int layout_constraintWidth_min = 2130772479;
+			
+			// aapt resource value: 0x7f010200
+			public const int layout_constraintWidth_percent = 2130772480;
+			
 			// aapt resource value: 0x7f0101d0
 			public const int layout_dodgeInsetEdges = 2130772432;
+			
+			// aapt resource value: 0x7f010201
+			public const int layout_editor_absoluteX = 2130772481;
+			
+			// aapt resource value: 0x7f010202
+			public const int layout_editor_absoluteY = 2130772482;
+			
+			// aapt resource value: 0x7f010203
+			public const int layout_goneMarginBottom = 2130772483;
+			
+			// aapt resource value: 0x7f010204
+			public const int layout_goneMarginEnd = 2130772484;
+			
+			// aapt resource value: 0x7f010205
+			public const int layout_goneMarginLeft = 2130772485;
+			
+			// aapt resource value: 0x7f010206
+			public const int layout_goneMarginRight = 2130772486;
+			
+			// aapt resource value: 0x7f010207
+			public const int layout_goneMarginStart = 2130772487;
+			
+			// aapt resource value: 0x7f010208
+			public const int layout_goneMarginTop = 2130772488;
 			
 			// aapt resource value: 0x7f0101cf
 			public const int layout_insetEdge = 2130772431;
 			
 			// aapt resource value: 0x7f0101cd
 			public const int layout_keyline = 2130772429;
+			
+			// aapt resource value: 0x7f010209
+			public const int layout_optimizationLevel = 2130772489;
 			
 			// aapt resource value: 0x7f010137
 			public const int layout_scrollFlags = 2130772279;
@@ -1706,8 +2114,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0100f3
 			public const int trackTintMode = 2130772211;
 			
-			// aapt resource value: 0x7f0101dc
-			public const int ttcIndex = 2130772444;
+			// aapt resource value: 0x7f010215
+			public const int ttcIndex = 2130772501;
 			
 			// aapt resource value: 0x7f01017c
 			public const int useCompatPadding = 2130772348;
@@ -3256,38 +3664,38 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a003e
 			public const int SYM = 2131361854;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int action_bar = 2131361933;
+			// aapt resource value: 0x7f0a009a
+			public const int action_bar = 2131361946;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int action_bar_activity_content = 2131361793;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int action_bar_container = 2131361932;
+			// aapt resource value: 0x7f0a0099
+			public const int action_bar_container = 2131361945;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int action_bar_root = 2131361928;
+			// aapt resource value: 0x7f0a0095
+			public const int action_bar_root = 2131361941;
 			
 			// aapt resource value: 0x7f0a0002
 			public const int action_bar_spinner = 2131361794;
 			
-			// aapt resource value: 0x7f0a006a
-			public const int action_bar_subtitle = 2131361898;
+			// aapt resource value: 0x7f0a0077
+			public const int action_bar_subtitle = 2131361911;
 			
-			// aapt resource value: 0x7f0a0069
-			public const int action_bar_title = 2131361897;
+			// aapt resource value: 0x7f0a0076
+			public const int action_bar_title = 2131361910;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int action_container = 2131361969;
+			// aapt resource value: 0x7f0a00bf
+			public const int action_container = 2131361983;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int action_context_bar = 2131361934;
+			// aapt resource value: 0x7f0a009b
+			public const int action_context_bar = 2131361947;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int action_divider = 2131361980;
+			// aapt resource value: 0x7f0a00ca
+			public const int action_divider = 2131361994;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int action_image = 2131361970;
+			// aapt resource value: 0x7f0a00c0
+			public const int action_image = 2131361984;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -3295,32 +3703,32 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0004
 			public const int action_menu_presenter = 2131361796;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int action_mode_bar = 2131361930;
+			// aapt resource value: 0x7f0a0097
+			public const int action_mode_bar = 2131361943;
 			
-			// aapt resource value: 0x7f0a0089
-			public const int action_mode_bar_stub = 2131361929;
+			// aapt resource value: 0x7f0a0096
+			public const int action_mode_bar_stub = 2131361942;
 			
-			// aapt resource value: 0x7f0a006b
-			public const int action_mode_close_button = 2131361899;
+			// aapt resource value: 0x7f0a0078
+			public const int action_mode_close_button = 2131361912;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int action_settings = 2131361989;
+			// aapt resource value: 0x7f0a00d8
+			public const int action_settings = 2131362008;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int action_text = 2131361971;
+			// aapt resource value: 0x7f0a00c1
+			public const int action_text = 2131361985;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int actions = 2131361981;
+			// aapt resource value: 0x7f0a00cb
+			public const int actions = 2131361995;
 			
-			// aapt resource value: 0x7f0a006c
-			public const int activity_chooser_view_content = 2131361900;
+			// aapt resource value: 0x7f0a0079
+			public const int activity_chooser_view_content = 2131361913;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int add = 2131361838;
 			
-			// aapt resource value: 0x7f0a007f
-			public const int alertTitle = 2131361919;
+			// aapt resource value: 0x7f0a008c
+			public const int alertTitle = 2131361932;
 			
 			// aapt resource value: 0x7f0a0064
 			public const int all = 2131361892;
@@ -3328,38 +3736,44 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a003f
 			public const int always = 2131361855;
 			
-			// aapt resource value: 0x7f0a0065
-			public const int async = 2131361893;
+			// aapt resource value: 0x7f0a0072
+			public const int async = 2131361906;
 			
 			// aapt resource value: 0x7f0a004d
 			public const int auto = 2131361869;
 			
+			// aapt resource value: 0x7f0a006d
+			public const int barrier = 2131361901;
+			
 			// aapt resource value: 0x7f0a0036
 			public const int beginning = 2131361846;
 			
-			// aapt resource value: 0x7f0a0066
-			public const int blocking = 2131361894;
+			// aapt resource value: 0x7f0a0073
+			public const int blocking = 2131361907;
 			
 			// aapt resource value: 0x7f0a0044
 			public const int bottom = 2131361860;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int browser_actions_header_text = 2131361953;
+			// aapt resource value: 0x7f0a00ae
+			public const int browser_actions_header_text = 2131361966;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int browser_actions_menu_item_icon = 2131361955;
+			// aapt resource value: 0x7f0a00b0
+			public const int browser_actions_menu_item_icon = 2131361968;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int browser_actions_menu_item_text = 2131361956;
+			// aapt resource value: 0x7f0a00b1
+			public const int browser_actions_menu_item_text = 2131361969;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int browser_actions_menu_items = 2131361954;
+			// aapt resource value: 0x7f0a00af
+			public const int browser_actions_menu_items = 2131361967;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int browser_actions_menu_view = 2131361952;
+			// aapt resource value: 0x7f0a00ad
+			public const int browser_actions_menu_view = 2131361965;
 			
-			// aapt resource value: 0x7f0a0072
-			public const int buttonPanel = 2131361906;
+			// aapt resource value: 0x7f0a007f
+			public const int buttonPanel = 2131361919;
+			
+			// aapt resource value: 0x7f0a00d2
+			public const int cancel = 2131362002;
 			
 			// aapt resource value: 0x7f0a004c
 			public const int center = 2131361868;
@@ -3370,11 +3784,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0052
 			public const int center_vertical = 2131361874;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int checkbox = 2131361926;
+			// aapt resource value: 0x7f0a006e
+			public const int chains = 2131361902;
 			
-			// aapt resource value: 0x7f0a00bb
-			public const int chronometer = 2131361979;
+			// aapt resource value: 0x7f0a0093
+			public const int checkbox = 2131361939;
+			
+			// aapt resource value: 0x7f0a00c9
+			public const int chronometer = 2131361993;
 			
 			// aapt resource value: 0x7f0a0061
 			public const int clip_horizontal = 2131361889;
@@ -3385,50 +3802,65 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0040
 			public const int collapseActionView = 2131361856;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int container = 2131361959;
+			// aapt resource value: 0x7f0a00d5
+			public const int colorHex = 2131362005;
+			
+			// aapt resource value: 0x7f0a00d4
+			public const int colorIndicator = 2131362004;
+			
+			// aapt resource value: 0x7f0a00d1
+			public const int colorPickerView = 2131362001;
+			
+			// aapt resource value: 0x7f0a00b4
+			public const int container = 2131361972;
+			
+			// aapt resource value: 0x7f0a008f
+			public const int content = 2131361935;
 			
 			// aapt resource value: 0x7f0a0082
-			public const int content = 2131361922;
+			public const int contentPanel = 2131361922;
 			
-			// aapt resource value: 0x7f0a0075
-			public const int contentPanel = 2131361909;
+			// aapt resource value: 0x7f0a00b5
+			public const int coordinator = 2131361973;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int coordinator = 2131361960;
+			// aapt resource value: 0x7f0a0089
+			public const int custom = 2131361929;
+			
+			// aapt resource value: 0x7f0a0088
+			public const int customPanel = 2131361928;
+			
+			// aapt resource value: 0x7f0a0098
+			public const int decor_content_parent = 2131361944;
 			
 			// aapt resource value: 0x7f0a007c
-			public const int custom = 2131361916;
+			public const int default_activity_button = 2131361916;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int customPanel = 2131361915;
+			// aapt resource value: 0x7f0a00b7
+			public const int design_bottom_sheet = 2131361975;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int decor_content_parent = 2131361931;
+			// aapt resource value: 0x7f0a00bc
+			public const int design_menu_item_action_area = 2131361980;
+			
+			// aapt resource value: 0x7f0a00bb
+			public const int design_menu_item_action_area_stub = 2131361979;
+			
+			// aapt resource value: 0x7f0a00ba
+			public const int design_menu_item_text = 2131361978;
+			
+			// aapt resource value: 0x7f0a00b9
+			public const int design_navigation_view = 2131361977;
 			
 			// aapt resource value: 0x7f0a006f
-			public const int default_activity_button = 2131361903;
+			public const int dimensions = 2131361903;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int design_bottom_sheet = 2131361962;
-			
-			// aapt resource value: 0x7f0a00af
-			public const int design_menu_item_action_area = 2131361967;
-			
-			// aapt resource value: 0x7f0a00ae
-			public const int design_menu_item_action_area_stub = 2131361966;
-			
-			// aapt resource value: 0x7f0a00ad
-			public const int design_menu_item_text = 2131361965;
-			
-			// aapt resource value: 0x7f0a00ac
-			public const int design_navigation_view = 2131361964;
+			// aapt resource value: 0x7f0a0070
+			public const int direct = 2131361904;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int disableHome = 2131361831;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int edit_query = 2131361935;
+			// aapt resource value: 0x7f0a009c
+			public const int edit_query = 2131361948;
 			
 			// aapt resource value: 0x7f0a0037
 			public const int end = 2131361847;
@@ -3442,11 +3874,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0048
 			public const int exitUntilCollapsed = 2131361864;
 			
-			// aapt resource value: 0x7f0a006d
-			public const int expand_activities_button = 2131361901;
+			// aapt resource value: 0x7f0a007a
+			public const int expand_activities_button = 2131361914;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int expanded_menu = 2131361925;
+			// aapt resource value: 0x7f0a0092
+			public const int expanded_menu = 2131361938;
 			
 			// aapt resource value: 0x7f0a005e
 			public const int fill = 2131361886;
@@ -3463,17 +3895,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a005c
 			public const int @fixed = 2131361884;
 			
-			// aapt resource value: 0x7f0a0067
-			public const int forever = 2131361895;
+			// aapt resource value: 0x7f0a0074
+			public const int forever = 2131361908;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int frame_layout_settings = 2131361951;
+			// aapt resource value: 0x7f0a00ac
+			public const int frame_layout_settings = 2131361964;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int ghost_view = 2131361802;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int group_divider = 2131361921;
+			// aapt resource value: 0x7f0a0065
+			public const int gone = 2131361893;
+			
+			// aapt resource value: 0x7f0a008e
+			public const int group_divider = 2131361934;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int home = 2131361797;
@@ -3481,23 +3916,26 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0028
 			public const int homeAsUp = 2131361832;
 			
-			// aapt resource value: 0x7f0a0071
-			public const int icon = 2131361905;
+			// aapt resource value: 0x7f0a007e
+			public const int icon = 2131361918;
 			
-			// aapt resource value: 0x7f0a00be
-			public const int icon_group = 2131361982;
+			// aapt resource value: 0x7f0a00cc
+			public const int icon_group = 2131361996;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int ifRoom = 2131361857;
 			
-			// aapt resource value: 0x7f0a006e
-			public const int image = 2131361902;
+			// aapt resource value: 0x7f0a007b
+			public const int image = 2131361915;
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int info = 2131361975;
+			// aapt resource value: 0x7f0a00c5
+			public const int info = 2131361989;
 			
-			// aapt resource value: 0x7f0a0068
-			public const int italic = 2131361896;
+			// aapt resource value: 0x7f0a0066
+			public const int invisible = 2131361894;
+			
+			// aapt resource value: 0x7f0a0075
+			public const int italic = 2131361909;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int item_touch_helper_previous_elevation = 2131361792;
@@ -3505,8 +3943,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a004e
 			public const int labeled = 2131361870;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int largeLabel = 2131361958;
+			// aapt resource value: 0x7f0a00b3
+			public const int largeLabel = 2131361971;
 			
 			// aapt resource value: 0x7f0a0054
 			public const int left = 2131361876;
@@ -3520,14 +3958,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0024
 			public const int listMode = 2131361828;
 			
-			// aapt resource value: 0x7f0a0070
-			public const int list_item = 2131361904;
+			// aapt resource value: 0x7f0a007d
+			public const int list_item = 2131361917;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int masked = 2131361988;
+			// aapt resource value: 0x7f0a00d7
+			public const int masked = 2131362007;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int message = 2131361948;
+			// aapt resource value: 0x7f0a00a9
+			public const int message = 2131361961;
 			
 			// aapt resource value: 0x7f0a0038
 			public const int middle = 2131361848;
@@ -3544,8 +3982,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a002f
 			public const int multiply = 2131361839;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int navigation_header_container = 2131361963;
+			// aapt resource value: 0x7f0a00b8
+			public const int navigation_header_container = 2131361976;
 			
 			// aapt resource value: 0x7f0a0042
 			public const int never = 2131361858;
@@ -3556,26 +3994,38 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0025
 			public const int normal = 2131361829;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int notification_background = 2131361977;
+			// aapt resource value: 0x7f0a00c7
+			public const int notification_background = 2131361991;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int notification_main_column = 2131361973;
+			// aapt resource value: 0x7f0a00c3
+			public const int notification_main_column = 2131361987;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int notification_main_column_container = 2131361972;
+			// aapt resource value: 0x7f0a00c2
+			public const int notification_main_column_container = 2131361986;
+			
+			// aapt resource value: 0x7f0a00d3
+			public const int ok = 2131362003;
 			
 			// aapt resource value: 0x7f0a0060
 			public const int outline = 2131361888;
 			
+			// aapt resource value: 0x7f0a006b
+			public const int packed = 2131361899;
+			
 			// aapt resource value: 0x7f0a0057
 			public const int parallax = 2131361879;
 			
-			// aapt resource value: 0x7f0a0074
-			public const int parentPanel = 2131361908;
+			// aapt resource value: 0x7f0a0067
+			public const int parent = 2131361895;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int parentPanel = 2131361921;
 			
 			// aapt resource value: 0x7f0a000b
 			public const int parent_matrix = 2131361803;
+			
+			// aapt resource value: 0x7f0a0068
+			public const int percent = 2131361896;
 			
 			// aapt resource value: 0x7f0a0058
 			public const int pin = 2131361880;
@@ -3586,20 +4036,23 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0007
 			public const int progress_horizontal = 2131361799;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int radio = 2131361927;
+			// aapt resource value: 0x7f0a0094
+			public const int radio = 2131361940;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int recyclerViewSettings = 2131361983;
+			// aapt resource value: 0x7f0a00be
+			public const int recyclerViewLights = 2131361982;
+			
+			// aapt resource value: 0x7f0a00cd
+			public const int recyclerViewSettings = 2131361997;
 			
 			// aapt resource value: 0x7f0a0055
 			public const int right = 2131361877;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int right_icon = 2131361976;
+			// aapt resource value: 0x7f0a00c6
+			public const int right_icon = 2131361990;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int right_side = 2131361974;
+			// aapt resource value: 0x7f0a00c4
+			public const int right_side = 2131361988;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int save_image_matrix = 2131361804;
@@ -3616,59 +4069,59 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0049
 			public const int scroll = 2131361865;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int scrollIndicatorDown = 2131361914;
+			// aapt resource value: 0x7f0a0087
+			public const int scrollIndicatorDown = 2131361927;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int scrollIndicatorUp = 2131361910;
+			// aapt resource value: 0x7f0a0083
+			public const int scrollIndicatorUp = 2131361923;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int scrollView = 2131361911;
+			// aapt resource value: 0x7f0a0084
+			public const int scrollView = 2131361924;
 			
 			// aapt resource value: 0x7f0a005d
 			public const int scrollable = 2131361885;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int search_badge = 2131361937;
+			// aapt resource value: 0x7f0a009e
+			public const int search_badge = 2131361950;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int search_bar = 2131361936;
+			// aapt resource value: 0x7f0a009d
+			public const int search_bar = 2131361949;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int search_button = 2131361938;
+			// aapt resource value: 0x7f0a009f
+			public const int search_button = 2131361951;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int search_close_btn = 2131361943;
+			// aapt resource value: 0x7f0a00a4
+			public const int search_close_btn = 2131361956;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int search_edit_frame = 2131361939;
+			// aapt resource value: 0x7f0a00a0
+			public const int search_edit_frame = 2131361952;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int search_go_btn = 2131361945;
+			// aapt resource value: 0x7f0a00a6
+			public const int search_go_btn = 2131361958;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int search_mag_icon = 2131361940;
+			// aapt resource value: 0x7f0a00a1
+			public const int search_mag_icon = 2131361953;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int search_plate = 2131361941;
+			// aapt resource value: 0x7f0a00a2
+			public const int search_plate = 2131361954;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int search_src_text = 2131361942;
+			// aapt resource value: 0x7f0a00a3
+			public const int search_src_text = 2131361955;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int search_voice_btn = 2131361946;
+			// aapt resource value: 0x7f0a00a7
+			public const int search_voice_btn = 2131361959;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int select_dialog_listview = 2131361947;
+			// aapt resource value: 0x7f0a00a8
+			public const int select_dialog_listview = 2131361960;
 			
 			// aapt resource value: 0x7f0a004f
 			public const int selected = 2131361871;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int settingItemLayout = 2131361984;
+			// aapt resource value: 0x7f0a00ce
+			public const int settingItemLayout = 2131361998;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int shortcut = 2131361923;
+			// aapt resource value: 0x7f0a0090
+			public const int shortcut = 2131361936;
 			
 			// aapt resource value: 0x7f0a002a
 			public const int showCustom = 2131361834;
@@ -3679,8 +4132,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a002c
 			public const int showTitle = 2131361836;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int smallLabel = 2131361957;
+			// aapt resource value: 0x7f0a00b2
+			public const int smallLabel = 2131361970;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int snackbar_action = 2131361814;
@@ -3694,11 +4147,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a004b
 			public const int snapMargins = 2131361867;
 			
-			// aapt resource value: 0x7f0a0073
-			public const int spacer = 2131361907;
+			// aapt resource value: 0x7f0a0080
+			public const int spacer = 2131361920;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int split_action_bar = 2131361800;
+			
+			// aapt resource value: 0x7f0a0069
+			public const int spread = 2131361897;
+			
+			// aapt resource value: 0x7f0a006c
+			public const int spread_inside = 2131361900;
 			
 			// aapt resource value: 0x7f0a0031
 			public const int src_atop = 2131361841;
@@ -3709,17 +4168,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0033
 			public const int src_over = 2131361843;
 			
+			// aapt resource value: 0x7f0a0071
+			public const int standard = 2131361905;
+			
 			// aapt resource value: 0x7f0a0056
 			public const int start = 2131361878;
 			
 			// aapt resource value: 0x7f0a005b
 			public const int stretch = 2131361883;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int submenuarrow = 2131361924;
+			// aapt resource value: 0x7f0a0091
+			public const int submenuarrow = 2131361937;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int submit_area = 2131361944;
+			// aapt resource value: 0x7f0a00a5
+			public const int submit_area = 2131361957;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int tabMode = 2131361830;
@@ -3739,26 +4201,26 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0022
 			public const int text2 = 2131361826;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int textSpacerNoButtons = 2131361913;
+			// aapt resource value: 0x7f0a0086
+			public const int textSpacerNoButtons = 2131361926;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int textSpacerNoTitle = 2131361912;
+			// aapt resource value: 0x7f0a0085
+			public const int textSpacerNoTitle = 2131361925;
 			
 			// aapt resource value: 0x7f0a005a
 			public const int textStart = 2131361882;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int textViewSaunaNameSettings = 2131361950;
+			// aapt resource value: 0x7f0a00ab
+			public const int textViewSaunaNameSettings = 2131361963;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int textViewSettingName = 2131361985;
+			// aapt resource value: 0x7f0a00cf
+			public const int textViewSettingName = 2131361999;
 			
-			// aapt resource value: 0x7f0a00c2
-			public const int textViewSettingStatus = 2131361986;
+			// aapt resource value: 0x7f0a00d0
+			public const int textViewSettingStatus = 2131362000;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int text_input_password_toggle = 2131361968;
+			// aapt resource value: 0x7f0a00bd
+			public const int text_input_password_toggle = 2131361981;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int textinput_counter = 2131361816;
@@ -3769,29 +4231,29 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001a
 			public const int textinput_helper_text = 2131361818;
 			
-			// aapt resource value: 0x7f0a00ba
-			public const int time = 2131361978;
+			// aapt resource value: 0x7f0a00c8
+			public const int time = 2131361992;
 			
 			// aapt resource value: 0x7f0a0023
 			public const int title = 2131361827;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int titleDividerNoCustom = 2131361920;
+			// aapt resource value: 0x7f0a008d
+			public const int titleDividerNoCustom = 2131361933;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int title_template = 2131361918;
+			// aapt resource value: 0x7f0a008b
+			public const int title_template = 2131361931;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int toolbar = 2131361949;
+			// aapt resource value: 0x7f0a00aa
+			public const int toolbar = 2131361962;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int top = 2131361861;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int topPanel = 2131361917;
+			// aapt resource value: 0x7f0a008a
+			public const int topPanel = 2131361930;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int touch_outside = 2131361961;
+			// aapt resource value: 0x7f0a00b6
+			public const int touch_outside = 2131361974;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int transition_current_scene = 2131361807;
@@ -3823,11 +4285,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001b
 			public const int view_offset_helper = 2131361819;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int visible = 2131361987;
+			// aapt resource value: 0x7f0a00d6
+			public const int visible = 2131362006;
 			
 			// aapt resource value: 0x7f0a0043
 			public const int withText = 2131361859;
+			
+			// aapt resource value: 0x7f0a006a
+			public const int wrap = 2131361898;
 			
 			// aapt resource value: 0x7f0a0035
 			public const int wrap_content = 2131361845;
@@ -4115,7 +4580,10 @@ namespace firstxamarindroid
 			public const int support_simple_spinner_dropdown_item = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int ventilation_fragment = 2130968638;
+			public const int top_defaults_view_color_picker_popup = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int ventilation_fragment = 2130968639;
 			
 			static Layout()
 			{
@@ -4382,17 +4850,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b015d
 			public const int Animation_Design_BottomSheetDialog = 2131427677;
 			
-			// aapt resource value: 0x7f0b01ef
-			public const int AppTheme = 2131427823;
-			
-			// aapt resource value: 0x7f0b01f1
-			public const int AppTheme_AppBarOverlay = 2131427825;
-			
 			// aapt resource value: 0x7f0b01f0
-			public const int AppTheme_NoActionBar = 2131427824;
+			public const int AppTheme = 2131427824;
 			
 			// aapt resource value: 0x7f0b01f2
-			public const int AppTheme_PopupOverlay = 2131427826;
+			public const int AppTheme_AppBarOverlay = 2131427826;
+			
+			// aapt resource value: 0x7f0b01f1
+			public const int AppTheme_NoActionBar = 2131427825;
+			
+			// aapt resource value: 0x7f0b01f3
+			public const int AppTheme_PopupOverlay = 2131427827;
 			
 			// aapt resource value: 0x7f0b0092
 			public const int Base_AlertDialog_AppCompat = 2131427474;
@@ -5497,6 +5965,9 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f0b01b9
 			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131427769;
+			
+			// aapt resource value: 0x7f0b01ef
+			public const int TopDefaultsViewColorPickerPopupAnimation = 2131427823;
 			
 			// aapt resource value: 0x7f0b010e
 			public const int Widget_AppCompat_ActionBar = 2131427598;
@@ -7184,10 +7655,16 @@ namespace firstxamarindroid
 			// aapt resource value: 1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
 			
+			public static int[] ColorPickerView = new int[] {
+					2130772502};
+			
+			// aapt resource value: 0
+			public const int ColorPickerView_enableAlpha = 0;
+			
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130772433};
+					2130772490};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -7211,6 +7688,548 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
+			
+			public static int[] ConstraintLayout_Layout = new int[] {
+					16842948,
+					16843039,
+					16843040,
+					16843071,
+					16843072,
+					2130772433,
+					2130772434,
+					2130772435,
+					2130772436,
+					2130772437,
+					2130772440,
+					2130772441,
+					2130772442,
+					2130772443,
+					2130772444,
+					2130772445,
+					2130772446,
+					2130772447,
+					2130772448,
+					2130772449,
+					2130772450,
+					2130772451,
+					2130772452,
+					2130772453,
+					2130772454,
+					2130772455,
+					2130772456,
+					2130772457,
+					2130772458,
+					2130772459,
+					2130772460,
+					2130772461,
+					2130772462,
+					2130772463,
+					2130772464,
+					2130772465,
+					2130772466,
+					2130772467,
+					2130772468,
+					2130772469,
+					2130772470,
+					2130772471,
+					2130772472,
+					2130772473,
+					2130772474,
+					2130772475,
+					2130772476,
+					2130772477,
+					2130772478,
+					2130772479,
+					2130772480,
+					2130772481,
+					2130772482,
+					2130772483,
+					2130772484,
+					2130772485,
+					2130772486,
+					2130772487,
+					2130772488,
+					2130772489};
+			
+			// aapt resource value: 2
+			public const int ConstraintLayout_Layout_android_maxHeight = 2;
+			
+			// aapt resource value: 1
+			public const int ConstraintLayout_Layout_android_maxWidth = 1;
+			
+			// aapt resource value: 4
+			public const int ConstraintLayout_Layout_android_minHeight = 4;
+			
+			// aapt resource value: 3
+			public const int ConstraintLayout_Layout_android_minWidth = 3;
+			
+			// aapt resource value: 0
+			public const int ConstraintLayout_Layout_android_orientation = 0;
+			
+			// aapt resource value: 5
+			public const int ConstraintLayout_Layout_barrierAllowsGoneWidgets = 5;
+			
+			// aapt resource value: 6
+			public const int ConstraintLayout_Layout_barrierDirection = 6;
+			
+			// aapt resource value: 7
+			public const int ConstraintLayout_Layout_chainUseRtl = 7;
+			
+			// aapt resource value: 8
+			public const int ConstraintLayout_Layout_constraintSet = 8;
+			
+			// aapt resource value: 9
+			public const int ConstraintLayout_Layout_constraint_referenced_ids = 9;
+			
+			// aapt resource value: 10
+			public const int ConstraintLayout_Layout_layout_constrainedHeight = 10;
+			
+			// aapt resource value: 11
+			public const int ConstraintLayout_Layout_layout_constrainedWidth = 11;
+			
+			// aapt resource value: 12
+			public const int ConstraintLayout_Layout_layout_constraintBaseline_creator = 12;
+			
+			// aapt resource value: 13
+			public const int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 13;
+			
+			// aapt resource value: 14
+			public const int ConstraintLayout_Layout_layout_constraintBottom_creator = 14;
+			
+			// aapt resource value: 15
+			public const int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 15;
+			
+			// aapt resource value: 16
+			public const int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 16;
+			
+			// aapt resource value: 17
+			public const int ConstraintLayout_Layout_layout_constraintCircle = 17;
+			
+			// aapt resource value: 18
+			public const int ConstraintLayout_Layout_layout_constraintCircleAngle = 18;
+			
+			// aapt resource value: 19
+			public const int ConstraintLayout_Layout_layout_constraintCircleRadius = 19;
+			
+			// aapt resource value: 20
+			public const int ConstraintLayout_Layout_layout_constraintDimensionRatio = 20;
+			
+			// aapt resource value: 21
+			public const int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 21;
+			
+			// aapt resource value: 22
+			public const int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 22;
+			
+			// aapt resource value: 23
+			public const int ConstraintLayout_Layout_layout_constraintGuide_begin = 23;
+			
+			// aapt resource value: 24
+			public const int ConstraintLayout_Layout_layout_constraintGuide_end = 24;
+			
+			// aapt resource value: 25
+			public const int ConstraintLayout_Layout_layout_constraintGuide_percent = 25;
+			
+			// aapt resource value: 26
+			public const int ConstraintLayout_Layout_layout_constraintHeight_default = 26;
+			
+			// aapt resource value: 27
+			public const int ConstraintLayout_Layout_layout_constraintHeight_max = 27;
+			
+			// aapt resource value: 28
+			public const int ConstraintLayout_Layout_layout_constraintHeight_min = 28;
+			
+			// aapt resource value: 29
+			public const int ConstraintLayout_Layout_layout_constraintHeight_percent = 29;
+			
+			// aapt resource value: 30
+			public const int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 30;
+			
+			// aapt resource value: 31
+			public const int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = 31;
+			
+			// aapt resource value: 32
+			public const int ConstraintLayout_Layout_layout_constraintHorizontal_weight = 32;
+			
+			// aapt resource value: 33
+			public const int ConstraintLayout_Layout_layout_constraintLeft_creator = 33;
+			
+			// aapt resource value: 34
+			public const int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 34;
+			
+			// aapt resource value: 35
+			public const int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 35;
+			
+			// aapt resource value: 36
+			public const int ConstraintLayout_Layout_layout_constraintRight_creator = 36;
+			
+			// aapt resource value: 37
+			public const int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 37;
+			
+			// aapt resource value: 38
+			public const int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 38;
+			
+			// aapt resource value: 39
+			public const int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 39;
+			
+			// aapt resource value: 40
+			public const int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 40;
+			
+			// aapt resource value: 41
+			public const int ConstraintLayout_Layout_layout_constraintTop_creator = 41;
+			
+			// aapt resource value: 42
+			public const int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 42;
+			
+			// aapt resource value: 43
+			public const int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 43;
+			
+			// aapt resource value: 44
+			public const int ConstraintLayout_Layout_layout_constraintVertical_bias = 44;
+			
+			// aapt resource value: 45
+			public const int ConstraintLayout_Layout_layout_constraintVertical_chainStyle = 45;
+			
+			// aapt resource value: 46
+			public const int ConstraintLayout_Layout_layout_constraintVertical_weight = 46;
+			
+			// aapt resource value: 47
+			public const int ConstraintLayout_Layout_layout_constraintWidth_default = 47;
+			
+			// aapt resource value: 48
+			public const int ConstraintLayout_Layout_layout_constraintWidth_max = 48;
+			
+			// aapt resource value: 49
+			public const int ConstraintLayout_Layout_layout_constraintWidth_min = 49;
+			
+			// aapt resource value: 50
+			public const int ConstraintLayout_Layout_layout_constraintWidth_percent = 50;
+			
+			// aapt resource value: 51
+			public const int ConstraintLayout_Layout_layout_editor_absoluteX = 51;
+			
+			// aapt resource value: 52
+			public const int ConstraintLayout_Layout_layout_editor_absoluteY = 52;
+			
+			// aapt resource value: 53
+			public const int ConstraintLayout_Layout_layout_goneMarginBottom = 53;
+			
+			// aapt resource value: 54
+			public const int ConstraintLayout_Layout_layout_goneMarginEnd = 54;
+			
+			// aapt resource value: 55
+			public const int ConstraintLayout_Layout_layout_goneMarginLeft = 55;
+			
+			// aapt resource value: 56
+			public const int ConstraintLayout_Layout_layout_goneMarginRight = 56;
+			
+			// aapt resource value: 57
+			public const int ConstraintLayout_Layout_layout_goneMarginStart = 57;
+			
+			// aapt resource value: 58
+			public const int ConstraintLayout_Layout_layout_goneMarginTop = 58;
+			
+			// aapt resource value: 59
+			public const int ConstraintLayout_Layout_layout_optimizationLevel = 59;
+			
+			public static int[] ConstraintLayout_placeholder = new int[] {
+					2130772438,
+					2130772439};
+			
+			// aapt resource value: 0
+			public const int ConstraintLayout_placeholder_content = 0;
+			
+			// aapt resource value: 1
+			public const int ConstraintLayout_placeholder_emptyVisibility = 1;
+			
+			public static int[] ConstraintSet = new int[] {
+					16842948,
+					16842960,
+					16842972,
+					16842996,
+					16842997,
+					16842999,
+					16843000,
+					16843001,
+					16843002,
+					16843551,
+					16843552,
+					16843553,
+					16843554,
+					16843555,
+					16843556,
+					16843557,
+					16843558,
+					16843559,
+					16843560,
+					16843701,
+					16843702,
+					16843770,
+					16843840,
+					2130772440,
+					2130772441,
+					2130772442,
+					2130772443,
+					2130772444,
+					2130772445,
+					2130772446,
+					2130772447,
+					2130772448,
+					2130772449,
+					2130772450,
+					2130772451,
+					2130772452,
+					2130772453,
+					2130772454,
+					2130772455,
+					2130772456,
+					2130772457,
+					2130772458,
+					2130772459,
+					2130772460,
+					2130772461,
+					2130772462,
+					2130772463,
+					2130772464,
+					2130772465,
+					2130772466,
+					2130772467,
+					2130772468,
+					2130772469,
+					2130772470,
+					2130772471,
+					2130772472,
+					2130772473,
+					2130772474,
+					2130772475,
+					2130772476,
+					2130772477,
+					2130772478,
+					2130772479,
+					2130772480,
+					2130772481,
+					2130772482,
+					2130772483,
+					2130772484,
+					2130772485,
+					2130772486,
+					2130772487,
+					2130772488};
+			
+			// aapt resource value: 9
+			public const int ConstraintSet_android_alpha = 9;
+			
+			// aapt resource value: 22
+			public const int ConstraintSet_android_elevation = 22;
+			
+			// aapt resource value: 1
+			public const int ConstraintSet_android_id = 1;
+			
+			// aapt resource value: 4
+			public const int ConstraintSet_android_layout_height = 4;
+			
+			// aapt resource value: 8
+			public const int ConstraintSet_android_layout_marginBottom = 8;
+			
+			// aapt resource value: 20
+			public const int ConstraintSet_android_layout_marginEnd = 20;
+			
+			// aapt resource value: 5
+			public const int ConstraintSet_android_layout_marginLeft = 5;
+			
+			// aapt resource value: 7
+			public const int ConstraintSet_android_layout_marginRight = 7;
+			
+			// aapt resource value: 19
+			public const int ConstraintSet_android_layout_marginStart = 19;
+			
+			// aapt resource value: 6
+			public const int ConstraintSet_android_layout_marginTop = 6;
+			
+			// aapt resource value: 3
+			public const int ConstraintSet_android_layout_width = 3;
+			
+			// aapt resource value: 0
+			public const int ConstraintSet_android_orientation = 0;
+			
+			// aapt resource value: 16
+			public const int ConstraintSet_android_rotation = 16;
+			
+			// aapt resource value: 17
+			public const int ConstraintSet_android_rotationX = 17;
+			
+			// aapt resource value: 18
+			public const int ConstraintSet_android_rotationY = 18;
+			
+			// aapt resource value: 14
+			public const int ConstraintSet_android_scaleX = 14;
+			
+			// aapt resource value: 15
+			public const int ConstraintSet_android_scaleY = 15;
+			
+			// aapt resource value: 10
+			public const int ConstraintSet_android_transformPivotX = 10;
+			
+			// aapt resource value: 11
+			public const int ConstraintSet_android_transformPivotY = 11;
+			
+			// aapt resource value: 12
+			public const int ConstraintSet_android_translationX = 12;
+			
+			// aapt resource value: 13
+			public const int ConstraintSet_android_translationY = 13;
+			
+			// aapt resource value: 21
+			public const int ConstraintSet_android_translationZ = 21;
+			
+			// aapt resource value: 2
+			public const int ConstraintSet_android_visibility = 2;
+			
+			// aapt resource value: 23
+			public const int ConstraintSet_layout_constrainedHeight = 23;
+			
+			// aapt resource value: 24
+			public const int ConstraintSet_layout_constrainedWidth = 24;
+			
+			// aapt resource value: 25
+			public const int ConstraintSet_layout_constraintBaseline_creator = 25;
+			
+			// aapt resource value: 26
+			public const int ConstraintSet_layout_constraintBaseline_toBaselineOf = 26;
+			
+			// aapt resource value: 27
+			public const int ConstraintSet_layout_constraintBottom_creator = 27;
+			
+			// aapt resource value: 28
+			public const int ConstraintSet_layout_constraintBottom_toBottomOf = 28;
+			
+			// aapt resource value: 29
+			public const int ConstraintSet_layout_constraintBottom_toTopOf = 29;
+			
+			// aapt resource value: 30
+			public const int ConstraintSet_layout_constraintCircle = 30;
+			
+			// aapt resource value: 31
+			public const int ConstraintSet_layout_constraintCircleAngle = 31;
+			
+			// aapt resource value: 32
+			public const int ConstraintSet_layout_constraintCircleRadius = 32;
+			
+			// aapt resource value: 33
+			public const int ConstraintSet_layout_constraintDimensionRatio = 33;
+			
+			// aapt resource value: 34
+			public const int ConstraintSet_layout_constraintEnd_toEndOf = 34;
+			
+			// aapt resource value: 35
+			public const int ConstraintSet_layout_constraintEnd_toStartOf = 35;
+			
+			// aapt resource value: 36
+			public const int ConstraintSet_layout_constraintGuide_begin = 36;
+			
+			// aapt resource value: 37
+			public const int ConstraintSet_layout_constraintGuide_end = 37;
+			
+			// aapt resource value: 38
+			public const int ConstraintSet_layout_constraintGuide_percent = 38;
+			
+			// aapt resource value: 39
+			public const int ConstraintSet_layout_constraintHeight_default = 39;
+			
+			// aapt resource value: 40
+			public const int ConstraintSet_layout_constraintHeight_max = 40;
+			
+			// aapt resource value: 41
+			public const int ConstraintSet_layout_constraintHeight_min = 41;
+			
+			// aapt resource value: 42
+			public const int ConstraintSet_layout_constraintHeight_percent = 42;
+			
+			// aapt resource value: 43
+			public const int ConstraintSet_layout_constraintHorizontal_bias = 43;
+			
+			// aapt resource value: 44
+			public const int ConstraintSet_layout_constraintHorizontal_chainStyle = 44;
+			
+			// aapt resource value: 45
+			public const int ConstraintSet_layout_constraintHorizontal_weight = 45;
+			
+			// aapt resource value: 46
+			public const int ConstraintSet_layout_constraintLeft_creator = 46;
+			
+			// aapt resource value: 47
+			public const int ConstraintSet_layout_constraintLeft_toLeftOf = 47;
+			
+			// aapt resource value: 48
+			public const int ConstraintSet_layout_constraintLeft_toRightOf = 48;
+			
+			// aapt resource value: 49
+			public const int ConstraintSet_layout_constraintRight_creator = 49;
+			
+			// aapt resource value: 50
+			public const int ConstraintSet_layout_constraintRight_toLeftOf = 50;
+			
+			// aapt resource value: 51
+			public const int ConstraintSet_layout_constraintRight_toRightOf = 51;
+			
+			// aapt resource value: 52
+			public const int ConstraintSet_layout_constraintStart_toEndOf = 52;
+			
+			// aapt resource value: 53
+			public const int ConstraintSet_layout_constraintStart_toStartOf = 53;
+			
+			// aapt resource value: 54
+			public const int ConstraintSet_layout_constraintTop_creator = 54;
+			
+			// aapt resource value: 55
+			public const int ConstraintSet_layout_constraintTop_toBottomOf = 55;
+			
+			// aapt resource value: 56
+			public const int ConstraintSet_layout_constraintTop_toTopOf = 56;
+			
+			// aapt resource value: 57
+			public const int ConstraintSet_layout_constraintVertical_bias = 57;
+			
+			// aapt resource value: 58
+			public const int ConstraintSet_layout_constraintVertical_chainStyle = 58;
+			
+			// aapt resource value: 59
+			public const int ConstraintSet_layout_constraintVertical_weight = 59;
+			
+			// aapt resource value: 60
+			public const int ConstraintSet_layout_constraintWidth_default = 60;
+			
+			// aapt resource value: 61
+			public const int ConstraintSet_layout_constraintWidth_max = 61;
+			
+			// aapt resource value: 62
+			public const int ConstraintSet_layout_constraintWidth_min = 62;
+			
+			// aapt resource value: 63
+			public const int ConstraintSet_layout_constraintWidth_percent = 63;
+			
+			// aapt resource value: 64
+			public const int ConstraintSet_layout_editor_absoluteX = 64;
+			
+			// aapt resource value: 65
+			public const int ConstraintSet_layout_editor_absoluteY = 65;
+			
+			// aapt resource value: 66
+			public const int ConstraintSet_layout_goneMarginBottom = 66;
+			
+			// aapt resource value: 67
+			public const int ConstraintSet_layout_goneMarginEnd = 67;
+			
+			// aapt resource value: 68
+			public const int ConstraintSet_layout_goneMarginLeft = 68;
+			
+			// aapt resource value: 69
+			public const int ConstraintSet_layout_goneMarginRight = 69;
+			
+			// aapt resource value: 70
+			public const int ConstraintSet_layout_goneMarginStart = 70;
+			
+			// aapt resource value: 71
+			public const int ConstraintSet_layout_goneMarginTop = 71;
 			
 			public static int[] CoordinatorLayout = new int[] {
 					2130772425,
@@ -7367,12 +8386,12 @@ namespace firstxamarindroid
 			public const int FlowLayout_lineSpacing = 1;
 			
 			public static int[] FontFamily = new int[] {
-					2130772434,
-					2130772435,
-					2130772436,
-					2130772437,
-					2130772438,
-					2130772439};
+					2130772491,
+					2130772492,
+					2130772493,
+					2130772494,
+					2130772495,
+					2130772496};
 			
 			// aapt resource value: 0
 			public const int FontFamily_fontProviderAuthority = 0;
@@ -7398,11 +8417,11 @@ namespace firstxamarindroid
 					16844095,
 					16844143,
 					16844144,
-					2130772440,
-					2130772441,
-					2130772442,
-					2130772443,
-					2130772444};
+					2130772497,
+					2130772498,
+					2130772499,
+					2130772500,
+					2130772501};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -7507,6 +8526,12 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 1
 			public const int GradientColorItem_android_offset = 1;
+			
+			public static int[] LinearConstraintLayout = new int[] {
+					16842948};
+			
+			// aapt resource value: 0
+			public const int LinearConstraintLayout_android_orientation = 0;
 			
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
