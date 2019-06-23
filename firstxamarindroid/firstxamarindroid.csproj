@@ -57,19 +57,18 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Helpers\SettingsListAdapter.cs" />
     <Compile Include="Helpers\SettingsItemViewHolder.cs" />
     <Compile Include="Cheeseknife.cs" />
     <Compile Include="Models\SettingItemModel.cs" />
-    <Compile Include="SettingsModule\SaunaSettingsFragment.cs" />
-    <Compile Include="SettingsModule\VentilationFragment.cs" />
-    <Compile Include="SettingsModule\HeaterFragment.cs" />
-    <Compile Include="SettingsModule\LightsFragment.cs" />
-    <Compile Include="SettingsModule\SoundFragment.cs" />
-    <Compile Include="SettingsModule\Interfaces\ISettingItemClickListener.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Fragments\HeaterFragment.cs" />
+    <Compile Include="Fragments\LightsFragment.cs" />
+    <Compile Include="Fragments\SaunaSettingsFragment.cs" />
+    <Compile Include="Fragments\SoundFragment.cs" />
+    <Compile Include="Fragments\VentilationFragment.cs" />
+    <Compile Include="Adapters\SettingsListAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -124,8 +123,9 @@
     <Folder Include="Helpers\" />
     <Folder Include="Models\" />
     <Folder Include="Resources\drawable\" />
-    <Folder Include="SettingsModule\" />
-    <Folder Include="SettingsModule\Interfaces\" />
+    <Folder Include="Fragments\" />
+    <Folder Include="Activities\" />
+    <Folder Include="Adapters\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

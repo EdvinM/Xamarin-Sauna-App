@@ -17,6 +17,8 @@ namespace firstxamarindroid
         [InjectView(Resource.Id.toolbar)]
         private Android.Support.V7.Widget.Toolbar toolbar;
 
+        [InjectView(Resource.Id.textViewSaunaNameSettings)]
+        private TextView textViewSaunaNameSettings;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -29,6 +31,8 @@ namespace firstxamarindroid
 
             // Set actionbar
             SetSupportActionBar(toolbar);
+
+            textViewSaunaNameSettings.Text = "Sauna 1";
 
             SupportFragmentManager.BeginTransaction().Replace(Resource.Id.frame_layout_settings, new SaunaSettingsFragment()).Commit();
         }

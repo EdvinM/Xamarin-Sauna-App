@@ -4,7 +4,6 @@ using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
 using firstxamarindroid.Models;
-using firstxamarindroid.SettingsModule.Interfaces;
 
 namespace firstxamarindroid.Helpers
 {
