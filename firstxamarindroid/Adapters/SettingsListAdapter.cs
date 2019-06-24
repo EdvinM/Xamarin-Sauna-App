@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Android.Support.V7.Widget;
+using Android.Util;
 using Android.Views;
 using Android.Widget;
 using firstxamarindroid.Models;
@@ -36,7 +37,7 @@ namespace firstxamarindroid.Helpers
             settingsItemViewHolder.settingItemLayout.SetTag(Resource.String.res_setting_tag_id, position);
 
             // Add click listener to setting main layout
-            settingsItemViewHolder.settingItemLayout.Click += SettingItemLayout_Click;
+            settingsItemViewHolder.settingItemLayout.Click += (sender, e) => this.OnItemClick(this, this.settingItemModelsList[position]);
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
@@ -44,19 +45,6 @@ namespace firstxamarindroid.Helpers
             View view = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.setting_item_layout, parent, false);
 
             return new SettingsItemViewHolder(view);
-        }
-
-        /// <summary>
-        ///  Method to handle click listener on main item layout.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void SettingItemLayout_Click(object sender, EventArgs e)
-        {
-            // Get the position from parent layout tag
-            int pos = (int)((LinearLayout)sender).Tag;
-
-            this.OnItemClick(this, this.settingItemModelsList[pos]);
         }
     }
 }

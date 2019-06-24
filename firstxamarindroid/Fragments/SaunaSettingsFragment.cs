@@ -67,6 +67,8 @@ namespace firstxamarindroid.SettingsModule
 
         private void SettingsListAdapter_OnItemClick(object sender, SettingItemModel e)
         {
+            //Log.Debug("SaunaSettingsFrag", "OnItemClick - called - " + e.Name);
+
             this.Activity.SupportFragmentManager.BeginTransaction().Replace(this.Id, e.GetFragment).AddToBackStack(e.GetFragment.Class.Name).Commit();
         }
     }

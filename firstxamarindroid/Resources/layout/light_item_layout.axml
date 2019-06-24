@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:background="?android:attr/selectableItemBackground"
+    android:id="@+id/linearLayoutLampMain"
+	android:padding="15dp">
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		tools:src="@mipmap/ic_lamp_on"
+		android:id="@+id/imageViewLightStatus"
+		android:layout_marginRight="15dp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_weight="1"
+		android:id="@+id/textViewLightName"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:text="Led Lamp 1" />
+    
+	<ImageView
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        tools:src="@mipmap/ic_right_arrow"
+        android:src="@mipmap/ic_right_arrow"/>
+
+</LinearLayout>

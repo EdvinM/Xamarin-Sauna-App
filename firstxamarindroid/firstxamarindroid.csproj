@@ -71,6 +71,7 @@
     <Compile Include="Adapters\SettingsListAdapter.cs" />
     <Compile Include="Adapters\LightsAdapter.cs" />
     <Compile Include="Models\LightModel.cs" />
+    <Compile Include="Helpers\LightItemViewHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -111,6 +112,9 @@
     <AndroidResource Include="Resources\layout\heater_fragment.axml" />
     <AndroidResource Include="Resources\layout\lights_fragment.axml" />
     <AndroidResource Include="Resources\layout\sound_fragment.axml" />
+    <AndroidResource Include="Resources\layout\light_item_layout.axml" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_lamp_off.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_lamp_on.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
@@ -122,6 +126,12 @@
     </PackageReference>
     <PackageReference Include="Karamunting.Android.DuanHong169.ColorPicker">
       <Version>1.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v4">
+      <Version>28.0.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Glide.Xamarin">
+      <Version>4.1.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
