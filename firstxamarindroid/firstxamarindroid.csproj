@@ -75,6 +75,10 @@
     <Compile Include="Helpers\LightItemViewHolder.cs" />
     <Compile Include="Fragments\LightSettingsFragment.cs" />
     <Compile Include="Models\BaseModel.cs" />
+    <Compile Include="Models\SaunaModel.cs" />
+    <Compile Include="Models\VentilationModel.cs" />
+    <Compile Include="Models\HeaterModel.cs" />
+    <Compile Include="Models\SoundModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
