@@ -14,6 +14,7 @@ using Android.Views;
 using Android.Widget;
 using Com.Lilarcor.Cheeseknife;
 using firstxamarindroid.Adapters;
+using firstxamarindroid.Fragments;
 using firstxamarindroid.Models;
 
 namespace firstxamarindroid.SettingsModule
@@ -68,7 +69,11 @@ namespace firstxamarindroid.SettingsModule
         /// <param name="e"></param>
         private void LightsAdapter_OnItemClick(object sender, LightModel e)
         {
-            
+            this.Activity.SupportFragmentManager
+                .BeginTransaction()
+                .Replace(this.Id, LightSettingsFragment.NewInstance(e))
+                .AddToBackStack("LightSettingsFragmentBackstack")
+                .Commit();
         }
     }
 }

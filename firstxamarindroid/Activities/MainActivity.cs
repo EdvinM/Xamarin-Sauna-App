@@ -1,18 +1,23 @@
 ﻿using System;
-using Android.App;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
+using Android.App;
+using Android.Support.V4.App;
 using Android.Support.V7.App;
+using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Com.Lilarcor.Cheeseknife;
 using firstxamarindroid.SettingsModule;
+using Net.ArcanaStudio.ColorPicker;
+using firstxamarindroid.Fragments;
 
 namespace firstxamarindroid
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : AppCompatActivity, IColorPickerDialogListener
     {
         [InjectView(Resource.Id.toolbar)]
         private Android.Support.V7.Widget.Toolbar toolbar;
@@ -60,6 +65,21 @@ namespace firstxamarindroid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
+        public void OnColorSelected(int dialogId, Color color)
+        {
+            // Get shown fragment instance from support fragment manager
+            Android.Support.V4.App.Fragment currentFragment = SupportFragmentManager.FindFragmentById(Resource.Id.frame_layout_settings);
+
+            // Check if the current displayed fragment is of type light settings.
+            if (currentFragment is LightSettingsFragment && currentFragment.IsVisible)
+            {
+                // Send & update selected color.
+                ((LightSettingsFragment)currentFragment).UpdateSelectedColor(color);
+            }
+        }
+
+        public void OnDialogDismissed(int dialogId) { }
     }
 }
 

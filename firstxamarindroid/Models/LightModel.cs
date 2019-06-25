@@ -1,7 +1,11 @@
 ﻿using System;
+using Android.Runtime;
+using Java.IO;
+
 namespace firstxamarindroid.Models
 {
-    public class LightModel
+    [Serializable]
+    public class LightModel : BaseModel
     {
         private String _name;
 
@@ -41,8 +45,9 @@ namespace firstxamarindroid.Models
             set { _color = value; }
         }
 
-        public LightModel()
+        public LightModel(IntPtr handle, JniHandleOwnership transfer) : base(handle, transfer)
         {
+
         }
 
         public LightModel(String _name, Boolean _status, int _brightness, Boolean _colorStatus, int _color)
