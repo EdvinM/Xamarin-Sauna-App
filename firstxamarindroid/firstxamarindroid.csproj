@@ -79,6 +79,7 @@
     <Compile Include="Models\VentilationModel.cs" />
     <Compile Include="Models\HeaterModel.cs" />
     <Compile Include="Models\SoundModel.cs" />
+    <Compile Include="Helpers\DbController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

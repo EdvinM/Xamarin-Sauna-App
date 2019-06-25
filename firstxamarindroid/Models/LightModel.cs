@@ -1,62 +1,32 @@
 ﻿using System;
-using Android.Runtime;
-using Java.IO;
+using Android.Graphics;
+using Realms;
 
 namespace firstxamarindroid.Models
 {
-    [Serializable]
-    public class LightModel : BaseModel
+    public class LightModel : RealmObject
     {
-        private String _name;
+        [PrimaryKey]
+        public int Id { get; set; }
 
-        private Boolean _status;
-        private int _brightness;
+        public String Name { get; set; }
+        public Boolean Status { get; set; }
+        public int Brightness { get; set; }
+        public Boolean ColorStatus { get; set; }
+        public Color LightColor { get; set; }
 
-        private Boolean _colorStatus;
-        private int _color;
-
-        public String Name
-        {
-            get { return _name; }
-            set { _name = value; }
-        }
-
-        public Boolean Status
-        {
-            get { return _status; }
-            set { _status = value; }
-        }
-
-        public int Brightness
-        {
-            get { return _brightness; }
-            set { _brightness = value; }
-        }
-
-        public Boolean ColorStatus
-        {
-            get { return _colorStatus; }
-            set { _colorStatus = value; }
-        }
-
-        public int Color
-        {
-            get { return _color; }
-            set { _color = value; }
-        }
-
-        public LightModel(IntPtr handle, JniHandleOwnership transfer) : base(handle, transfer)
+        public LightModel()
         {
 
         }
 
-        public LightModel(String _name, Boolean _status, int _brightness, Boolean _colorStatus, int _color)
+        public LightModel(string name, bool status, int brightness, bool colorStatus, Color lightColor)
         {
-            this._name          = _name;
-            this._status        = _status;
-            this._brightness    = _brightness;
-            this._colorStatus   = _colorStatus;
-            this._color         = _color;
+            this.Name        = name;
+            this.Status      = status;
+            this.Brightness  = brightness;
+            this.ColorStatus = colorStatus;
+            this.LightColor  = lightColor;
         }
     }
 }
