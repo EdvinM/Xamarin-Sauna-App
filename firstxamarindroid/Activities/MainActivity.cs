@@ -34,12 +34,26 @@ namespace firstxamarindroid
             // Initialize cheeseknife
             Cheeseknife.Inject(this);
 
+            // Set custom toolbar back icon
+            toolbar.NavigationIcon = GetDrawable(Resource.Mipmap.ic_back);
+
             // Set actionbar
             SetSupportActionBar(toolbar);
+
+            // Enable back press
+            SupportActionBar.SetHomeButtonEnabled(true);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 
             textViewSaunaNameSettings.Text = "Sauna 1";
 
             SupportFragmentManager.BeginTransaction().Replace(Resource.Id.frame_layout_settings, new SaunaSettingsFragment()).Commit();
+        }
+
+        public override bool OnSupportNavigateUp()
+        {
+            OnBackPressed();
+
+            return base.OnSupportNavigateUp();
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)

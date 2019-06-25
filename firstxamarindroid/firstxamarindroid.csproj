@@ -119,6 +119,7 @@
     <AndroidResource Include="Resources\mipmap-mdpi\ic_lamp_off.png" />
     <AndroidResource Include="Resources\mipmap-mdpi\ic_lamp_on.png" />
     <AndroidResource Include="Resources\layout\light_settings_fragment.axml" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_back.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
