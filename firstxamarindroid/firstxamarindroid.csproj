@@ -144,6 +144,9 @@
     <PackageReference Include="Net.ArcanaStudio.ColorPicker">
       <Version>1.0.3</Version>
     </PackageReference>
+    <PackageReference Include="Realm">
+      <Version>4.0.0</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helpers\" />
