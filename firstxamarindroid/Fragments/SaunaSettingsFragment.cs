@@ -27,20 +27,55 @@ namespace firstxamarindroid.SettingsModule
         // Declare other variables
         private SettingsListAdapter settingsListAdapter;
 
-        private List<SettingItemModel> settingItemModelsList = new List<SettingItemModel>()
-        {
-            new SettingItemModel("Ventilation controlling system", "Off", new VentilationFragment()),
-            new SettingItemModel("Heater controlling system", "Off", new HeaterFragment()),
-            new SettingItemModel("Lights controlling system", "Off", new LightsFragment()),
-            new SettingItemModel("Sound controlling system", "Off", new SoundFragment()),
-        };
+        private List<SettingItemModel> settingItemModelsList;
 
+        private SaunaModel saunaModel;
+
+        public static SaunaSettingsFragment NewInstance(int saunaId)
+        {
+            Bundle bundle = new Bundle();
+            bundle.PutInt(Helpers.Helpers.ARG_1, saunaId);
+
+            SaunaSettingsFragment lightSettingsFragment = new SaunaSettingsFragment();
+            lightSettingsFragment.Arguments = bundle;
+
+            return lightSettingsFragment;
+        }
 
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             this.settingsListAdapter = new SettingsListAdapter(this.settingItemModelsList);
+
+            // Get model serializable
+            if (Arguments != null)
+            {
+                int saunaId = Arguments.GetInt(Helpers.Helpers.ARG_1);
+
+                this.saunaModel = DbController.Instance.GetSauna(saunaId);
+
+
+                // Generate fake menu items based on settings for each sauna
+                this.settingItemModelsList = new List<SettingItemModel>()
+                {
+                    new SettingItemModel("Ventilation controlling system",
+                                        (this.saunaModel.Ventilation.Status ? "On" : "Off"),
+                                        VentilationFragment.NewInstance(saunaId)),
+
+                    new SettingItemModel("Heater controlling system",
+                                        (this.saunaModel.Heater.Status ? "On" : "Off"),
+                                        HeaterFragment.NewInstance(saunaId)),
+
+                    new SettingItemModel("Lights controlling system",
+                                        (this.saunaModel.LightsStatus ? "On" : "Off"),
+                                        LightsFragment.NewInstance(saunaId)),
+
+                    new SettingItemModel("Sound controlling system",
+                                        (this.saunaModel.Ventilation.Status ? "On" : "Off"),
+                                        SoundFragment.NewInstance(saunaId)),
+                };
+            }
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -67,8 +102,6 @@ namespace firstxamarindroid.SettingsModule
 
         private void SettingsListAdapter_OnItemClick(object sender, SettingItemModel e)
         {
-            //Log.Debug("SaunaSettingsFrag", "OnItemClick - called - " + e.Name);
-
             this.Activity.SupportFragmentManager.BeginTransaction().Replace(this.Id, e.GetFragment).AddToBackStack(e.GetFragment.Class.Name).Commit();
         }
     }

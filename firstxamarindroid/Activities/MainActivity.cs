@@ -34,6 +34,10 @@ namespace firstxamarindroid
             // Initialize cheeseknife
             Cheeseknife.Inject(this);
 
+            // ------- Save generate 10 saunas for demonstration purposes ------- //
+            Helpers.Helpers.SaveSaunaGenerate(10);
+            // ------- // ------- //
+
             // Set custom toolbar back icon
             toolbar.NavigationIcon = GetDrawable(Resource.Mipmap.ic_back);
 
@@ -46,7 +50,7 @@ namespace firstxamarindroid
 
             textViewSaunaNameSettings.Text = "Sauna 1";
 
-            SupportFragmentManager.BeginTransaction().Replace(Resource.Id.frame_layout_settings, new SaunaSettingsFragment()).Commit();
+            SupportFragmentManager.BeginTransaction().Replace(Resource.Id.frame_layout_settings, SaunaSettingsFragment.NewInstance(1)).Commit();
         }
 
         public override bool OnSupportNavigateUp()

@@ -35,16 +35,22 @@ namespace firstxamarindroid.Helpers
 
         public SaunaModel GetSauna(int id)
         {
-            return Realm.GetInstance().All<SaunaModel>().Where(p => p.Id == id).First<SaunaModel>();
+            var saunas = Realm.GetInstance().All<SaunaModel>().Where(p => p.Id == id);
+
+            return (saunas != null && saunas.Any<SaunaModel>()) ? saunas.First<SaunaModel>() : null;
         }
 
         public void SetSauna(SaunaModel saunaModel)
         {
             var realm = Realm.GetInstance();
-            realm.Write(() =>
-            {
-                realm.Add(saunaModel);
-            });
+            realm.Write(() => realm.Add(saunaModel));
+        }
+
+        public LightModel GetLight(int saunaId, int lightId)
+        {
+            var sauna = this.GetSauna(saunaId);
+
+            return sauna.Lights.First<LightModel>(l => l.Id == lightId);
         }
     }
 }

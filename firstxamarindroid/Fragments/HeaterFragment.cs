@@ -12,14 +12,37 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Com.Lilarcor.Cheeseknife;
+using firstxamarindroid.Helpers;
+using firstxamarindroid.Models;
 
 namespace firstxamarindroid.SettingsModule
 {
     public class HeaterFragment : Fragment
     {
+        private SaunaModel saunaModel;
+
+
+        public static HeaterFragment NewInstance(int saunaId)
+        {
+            Bundle bundle = new Bundle();
+            bundle.PutInt(Helpers.Helpers.ARG_1, saunaId);
+
+            HeaterFragment heaterFragment = new HeaterFragment();
+            heaterFragment.Arguments = bundle;
+
+            return heaterFragment;
+        }
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
+            if (Arguments != null)
+            {
+                int saunaId = Arguments.GetInt(Helpers.Helpers.ARG_1);
+
+                this.saunaModel = DbController.Instance.GetSauna(saunaId);
+            }
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)

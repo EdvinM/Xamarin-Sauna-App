@@ -21,8 +21,9 @@ namespace firstxamarindroid.Models
         {
         }
 
-        public VentilationModel(bool status, bool fanStatus1, bool fanStatus2, int fanRunningTime1, int fanRunningTime2)
+        public VentilationModel(int id, bool status, bool fanStatus1, bool fanStatus2, int fanRunningTime1, int fanRunningTime2)
         {
+            this.Id             = id;
             this.Status         = status;
             this.Fan1           = fanStatus1;
             this.Fan2           = fanStatus2;

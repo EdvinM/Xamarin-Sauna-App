@@ -13,20 +13,29 @@ namespace firstxamarindroid.Models
         public Boolean Status { get; set; }
         public int Brightness { get; set; }
         public Boolean ColorStatus { get; set; }
-        public Color LightColor { get; set; }
+
+        public int ColorR { get; set; }
+        public int ColorG { get; set; }
+        public int ColorB { get; set; }
+        public int ColorA { get; set; }
 
         public LightModel()
         {
 
         }
 
-        public LightModel(string name, bool status, int brightness, bool colorStatus, Color lightColor)
+        public LightModel(int id, string name, bool status, int brightness, bool colorStatus, Color lightColor)
         {
+            this.Id          = id;
             this.Name        = name;
             this.Status      = status;
             this.Brightness  = brightness;
             this.ColorStatus = colorStatus;
-            this.LightColor  = lightColor;
+
+            this.ColorA = lightColor.A;
+            this.ColorR = lightColor.R;
+            this.ColorG = lightColor.G;
+            this.ColorB = lightColor.B;
         }
     }
 }

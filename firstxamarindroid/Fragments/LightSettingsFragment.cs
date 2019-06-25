@@ -13,6 +13,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Com.Lilarcor.Cheeseknife;
+using firstxamarindroid.Helpers;
 using firstxamarindroid.Models;
 using Net.ArcanaStudio.ColorPicker;
 
@@ -20,10 +21,6 @@ namespace firstxamarindroid.Fragments
 {
     public class LightSettingsFragment : Fragment
     {
-        // Class constants
-        private const String ARG_1 = "ARG_1";
-
-
         // Injects views to variables
         [InjectView(Resource.Id.switchLightOn)]
         private Switch switchLightOn;
@@ -47,10 +44,11 @@ namespace firstxamarindroid.Fragments
         private LightModel lightModel;
 
 
-        public static LightSettingsFragment NewInstance(LightModel lightModel)
+        public static LightSettingsFragment NewInstance(int saunaId, int lightId)
         {
             Bundle bundle = new Bundle();
-            bundle.PutSerializable(ARG_1, lightModel);
+            bundle.PutInt(Helpers.Helpers.ARG_1, saunaId);
+            bundle.PutInt(Helpers.Helpers.ARG_2, lightId);
 
             LightSettingsFragment lightSettingsFragment = new LightSettingsFragment();
             lightSettingsFragment.Arguments = bundle;
@@ -65,7 +63,10 @@ namespace firstxamarindroid.Fragments
             // Get model serializable
             if(Arguments != null)
             {
-                this.lightModel = (LightModel)Arguments.GetSerializable(ARG_1);
+                int saunaId = Arguments.GetInt(Helpers.Helpers.ARG_1);
+                int lightId = Arguments.GetInt(Helpers.Helpers.ARG_2);
+
+                this.lightModel = DbController.Instance.GetLight(saunaId, lightId);
             }
         }
 

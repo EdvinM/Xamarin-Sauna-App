@@ -80,6 +80,7 @@
     <Compile Include="Models\HeaterModel.cs" />
     <Compile Include="Models\SoundModel.cs" />
     <Compile Include="Helpers\DbController.cs" />
+    <Compile Include="Helpers\Helpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

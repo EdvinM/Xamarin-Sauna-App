@@ -15,28 +15,43 @@ using Android.Widget;
 using Com.Lilarcor.Cheeseknife;
 using firstxamarindroid.Adapters;
 using firstxamarindroid.Fragments;
+using firstxamarindroid.Helpers;
 using firstxamarindroid.Models;
 
 namespace firstxamarindroid.SettingsModule
 {
     public class LightsFragment : Fragment
     {
-        // Create a fictive list of available lamps
-        private List<LightModel> lightModels = new List<LightModel>()
-        {
-            new LightModel("Lamp 1", false, 100, false, -1),
-            new LightModel("Lamp 2", true, 100, false, -1),
-        };
-
         // Bind views to variables
         [InjectView(Resource.Id.recyclerViewLights)]
         private RecyclerView recyclerViewLights;
 
         private LightsAdapter lightsAdapter;
 
+        private SaunaModel saunaModel;
+
+
+        public static LightsFragment NewInstance(int saunaId)
+        {
+            Bundle bundle = new Bundle();
+            bundle.PutInt(Helpers.Helpers.ARG_1, saunaId);
+
+            LightsFragment lightsFragment = new LightsFragment();
+            lightsFragment.Arguments = bundle;
+
+            return lightsFragment;
+        }
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
+            if (Arguments != null)
+            {
+                int saunaId = Arguments.GetInt(Helpers.Helpers.ARG_1);
+
+                this.saunaModel = DbController.Instance.GetSauna(saunaId);
+            }
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -46,7 +61,7 @@ namespace firstxamarindroid.SettingsModule
 
             Cheeseknife.Inject(this, view);
 
-            this.lightsAdapter = new LightsAdapter(this.Activity, this.lightModels);
+            this.lightsAdapter = new LightsAdapter(this.Activity, new List<LightModel>(this.saunaModel.Lights));
 
             return view;
         }
@@ -71,7 +86,7 @@ namespace firstxamarindroid.SettingsModule
         {
             this.Activity.SupportFragmentManager
                 .BeginTransaction()
-                .Replace(this.Id, LightSettingsFragment.NewInstance(e))
+                .Replace(this.Id, LightSettingsFragment.NewInstance(this.saunaModel.Id, e.Id))
                 .AddToBackStack("LightSettingsFragmentBackstack")
                 .Commit();
         }
