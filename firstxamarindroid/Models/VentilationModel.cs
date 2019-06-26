@@ -6,7 +6,7 @@ namespace firstxamarindroid.Models
     public class VentilationModel : RealmObject
     {
         [PrimaryKey]
-        public int Id { get; set; }
+        public String Id { get; set; }
 
        
         public Boolean Status { get; set; }
@@ -21,7 +21,7 @@ namespace firstxamarindroid.Models
         {
         }
 
-        public VentilationModel(int id, bool status, bool fanStatus1, bool fanStatus2, int fanRunningTime1, int fanRunningTime2)
+        public VentilationModel(String id, bool status, bool fanStatus1, bool fanStatus2, int fanRunningTime1, int fanRunningTime2)
         {
             this.Id             = id;
             this.Status         = status;

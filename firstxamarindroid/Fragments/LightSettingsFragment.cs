@@ -16,6 +16,7 @@ using Com.Lilarcor.Cheeseknife;
 using firstxamarindroid.Helpers;
 using firstxamarindroid.Models;
 using Net.ArcanaStudio.ColorPicker;
+using Realms;
 
 namespace firstxamarindroid.Fragments
 {
@@ -44,11 +45,11 @@ namespace firstxamarindroid.Fragments
         private LightModel lightModel;
 
 
-        public static LightSettingsFragment NewInstance(int saunaId, int lightId)
+        public static LightSettingsFragment NewInstance(int saunaId, String lightId)
         {
             Bundle bundle = new Bundle();
             bundle.PutInt(Helpers.Helpers.ARG_1, saunaId);
-            bundle.PutInt(Helpers.Helpers.ARG_2, lightId);
+            bundle.PutString(Helpers.Helpers.ARG_2, lightId);
 
             LightSettingsFragment lightSettingsFragment = new LightSettingsFragment();
             lightSettingsFragment.Arguments = bundle;
@@ -64,7 +65,7 @@ namespace firstxamarindroid.Fragments
             if(Arguments != null)
             {
                 int saunaId = Arguments.GetInt(Helpers.Helpers.ARG_1);
-                int lightId = Arguments.GetInt(Helpers.Helpers.ARG_2);
+                String lightId = Arguments.GetString(Helpers.Helpers.ARG_2);
 
                 this.lightModel = DbController.Instance.GetLight(saunaId, lightId);
             }
@@ -87,7 +88,8 @@ namespace firstxamarindroid.Fragments
             // At first, set all values acording to model values
             if ((!this.lightModel.Status && this.lightModel.ColorStatus) || this.lightModel.Status)
             {
-                this.lightModel.Status = true;
+                Realm.GetInstance().Write(() => this.lightModel.Status = true);
+               
                 this.switchLightOn.Checked = this.lightModel.Status;
                 this.switchColorLightOn.Checked = this.lightModel.ColorStatus;
 
@@ -108,7 +110,7 @@ namespace firstxamarindroid.Fragments
         [InjectOnCheckedChange(Resource.Id.switchColorLightOn)]
         void OnColorLightCheckedListener(object sender, CompoundButton.CheckedChangeEventArgs e)
         {
-            this.lightModel.ColorStatus = e.IsChecked;
+            Realm.GetInstance().Write(() => this.lightModel.ColorStatus = e.IsChecked);
 
             this.colorPanelView.Visibility = e.IsChecked ? ViewStates.Visible : ViewStates.Gone;
         }
@@ -116,7 +118,7 @@ namespace firstxamarindroid.Fragments
         [InjectOnCheckedChange(Resource.Id.switchLightOn)]
         void OnSwitchCheckedListener(object sender, CompoundButton.CheckedChangeEventArgs e)
         {
-            this.lightModel.Status = e.IsChecked;
+            Realm.GetInstance().Write(() => this.lightModel.Status = e.IsChecked);
 
             this.linearLayoutBrightness.Visibility = e.IsChecked ? ViewStates.Visible : ViewStates.Gone;
 
@@ -153,7 +155,7 @@ namespace firstxamarindroid.Fragments
         /// <param name="e"></param>
         private void SeekBarBrightness_ProgressChanged(object sender, SeekBar.ProgressChangedEventArgs e)
         {
-            this.lightModel.Brightness = e.Progress;
+            Realm.GetInstance().Write(() => this.lightModel.Brightness = e.Progress);
 
             this.textViewBrightnessLevel.Text = "Brightness: " + this.lightModel.Brightness;
         }

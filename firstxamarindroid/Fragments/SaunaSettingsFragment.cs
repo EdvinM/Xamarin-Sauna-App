@@ -36,17 +36,15 @@ namespace firstxamarindroid.SettingsModule
             Bundle bundle = new Bundle();
             bundle.PutInt(Helpers.Helpers.ARG_1, saunaId);
 
-            SaunaSettingsFragment lightSettingsFragment = new SaunaSettingsFragment();
-            lightSettingsFragment.Arguments = bundle;
+            SaunaSettingsFragment saunaSettingsFragment = new SaunaSettingsFragment();
+            saunaSettingsFragment.Arguments = bundle;
 
-            return lightSettingsFragment;
+            return saunaSettingsFragment;
         }
 
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            this.settingsListAdapter = new SettingsListAdapter(this.settingItemModelsList);
 
             // Get model serializable
             if (Arguments != null)
@@ -75,6 +73,8 @@ namespace firstxamarindroid.SettingsModule
                                         (this.saunaModel.Ventilation.Status ? "On" : "Off"),
                                         SoundFragment.NewInstance(saunaId)),
                 };
+
+                this.settingsListAdapter = new SettingsListAdapter(this.settingItemModelsList);
             }
         }
 

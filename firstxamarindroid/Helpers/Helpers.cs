@@ -39,19 +39,19 @@ namespace firstxamarindroid.Helpers
                 saunaModel.Name = "Sauna " + i;
 
                 // Add heater setting
-                saunaModel.Heater = new HeaterModel(i, false, "LOW", 50);
+                saunaModel.Heater = new HeaterModel(i + "-1", false, "LOW", 50);
 
                 // Add 2 lights
                 for(int j = 1; j <= 2; j++)
                 {
-                    saunaModel.Lights.Add(new LightModel(i + j, "Lamp " + j, false, 1, false, Color.White));
+                    saunaModel.Lights.Add(new LightModel(i + "-" + j, "Lamp " + j, false, 1, false, Color.White));
                 }
 
                 // Add sound setting
-                saunaModel.Sound = new SoundModel(i, 0);
+                saunaModel.Sound = new SoundModel(i + "-1", 0);
 
                 // Add ventilation
-                saunaModel.Ventilation = new VentilationModel(i, false, false, false, 100, 100);
+                saunaModel.Ventilation = new VentilationModel(i + "-1", false, false, false, 100, 100);
 
 
                 // Add & save sauna to our local database

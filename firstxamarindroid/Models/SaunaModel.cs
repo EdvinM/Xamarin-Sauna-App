@@ -23,7 +23,7 @@ namespace firstxamarindroid.Models
         // Function to return status, if one of the lights are on or not.
         public Boolean LightsStatus
         {
-            get { return Lights.First<LightModel>(l => l.Status == true) != null; }
+            get { return Lights.FirstOrDefault<LightModel>(l => l.Status == true) != null; }
         }
 
         public SaunaModel()

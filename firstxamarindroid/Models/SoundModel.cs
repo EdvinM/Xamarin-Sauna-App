@@ -6,7 +6,7 @@ namespace firstxamarindroid.Models
     public class SoundModel : RealmObject
     {
         [PrimaryKey]
-        public int Id { get; set; }
+        public String Id { get; set; }
 
         public int Volume { get; set; }
 
@@ -14,7 +14,7 @@ namespace firstxamarindroid.Models
         {
         }
 
-        public SoundModel(int id, int volume)
+        public SoundModel(String id, int volume)
         {
             this.Id         = id;
             this.Volume     = volume;

@@ -7,7 +7,7 @@ namespace firstxamarindroid.Models
     public class LightModel : RealmObject
     {
         [PrimaryKey]
-        public int Id { get; set; }
+        public String Id { get; set; }
 
         public String Name { get; set; }
         public Boolean Status { get; set; }
@@ -24,7 +24,7 @@ namespace firstxamarindroid.Models
 
         }
 
-        public LightModel(int id, string name, bool status, int brightness, bool colorStatus, Color lightColor)
+        public LightModel(String id, string name, bool status, int brightness, bool colorStatus, Color lightColor)
         {
             this.Id          = id;
             this.Name        = name;

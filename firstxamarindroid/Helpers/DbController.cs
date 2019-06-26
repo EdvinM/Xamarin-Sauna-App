@@ -46,7 +46,7 @@ namespace firstxamarindroid.Helpers
             realm.Write(() => realm.Add(saunaModel));
         }
 
-        public LightModel GetLight(int saunaId, int lightId)
+        public LightModel GetLight(int saunaId, String lightId)
         {
             var sauna = this.GetSauna(saunaId);
 
