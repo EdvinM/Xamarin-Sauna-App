@@ -45,6 +45,9 @@ namespace firstxamarindroid.Fragments
         private LightModel lightModel;
 
 
+
+
+
         public static LightSettingsFragment NewInstance(int saunaId, String lightId)
         {
             Bundle bundle = new Bundle();
@@ -94,7 +97,11 @@ namespace firstxamarindroid.Fragments
                 this.switchColorLightOn.Checked = this.lightModel.ColorStatus;
 
                 if (this.lightModel.ColorStatus)
+                {
                     this.colorPanelView.Visibility = ViewStates.Visible;
+
+                    this.colorPanelView.SetColor(this.lightModel.GetColor);
+                }
 
                 // Set visible brightness layout
                 this.linearLayoutBrightness.Visibility = ViewStates.Visible;
@@ -106,6 +113,38 @@ namespace firstxamarindroid.Fragments
 
             this.seekBarBrightness.ProgressChanged += SeekBarBrightness_ProgressChanged;
         }
+
+
+
+
+
+        /// <summary>
+        /// Method which is called from parent activity, in order to update layout and selected color from dialog picker
+        /// </summary>
+        /// <param name="color">Selected color</param>
+        public void UpdateSelectedColor(Color color)
+        {
+            this.colorPanelView.SetColor(color);
+
+            // Update and save light model color.
+            this.lightModel.UpdateColor(color);
+        }
+
+        /// <summary>
+        /// Callback for progress changed on seekbar.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void SeekBarBrightness_ProgressChanged(object sender, SeekBar.ProgressChangedEventArgs e)
+        {
+            Realm.GetInstance().Write(() => this.lightModel.Brightness = e.Progress);
+
+            this.textViewBrightnessLevel.Text = "Brightness: " + this.lightModel.Brightness;
+        }
+
+
+
+
 
         [InjectOnCheckedChange(Resource.Id.switchColorLightOn)]
         void OnColorLightCheckedListener(object sender, CompoundButton.CheckedChangeEventArgs e)
@@ -137,27 +176,6 @@ namespace firstxamarindroid.Fragments
         void OnColorPanelClickListener(object sender, EventArgs e)
         {
             ColorPickerDialog.NewBuilder().SetColor(Color.Aqua).Show(this.Activity);
-        }
-
-        /// <summary>
-        /// Method which is called from parent activity, in order to update layout and selected color from dialog picker
-        /// </summary>
-        /// <param name="color">Selected color</param>
-        public void UpdateSelectedColor(Color color)
-        {
-            this.colorPanelView.SetColor(color);
-        }
-
-        /// <summary>
-        /// Callback for progress changed on seekbar.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void SeekBarBrightness_ProgressChanged(object sender, SeekBar.ProgressChangedEventArgs e)
-        {
-            Realm.GetInstance().Write(() => this.lightModel.Brightness = e.Progress);
-
-            this.textViewBrightnessLevel.Text = "Brightness: " + this.lightModel.Brightness;
         }
     }
 }

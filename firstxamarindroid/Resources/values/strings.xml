@@ -14,5 +14,11 @@
     <string name="brightness_text">Set lamp\'s brightness level</string>
     <string name="toggle_lamp_color">Lamp Color   </string>
     
+    <!-- Ventilation Settings fragment strings -->
+    <string name="toggle_ventilation">Toggle Ventilation</string>
+    <string name="fan_duration_hint">Duration (Seconds)</string>
+    <string name="fan_text_1">Ventilation Fan 1</string>
+    <string name="fan_text_2">Ventilation Fan 2</string>
+    
     <string name="res_setting_tag_id">90000</string>
 </resources>

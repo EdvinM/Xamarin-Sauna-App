@@ -37,5 +37,21 @@ namespace firstxamarindroid.Models
             this.ColorG = lightColor.G;
             this.ColorB = lightColor.B;
         }
+
+        public Color GetColor
+        {
+            get { return new Color(this.ColorR, this.ColorG, this.ColorB, this.ColorA); }
+        }
+
+        public void UpdateColor(Color color)
+        {
+            Realm.GetInstance().Write(() =>
+            {
+                this.ColorR = color.R;
+                this.ColorB = color.B;
+                this.ColorG = color.G;
+                this.ColorA = color.A;
+            });
+        }
     }
 }

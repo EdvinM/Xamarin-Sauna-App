@@ -51,7 +51,7 @@ namespace firstxamarindroid.Helpers
                 saunaModel.Sound = new SoundModel(i + "-1", 0);
 
                 // Add ventilation
-                saunaModel.Ventilation = new VentilationModel(i + "-1", false, false, false, 100, 100);
+                saunaModel.Ventilation = new VentilationModel(i + "-1", false, -1, false, false, 100, -1, 100, -1);
 
 
                 // Add & save sauna to our local database
