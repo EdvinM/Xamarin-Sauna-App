@@ -1,3 +1,95 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="@dimen/default_page_padding">
+
+	<Switch
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/toggleHeater"
+		android:text="Toggle Heater"
+		android:textStyle="bold"
+		android:textSize="18sp" />
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="20dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:background="@android:color/darker_gray" />
+    
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+        android:layout_marginBottom="20dp"
+		android:text="Heater Power" />
+
+	<Syncfusion.Android.Buttons.SfSegmentedControl
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/sfSegmentedControlPower"
+		app:segmentDisplayMode="text"
+		app:segmentedHeight="30dp"
+		app:segmentCornerRadius="5dp"
+		app:segmentPosition="top"
+		app:segmentSelectedIndex="0"/>
+
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+        android:layout_marginBottom="20dp"
+		android:text="Regulating Temperature" />
+	
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginBottom="20dp">
+	
+        
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Temperature"
+            android:id="@+id/editTextTemperature" />
+        
+        <View android:layout_width="wrap_content"
+              android:layout_height="1dp"
+              android:layout_weight="1"/>
+
+		<Button
+			android:text="Update"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/buttonUpdateTemp" />
+        
+    </LinearLayout>
+    
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginBottom="20dp"
+        android:text="Sensor Temperatures" />
+	<android.support.v7.widget.RecyclerView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/recyclerViewSensorTemperatures" />    
+        
 </LinearLayout>

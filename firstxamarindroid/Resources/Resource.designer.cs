@@ -1743,6 +1743,135 @@ namespace firstxamarindroid
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.ViewStubCompat_android_id = global::firstxamarindroid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.ViewStubCompat_android_inflatedId = global::firstxamarindroid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.ViewStubCompat_android_layout = global::firstxamarindroid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_inner_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_outer_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_outer_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_indeterminate_to_checked_icon_null_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_indeterminate_to_checked_icon_null_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_icon_null_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_icon_null_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation;
+			global::Syncfusion.Buttons.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::firstxamarindroid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.cardBackgroundColor = global::firstxamarindroid.Resource.Attribute.cardBackgroundColor;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.cardCornerRadius = global::firstxamarindroid.Resource.Attribute.cardCornerRadius;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.cardElevation = global::firstxamarindroid.Resource.Attribute.cardElevation;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.cardMaxElevation = global::firstxamarindroid.Resource.Attribute.cardMaxElevation;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.cardPreventCornerOverlap = global::firstxamarindroid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.cardUseCompatPadding = global::firstxamarindroid.Resource.Attribute.cardUseCompatPadding;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.@checked = global::firstxamarindroid.Resource.Attribute.@checked;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.contentPadding = global::firstxamarindroid.Resource.Attribute.contentPadding;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.contentPaddingBottom = global::firstxamarindroid.Resource.Attribute.contentPaddingBottom;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.contentPaddingLeft = global::firstxamarindroid.Resource.Attribute.contentPaddingLeft;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.contentPaddingRight = global::firstxamarindroid.Resource.Attribute.contentPaddingRight;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.contentPaddingTop = global::firstxamarindroid.Resource.Attribute.contentPaddingTop;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.cornerradius = global::firstxamarindroid.Resource.Attribute.cornerradius;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.isthreestate = global::firstxamarindroid.Resource.Attribute.isthreestate;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.layoutManager = global::firstxamarindroid.Resource.Attribute.layoutManager;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.reverseLayout = global::firstxamarindroid.Resource.Attribute.reverseLayout;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentBackColor = global::firstxamarindroid.Resource.Attribute.segmentBackColor;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentBorderColor = global::firstxamarindroid.Resource.Attribute.segmentBorderColor;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentBorderThickness = global::firstxamarindroid.Resource.Attribute.segmentBorderThickness;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentColor = global::firstxamarindroid.Resource.Attribute.segmentColor;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentCornerRadius = global::firstxamarindroid.Resource.Attribute.segmentCornerRadius;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentDisplayMode = global::firstxamarindroid.Resource.Attribute.segmentDisplayMode;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentPosition = global::firstxamarindroid.Resource.Attribute.segmentPosition;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentSelectedIndex = global::firstxamarindroid.Resource.Attribute.segmentSelectedIndex;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentStrokeThickness = global::firstxamarindroid.Resource.Attribute.segmentStrokeThickness;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentedHeight = global::firstxamarindroid.Resource.Attribute.segmentedHeight;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentedPadding = global::firstxamarindroid.Resource.Attribute.segmentedPadding;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.segmentedWidth = global::firstxamarindroid.Resource.Attribute.segmentedWidth;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.spanCount = global::firstxamarindroid.Resource.Attribute.spanCount;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.stackFromEnd = global::firstxamarindroid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.Buttons.Android.Resource.Attribute.state_indeterminate = global::firstxamarindroid.Resource.Attribute.state_indeterminate;
+			global::Syncfusion.Buttons.Android.Resource.Color.cardview_dark_background = global::firstxamarindroid.Resource.Color.cardview_dark_background;
+			global::Syncfusion.Buttons.Android.Resource.Color.cardview_light_background = global::firstxamarindroid.Resource.Color.cardview_light_background;
+			global::Syncfusion.Buttons.Android.Resource.Color.cardview_shadow_end_color = global::firstxamarindroid.Resource.Color.cardview_shadow_end_color;
+			global::Syncfusion.Buttons.Android.Resource.Color.cardview_shadow_start_color = global::firstxamarindroid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.Buttons.Android.Resource.Color.control_checkable_material = global::firstxamarindroid.Resource.Color.control_checkable_material;
+			global::Syncfusion.Buttons.Android.Resource.Dimension.cardview_compat_inset_shadow = global::firstxamarindroid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Syncfusion.Buttons.Android.Resource.Dimension.cardview_default_elevation = global::firstxamarindroid.Resource.Dimension.cardview_default_elevation;
+			global::Syncfusion.Buttons.Android.Resource.Dimension.cardview_default_radius = global::firstxamarindroid.Resource.Dimension.cardview_default_radius;
+			global::Syncfusion.Buttons.Android.Resource.Dimension.disabledAlpha = global::firstxamarindroid.Resource.Dimension.disabledAlpha;
+			global::Syncfusion.Buttons.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::firstxamarindroid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Syncfusion.Buttons.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::firstxamarindroid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Syncfusion.Buttons.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::firstxamarindroid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox = global::firstxamarindroid.Resource.Drawable.btn_checkbox;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox_checked = global::firstxamarindroid.Resource.Drawable.btn_checkbox_checked;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox_checked_to_indeterminate_animation = global::firstxamarindroid.Resource.Drawable.btn_checkbox_checked_to_indeterminate_animation;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_animation = global::firstxamarindroid.Resource.Drawable.btn_checkbox_checked_to_unchecked_animation;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox_indeterminate = global::firstxamarindroid.Resource.Drawable.btn_checkbox_indeterminate;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox_indeterminate_to_checked_animation = global::firstxamarindroid.Resource.Drawable.btn_checkbox_indeterminate_to_checked_animation;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox_indeterminate_to_unchecked_animation = global::firstxamarindroid.Resource.Drawable.btn_checkbox_indeterminate_to_unchecked_animation;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox_unchecked = global::firstxamarindroid.Resource.Drawable.btn_checkbox_unchecked;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_animation = global::firstxamarindroid.Resource.Drawable.btn_checkbox_unchecked_to_checked_animation;
+			global::Syncfusion.Buttons.Android.Resource.Drawable.btn_checkbox_unchecked_to_indeterminate_animation = global::firstxamarindroid.Resource.Drawable.btn_checkbox_unchecked_to_indeterminate_animation;
+			global::Syncfusion.Buttons.Android.Resource.Id.border = global::firstxamarindroid.Resource.Id.border;
+			global::Syncfusion.Buttons.Android.Resource.Id.bottom = global::firstxamarindroid.Resource.Id.bottom;
+			global::Syncfusion.Buttons.Android.Resource.Id.@checked = global::firstxamarindroid.Resource.Id.@checked;
+			global::Syncfusion.Buttons.Android.Resource.Id.fill = global::firstxamarindroid.Resource.Id.fill;
+			global::Syncfusion.Buttons.Android.Resource.Id.image = global::firstxamarindroid.Resource.Id.image;
+			global::Syncfusion.Buttons.Android.Resource.Id.imagewithtext = global::firstxamarindroid.Resource.Id.imagewithtext;
+			global::Syncfusion.Buttons.Android.Resource.Id.indeterminate = global::firstxamarindroid.Resource.Id.indeterminate;
+			global::Syncfusion.Buttons.Android.Resource.Id.item_touch_helper_previous_elevation = global::firstxamarindroid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Syncfusion.Buttons.Android.Resource.Id.text = global::firstxamarindroid.Resource.Id.text;
+			global::Syncfusion.Buttons.Android.Resource.Id.top = global::firstxamarindroid.Resource.Id.top;
+			global::Syncfusion.Buttons.Android.Resource.Id.@unchecked = global::firstxamarindroid.Resource.Id.@unchecked;
+			global::Syncfusion.Buttons.Android.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_0 = global::firstxamarindroid.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_0;
+			global::Syncfusion.Buttons.Android.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_1 = global::firstxamarindroid.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_1;
+			global::Syncfusion.Buttons.Android.Resource.Interpolator.btn_checkbox_indeterminate_animation_interpolator_1 = global::firstxamarindroid.Resource.Interpolator.btn_checkbox_indeterminate_animation_interpolator_1;
+			global::Syncfusion.Buttons.Android.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_0 = global::firstxamarindroid.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_0;
+			global::Syncfusion.Buttons.Android.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_1 = global::firstxamarindroid.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_1;
+			global::Syncfusion.Buttons.Android.Resource.Style.Base_CardView = global::firstxamarindroid.Resource.Style.Base_CardView;
+			global::Syncfusion.Buttons.Android.Resource.Style.CardView = global::firstxamarindroid.Resource.Style.CardView;
+			global::Syncfusion.Buttons.Android.Resource.Style.CardView_Dark = global::firstxamarindroid.Resource.Style.CardView_Dark;
+			global::Syncfusion.Buttons.Android.Resource.Style.CardView_Light = global::firstxamarindroid.Resource.Style.CardView_Light;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView = global::firstxamarindroid.Resource.Styleable.CardView;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_android_minHeight = global::firstxamarindroid.Resource.Styleable.CardView_android_minHeight;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_android_minWidth = global::firstxamarindroid.Resource.Styleable.CardView_android_minWidth;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_cardBackgroundColor = global::firstxamarindroid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_cardCornerRadius = global::firstxamarindroid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_cardElevation = global::firstxamarindroid.Resource.Styleable.CardView_cardElevation;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_cardMaxElevation = global::firstxamarindroid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::firstxamarindroid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::firstxamarindroid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_contentPadding = global::firstxamarindroid.Resource.Styleable.CardView_contentPadding;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_contentPaddingBottom = global::firstxamarindroid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_contentPaddingLeft = global::firstxamarindroid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_contentPaddingRight = global::firstxamarindroid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.CardView_contentPaddingTop = global::firstxamarindroid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.DrawableStates = global::firstxamarindroid.Resource.Styleable.DrawableStates;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.DrawableStates_state_indeterminate = global::firstxamarindroid.Resource.Styleable.DrawableStates_state_indeterminate;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.RecyclerView = global::firstxamarindroid.Resource.Styleable.RecyclerView;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.RecyclerView_android_orientation = global::firstxamarindroid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.RecyclerView_layoutManager = global::firstxamarindroid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.RecyclerView_reverseLayout = global::firstxamarindroid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.RecyclerView_spanCount = global::firstxamarindroid.Resource.Styleable.RecyclerView_spanCount;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::firstxamarindroid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfCheckBox = global::firstxamarindroid.Resource.Styleable.SfCheckBox;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfCheckBox_checked = global::firstxamarindroid.Resource.Styleable.SfCheckBox_checked;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfCheckBox_cornerradius = global::firstxamarindroid.Resource.Styleable.SfCheckBox_cornerradius;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfCheckBox_isthreestate = global::firstxamarindroid.Resource.Styleable.SfCheckBox_isthreestate;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentBackColor = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentBackColor;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentBorderColor = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentBorderColor;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentBorderThickness = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentBorderThickness;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentColor = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentColor;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentCornerRadius = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentCornerRadius;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentDisplayMode = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentDisplayMode;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentPosition = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentPosition;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentSelectedIndex = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentSelectedIndex;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentStrokeThickness = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentStrokeThickness;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentedHeight = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentedHeight;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentedPadding = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentedPadding;
+			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentedWidth = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentedWidth;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::firstxamarindroid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::firstxamarindroid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::firstxamarindroid.Resource.Attribute.font;
@@ -1967,22 +2096,73 @@ namespace firstxamarindroid
 			public const int abc_tooltip_exit = 2131034123;
 			
 			// aapt resource value: 0x7f05000c
-			public const int design_bottom_sheet_slide_in = 2131034124;
+			public const int btn_checkbox_indeterminate_to_checked_box_inner_merged_animation = 2131034124;
 			
 			// aapt resource value: 0x7f05000d
-			public const int design_bottom_sheet_slide_out = 2131034125;
+			public const int btn_checkbox_indeterminate_to_checked_box_outer_merged_animation = 2131034125;
 			
 			// aapt resource value: 0x7f05000e
-			public const int design_snackbar_in = 2131034126;
+			public const int btn_checkbox_indeterminate_to_checked_icon_null_animation = 2131034126;
 			
 			// aapt resource value: 0x7f05000f
-			public const int design_snackbar_out = 2131034127;
+			public const int btn_checkbox_to_checked_box_inner_merged_animation = 2131034127;
 			
 			// aapt resource value: 0x7f050010
-			public const int top_defaults_view_color_picker_popup_hide = 2131034128;
+			public const int btn_checkbox_to_checked_box_outer_merged_animation = 2131034128;
 			
 			// aapt resource value: 0x7f050011
-			public const int top_defaults_view_color_picker_popup_show = 2131034129;
+			public const int btn_checkbox_to_checked_icon_null_animation = 2131034129;
+			
+			// aapt resource value: 0x7f050012
+			public const int btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation = 2131034130;
+			
+			// aapt resource value: 0x7f050013
+			public const int btn_checkbox_to_indeterminate_from_checked_icon_null_animation = 2131034131;
+			
+			// aapt resource value: 0x7f050014
+			public const int btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation = 2131034132;
+			
+			// aapt resource value: 0x7f050015
+			public const int btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation = 2131034133;
+			
+			// aapt resource value: 0x7f050016
+			public const int btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation = 2131034134;
+			
+			// aapt resource value: 0x7f050017
+			public const int btn_checkbox_to_unchecked_box_inner_merged_animation = 2131034135;
+			
+			// aapt resource value: 0x7f050018
+			public const int btn_checkbox_to_unchecked_check_path_merged_animation = 2131034136;
+			
+			// aapt resource value: 0x7f050019
+			public const int btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation = 2131034137;
+			
+			// aapt resource value: 0x7f05001a
+			public const int btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation = 2131034138;
+			
+			// aapt resource value: 0x7f05001b
+			public const int btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation = 2131034139;
+			
+			// aapt resource value: 0x7f05001c
+			public const int btn_checkbox_to_unchecked_icon_null_animation = 2131034140;
+			
+			// aapt resource value: 0x7f05001d
+			public const int design_bottom_sheet_slide_in = 2131034141;
+			
+			// aapt resource value: 0x7f05001e
+			public const int design_bottom_sheet_slide_out = 2131034142;
+			
+			// aapt resource value: 0x7f05001f
+			public const int design_snackbar_in = 2131034143;
+			
+			// aapt resource value: 0x7f050020
+			public const int design_snackbar_out = 2131034144;
+			
+			// aapt resource value: 0x7f050021
+			public const int top_defaults_view_color_picker_popup_hide = 2131034145;
+			
+			// aapt resource value: 0x7f050022
+			public const int top_defaults_view_color_picker_popup_show = 2131034146;
 			
 			static Animation()
 			{
@@ -2352,6 +2532,9 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0100f2
 			public const int checkboxStyle = 2130772210;
 			
+			// aapt resource value: 0x7f010256
+			public const int @checked = 2130772566;
+			
 			// aapt resource value: 0x7f0101a2
 			public const int checkedChip = 2130772386;
 			
@@ -2553,6 +2736,9 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0101c2
 			public const int cornerRadius = 2130772418;
 			
+			// aapt resource value: 0x7f010255
+			public const int cornerradius = 2130772565;
+			
 			// aapt resource value: 0x7f0101f1
 			public const int counterEnabled = 2130772465;
 			
@@ -2565,62 +2751,62 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0101f3
 			public const int counterTextAppearance = 2130772467;
 			
-			// aapt resource value: 0x7f010260
-			public const int cpv_allowCustom = 2130772576;
+			// aapt resource value: 0x7f010270
+			public const int cpv_allowCustom = 2130772592;
 			
-			// aapt resource value: 0x7f01025f
-			public const int cpv_allowPresets = 2130772575;
+			// aapt resource value: 0x7f01026f
+			public const int cpv_allowPresets = 2130772591;
 			
-			// aapt resource value: 0x7f010257
-			public const int cpv_alphaChannelText = 2130772567;
+			// aapt resource value: 0x7f010267
+			public const int cpv_alphaChannelText = 2130772583;
 			
-			// aapt resource value: 0x7f010256
-			public const int cpv_alphaChannelVisible = 2130772566;
-			
-			// aapt resource value: 0x7f010255
-			public const int cpv_borderColor = 2130772565;
-			
-			// aapt resource value: 0x7f01025c
-			public const int cpv_colorPresets = 2130772572;
-			
-			// aapt resource value: 0x7f010254
-			public const int cpv_colorShape = 2130772564;
-			
-			// aapt resource value: 0x7f010264
-			public const int cpv_customButtonText = 2130772580;
-			
-			// aapt resource value: 0x7f010262
-			public const int cpv_dialogID = 2130772578;
-			
-			// aapt resource value: 0x7f01025b
-			public const int cpv_dialogTitle = 2130772571;
-			
-			// aapt resource value: 0x7f01025d
-			public const int cpv_dialogType = 2130772573;
-			
-			// aapt resource value: 0x7f010263
-			public const int cpv_presetsButtonText = 2130772579;
-			
-			// aapt resource value: 0x7f01025a
-			public const int cpv_previewSize = 2130772570;
+			// aapt resource value: 0x7f010266
+			public const int cpv_alphaChannelVisible = 2130772582;
 			
 			// aapt resource value: 0x7f010265
-			public const int cpv_selectedButtonText = 2130772581;
+			public const int cpv_borderColor = 2130772581;
 			
-			// aapt resource value: 0x7f010259
-			public const int cpv_showAlphaSlider = 2130772569;
+			// aapt resource value: 0x7f01026c
+			public const int cpv_colorPresets = 2130772588;
 			
-			// aapt resource value: 0x7f01025e
-			public const int cpv_showColorShades = 2130772574;
+			// aapt resource value: 0x7f010264
+			public const int cpv_colorShape = 2130772580;
 			
-			// aapt resource value: 0x7f010261
-			public const int cpv_showDialog = 2130772577;
+			// aapt resource value: 0x7f010274
+			public const int cpv_customButtonText = 2130772596;
 			
-			// aapt resource value: 0x7f010253
-			public const int cpv_showOldColor = 2130772563;
+			// aapt resource value: 0x7f010272
+			public const int cpv_dialogID = 2130772594;
 			
-			// aapt resource value: 0x7f010258
-			public const int cpv_sliderColor = 2130772568;
+			// aapt resource value: 0x7f01026b
+			public const int cpv_dialogTitle = 2130772587;
+			
+			// aapt resource value: 0x7f01026d
+			public const int cpv_dialogType = 2130772589;
+			
+			// aapt resource value: 0x7f010273
+			public const int cpv_presetsButtonText = 2130772595;
+			
+			// aapt resource value: 0x7f01026a
+			public const int cpv_previewSize = 2130772586;
+			
+			// aapt resource value: 0x7f010275
+			public const int cpv_selectedButtonText = 2130772597;
+			
+			// aapt resource value: 0x7f010269
+			public const int cpv_showAlphaSlider = 2130772585;
+			
+			// aapt resource value: 0x7f01026e
+			public const int cpv_showColorShades = 2130772590;
+			
+			// aapt resource value: 0x7f010271
+			public const int cpv_showDialog = 2130772593;
+			
+			// aapt resource value: 0x7f010263
+			public const int cpv_showOldColor = 2130772579;
+			
+			// aapt resource value: 0x7f010268
+			public const int cpv_sliderColor = 2130772584;
 			
 			// aapt resource value: 0x7f010061
 			public const int customNavigationLayout = 2130772065;
@@ -2709,8 +2895,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010214
 			public const int emptyVisibility = 2130772500;
 			
-			// aapt resource value: 0x7f010266
-			public const int enableAlpha = 2130772582;
+			// aapt resource value: 0x7f010276
+			public const int enableAlpha = 2130772598;
 			
 			// aapt resource value: 0x7f010019
 			public const int enabled = 2130771993;
@@ -2936,6 +3122,9 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f010023
 			public const int isPreferenceVisible = 2130772003;
+			
+			// aapt resource value: 0x7f010254
+			public const int isthreestate = 2130772564;
 			
 			// aapt resource value: 0x7f0101c6
 			public const int itemBackground = 2130772422;
@@ -3438,6 +3627,42 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0100f9
 			public const int seekBarStyle = 2130772217;
 			
+			// aapt resource value: 0x7f010258
+			public const int segmentBackColor = 2130772568;
+			
+			// aapt resource value: 0x7f010259
+			public const int segmentBorderColor = 2130772569;
+			
+			// aapt resource value: 0x7f01025a
+			public const int segmentBorderThickness = 2130772570;
+			
+			// aapt resource value: 0x7f01025b
+			public const int segmentColor = 2130772571;
+			
+			// aapt resource value: 0x7f010260
+			public const int segmentCornerRadius = 2130772576;
+			
+			// aapt resource value: 0x7f010262
+			public const int segmentDisplayMode = 2130772578;
+			
+			// aapt resource value: 0x7f010261
+			public const int segmentPosition = 2130772577;
+			
+			// aapt resource value: 0x7f010257
+			public const int segmentSelectedIndex = 2130772567;
+			
+			// aapt resource value: 0x7f01025f
+			public const int segmentStrokeThickness = 2130772575;
+			
+			// aapt resource value: 0x7f01025d
+			public const int segmentedHeight = 2130772573;
+			
+			// aapt resource value: 0x7f01025c
+			public const int segmentedPadding = 2130772572;
+			
+			// aapt resource value: 0x7f01025e
+			public const int segmentedWidth = 2130772574;
+			
 			// aapt resource value: 0x7f01001a
 			public const int selectable = 2130771994;
 			
@@ -3515,6 +3740,9 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f010171
 			public const int state_collapsible = 2130772337;
+			
+			// aapt resource value: 0x7f010253
+			public const int state_indeterminate = 2130772563;
 			
 			// aapt resource value: 0x7f010173
 			public const int state_liftable = 2130772339;
@@ -4073,6 +4301,9 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0e005c
 			public const int colorPrimaryDark = 2131624028;
 			
+			// aapt resource value: 0x7f0e0073
+			public const int control_checkable_material = 2131624051;
+			
 			// aapt resource value: 0x7f0e0042
 			public const int design_bottom_navigation_shadow_color = 2131624002;
 			
@@ -4082,8 +4313,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0e0044
 			public const int design_default_color_primary_dark = 2131624004;
 			
-			// aapt resource value: 0x7f0e0073
-			public const int design_error = 2131624051;
+			// aapt resource value: 0x7f0e0074
+			public const int design_error = 2131624052;
 			
 			// aapt resource value: 0x7f0e0045
 			public const int design_fab_shadow_end_color = 2131624005;
@@ -4109,8 +4340,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0e004c
 			public const int design_snackbar_background_color = 2131624012;
 			
-			// aapt resource value: 0x7f0e0074
-			public const int design_tint_password_toggle = 2131624052;
+			// aapt resource value: 0x7f0e0075
+			public const int design_tint_password_toggle = 2131624053;
 			
 			// aapt resource value: 0x7f0e0017
 			public const int dim_foreground_disabled_material_dark = 2131623959;
@@ -4181,71 +4412,71 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0e002c
 			public const int material_grey_900 = 2131623980;
 			
-			// aapt resource value: 0x7f0e0075
-			public const int mtrl_bottom_nav_colored_item_tint = 2131624053;
-			
 			// aapt resource value: 0x7f0e0076
-			public const int mtrl_bottom_nav_item_tint = 2131624054;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131624054;
+			
+			// aapt resource value: 0x7f0e0077
+			public const int mtrl_bottom_nav_item_tint = 2131624055;
 			
 			// aapt resource value: 0x7f0e004d
 			public const int mtrl_btn_bg_color_disabled = 2131624013;
 			
-			// aapt resource value: 0x7f0e0077
-			public const int mtrl_btn_bg_color_selector = 2131624055;
-			
 			// aapt resource value: 0x7f0e0078
-			public const int mtrl_btn_ripple_color = 2131624056;
+			public const int mtrl_btn_bg_color_selector = 2131624056;
 			
 			// aapt resource value: 0x7f0e0079
-			public const int mtrl_btn_stroke_color_selector = 2131624057;
+			public const int mtrl_btn_ripple_color = 2131624057;
 			
 			// aapt resource value: 0x7f0e007a
-			public const int mtrl_btn_text_btn_ripple_color = 2131624058;
+			public const int mtrl_btn_stroke_color_selector = 2131624058;
+			
+			// aapt resource value: 0x7f0e007b
+			public const int mtrl_btn_text_btn_ripple_color = 2131624059;
 			
 			// aapt resource value: 0x7f0e004e
 			public const int mtrl_btn_text_color_disabled = 2131624014;
 			
-			// aapt resource value: 0x7f0e007b
-			public const int mtrl_btn_text_color_selector = 2131624059;
+			// aapt resource value: 0x7f0e007c
+			public const int mtrl_btn_text_color_selector = 2131624060;
 			
 			// aapt resource value: 0x7f0e004f
 			public const int mtrl_btn_transparent_bg_color = 2131624015;
 			
-			// aapt resource value: 0x7f0e007c
-			public const int mtrl_chip_background_color = 2131624060;
-			
 			// aapt resource value: 0x7f0e007d
-			public const int mtrl_chip_close_icon_tint = 2131624061;
+			public const int mtrl_chip_background_color = 2131624061;
 			
 			// aapt resource value: 0x7f0e007e
-			public const int mtrl_chip_ripple_color = 2131624062;
+			public const int mtrl_chip_close_icon_tint = 2131624062;
 			
 			// aapt resource value: 0x7f0e007f
-			public const int mtrl_chip_text_color = 2131624063;
+			public const int mtrl_chip_ripple_color = 2131624063;
 			
 			// aapt resource value: 0x7f0e0080
-			public const int mtrl_fab_ripple_color = 2131624064;
+			public const int mtrl_chip_text_color = 2131624064;
+			
+			// aapt resource value: 0x7f0e0081
+			public const int mtrl_fab_ripple_color = 2131624065;
 			
 			// aapt resource value: 0x7f0e0050
 			public const int mtrl_scrim_color = 2131624016;
 			
-			// aapt resource value: 0x7f0e0081
-			public const int mtrl_tabs_colored_ripple_color = 2131624065;
-			
 			// aapt resource value: 0x7f0e0082
-			public const int mtrl_tabs_icon_color_selector = 2131624066;
+			public const int mtrl_tabs_colored_ripple_color = 2131624066;
 			
 			// aapt resource value: 0x7f0e0083
-			public const int mtrl_tabs_icon_color_selector_colored = 2131624067;
+			public const int mtrl_tabs_icon_color_selector = 2131624067;
 			
 			// aapt resource value: 0x7f0e0084
-			public const int mtrl_tabs_legacy_text_color_selector = 2131624068;
+			public const int mtrl_tabs_icon_color_selector_colored = 2131624068;
 			
 			// aapt resource value: 0x7f0e0085
-			public const int mtrl_tabs_ripple_color = 2131624069;
+			public const int mtrl_tabs_legacy_text_color_selector = 2131624069;
 			
 			// aapt resource value: 0x7f0e0086
-			public const int mtrl_text_btn_text_color_selector = 2131624070;
+			public const int mtrl_tabs_ripple_color = 2131624070;
+			
+			// aapt resource value: 0x7f0e0087
+			public const int mtrl_text_btn_text_color_selector = 2131624071;
 			
 			// aapt resource value: 0x7f0e0051
 			public const int mtrl_textinput_default_box_stroke_color = 2131624017;
@@ -4319,11 +4550,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0e003c
 			public const int switch_thumb_disabled_material_light = 2131623996;
 			
-			// aapt resource value: 0x7f0e0087
-			public const int switch_thumb_material_dark = 2131624071;
-			
 			// aapt resource value: 0x7f0e0088
-			public const int switch_thumb_material_light = 2131624072;
+			public const int switch_thumb_material_dark = 2131624072;
+			
+			// aapt resource value: 0x7f0e0089
+			public const int switch_thumb_material_light = 2131624073;
 			
 			// aapt resource value: 0x7f0e003d
 			public const int switch_thumb_normal_material_dark = 2131623997;
@@ -4611,32 +4842,32 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0900d7
 			public const int compat_notification_large_icon_max_width = 2131296471;
 			
+			// aapt resource value: 0x7f0900eb
+			public const int cpv_color_preference_large = 2131296491;
+			
 			// aapt resource value: 0x7f0900ea
-			public const int cpv_color_preference_large = 2131296490;
-			
-			// aapt resource value: 0x7f0900e9
-			public const int cpv_color_preference_normal = 2131296489;
-			
-			// aapt resource value: 0x7f0900e6
-			public const int cpv_column_width = 2131296486;
-			
-			// aapt resource value: 0x7f0900e5
-			public const int cpv_dialog_preview_height = 2131296485;
-			
-			// aapt resource value: 0x7f0900e4
-			public const int cpv_dialog_preview_width = 2131296484;
-			
-			// aapt resource value: 0x7f0900e8
-			public const int cpv_item_horizontal_padding = 2131296488;
+			public const int cpv_color_preference_normal = 2131296490;
 			
 			// aapt resource value: 0x7f0900e7
-			public const int cpv_item_size = 2131296487;
+			public const int cpv_column_width = 2131296487;
 			
-			// aapt resource value: 0x7f0900e3
-			public const int cpv_required_padding = 2131296483;
+			// aapt resource value: 0x7f0900e6
+			public const int cpv_dialog_preview_height = 2131296486;
 			
-			// aapt resource value: 0x7f0900ec
-			public const int default_page_padding = 2131296492;
+			// aapt resource value: 0x7f0900e5
+			public const int cpv_dialog_preview_width = 2131296485;
+			
+			// aapt resource value: 0x7f0900e9
+			public const int cpv_item_horizontal_padding = 2131296489;
+			
+			// aapt resource value: 0x7f0900e8
+			public const int cpv_item_size = 2131296488;
+			
+			// aapt resource value: 0x7f0900e4
+			public const int cpv_required_padding = 2131296484;
+			
+			// aapt resource value: 0x7f0900ed
+			public const int default_page_padding = 2131296493;
 			
 			// aapt resource value: 0x7f090077
 			public const int design_appbar_elevation = 2131296375;
@@ -4770,14 +5001,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f09009a
 			public const int design_textinput_caption_translate_y = 2131296410;
 			
+			// aapt resource value: 0x7f0900e3
+			public const int disabledAlpha = 2131296483;
+			
 			// aapt resource value: 0x7f09005a
 			public const int disabled_alpha_material_dark = 2131296346;
 			
 			// aapt resource value: 0x7f09005b
 			public const int disabled_alpha_material_light = 2131296347;
 			
-			// aapt resource value: 0x7f0900eb
-			public const int fab_margin = 2131296491;
+			// aapt resource value: 0x7f0900ec
+			public const int fab_margin = 2131296492;
 			
 			// aapt resource value: 0x7f090000
 			public const int fastscroll_default_thickness = 2131296256;
@@ -5329,125 +5563,155 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f020077
-			public const int avd_hide_password_1 = 2130837623;
+			// aapt resource value: 0x7f020081
+			public const int avd_hide_password_1 = 2130837633;
 			
-			// aapt resource value: 0x7f020078
-			public const int avd_hide_password_2 = 2130837624;
+			// aapt resource value: 0x7f020082
+			public const int avd_hide_password_2 = 2130837634;
 			
-			// aapt resource value: 0x7f020079
-			public const int avd_hide_password_3 = 2130837625;
+			// aapt resource value: 0x7f020083
+			public const int avd_hide_password_3 = 2130837635;
 			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
 			
-			// aapt resource value: 0x7f02007a
-			public const int avd_show_password_1 = 2130837626;
+			// aapt resource value: 0x7f020084
+			public const int avd_show_password_1 = 2130837636;
 			
-			// aapt resource value: 0x7f02007b
-			public const int avd_show_password_2 = 2130837627;
+			// aapt resource value: 0x7f020085
+			public const int avd_show_password_2 = 2130837637;
 			
-			// aapt resource value: 0x7f02007c
-			public const int avd_show_password_3 = 2130837628;
+			// aapt resource value: 0x7f020086
+			public const int avd_show_password_3 = 2130837638;
 			
 			// aapt resource value: 0x7f020056
-			public const int cpv_alpha = 2130837590;
+			public const int btn_checkbox = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int cpv_btn_background = 2130837591;
+			public const int btn_checkbox_checked = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int cpv_btn_background_pressed = 2130837592;
+			public const int btn_checkbox_checked_to_indeterminate_animation = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int cpv_ic_arrow_right_black_24dp = 2130837593;
+			public const int btn_checkbox_checked_to_unchecked_animation = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int cpv_preset_checked = 2130837594;
+			public const int btn_checkbox_indeterminate = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int design_bottom_navigation_item_background = 2130837595;
+			public const int btn_checkbox_indeterminate_to_checked_animation = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int design_fab_background = 2130837596;
+			public const int btn_checkbox_indeterminate_to_unchecked_animation = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int design_ic_visibility = 2130837597;
+			public const int btn_checkbox_unchecked = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int design_ic_visibility_off = 2130837598;
+			public const int btn_checkbox_unchecked_to_checked_animation = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int design_password_eye = 2130837599;
+			public const int btn_checkbox_unchecked_to_indeterminate_animation = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int design_snackbar_background = 2130837600;
+			public const int cpv_alpha = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_arrow_down_24dp = 2130837601;
+			public const int cpv_btn_background = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_mtrl_chip_checked_black = 2130837602;
+			public const int cpv_btn_background_pressed = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_mtrl_chip_checked_circle = 2130837603;
+			public const int cpv_ic_arrow_right_black_24dp = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_mtrl_chip_close_circle = 2130837604;
+			public const int cpv_preset_checked = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int mtrl_snackbar_background = 2130837605;
+			public const int design_bottom_navigation_item_background = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int mtrl_tabs_default_indicator = 2130837606;
+			public const int design_fab_background = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int navigation_empty_icon = 2130837607;
+			public const int design_ic_visibility = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int notification_action_background = 2130837608;
+			public const int design_ic_visibility_off = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int notification_bg = 2130837609;
+			public const int design_password_eye = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int notification_bg_low = 2130837610;
+			public const int design_snackbar_background = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notification_bg_low_normal = 2130837611;
+			public const int ic_arrow_down_24dp = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int notification_bg_low_pressed = 2130837612;
+			public const int ic_mtrl_chip_checked_black = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int notification_bg_normal = 2130837613;
+			public const int ic_mtrl_chip_checked_circle = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int notification_bg_normal_pressed = 2130837614;
+			public const int ic_mtrl_chip_close_circle = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int notification_icon_background = 2130837615;
-			
-			// aapt resource value: 0x7f020075
-			public const int notification_template_icon_bg = 2130837621;
-			
-			// aapt resource value: 0x7f020076
-			public const int notification_template_icon_low_bg = 2130837622;
+			public const int mtrl_snackbar_background = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int notification_tile_bg = 2130837616;
+			public const int mtrl_tabs_default_indicator = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int notify_panel_notification_icon_bg = 2130837617;
+			public const int navigation_empty_icon = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int preference_list_divider_material = 2130837618;
+			public const int notification_action_background = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int tooltip_frame_dark = 2130837619;
+			public const int notification_bg = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int tooltip_frame_light = 2130837620;
+			public const int notification_bg_low = 2130837620;
+			
+			// aapt resource value: 0x7f020075
+			public const int notification_bg_low_normal = 2130837621;
+			
+			// aapt resource value: 0x7f020076
+			public const int notification_bg_low_pressed = 2130837622;
+			
+			// aapt resource value: 0x7f020077
+			public const int notification_bg_normal = 2130837623;
+			
+			// aapt resource value: 0x7f020078
+			public const int notification_bg_normal_pressed = 2130837624;
+			
+			// aapt resource value: 0x7f020079
+			public const int notification_icon_background = 2130837625;
+			
+			// aapt resource value: 0x7f02007f
+			public const int notification_template_icon_bg = 2130837631;
+			
+			// aapt resource value: 0x7f020080
+			public const int notification_template_icon_low_bg = 2130837632;
+			
+			// aapt resource value: 0x7f02007a
+			public const int notification_tile_bg = 2130837626;
+			
+			// aapt resource value: 0x7f02007b
+			public const int notify_panel_notification_icon_bg = 2130837627;
+			
+			// aapt resource value: 0x7f02007c
+			public const int preference_list_divider_material = 2130837628;
+			
+			// aapt resource value: 0x7f02007d
+			public const int tooltip_frame_dark = 2130837629;
+			
+			// aapt resource value: 0x7f02007e
+			public const int tooltip_frame_light = 2130837630;
 			
 			static Drawable()
 			{
@@ -5480,41 +5744,41 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0042
 			public const int SYM = 2131361858;
 			
-			// aapt resource value: 0x7f0a00e0
-			public const int action0 = 2131362016;
+			// aapt resource value: 0x7f0a00eb
+			public const int action0 = 2131362027;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int action_bar = 2131361955;
+			// aapt resource value: 0x7f0a00a8
+			public const int action_bar = 2131361960;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int action_bar_activity_content = 2131361793;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int action_bar_container = 2131361954;
+			// aapt resource value: 0x7f0a00a7
+			public const int action_bar_container = 2131361959;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int action_bar_root = 2131361950;
+			// aapt resource value: 0x7f0a00a3
+			public const int action_bar_root = 2131361955;
 			
 			// aapt resource value: 0x7f0a0002
 			public const int action_bar_spinner = 2131361794;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int action_bar_subtitle = 2131361921;
+			// aapt resource value: 0x7f0a0087
+			public const int action_bar_subtitle = 2131361927;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int action_bar_title = 2131361920;
+			// aapt resource value: 0x7f0a0086
+			public const int action_bar_title = 2131361926;
 			
-			// aapt resource value: 0x7f0a00dd
-			public const int action_container = 2131362013;
+			// aapt resource value: 0x7f0a00e8
+			public const int action_container = 2131362024;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int action_context_bar = 2131361956;
+			// aapt resource value: 0x7f0a00a9
+			public const int action_context_bar = 2131361961;
 			
-			// aapt resource value: 0x7f0a00e4
-			public const int action_divider = 2131362020;
+			// aapt resource value: 0x7f0a00ef
+			public const int action_divider = 2131362031;
 			
-			// aapt resource value: 0x7f0a00de
-			public const int action_image = 2131362014;
+			// aapt resource value: 0x7f0a00e9
+			public const int action_image = 2131362025;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -5522,32 +5786,32 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0004
 			public const int action_menu_presenter = 2131361796;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int action_mode_bar = 2131361952;
+			// aapt resource value: 0x7f0a00a5
+			public const int action_mode_bar = 2131361957;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int action_mode_bar_stub = 2131361951;
+			// aapt resource value: 0x7f0a00a4
+			public const int action_mode_bar_stub = 2131361956;
 			
-			// aapt resource value: 0x7f0a0082
-			public const int action_mode_close_button = 2131361922;
+			// aapt resource value: 0x7f0a0088
+			public const int action_mode_close_button = 2131361928;
 			
-			// aapt resource value: 0x7f0a0108
-			public const int action_settings = 2131362056;
+			// aapt resource value: 0x7f0a0113
+			public const int action_settings = 2131362067;
 			
-			// aapt resource value: 0x7f0a00df
-			public const int action_text = 2131362015;
+			// aapt resource value: 0x7f0a00ea
+			public const int action_text = 2131362026;
 			
-			// aapt resource value: 0x7f0a00ed
-			public const int actions = 2131362029;
+			// aapt resource value: 0x7f0a00f8
+			public const int actions = 2131362040;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int activity_chooser_view_content = 2131361923;
+			// aapt resource value: 0x7f0a0089
+			public const int activity_chooser_view_content = 2131361929;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int add = 2131361842;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int alertTitle = 2131361941;
+			// aapt resource value: 0x7f0a009a
+			public const int alertTitle = 2131361946;
 			
 			// aapt resource value: 0x7f0a0068
 			public const int all = 2131361896;
@@ -5570,32 +5834,38 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0077
 			public const int blocking = 2131361911;
 			
+			// aapt resource value: 0x7f0a007d
+			public const int border = 2131361917;
+			
 			// aapt resource value: 0x7f0a0048
 			public const int bottom = 2131361864;
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int browser_actions_header_text = 2131361975;
+			// aapt resource value: 0x7f0a00bc
+			public const int browser_actions_header_text = 2131361980;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int browser_actions_menu_item_icon = 2131361977;
+			// aapt resource value: 0x7f0a00be
+			public const int browser_actions_menu_item_icon = 2131361982;
 			
-			// aapt resource value: 0x7f0a00ba
-			public const int browser_actions_menu_item_text = 2131361978;
+			// aapt resource value: 0x7f0a00bf
+			public const int browser_actions_menu_item_text = 2131361983;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int browser_actions_menu_items = 2131361976;
+			// aapt resource value: 0x7f0a00bd
+			public const int browser_actions_menu_items = 2131361981;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int browser_actions_menu_view = 2131361974;
+			// aapt resource value: 0x7f0a00bb
+			public const int browser_actions_menu_view = 2131361979;
 			
-			// aapt resource value: 0x7f0a0089
-			public const int buttonPanel = 2131361929;
+			// aapt resource value: 0x7f0a008e
+			public const int buttonPanel = 2131361934;
 			
-			// aapt resource value: 0x7f0a00fa
-			public const int cancel = 2131362042;
+			// aapt resource value: 0x7f0a00dc
+			public const int buttonUpdateTemp = 2131362012;
 			
-			// aapt resource value: 0x7f0a00e1
-			public const int cancel_action = 2131362017;
+			// aapt resource value: 0x7f0a0105
+			public const int cancel = 2131362053;
+			
+			// aapt resource value: 0x7f0a00ec
+			public const int cancel_action = 2131362028;
 			
 			// aapt resource value: 0x7f0a0050
 			public const int center = 2131361872;
@@ -5609,14 +5879,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0072
 			public const int chains = 2131361906;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int checkbox = 2131361948;
-			
-			// aapt resource value: 0x7f0a00e9
-			public const int chronometer = 2131362025;
+			// aapt resource value: 0x7f0a00a1
+			public const int checkbox = 2131361953;
 			
 			// aapt resource value: 0x7f0a007a
-			public const int circle = 2131361914;
+			public const int @checked = 2131361914;
+			
+			// aapt resource value: 0x7f0a00f4
+			public const int chronometer = 2131362036;
+			
+			// aapt resource value: 0x7f0a0080
+			public const int circle = 2131361920;
 			
 			// aapt resource value: 0x7f0a0065
 			public const int clip_horizontal = 2131361893;
@@ -5627,35 +5900,35 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0044
 			public const int collapseActionView = 2131361860;
 			
-			// aapt resource value: 0x7f0a00fd
-			public const int colorHex = 2131362045;
+			// aapt resource value: 0x7f0a0108
+			public const int colorHex = 2131362056;
 			
-			// aapt resource value: 0x7f0a00fc
-			public const int colorIndicator = 2131362044;
+			// aapt resource value: 0x7f0a0107
+			public const int colorIndicator = 2131362055;
 			
-			// aapt resource value: 0x7f0a00db
-			public const int colorPanelView1 = 2131362011;
+			// aapt resource value: 0x7f0a00e6
+			public const int colorPanelView1 = 2131362022;
 			
-			// aapt resource value: 0x7f0a00f9
-			public const int colorPickerView = 2131362041;
+			// aapt resource value: 0x7f0a0104
+			public const int colorPickerView = 2131362052;
 			
-			// aapt resource value: 0x7f0a00c8
-			public const int container = 2131361992;
+			// aapt resource value: 0x7f0a00cd
+			public const int container = 2131361997;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int content = 2131361944;
+			// aapt resource value: 0x7f0a009d
+			public const int content = 2131361949;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int contentPanel = 2131361932;
+			// aapt resource value: 0x7f0a0091
+			public const int contentPanel = 2131361937;
 			
-			// aapt resource value: 0x7f0a00c9
-			public const int coordinator = 2131361993;
+			// aapt resource value: 0x7f0a00ce
+			public const int coordinator = 2131361998;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int cpv_arrow_right = 2131361981;
+			// aapt resource value: 0x7f0a00c2
+			public const int cpv_arrow_right = 2131361986;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int cpv_color_image_view = 2131361980;
+			// aapt resource value: 0x7f0a00c1
+			public const int cpv_color_image_view = 2131361985;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int cpv_color_panel_new = 2131361830;
@@ -5663,44 +5936,44 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0025
 			public const int cpv_color_panel_old = 2131361829;
 			
-			// aapt resource value: 0x7f0a00bb
-			public const int cpv_color_panel_view = 2131361979;
+			// aapt resource value: 0x7f0a00c0
+			public const int cpv_color_panel_view = 2131361984;
 			
 			// aapt resource value: 0x7f0a0024
 			public const int cpv_color_picker_view = 2131361828;
 			
-			// aapt resource value: 0x7f0a00be
-			public const int cpv_hex = 2131361982;
+			// aapt resource value: 0x7f0a00c3
+			public const int cpv_hex = 2131361987;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int cpv_preference_preview_color_panel = 2131361831;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int custom = 2131361918;
+			// aapt resource value: 0x7f0a0084
+			public const int custom = 2131361924;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int customPanel = 2131361938;
+			// aapt resource value: 0x7f0a0097
+			public const int customPanel = 2131361943;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int decor_content_parent = 2131361953;
+			// aapt resource value: 0x7f0a00a6
+			public const int decor_content_parent = 2131361958;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int default_activity_button = 2131361926;
-			
-			// aapt resource value: 0x7f0a00cb
-			public const int design_bottom_sheet = 2131361995;
+			// aapt resource value: 0x7f0a008b
+			public const int default_activity_button = 2131361931;
 			
 			// aapt resource value: 0x7f0a00d0
-			public const int design_menu_item_action_area = 2131362000;
+			public const int design_bottom_sheet = 2131362000;
 			
-			// aapt resource value: 0x7f0a00cf
-			public const int design_menu_item_action_area_stub = 2131361999;
+			// aapt resource value: 0x7f0a00d5
+			public const int design_menu_item_action_area = 2131362005;
 			
-			// aapt resource value: 0x7f0a00ce
-			public const int design_menu_item_text = 2131361998;
+			// aapt resource value: 0x7f0a00d4
+			public const int design_menu_item_action_area_stub = 2131362004;
 			
-			// aapt resource value: 0x7f0a00cd
-			public const int design_navigation_view = 2131361997;
+			// aapt resource value: 0x7f0a00d3
+			public const int design_menu_item_text = 2131362003;
+			
+			// aapt resource value: 0x7f0a00d2
+			public const int design_navigation_view = 2131362002;
 			
 			// aapt resource value: 0x7f0a0073
 			public const int dimensions = 2131361907;
@@ -5711,20 +5984,23 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a002b
 			public const int disableHome = 2131361835;
 			
-			// aapt resource value: 0x7f0a0102
-			public const int editTextFanDuration1 = 2131362050;
+			// aapt resource value: 0x7f0a010d
+			public const int editTextFanDuration1 = 2131362061;
 			
-			// aapt resource value: 0x7f0a0104
-			public const int editTextFanDuration2 = 2131362052;
+			// aapt resource value: 0x7f0a010f
+			public const int editTextFanDuration2 = 2131362063;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int edit_query = 2131361957;
+			// aapt resource value: 0x7f0a00db
+			public const int editTextTemperature = 2131362011;
+			
+			// aapt resource value: 0x7f0a00aa
+			public const int edit_query = 2131361962;
 			
 			// aapt resource value: 0x7f0a003b
 			public const int end = 2131361851;
 			
-			// aapt resource value: 0x7f0a00ef
-			public const int end_padder = 2131362031;
+			// aapt resource value: 0x7f0a00fa
+			public const int end_padder = 2131362042;
 			
 			// aapt resource value: 0x7f0a004a
 			public const int enterAlways = 2131361866;
@@ -5735,11 +6011,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a004c
 			public const int exitUntilCollapsed = 2131361868;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int expand_activities_button = 2131361924;
+			// aapt resource value: 0x7f0a008a
+			public const int expand_activities_button = 2131361930;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int expanded_menu = 2131361947;
+			// aapt resource value: 0x7f0a00a0
+			public const int expanded_menu = 2131361952;
 			
 			// aapt resource value: 0x7f0a0062
 			public const int fill = 2131361890;
@@ -5759,8 +6035,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0078
 			public const int forever = 2131361912;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int frame_layout_settings = 2131361973;
+			// aapt resource value: 0x7f0a00ba
+			public const int frame_layout_settings = 2131361978;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int ghost_view = 2131361802;
@@ -5768,11 +6044,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0069
 			public const int gone = 2131361897;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int gridView = 2131361983;
+			// aapt resource value: 0x7f0a00c4
+			public const int gridView = 2131361988;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int group_divider = 2131361943;
+			// aapt resource value: 0x7f0a009c
+			public const int group_divider = 2131361948;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int home = 2131361797;
@@ -5780,26 +6056,32 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a002c
 			public const int homeAsUp = 2131361836;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int icon = 2131361928;
+			// aapt resource value: 0x7f0a008d
+			public const int icon = 2131361933;
 			
-			// aapt resource value: 0x7f0a00d2
-			public const int icon_frame = 2131362002;
+			// aapt resource value: 0x7f0a00d7
+			public const int icon_frame = 2131362007;
 			
-			// aapt resource value: 0x7f0a00ee
-			public const int icon_group = 2131362030;
+			// aapt resource value: 0x7f0a00f9
+			public const int icon_group = 2131362041;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int ifRoom = 2131361861;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int image = 2131361925;
+			// aapt resource value: 0x7f0a007e
+			public const int image = 2131361918;
 			
-			// aapt resource value: 0x7f0a00d4
-			public const int imageViewLightStatus = 2131362004;
+			// aapt resource value: 0x7f0a00df
+			public const int imageViewLightStatus = 2131362015;
 			
-			// aapt resource value: 0x7f0a00ea
-			public const int info = 2131362026;
+			// aapt resource value: 0x7f0a007f
+			public const int imagewithtext = 2131361919;
+			
+			// aapt resource value: 0x7f0a007b
+			public const int indeterminate = 2131361915;
+			
+			// aapt resource value: 0x7f0a00f5
+			public const int info = 2131362037;
 			
 			// aapt resource value: 0x7f0a006a
 			public const int invisible = 2131361898;
@@ -5813,11 +6095,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0052
 			public const int labeled = 2131361874;
 			
-			// aapt resource value: 0x7f0a007c
-			public const int large = 2131361916;
+			// aapt resource value: 0x7f0a0082
+			public const int large = 2131361922;
 			
-			// aapt resource value: 0x7f0a00c7
-			public const int largeLabel = 2131361991;
+			// aapt resource value: 0x7f0a00cc
+			public const int largeLabel = 2131361996;
 			
 			// aapt resource value: 0x7f0a0058
 			public const int left = 2131361880;
@@ -5828,29 +6110,29 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001d
 			public const int line3 = 2131361821;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int linearLayoutBrightness = 2131362007;
+			// aapt resource value: 0x7f0a00e2
+			public const int linearLayoutBrightness = 2131362018;
 			
-			// aapt resource value: 0x7f0a00d3
-			public const int linearLayoutLampMain = 2131362003;
+			// aapt resource value: 0x7f0a00de
+			public const int linearLayoutLampMain = 2131362014;
 			
-			// aapt resource value: 0x7f0a00ff
-			public const int linearLayoutProgress = 2131362047;
+			// aapt resource value: 0x7f0a010a
+			public const int linearLayoutProgress = 2131362058;
 			
 			// aapt resource value: 0x7f0a0028
 			public const int listMode = 2131361832;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int list_item = 2131361927;
+			// aapt resource value: 0x7f0a008c
+			public const int list_item = 2131361932;
 			
-			// aapt resource value: 0x7f0a0107
-			public const int masked = 2131362055;
+			// aapt resource value: 0x7f0a0112
+			public const int masked = 2131362066;
 			
-			// aapt resource value: 0x7f0a00e3
-			public const int media_actions = 2131362019;
+			// aapt resource value: 0x7f0a00ee
+			public const int media_actions = 2131362030;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int message = 2131361970;
+			// aapt resource value: 0x7f0a00b7
+			public const int message = 2131361975;
 			
 			// aapt resource value: 0x7f0a003c
 			public const int middle = 2131361852;
@@ -5867,8 +6149,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0033
 			public const int multiply = 2131361843;
 			
-			// aapt resource value: 0x7f0a00cc
-			public const int navigation_header_container = 2131361996;
+			// aapt resource value: 0x7f0a00d1
+			public const int navigation_header_container = 2131362001;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int never = 2131361862;
@@ -5879,17 +6161,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0029
 			public const int normal = 2131361833;
 			
-			// aapt resource value: 0x7f0a00ec
-			public const int notification_background = 2131362028;
+			// aapt resource value: 0x7f0a00f7
+			public const int notification_background = 2131362039;
 			
-			// aapt resource value: 0x7f0a00e6
-			public const int notification_main_column = 2131362022;
+			// aapt resource value: 0x7f0a00f1
+			public const int notification_main_column = 2131362033;
 			
-			// aapt resource value: 0x7f0a00e5
-			public const int notification_main_column_container = 2131362021;
+			// aapt resource value: 0x7f0a00f0
+			public const int notification_main_column_container = 2131362032;
 			
-			// aapt resource value: 0x7f0a00fb
-			public const int ok = 2131362043;
+			// aapt resource value: 0x7f0a0106
+			public const int ok = 2131362054;
 			
 			// aapt resource value: 0x7f0a0064
 			public const int outline = 2131361892;
@@ -5903,8 +6185,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a006b
 			public const int parent = 2131361899;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int parentPanel = 2131361931;
+			// aapt resource value: 0x7f0a0090
+			public const int parentPanel = 2131361936;
 			
 			// aapt resource value: 0x7f0a000b
 			public const int parent_matrix = 2131361803;
@@ -5915,11 +6197,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a005c
 			public const int pin = 2131361884;
 			
-			// aapt resource value: 0x7f0a007f
-			public const int preset = 2131361919;
+			// aapt resource value: 0x7f0a0085
+			public const int preset = 2131361925;
 			
-			// aapt resource value: 0x7f0a0100
-			public const int progressBarOpening = 2131362048;
+			// aapt resource value: 0x7f0a010b
+			public const int progressBarOpening = 2131362059;
 			
 			// aapt resource value: 0x7f0a0006
 			public const int progress_circular = 2131361798;
@@ -5927,29 +6209,32 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0007
 			public const int progress_horizontal = 2131361799;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int radio = 2131361949;
+			// aapt resource value: 0x7f0a00a2
+			public const int radio = 2131361954;
 			
-			// aapt resource value: 0x7f0a00dc
-			public const int recyclerViewLights = 2131362012;
+			// aapt resource value: 0x7f0a00e7
+			public const int recyclerViewLights = 2131362023;
 			
-			// aapt resource value: 0x7f0a00f5
-			public const int recyclerViewSettings = 2131362037;
+			// aapt resource value: 0x7f0a00dd
+			public const int recyclerViewSensorTemperatures = 2131362013;
 			
-			// aapt resource value: 0x7f0a00f1
-			public const int recycler_view = 2131362033;
+			// aapt resource value: 0x7f0a0100
+			public const int recyclerViewSettings = 2131362048;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int regular = 2131361917;
+			// aapt resource value: 0x7f0a00fc
+			public const int recycler_view = 2131362044;
+			
+			// aapt resource value: 0x7f0a0083
+			public const int regular = 2131361923;
 			
 			// aapt resource value: 0x7f0a0059
 			public const int right = 2131361881;
 			
-			// aapt resource value: 0x7f0a00eb
-			public const int right_icon = 2131362027;
+			// aapt resource value: 0x7f0a00f6
+			public const int right_icon = 2131362038;
 			
-			// aapt resource value: 0x7f0a00e7
-			public const int right_side = 2131362023;
+			// aapt resource value: 0x7f0a00f2
+			public const int right_side = 2131362034;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int save_image_matrix = 2131361804;
@@ -5966,74 +6251,77 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a004d
 			public const int scroll = 2131361869;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int scrollIndicatorDown = 2131361937;
+			// aapt resource value: 0x7f0a0096
+			public const int scrollIndicatorDown = 2131361942;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int scrollIndicatorUp = 2131361933;
+			// aapt resource value: 0x7f0a0092
+			public const int scrollIndicatorUp = 2131361938;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int scrollView = 2131361934;
+			// aapt resource value: 0x7f0a0093
+			public const int scrollView = 2131361939;
 			
 			// aapt resource value: 0x7f0a0061
 			public const int scrollable = 2131361889;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int search_badge = 2131361959;
-			
-			// aapt resource value: 0x7f0a00a6
-			public const int search_bar = 2131361958;
-			
-			// aapt resource value: 0x7f0a00a8
-			public const int search_button = 2131361960;
-			
-			// aapt resource value: 0x7f0a00ad
-			public const int search_close_btn = 2131361965;
-			
-			// aapt resource value: 0x7f0a00a9
-			public const int search_edit_frame = 2131361961;
-			
-			// aapt resource value: 0x7f0a00af
-			public const int search_go_btn = 2131361967;
-			
-			// aapt resource value: 0x7f0a00aa
-			public const int search_mag_icon = 2131361962;
+			// aapt resource value: 0x7f0a00ac
+			public const int search_badge = 2131361964;
 			
 			// aapt resource value: 0x7f0a00ab
-			public const int search_plate = 2131361963;
+			public const int search_bar = 2131361963;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int search_src_text = 2131361964;
+			// aapt resource value: 0x7f0a00ad
+			public const int search_button = 2131361965;
+			
+			// aapt resource value: 0x7f0a00b2
+			public const int search_close_btn = 2131361970;
+			
+			// aapt resource value: 0x7f0a00ae
+			public const int search_edit_frame = 2131361966;
+			
+			// aapt resource value: 0x7f0a00b4
+			public const int search_go_btn = 2131361972;
+			
+			// aapt resource value: 0x7f0a00af
+			public const int search_mag_icon = 2131361967;
 			
 			// aapt resource value: 0x7f0a00b0
-			public const int search_voice_btn = 2131361968;
-			
-			// aapt resource value: 0x7f0a00d8
-			public const int seekBarBrightness = 2131362008;
-			
-			// aapt resource value: 0x7f0a00f2
-			public const int seekbar = 2131362034;
-			
-			// aapt resource value: 0x7f0a00f3
-			public const int seekbar_value = 2131362035;
+			public const int search_plate = 2131361968;
 			
 			// aapt resource value: 0x7f0a00b1
-			public const int select_dialog_listview = 2131361969;
+			public const int search_src_text = 2131361969;
+			
+			// aapt resource value: 0x7f0a00b5
+			public const int search_voice_btn = 2131361973;
+			
+			// aapt resource value: 0x7f0a00e3
+			public const int seekBarBrightness = 2131362019;
+			
+			// aapt resource value: 0x7f0a00fd
+			public const int seekbar = 2131362045;
+			
+			// aapt resource value: 0x7f0a00fe
+			public const int seekbar_value = 2131362046;
+			
+			// aapt resource value: 0x7f0a00b6
+			public const int select_dialog_listview = 2131361974;
 			
 			// aapt resource value: 0x7f0a0053
 			public const int selected = 2131361875;
 			
-			// aapt resource value: 0x7f0a00f6
-			public const int settingItemLayout = 2131362038;
+			// aapt resource value: 0x7f0a0101
+			public const int settingItemLayout = 2131362049;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int shades_divider = 2131361984;
+			// aapt resource value: 0x7f0a00da
+			public const int sfSegmentedControlPower = 2131362010;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int shades_layout = 2131361985;
+			// aapt resource value: 0x7f0a00c5
+			public const int shades_divider = 2131361989;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int shortcut = 2131361945;
+			// aapt resource value: 0x7f0a00c6
+			public const int shades_layout = 2131361990;
+			
+			// aapt resource value: 0x7f0a009e
+			public const int shortcut = 2131361950;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int showCustom = 2131361838;
@@ -6044,8 +6332,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0030
 			public const int showTitle = 2131361840;
 			
-			// aapt resource value: 0x7f0a00c6
-			public const int smallLabel = 2131361990;
+			// aapt resource value: 0x7f0a00cb
+			public const int smallLabel = 2131361995;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int snackbar_action = 2131361814;
@@ -6059,11 +6347,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a004f
 			public const int snapMargins = 2131361871;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int spacer = 2131361930;
+			// aapt resource value: 0x7f0a008f
+			public const int spacer = 2131361935;
 			
-			// aapt resource value: 0x7f0a00f0
-			public const int spinner = 2131362032;
+			// aapt resource value: 0x7f0a00fb
+			public const int spinner = 2131362043;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int split_action_bar = 2131361800;
@@ -6074,8 +6362,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0070
 			public const int spread_inside = 2131361904;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int square = 2131361915;
+			// aapt resource value: 0x7f0a0081
+			public const int square = 2131361921;
 			
 			// aapt resource value: 0x7f0a0035
 			public const int src_atop = 2131361845;
@@ -6092,26 +6380,26 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a005a
 			public const int start = 2131361882;
 			
-			// aapt resource value: 0x7f0a00e2
-			public const int status_bar_latest_event_content = 2131362018;
+			// aapt resource value: 0x7f0a00ed
+			public const int status_bar_latest_event_content = 2131362029;
 			
 			// aapt resource value: 0x7f0a005f
 			public const int stretch = 2131361887;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int submenuarrow = 2131361946;
+			// aapt resource value: 0x7f0a009f
+			public const int submenuarrow = 2131361951;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int submit_area = 2131361966;
+			// aapt resource value: 0x7f0a00b3
+			public const int submit_area = 2131361971;
 			
-			// aapt resource value: 0x7f0a00da
-			public const int switchColorLightOn = 2131362010;
+			// aapt resource value: 0x7f0a00e5
+			public const int switchColorLightOn = 2131362021;
 			
-			// aapt resource value: 0x7f0a00d6
-			public const int switchLightOn = 2131362006;
+			// aapt resource value: 0x7f0a00e1
+			public const int switchLightOn = 2131362017;
 			
-			// aapt resource value: 0x7f0a00f4
-			public const int switchWidget = 2131362036;
+			// aapt resource value: 0x7f0a00ff
+			public const int switchWidget = 2131362047;
 			
 			// aapt resource value: 0x7f0a002a
 			public const int tabMode = 2131361834;
@@ -6131,35 +6419,38 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0022
 			public const int text2 = 2131361826;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int textSpacerNoButtons = 2131361936;
+			// aapt resource value: 0x7f0a0095
+			public const int textSpacerNoButtons = 2131361941;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int textSpacerNoTitle = 2131361935;
+			// aapt resource value: 0x7f0a0094
+			public const int textSpacerNoTitle = 2131361940;
 			
 			// aapt resource value: 0x7f0a005e
 			public const int textStart = 2131361886;
 			
 			// aapt resource value: 0x7f0a00d9
-			public const int textViewBrightnessLevel = 2131362009;
+			public const int textView1 = 2131362009;
 			
-			// aapt resource value: 0x7f0a00d5
-			public const int textViewLightName = 2131362005;
+			// aapt resource value: 0x7f0a00e4
+			public const int textViewBrightnessLevel = 2131362020;
 			
-			// aapt resource value: 0x7f0a0101
-			public const int textViewProgressStatus = 2131362049;
+			// aapt resource value: 0x7f0a00e0
+			public const int textViewLightName = 2131362016;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int textViewSaunaNameSettings = 2131361972;
+			// aapt resource value: 0x7f0a010c
+			public const int textViewProgressStatus = 2131362060;
 			
-			// aapt resource value: 0x7f0a00f7
-			public const int textViewSettingName = 2131362039;
+			// aapt resource value: 0x7f0a00b9
+			public const int textViewSaunaNameSettings = 2131361977;
 			
-			// aapt resource value: 0x7f0a00f8
-			public const int textViewSettingStatus = 2131362040;
+			// aapt resource value: 0x7f0a0102
+			public const int textViewSettingName = 2131362050;
 			
-			// aapt resource value: 0x7f0a00d1
-			public const int text_input_password_toggle = 2131362001;
+			// aapt resource value: 0x7f0a0103
+			public const int textViewSettingStatus = 2131362051;
+			
+			// aapt resource value: 0x7f0a00d6
+			public const int text_input_password_toggle = 2131362006;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int textinput_counter = 2131361816;
@@ -6170,38 +6461,41 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001a
 			public const int textinput_helper_text = 2131361818;
 			
-			// aapt resource value: 0x7f0a00e8
-			public const int time = 2131362024;
+			// aapt resource value: 0x7f0a00f3
+			public const int time = 2131362035;
 			
 			// aapt resource value: 0x7f0a0023
 			public const int title = 2131361827;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int titleDividerNoCustom = 2131361942;
+			// aapt resource value: 0x7f0a009b
+			public const int titleDividerNoCustom = 2131361947;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int title_template = 2131361940;
+			// aapt resource value: 0x7f0a0099
+			public const int title_template = 2131361945;
 			
-			// aapt resource value: 0x7f0a0103
-			public const int toggleButtonFan1 = 2131362051;
+			// aapt resource value: 0x7f0a010e
+			public const int toggleButtonFan1 = 2131362062;
 			
-			// aapt resource value: 0x7f0a0105
-			public const int toggleButtonFan2 = 2131362053;
+			// aapt resource value: 0x7f0a0110
+			public const int toggleButtonFan2 = 2131362064;
 			
-			// aapt resource value: 0x7f0a00fe
-			public const int toggleVentilation = 2131362046;
+			// aapt resource value: 0x7f0a00d8
+			public const int toggleHeater = 2131362008;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int toolbar = 2131361971;
+			// aapt resource value: 0x7f0a0109
+			public const int toggleVentilation = 2131362057;
+			
+			// aapt resource value: 0x7f0a00b8
+			public const int toolbar = 2131361976;
 			
 			// aapt resource value: 0x7f0a0049
 			public const int top = 2131361865;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int topPanel = 2131361939;
+			// aapt resource value: 0x7f0a0098
+			public const int topPanel = 2131361944;
 			
-			// aapt resource value: 0x7f0a00ca
-			public const int touch_outside = 2131361994;
+			// aapt resource value: 0x7f0a00cf
+			public const int touch_outside = 2131361999;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int transition_current_scene = 2131361807;
@@ -6218,17 +6512,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0013
 			public const int transition_transform = 2131361811;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int transparency_layout = 2131361987;
+			// aapt resource value: 0x7f0a00c8
+			public const int transparency_layout = 2131361992;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int transparency_seekbar = 2131361988;
+			// aapt resource value: 0x7f0a00c9
+			public const int transparency_seekbar = 2131361993;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int transparency_text = 2131361989;
+			// aapt resource value: 0x7f0a00ca
+			public const int transparency_text = 2131361994;
 			
-			// aapt resource value: 0x7f0a00c2
-			public const int transparency_title = 2131361986;
+			// aapt resource value: 0x7f0a00c7
+			public const int transparency_title = 2131361991;
+			
+			// aapt resource value: 0x7f0a007c
+			public const int @unchecked = 2131361916;
 			
 			// aapt resource value: 0x7f0a0038
 			public const int uniform = 2131361848;
@@ -6245,8 +6542,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001b
 			public const int view_offset_helper = 2131361819;
 			
-			// aapt resource value: 0x7f0a0106
-			public const int visible = 2131362054;
+			// aapt resource value: 0x7f0a0111
+			public const int visible = 2131362065;
 			
 			// aapt resource value: 0x7f0a0047
 			public const int withText = 2131361863;
@@ -6329,16 +6626,31 @@ namespace firstxamarindroid
 		{
 			
 			// aapt resource value: 0x7f070000
-			public const int mtrl_fast_out_linear_in = 2131165184;
+			public const int btn_checkbox_checked_animation_interpolator_0 = 2131165184;
 			
 			// aapt resource value: 0x7f070001
-			public const int mtrl_fast_out_slow_in = 2131165185;
+			public const int btn_checkbox_checked_animation_interpolator_1 = 2131165185;
 			
 			// aapt resource value: 0x7f070002
-			public const int mtrl_linear = 2131165186;
+			public const int btn_checkbox_indeterminate_animation_interpolator_1 = 2131165186;
 			
 			// aapt resource value: 0x7f070003
-			public const int mtrl_linear_out_slow_in = 2131165187;
+			public const int btn_checkbox_unchecked_animation_interpolator_0 = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int btn_checkbox_unchecked_animation_interpolator_1 = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int mtrl_fast_out_linear_in = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public const int mtrl_fast_out_slow_in = 2131165190;
+			
+			// aapt resource value: 0x7f070007
+			public const int mtrl_linear = 2131165191;
+			
+			// aapt resource value: 0x7f070008
+			public const int mtrl_linear_out_slow_in = 2131165192;
 			
 			static Interpolator()
 			{
@@ -9928,9 +10240,9 @@ namespace firstxamarindroid
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
 			
 			public static int[] ColorPanelView = new int[] {
-					2130772563,
-					2130772564,
-					2130772565};
+					2130772579,
+					2130772580,
+					2130772581};
 			
 			// aapt resource value: 2
 			public const int ColorPanelView_cpv_borderColor = 2;
@@ -9942,11 +10254,11 @@ namespace firstxamarindroid
 			public const int ColorPanelView_cpv_showOldColor = 0;
 			
 			public static int[] ColorPickerView = new int[] {
-					2130772565,
-					2130772566,
-					2130772567,
-					2130772568,
-					2130772582};
+					2130772581,
+					2130772582,
+					2130772583,
+					2130772584,
+					2130772598};
 			
 			// aapt resource value: 2
 			public const int ColorPickerView_cpv_alphaChannelText = 2;
@@ -9964,20 +10276,20 @@ namespace firstxamarindroid
 			public const int ColorPickerView_enableAlpha = 4;
 			
 			public static int[] ColorPreference = new int[] {
-					2130772564,
-					2130772569,
-					2130772570,
-					2130772571,
-					2130772572,
-					2130772573,
-					2130772574,
-					2130772575,
-					2130772576,
-					2130772577,
-					2130772578,
-					2130772579,
 					2130772580,
-					2130772581};
+					2130772585,
+					2130772586,
+					2130772587,
+					2130772588,
+					2130772589,
+					2130772590,
+					2130772591,
+					2130772592,
+					2130772593,
+					2130772594,
+					2130772595,
+					2130772596,
+					2130772597};
 			
 			// aapt resource value: 8
 			public const int ColorPreference_cpv_allowCustom = 8;
@@ -10690,6 +11002,12 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 9
 			public const int DialogPreference_positiveButtonText = 9;
+			
+			public static int[] DrawableStates = new int[] {
+					2130772563};
+			
+			// aapt resource value: 0
+			public const int DrawableStates_state_indeterminate = 0;
 			
 			public static int[] DrawerArrowToggle = new int[] {
 					2130772228,
@@ -11946,6 +12264,70 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 5
 			public const int SeekBarPreference_showSeekBarValue = 5;
+			
+			public static int[] SfCheckBox = new int[] {
+					2130772564,
+					2130772565,
+					2130772566};
+			
+			// aapt resource value: 2
+			public const int SfCheckBox_checked = 2;
+			
+			// aapt resource value: 1
+			public const int SfCheckBox_cornerradius = 1;
+			
+			// aapt resource value: 0
+			public const int SfCheckBox_isthreestate = 0;
+			
+			public static int[] SfSegmentedControl = new int[] {
+					2130772567,
+					2130772568,
+					2130772569,
+					2130772570,
+					2130772571,
+					2130772572,
+					2130772573,
+					2130772574,
+					2130772575,
+					2130772576,
+					2130772577,
+					2130772578};
+			
+			// aapt resource value: 1
+			public const int SfSegmentedControl_segmentBackColor = 1;
+			
+			// aapt resource value: 2
+			public const int SfSegmentedControl_segmentBorderColor = 2;
+			
+			// aapt resource value: 3
+			public const int SfSegmentedControl_segmentBorderThickness = 3;
+			
+			// aapt resource value: 4
+			public const int SfSegmentedControl_segmentColor = 4;
+			
+			// aapt resource value: 9
+			public const int SfSegmentedControl_segmentCornerRadius = 9;
+			
+			// aapt resource value: 11
+			public const int SfSegmentedControl_segmentDisplayMode = 11;
+			
+			// aapt resource value: 10
+			public const int SfSegmentedControl_segmentPosition = 10;
+			
+			// aapt resource value: 0
+			public const int SfSegmentedControl_segmentSelectedIndex = 0;
+			
+			// aapt resource value: 8
+			public const int SfSegmentedControl_segmentStrokeThickness = 8;
+			
+			// aapt resource value: 6
+			public const int SfSegmentedControl_segmentedHeight = 6;
+			
+			// aapt resource value: 5
+			public const int SfSegmentedControl_segmentedPadding = 5;
+			
+			// aapt resource value: 7
+			public const int SfSegmentedControl_segmentedWidth = 7;
 			
 			public static int[] Snackbar = new int[] {
 					2130772429,
