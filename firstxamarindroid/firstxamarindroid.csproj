@@ -87,6 +87,7 @@
     <Compile Include="Adapters\SongsAdapter.cs" />
     <Compile Include="Models\SongModel.cs" />
     <Compile Include="ViewHolders\SongViewHolder.cs" />
+    <Compile Include="Activities\SplashScreenActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -135,6 +136,9 @@
     <AndroidResource Include="Resources\layout\item_sensor_layout.axml" />
     <AndroidResource Include="Resources\layout\item_song_layout.axml" />
     <AndroidResource Include="Resources\mipmap-xhdpi\ic_play.png" />
+    <AndroidResource Include="Resources\drawable\splash_screen_drawable.xml" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_logo.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_splash_logo.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />

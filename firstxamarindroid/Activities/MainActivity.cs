@@ -16,7 +16,7 @@ using firstxamarindroid.Fragments;
 
 namespace firstxamarindroid
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
+    [Activity(Label = "Sauna Settings", Theme = "@style/AppTheme.NoActionBar")]
     public class MainActivity : AppCompatActivity, IColorPickerDialogListener
     {
         [InjectView(Resource.Id.toolbar)]
