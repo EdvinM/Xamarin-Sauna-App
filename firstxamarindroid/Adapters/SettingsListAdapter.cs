@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using Android.Graphics;
+using Android.Support.V4.Content;
 using Android.Support.V7.Widget;
 using Android.Util;
 using Android.Views;
@@ -25,17 +27,26 @@ namespace firstxamarindroid.Helpers
 
         public override int ItemCount => this.settingItemModelsList.Count;
 
+        [Obsolete]
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             SettingItemModel settingItemModel = this.settingItemModelsList[position];
 
+
+
             // Set values corresponding to settings items.
             SettingsItemViewHolder settingsItemViewHolder = (SettingsItemViewHolder)holder;
             settingsItemViewHolder.textViewSettingName.Text = settingItemModel.Name;
+
             settingsItemViewHolder.textViewSettingStatus.Text = settingItemModel.Status;
+            settingsItemViewHolder.textViewSettingStatus.Background = settingsItemViewHolder.ItemView.Context.Resources.GetDrawable((settingItemModel.Status.Equals("On") ? Resource.Drawable.rounded_textview_on : Resource.Drawable.rounded_textview_off));
+            settingsItemViewHolder.textViewSettingStatus.SetTextColor(new Color(ContextCompat.GetColor(settingsItemViewHolder.ItemView.Context, (settingItemModel.Status.Equals("On") ? Resource.Color.colorPrimaryGreen : Resource.Color.colorPrimaryRed))));
+
             Glide.With(settingsItemViewHolder.ItemView.Context).Load(settingItemModel.Icon)
                 .Apply(new Com.Bumptech.Glide.Request.RequestOptions().Override(64, 64))
                 .Into(settingsItemViewHolder.imageViewSettingIcon);
+
+
 
             // Add layout setting position tag, so we can access it from click handler function
             settingsItemViewHolder.settingItemLayout.SetTag(Resource.String.res_setting_tag_id, position);

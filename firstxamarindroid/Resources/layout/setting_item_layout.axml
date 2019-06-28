@@ -44,6 +44,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/textViewSettingStatus"
             android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:background="@drawable/rounded_textview_on"
             android:textSize="16dp"
             android:text="Status: On" />
 
