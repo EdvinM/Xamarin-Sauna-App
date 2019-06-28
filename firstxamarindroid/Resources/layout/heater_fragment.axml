@@ -38,12 +38,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="50dp"
 		android:layout_marginBottom="20dp"
-		android:id="@+id/sfSegmentedControlPower"
-		app:segmentDisplayMode="text"
-		app:segmentedHeight="30dp"
-		app:segmentCornerRadius="5dp"
-		app:segmentPosition="top"
-		app:segmentSelectedIndex="0"/>
+		android:id="@+id/sfSegmentedControlPower"/>
 
 	<TextView
 		android:textAppearance="?android:attr/textAppearanceLarge"
@@ -85,6 +80,7 @@
         android:id="@+id/textView1"
         android:layout_marginBottom="20dp"
         android:text="Sensor Temperatures" />
+    
 	<android.support.v7.widget.RecyclerView
 		android:minWidth="25px"
 		android:minHeight="25px"

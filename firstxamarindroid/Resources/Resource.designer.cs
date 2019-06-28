@@ -1872,6 +1872,327 @@ namespace firstxamarindroid
 			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentedHeight = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentedHeight;
 			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentedPadding = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentedPadding;
 			global::Syncfusion.Buttons.Android.Resource.Styleable.SfSegmentedControl_segmentedWidth = global::firstxamarindroid.Resource.Styleable.SfSegmentedControl_segmentedWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerColor = global::firstxamarindroid.Resource.Attribute.barPointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerCornerRadius = global::firstxamarindroid.Resource.Attribute.barPointerCornerRadius;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerCornerRadiusType = global::firstxamarindroid.Resource.Attribute.barPointerCornerRadiusType;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerStrokeWidth = global::firstxamarindroid.Resource.Attribute.barPointerStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerValue = global::firstxamarindroid.Resource.Attribute.barPointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.characterHeight = global::firstxamarindroid.Resource.Attribute.characterHeight;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.characterSpacing = global::firstxamarindroid.Resource.Attribute.characterSpacing;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.characterStrokeColor = global::firstxamarindroid.Resource.Attribute.characterStrokeColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.characterType = global::firstxamarindroid.Resource.Attribute.characterType;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.characterWidth = global::firstxamarindroid.Resource.Attribute.characterWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularGaugeScaleDirection = global::firstxamarindroid.Resource.Attribute.circularGaugeScaleDirection;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleInterval = global::firstxamarindroid.Resource.Attribute.circularScaleInterval;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelOffset = global::firstxamarindroid.Resource.Attribute.circularScaleLabelOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelPostfix = global::firstxamarindroid.Resource.Attribute.circularScaleLabelPostfix;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelPrefix = global::firstxamarindroid.Resource.Attribute.circularScaleLabelPrefix;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelTextColor = global::firstxamarindroid.Resource.Attribute.circularScaleLabelTextColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelTextSize = global::firstxamarindroid.Resource.Attribute.circularScaleLabelTextSize;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMajorTickColor = global::firstxamarindroid.Resource.Attribute.circularScaleMajorTickColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMajorTickOffset = global::firstxamarindroid.Resource.Attribute.circularScaleMajorTickOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMaximumLabels = global::firstxamarindroid.Resource.Attribute.circularScaleMaximumLabels;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMinorTickColor = global::firstxamarindroid.Resource.Attribute.circularScaleMinorTickColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMinorTickOffset = global::firstxamarindroid.Resource.Attribute.circularScaleMinorTickOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMinorTicksPerInterval = global::firstxamarindroid.Resource.Attribute.circularScaleMinorTicksPerInterval;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeColor = global::firstxamarindroid.Resource.Attribute.circularScaleRangeColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeEndValue = global::firstxamarindroid.Resource.Attribute.circularScaleRangeEndValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeOffset = global::firstxamarindroid.Resource.Attribute.circularScaleRangeOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeStartValue = global::firstxamarindroid.Resource.Attribute.circularScaleRangeStartValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleShowLabels = global::firstxamarindroid.Resource.Attribute.circularScaleShowLabels;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleShowTicks = global::firstxamarindroid.Resource.Attribute.circularScaleShowTicks;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.dimmedSegmentAlpha = global::firstxamarindroid.Resource.Attribute.dimmedSegmentAlpha;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.dimmedSegmentColor = global::firstxamarindroid.Resource.Attribute.dimmedSegmentColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeCircularCoefficient = global::firstxamarindroid.Resource.Attribute.gaugeCircularCoefficient;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeHeaderAlignment = global::firstxamarindroid.Resource.Attribute.gaugeHeaderAlignment;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeHorizontalHeaderPosition = global::firstxamarindroid.Resource.Attribute.gaugeHorizontalHeaderPosition;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeText = global::firstxamarindroid.Resource.Attribute.gaugeText;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeTextColor = global::firstxamarindroid.Resource.Attribute.gaugeTextColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeTextSize = global::firstxamarindroid.Resource.Attribute.gaugeTextSize;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeVerticalHeaderPosition = global::firstxamarindroid.Resource.Attribute.gaugeVerticalHeaderPosition;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerColor = global::firstxamarindroid.Resource.Attribute.markerPointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerHeight = global::firstxamarindroid.Resource.Attribute.markerPointerHeight;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerOffset = global::firstxamarindroid.Resource.Attribute.markerPointerOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerValue = global::firstxamarindroid.Resource.Attribute.markerPointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerWidth = global::firstxamarindroid.Resource.Attribute.markerPointerWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.markerShape = global::firstxamarindroid.Resource.Attribute.markerShape;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.maximumLabels = global::firstxamarindroid.Resource.Attribute.maximumLabels;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerColor = global::firstxamarindroid.Resource.Attribute.needlePointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobColor = global::firstxamarindroid.Resource.Attribute.needlePointerKnobColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobRadius = global::firstxamarindroid.Resource.Attribute.needlePointerKnobRadius;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobStrokeColor = global::firstxamarindroid.Resource.Attribute.needlePointerKnobStrokeColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobStrokeWidth = global::firstxamarindroid.Resource.Attribute.needlePointerKnobStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerLengthFactor = global::firstxamarindroid.Resource.Attribute.needlePointerLengthFactor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailColor = global::firstxamarindroid.Resource.Attribute.needlePointerTailColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailLengthFactor = global::firstxamarindroid.Resource.Attribute.needlePointerTailLengthFactor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailStrokeColor = global::firstxamarindroid.Resource.Attribute.needlePointerTailStrokeColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailStrokeWidth = global::firstxamarindroid.Resource.Attribute.needlePointerTailStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerType = global::firstxamarindroid.Resource.Attribute.needlePointerType;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerValue = global::firstxamarindroid.Resource.Attribute.needlePointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerWidth = global::firstxamarindroid.Resource.Attribute.needlePointerWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeColor = global::firstxamarindroid.Resource.Attribute.rangeColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeEndValue = global::firstxamarindroid.Resource.Attribute.rangeEndValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeEndWidth = global::firstxamarindroid.Resource.Attribute.rangeEndWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeInnerEndOffset = global::firstxamarindroid.Resource.Attribute.rangeInnerEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeInnerStartOffset = global::firstxamarindroid.Resource.Attribute.rangeInnerStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeOffset = global::firstxamarindroid.Resource.Attribute.rangeOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeOuterEndOffset = global::firstxamarindroid.Resource.Attribute.rangeOuterEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeOuterStartOffset = global::firstxamarindroid.Resource.Attribute.rangeOuterStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerCap = global::firstxamarindroid.Resource.Attribute.rangePointerCap;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerColor = global::firstxamarindroid.Resource.Attribute.rangePointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerEndOffset = global::firstxamarindroid.Resource.Attribute.rangePointerEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerOffset = global::firstxamarindroid.Resource.Attribute.rangePointerOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerStartOffset = global::firstxamarindroid.Resource.Attribute.rangePointerStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerStartValue = global::firstxamarindroid.Resource.Attribute.rangePointerStartValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerValue = global::firstxamarindroid.Resource.Attribute.rangePointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerWidth = global::firstxamarindroid.Resource.Attribute.rangePointerWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeStartValue = global::firstxamarindroid.Resource.Attribute.rangeStartValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeStartWidth = global::firstxamarindroid.Resource.Attribute.rangeStartWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeWidth = global::firstxamarindroid.Resource.Attribute.rangeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleAutoAngle = global::firstxamarindroid.Resource.Attribute.scaleAutoAngle;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleAutoInterval = global::firstxamarindroid.Resource.Attribute.scaleAutoInterval;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleBarColor = global::firstxamarindroid.Resource.Attribute.scaleBarColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleBarLength = global::firstxamarindroid.Resource.Attribute.scaleBarLength;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleBarSize = global::firstxamarindroid.Resource.Attribute.scaleBarSize;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleCornerRadius = global::firstxamarindroid.Resource.Attribute.scaleCornerRadius;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleCornerRadiusType = global::firstxamarindroid.Resource.Attribute.scaleCornerRadiusType;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleDirection = global::firstxamarindroid.Resource.Attribute.scaleDirection;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleEndAngle = global::firstxamarindroid.Resource.Attribute.scaleEndAngle;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleEndOffset = global::firstxamarindroid.Resource.Attribute.scaleEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleEndValue = global::firstxamarindroid.Resource.Attribute.scaleEndValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleInterval = global::firstxamarindroid.Resource.Attribute.scaleInterval;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelColor = global::firstxamarindroid.Resource.Attribute.scaleLabelColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelFontSize = global::firstxamarindroid.Resource.Attribute.scaleLabelFontSize;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelOffset = global::firstxamarindroid.Resource.Attribute.scaleLabelOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelPostfix = global::firstxamarindroid.Resource.Attribute.scaleLabelPostfix;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelPrefix = global::firstxamarindroid.Resource.Attribute.scaleLabelPrefix;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickColor = global::firstxamarindroid.Resource.Attribute.scaleMajorTickColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickEndOffset = global::firstxamarindroid.Resource.Attribute.scaleMajorTickEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickLength = global::firstxamarindroid.Resource.Attribute.scaleMajorTickLength;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickOffset = global::firstxamarindroid.Resource.Attribute.scaleMajorTickOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickSize = global::firstxamarindroid.Resource.Attribute.scaleMajorTickSize;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickStartOffset = global::firstxamarindroid.Resource.Attribute.scaleMajorTickStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickStrokeWidth = global::firstxamarindroid.Resource.Attribute.scaleMajorTickStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickWidth = global::firstxamarindroid.Resource.Attribute.scaleMajorTickWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMaximum = global::firstxamarindroid.Resource.Attribute.scaleMaximum;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinimum = global::firstxamarindroid.Resource.Attribute.scaleMinimum;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickColor = global::firstxamarindroid.Resource.Attribute.scaleMinorTickColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickEndOffset = global::firstxamarindroid.Resource.Attribute.scaleMinorTickEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickLength = global::firstxamarindroid.Resource.Attribute.scaleMinorTickLength;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickOffset = global::firstxamarindroid.Resource.Attribute.scaleMinorTickOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickSize = global::firstxamarindroid.Resource.Attribute.scaleMinorTickSize;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickStartOffset = global::firstxamarindroid.Resource.Attribute.scaleMinorTickStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickStrokeWidth = global::firstxamarindroid.Resource.Attribute.scaleMinorTickStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickWidth = global::firstxamarindroid.Resource.Attribute.scaleMinorTickWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTicksPerInterval = global::firstxamarindroid.Resource.Attribute.scaleMinorTicksPerInterval;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleNumberofDecimalDigits = global::firstxamarindroid.Resource.Attribute.scaleNumberofDecimalDigits;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOffset = global::firstxamarindroid.Resource.Attribute.scaleOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOpposedPosition = global::firstxamarindroid.Resource.Attribute.scaleOpposedPosition;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOrientation = global::firstxamarindroid.Resource.Attribute.scaleOrientation;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleRadiusFactor = global::firstxamarindroid.Resource.Attribute.scaleRadiusFactor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleRimColor = global::firstxamarindroid.Resource.Attribute.scaleRimColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleRimWidth = global::firstxamarindroid.Resource.Attribute.scaleRimWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowFirstLabel = global::firstxamarindroid.Resource.Attribute.scaleShowFirstLabel;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowLabels = global::firstxamarindroid.Resource.Attribute.scaleShowLabels;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowLastLabel = global::firstxamarindroid.Resource.Attribute.scaleShowLastLabel;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowRim = global::firstxamarindroid.Resource.Attribute.scaleShowRim;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowTicks = global::firstxamarindroid.Resource.Attribute.scaleShowTicks;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleStartAngle = global::firstxamarindroid.Resource.Attribute.scaleStartAngle;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleStartOffset = global::firstxamarindroid.Resource.Attribute.scaleStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleStartValue = global::firstxamarindroid.Resource.Attribute.scaleStartValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.segmentStrokeWidth = global::firstxamarindroid.Resource.Attribute.segmentStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerColor = global::firstxamarindroid.Resource.Attribute.symbolPointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerOffset = global::firstxamarindroid.Resource.Attribute.symbolPointerOffset;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerStrokeWidth = global::firstxamarindroid.Resource.Attribute.symbolPointerStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerValue = global::firstxamarindroid.Resource.Attribute.symbolPointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPosition = global::firstxamarindroid.Resource.Attribute.symbolPosition;
+			global::Com.Syncfusion.Gauges.Resource.Dimension.pading_bottom = global::firstxamarindroid.Resource.Dimension.pading_bottom;
+			global::Com.Syncfusion.Gauges.Resource.Dimension.pading_top = global::firstxamarindroid.Resource.Dimension.pading_top;
+			global::Com.Syncfusion.Gauges.Resource.Id.anticlockwise = global::firstxamarindroid.Resource.Id.anticlockwise;
+			global::Com.Syncfusion.Gauges.Resource.Id.away = global::firstxamarindroid.Resource.Id.away;
+			global::Com.Syncfusion.Gauges.Resource.Id.backward = global::firstxamarindroid.Resource.Id.backward;
+			global::Com.Syncfusion.Gauges.Resource.Id.bar = global::firstxamarindroid.Resource.Id.bar;
+			global::Com.Syncfusion.Gauges.Resource.Id.both = global::firstxamarindroid.Resource.Id.both;
+			global::Com.Syncfusion.Gauges.Resource.Id.circle = global::firstxamarindroid.Resource.Id.circle;
+			global::Com.Syncfusion.Gauges.Resource.Id.clockwise = global::firstxamarindroid.Resource.Id.clockwise;
+			global::Com.Syncfusion.Gauges.Resource.Id.diamond = global::firstxamarindroid.Resource.Id.diamond;
+			global::Com.Syncfusion.Gauges.Resource.Id.eightCrossEightDotMatrix = global::firstxamarindroid.Resource.Id.eightCrossEightDotMatrix;
+			global::Com.Syncfusion.Gauges.Resource.Id.eightsegment = global::firstxamarindroid.Resource.Id.eightsegment;
+			global::Com.Syncfusion.Gauges.Resource.Id.end = global::firstxamarindroid.Resource.Id.end;
+			global::Com.Syncfusion.Gauges.Resource.Id.far = global::firstxamarindroid.Resource.Id.far;
+			global::Com.Syncfusion.Gauges.Resource.Id.forward = global::firstxamarindroid.Resource.Id.forward;
+			global::Com.Syncfusion.Gauges.Resource.Id.fourteensegment = global::firstxamarindroid.Resource.Id.fourteensegment;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeBottom = global::firstxamarindroid.Resource.Id.gaugeBottom;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeBottomLeft = global::firstxamarindroid.Resource.Id.gaugeBottomLeft;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeBottomRight = global::firstxamarindroid.Resource.Id.gaugeBottomRight;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeCenter = global::firstxamarindroid.Resource.Id.gaugeCenter;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeCustom = global::firstxamarindroid.Resource.Id.gaugeCustom;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeHorizontalHeaderCenter = global::firstxamarindroid.Resource.Id.gaugeHorizontalHeaderCenter;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeHorizontalHeaderEnd = global::firstxamarindroid.Resource.Id.gaugeHorizontalHeaderEnd;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeHorizontalHeaderStart = global::firstxamarindroid.Resource.Id.gaugeHorizontalHeaderStart;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeLeft = global::firstxamarindroid.Resource.Id.gaugeLeft;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeRight = global::firstxamarindroid.Resource.Id.gaugeRight;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeTop = global::firstxamarindroid.Resource.Id.gaugeTop;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeTopLeft = global::firstxamarindroid.Resource.Id.gaugeTopLeft;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeTopRight = global::firstxamarindroid.Resource.Id.gaugeTopRight;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeVerticalHeaderCenter = global::firstxamarindroid.Resource.Id.gaugeVerticalHeaderCenter;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeVerticalHeaderEnd = global::firstxamarindroid.Resource.Id.gaugeVerticalHeaderEnd;
+			global::Com.Syncfusion.Gauges.Resource.Id.gaugeVerticalHeaderStart = global::firstxamarindroid.Resource.Id.gaugeVerticalHeaderStart;
+			global::Com.Syncfusion.Gauges.Resource.Id.horizontal = global::firstxamarindroid.Resource.Id.horizontal;
+			global::Com.Syncfusion.Gauges.Resource.Id.image = global::firstxamarindroid.Resource.Id.image;
+			global::Com.Syncfusion.Gauges.Resource.Id.invertedTriangle = global::firstxamarindroid.Resource.Id.invertedTriangle;
+			global::Com.Syncfusion.Gauges.Resource.Id.none = global::firstxamarindroid.Resource.Id.none;
+			global::Com.Syncfusion.Gauges.Resource.Id.rectangle = global::firstxamarindroid.Resource.Id.rectangle;
+			global::Com.Syncfusion.Gauges.Resource.Id.rootLayout = global::firstxamarindroid.Resource.Id.rootLayout;
+			global::Com.Syncfusion.Gauges.Resource.Id.segmentFourteen = global::firstxamarindroid.Resource.Id.segmentFourteen;
+			global::Com.Syncfusion.Gauges.Resource.Id.segmentSeven = global::firstxamarindroid.Resource.Id.segmentSeven;
+			global::Com.Syncfusion.Gauges.Resource.Id.segmentSixteen = global::firstxamarindroid.Resource.Id.segmentSixteen;
+			global::Com.Syncfusion.Gauges.Resource.Id.sevensegment = global::firstxamarindroid.Resource.Id.sevensegment;
+			global::Com.Syncfusion.Gauges.Resource.Id.sixteensegment = global::firstxamarindroid.Resource.Id.sixteensegment;
+			global::Com.Syncfusion.Gauges.Resource.Id.start = global::firstxamarindroid.Resource.Id.start;
+			global::Com.Syncfusion.Gauges.Resource.Id.triangle = global::firstxamarindroid.Resource.Id.triangle;
+			global::Com.Syncfusion.Gauges.Resource.Id.vertical = global::firstxamarindroid.Resource.Id.vertical;
+			global::Com.Syncfusion.Gauges.Resource.Layout.circulargauge_layout = global::firstxamarindroid.Resource.Layout.circulargauge_layout;
+			global::Com.Syncfusion.Gauges.Resource.Layout.digitalgauge_layout = global::firstxamarindroid.Resource.Layout.digitalgauge_layout;
+			global::Com.Syncfusion.Gauges.Resource.String.ApplicationName = global::firstxamarindroid.Resource.String.ApplicationName;
+			global::Com.Syncfusion.Gauges.Resource.String.Hello = global::firstxamarindroid.Resource.String.Hello;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge = global::firstxamarindroid.Resource.Styleable.SfCircularGauge;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularGaugeScaleDirection = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularGaugeScaleDirection;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleInterval = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleInterval;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleLabelOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelPostfix = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleLabelPostfix;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelPrefix = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleLabelPrefix;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelTextColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleLabelTextColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelTextSize = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleLabelTextSize;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMajorTickColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleMajorTickColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMajorTickOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleMajorTickOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMaximumLabels = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleMaximumLabels;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMinorTickColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleMinorTickColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMinorTickOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleMinorTickOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMinorTicksPerInterval = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleMinorTicksPerInterval;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleRangeColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeEndValue = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleRangeEndValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleRangeOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeStartValue = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleRangeStartValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleShowLabels = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleShowLabels;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleShowTicks = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_circularScaleShowTicks;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeCircularCoefficient = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_gaugeCircularCoefficient;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeHeaderAlignment = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_gaugeHeaderAlignment;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeHorizontalHeaderPosition = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_gaugeHorizontalHeaderPosition;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeText = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_gaugeText;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeTextColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_gaugeTextColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeTextSize = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_gaugeTextSize;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeVerticalHeaderPosition = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_gaugeVerticalHeaderPosition;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_markerPointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerHeight = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_markerPointerHeight;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_markerPointerOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerValue = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_markerPointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerWidth = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_markerPointerWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerShape = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_markerShape;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerKnobColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobRadius = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerKnobRadius;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeWidth = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerLengthFactor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerLengthFactor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerTailColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailLengthFactor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerTailLengthFactor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeWidth = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerType = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerType;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerValue = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerWidth = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_needlePointerWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeInnerEndOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangeInnerEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeInnerStartOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangeInnerStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeOuterEndOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangeOuterEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeOuterStartOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangeOuterStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerCap = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangePointerCap;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangePointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerEndOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangePointerEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangePointerOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerStartOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangePointerStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerStartValue = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangePointerStartValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerValue = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangePointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerWidth = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangePointerWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeWidth = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_rangeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleAutoAngle = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleAutoAngle;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleAutoInterval = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleAutoInterval;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleEndAngle = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleEndAngle;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleEndOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleEndValue = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleEndValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickEndOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleMajorTickEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickSize = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleMajorTickSize;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickStartOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleMajorTickStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickWidth = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleMajorTickWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickEndOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleMinorTickEndOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickSize = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleMinorTickSize;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickStartOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleMinorTickStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickWidth = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleMinorTickWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleNumberofDecimalDigits = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleNumberofDecimalDigits;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleRadiusFactor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleRadiusFactor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleRimColor = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleRimColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleRimWidth = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleRimWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleShowFirstLabel = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleShowFirstLabel;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleShowLastLabel = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleShowLastLabel;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleShowRim = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleShowRim;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleStartAngle = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleStartAngle;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleStartOffset = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleStartOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleStartValue = global::firstxamarindroid.Resource.Styleable.SfCircularGauge_scaleStartValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge = global::firstxamarindroid.Resource.Styleable.SfDigitalGauge;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterHeight = global::firstxamarindroid.Resource.Styleable.SfDigitalGauge_characterHeight;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterSpacing = global::firstxamarindroid.Resource.Styleable.SfDigitalGauge_characterSpacing;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterStrokeColor = global::firstxamarindroid.Resource.Styleable.SfDigitalGauge_characterStrokeColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterType = global::firstxamarindroid.Resource.Styleable.SfDigitalGauge_characterType;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterWidth = global::firstxamarindroid.Resource.Styleable.SfDigitalGauge_characterWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_dimmedSegmentAlpha = global::firstxamarindroid.Resource.Styleable.SfDigitalGauge_dimmedSegmentAlpha;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_dimmedSegmentColor = global::firstxamarindroid.Resource.Styleable.SfDigitalGauge_dimmedSegmentColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_segmentStrokeWidth = global::firstxamarindroid.Resource.Styleable.SfDigitalGauge_segmentStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge = global::firstxamarindroid.Resource.Styleable.SfLinearGauge;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerColor = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_barPointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerCornerRadius = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_barPointerCornerRadius;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerCornerRadiusType = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_barPointerCornerRadiusType;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerStrokeWidth = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_barPointerStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerValue = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_barPointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_maximumLabels = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_maximumLabels;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeColor = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_rangeColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeEndValue = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_rangeEndValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeEndWidth = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_rangeEndWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeOffset = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_rangeOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeStartValue = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_rangeStartValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeStartWidth = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_rangeStartWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleBarColor = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleBarColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleBarLength = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleBarLength;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleBarSize = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleBarSize;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleCornerRadius = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleCornerRadius;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleCornerRadiusType = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleCornerRadiusType;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleDirection = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleDirection;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleInterval = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleInterval;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelColor = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleLabelColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelFontSize = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleLabelFontSize;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelOffset = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleLabelOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelPostfix = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleLabelPostfix;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelPrefix = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleLabelPrefix;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickColor = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMajorTickColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickLength = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMajorTickLength;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickOffset = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMajorTickOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickStrokeWidth = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMajorTickStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMaximum = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMaximum;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinimum = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMinimum;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickColor = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMinorTickColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickLength = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMinorTickLength;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickOffset = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMinorTickOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTicksPerInterval = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleMinorTicksPerInterval;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOffset = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOpposedPosition = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleOpposedPosition;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOrientation = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleOrientation;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleShowLabels = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleShowLabels;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleShowTicks = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_scaleShowTicks;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerColor = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_symbolPointerColor;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerOffset = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_symbolPointerOffset;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerStrokeWidth = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_symbolPointerStrokeWidth;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerValue = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_symbolPointerValue;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPosition = global::firstxamarindroid.Resource.Styleable.SfLinearGauge_symbolPosition;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::firstxamarindroid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::firstxamarindroid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::firstxamarindroid.Resource.Attribute.font;
@@ -2337,6 +2658,12 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0100ea
 			public const int alertDialogTheme = 2130772202;
 			
+			// aapt resource value: 0x7f010257
+			public const int alignContent = 2130772567;
+			
+			// aapt resource value: 0x7f010256
+			public const int alignItems = 2130772566;
+			
 			// aapt resource value: 0x7f01001f
 			public const int allowDividerAbove = 2130771999;
 			
@@ -2396,6 +2723,21 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f01010a
 			public const int barLength = 2130772234;
+			
+			// aapt resource value: 0x7f0102dd
+			public const int barPointerColor = 2130772701;
+			
+			// aapt resource value: 0x7f0102e0
+			public const int barPointerCornerRadius = 2130772704;
+			
+			// aapt resource value: 0x7f0102df
+			public const int barPointerCornerRadiusType = 2130772703;
+			
+			// aapt resource value: 0x7f0102de
+			public const int barPointerStrokeWidth = 2130772702;
+			
+			// aapt resource value: 0x7f0102dc
+			public const int barPointerValue = 2130772700;
 			
 			// aapt resource value: 0x7f01020e
 			public const int barrierAllowsGoneWidgets = 2130772494;
@@ -2526,14 +2868,29 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010210
 			public const int chainUseRtl = 2130772496;
 			
+			// aapt resource value: 0x7f0102e8
+			public const int characterHeight = 2130772712;
+			
+			// aapt resource value: 0x7f0102e9
+			public const int characterSpacing = 2130772713;
+			
+			// aapt resource value: 0x7f0102e7
+			public const int characterStrokeColor = 2130772711;
+			
+			// aapt resource value: 0x7f0102ee
+			public const int characterType = 2130772718;
+			
+			// aapt resource value: 0x7f0102ea
+			public const int characterWidth = 2130772714;
+			
 			// aapt resource value: 0x7f010031
 			public const int checkBoxPreferenceStyle = 2130772017;
 			
 			// aapt resource value: 0x7f0100f2
 			public const int checkboxStyle = 2130772210;
 			
-			// aapt resource value: 0x7f010256
-			public const int @checked = 2130772566;
+			// aapt resource value: 0x7f0102f2
+			public const int @checked = 2130772722;
 			
 			// aapt resource value: 0x7f0101a2
 			public const int checkedChip = 2130772386;
@@ -2603,6 +2960,63 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f010153
 			public const int chipStyle = 2130772307;
+			
+			// aapt resource value: 0x7f010270
+			public const int circularGaugeScaleDirection = 2130772592;
+			
+			// aapt resource value: 0x7f01026e
+			public const int circularScaleInterval = 2130772590;
+			
+			// aapt resource value: 0x7f01027f
+			public const int circularScaleLabelOffset = 2130772607;
+			
+			// aapt resource value: 0x7f01027d
+			public const int circularScaleLabelPostfix = 2130772605;
+			
+			// aapt resource value: 0x7f01027c
+			public const int circularScaleLabelPrefix = 2130772604;
+			
+			// aapt resource value: 0x7f010280
+			public const int circularScaleLabelTextColor = 2130772608;
+			
+			// aapt resource value: 0x7f01027e
+			public const int circularScaleLabelTextSize = 2130772606;
+			
+			// aapt resource value: 0x7f010282
+			public const int circularScaleMajorTickColor = 2130772610;
+			
+			// aapt resource value: 0x7f010284
+			public const int circularScaleMajorTickOffset = 2130772612;
+			
+			// aapt resource value: 0x7f010290
+			public const int circularScaleMaximumLabels = 2130772624;
+			
+			// aapt resource value: 0x7f010288
+			public const int circularScaleMinorTickColor = 2130772616;
+			
+			// aapt resource value: 0x7f01028a
+			public const int circularScaleMinorTickOffset = 2130772618;
+			
+			// aapt resource value: 0x7f01028f
+			public const int circularScaleMinorTicksPerInterval = 2130772623;
+			
+			// aapt resource value: 0x7f01029a
+			public const int circularScaleRangeColor = 2130772634;
+			
+			// aapt resource value: 0x7f010297
+			public const int circularScaleRangeEndValue = 2130772631;
+			
+			// aapt resource value: 0x7f010299
+			public const int circularScaleRangeOffset = 2130772633;
+			
+			// aapt resource value: 0x7f010296
+			public const int circularScaleRangeStartValue = 2130772630;
+			
+			// aapt resource value: 0x7f010291
+			public const int circularScaleShowLabels = 2130772625;
+			
+			// aapt resource value: 0x7f010292
+			public const int circularScaleShowTicks = 2130772626;
 			
 			// aapt resource value: 0x7f010123
 			public const int closeIcon = 2130772259;
@@ -2736,8 +3150,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0101c2
 			public const int cornerRadius = 2130772418;
 			
-			// aapt resource value: 0x7f010255
-			public const int cornerradius = 2130772565;
+			// aapt resource value: 0x7f0102f1
+			public const int cornerradius = 2130772721;
 			
 			// aapt resource value: 0x7f0101f1
 			public const int counterEnabled = 2130772465;
@@ -2751,62 +3165,62 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0101f3
 			public const int counterTextAppearance = 2130772467;
 			
-			// aapt resource value: 0x7f010270
-			public const int cpv_allowCustom = 2130772592;
+			// aapt resource value: 0x7f01030c
+			public const int cpv_allowCustom = 2130772748;
 			
-			// aapt resource value: 0x7f01026f
-			public const int cpv_allowPresets = 2130772591;
+			// aapt resource value: 0x7f01030b
+			public const int cpv_allowPresets = 2130772747;
 			
-			// aapt resource value: 0x7f010267
-			public const int cpv_alphaChannelText = 2130772583;
+			// aapt resource value: 0x7f010303
+			public const int cpv_alphaChannelText = 2130772739;
 			
-			// aapt resource value: 0x7f010266
-			public const int cpv_alphaChannelVisible = 2130772582;
+			// aapt resource value: 0x7f010302
+			public const int cpv_alphaChannelVisible = 2130772738;
 			
-			// aapt resource value: 0x7f010265
-			public const int cpv_borderColor = 2130772581;
+			// aapt resource value: 0x7f010301
+			public const int cpv_borderColor = 2130772737;
 			
-			// aapt resource value: 0x7f01026c
-			public const int cpv_colorPresets = 2130772588;
+			// aapt resource value: 0x7f010308
+			public const int cpv_colorPresets = 2130772744;
 			
-			// aapt resource value: 0x7f010264
-			public const int cpv_colorShape = 2130772580;
+			// aapt resource value: 0x7f010300
+			public const int cpv_colorShape = 2130772736;
 			
-			// aapt resource value: 0x7f010274
-			public const int cpv_customButtonText = 2130772596;
+			// aapt resource value: 0x7f010310
+			public const int cpv_customButtonText = 2130772752;
 			
-			// aapt resource value: 0x7f010272
-			public const int cpv_dialogID = 2130772594;
+			// aapt resource value: 0x7f01030e
+			public const int cpv_dialogID = 2130772750;
 			
-			// aapt resource value: 0x7f01026b
-			public const int cpv_dialogTitle = 2130772587;
+			// aapt resource value: 0x7f010307
+			public const int cpv_dialogTitle = 2130772743;
 			
-			// aapt resource value: 0x7f01026d
-			public const int cpv_dialogType = 2130772589;
+			// aapt resource value: 0x7f010309
+			public const int cpv_dialogType = 2130772745;
 			
-			// aapt resource value: 0x7f010273
-			public const int cpv_presetsButtonText = 2130772595;
+			// aapt resource value: 0x7f01030f
+			public const int cpv_presetsButtonText = 2130772751;
 			
-			// aapt resource value: 0x7f01026a
-			public const int cpv_previewSize = 2130772586;
+			// aapt resource value: 0x7f010306
+			public const int cpv_previewSize = 2130772742;
 			
-			// aapt resource value: 0x7f010275
-			public const int cpv_selectedButtonText = 2130772597;
+			// aapt resource value: 0x7f010311
+			public const int cpv_selectedButtonText = 2130772753;
 			
-			// aapt resource value: 0x7f010269
-			public const int cpv_showAlphaSlider = 2130772585;
+			// aapt resource value: 0x7f010305
+			public const int cpv_showAlphaSlider = 2130772741;
 			
-			// aapt resource value: 0x7f01026e
-			public const int cpv_showColorShades = 2130772590;
+			// aapt resource value: 0x7f01030a
+			public const int cpv_showColorShades = 2130772746;
 			
-			// aapt resource value: 0x7f010271
-			public const int cpv_showDialog = 2130772593;
+			// aapt resource value: 0x7f01030d
+			public const int cpv_showDialog = 2130772749;
 			
-			// aapt resource value: 0x7f010263
-			public const int cpv_showOldColor = 2130772579;
+			// aapt resource value: 0x7f0102ff
+			public const int cpv_showOldColor = 2130772735;
 			
-			// aapt resource value: 0x7f010268
-			public const int cpv_sliderColor = 2130772584;
+			// aapt resource value: 0x7f010304
+			public const int cpv_sliderColor = 2130772740;
 			
 			// aapt resource value: 0x7f010061
 			public const int customNavigationLayout = 2130772065;
@@ -2844,6 +3258,12 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f01000c
 			public const int dialogTitle = 2130771980;
 			
+			// aapt resource value: 0x7f0102ed
+			public const int dimmedSegmentAlpha = 2130772717;
+			
+			// aapt resource value: 0x7f0102ec
+			public const int dimmedSegmentColor = 2130772716;
+			
 			// aapt resource value: 0x7f01000b
 			public const int disableDependentsState = 2130771979;
 			
@@ -2852,6 +3272,15 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f01005d
 			public const int divider = 2130772061;
+			
+			// aapt resource value: 0x7f010258
+			public const int dividerDrawable = 2130772568;
+			
+			// aapt resource value: 0x7f010259
+			public const int dividerDrawableHorizontal = 2130772569;
+			
+			// aapt resource value: 0x7f01025a
+			public const int dividerDrawableVertical = 2130772570;
 			
 			// aapt resource value: 0x7f0100c2
 			public const int dividerHorizontal = 2130772162;
@@ -2895,8 +3324,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010214
 			public const int emptyVisibility = 2130772500;
 			
-			// aapt resource value: 0x7f010276
-			public const int enableAlpha = 2130772598;
+			// aapt resource value: 0x7f010312
+			public const int enableAlpha = 2130772754;
 			
 			// aapt resource value: 0x7f010019
 			public const int enabled = 2130771993;
@@ -2982,6 +3411,12 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010088
 			public const int firstBaselineToTopHeight = 2130772104;
 			
+			// aapt resource value: 0x7f010253
+			public const int flexDirection = 2130772563;
+			
+			// aapt resource value: 0x7f010254
+			public const int flexWrap = 2130772564;
+			
 			// aapt resource value: 0x7f010155
 			public const int floatingActionButtonStyle = 2130772309;
 			
@@ -3026,6 +3461,27 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f010107
 			public const int gapBetweenBars = 2130772231;
+			
+			// aapt resource value: 0x7f010269
+			public const int gaugeCircularCoefficient = 2130772585;
+			
+			// aapt resource value: 0x7f010276
+			public const int gaugeHeaderAlignment = 2130772598;
+			
+			// aapt resource value: 0x7f010271
+			public const int gaugeHorizontalHeaderPosition = 2130772593;
+			
+			// aapt resource value: 0x7f010273
+			public const int gaugeText = 2130772595;
+			
+			// aapt resource value: 0x7f010275
+			public const int gaugeTextColor = 2130772597;
+			
+			// aapt resource value: 0x7f010274
+			public const int gaugeTextSize = 2130772596;
+			
+			// aapt resource value: 0x7f010272
+			public const int gaugeVerticalHeaderPosition = 2130772594;
 			
 			// aapt resource value: 0x7f010124
 			public const int goIcon = 2130772260;
@@ -3123,8 +3579,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010023
 			public const int isPreferenceVisible = 2130772003;
 			
-			// aapt resource value: 0x7f010254
-			public const int isthreestate = 2130772564;
+			// aapt resource value: 0x7f0102f0
+			public const int isthreestate = 2130772720;
 			
 			// aapt resource value: 0x7f0101c6
 			public const int itemBackground = 2130772422;
@@ -3162,6 +3618,9 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0101c5
 			public const int itemTextColor = 2130772421;
 			
+			// aapt resource value: 0x7f010255
+			public const int justifyContent = 2130772565;
+			
 			// aapt resource value: 0x7f010014
 			public const int key = 2130771988;
 			
@@ -3179,6 +3638,9 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f010000
 			public const int layoutManager = 2130771968;
+			
+			// aapt resource value: 0x7f010263
+			public const int layout_alignSelf = 2130772579;
 			
 			// aapt resource value: 0x7f010209
 			public const int layout_anchor = 2130772489;
@@ -3327,6 +3789,15 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f01023f
 			public const int layout_editor_absoluteY = 2130772543;
 			
+			// aapt resource value: 0x7f010262
+			public const int layout_flexBasisPercent = 2130772578;
+			
+			// aapt resource value: 0x7f010260
+			public const int layout_flexGrow = 2130772576;
+			
+			// aapt resource value: 0x7f010261
+			public const int layout_flexShrink = 2130772577;
+			
 			// aapt resource value: 0x7f010240
 			public const int layout_goneMarginBottom = 2130772544;
 			
@@ -3351,14 +3822,32 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f01020a
 			public const int layout_keyline = 2130772490;
 			
+			// aapt resource value: 0x7f010267
+			public const int layout_maxHeight = 2130772583;
+			
+			// aapt resource value: 0x7f010266
+			public const int layout_maxWidth = 2130772582;
+			
+			// aapt resource value: 0x7f010265
+			public const int layout_minHeight = 2130772581;
+			
+			// aapt resource value: 0x7f010264
+			public const int layout_minWidth = 2130772580;
+			
 			// aapt resource value: 0x7f010246
 			public const int layout_optimizationLevel = 2130772550;
+			
+			// aapt resource value: 0x7f01025f
+			public const int layout_order = 2130772575;
 			
 			// aapt resource value: 0x7f010174
 			public const int layout_scrollFlags = 2130772340;
 			
 			// aapt resource value: 0x7f010175
 			public const int layout_scrollInterpolator = 2130772341;
+			
+			// aapt resource value: 0x7f010268
+			public const int layout_wrapBefore = 2130772584;
 			
 			// aapt resource value: 0x7f01016f
 			public const int liftOnScroll = 2130772335;
@@ -3408,6 +3897,24 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010145
 			public const int logoDescription = 2130772293;
 			
+			// aapt resource value: 0x7f0102b6
+			public const int markerPointerColor = 2130772662;
+			
+			// aapt resource value: 0x7f0102b7
+			public const int markerPointerHeight = 2130772663;
+			
+			// aapt resource value: 0x7f0102b9
+			public const int markerPointerOffset = 2130772665;
+			
+			// aapt resource value: 0x7f0102b4
+			public const int markerPointerValue = 2130772660;
+			
+			// aapt resource value: 0x7f0102b8
+			public const int markerPointerWidth = 2130772664;
+			
+			// aapt resource value: 0x7f0102b5
+			public const int markerShape = 2130772661;
+			
 			// aapt resource value: 0x7f010157
 			public const int materialButtonStyle = 2130772311;
 			
@@ -3426,8 +3933,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0101ba
 			public const int maxImageSize = 2130772410;
 			
+			// aapt resource value: 0x7f01025e
+			public const int maxLine = 2130772574;
+			
 			// aapt resource value: 0x7f010027
 			public const int maxWidth = 2130772007;
+			
+			// aapt resource value: 0x7f0102d0
+			public const int maximumLabels = 2130772688;
 			
 			// aapt resource value: 0x7f01010c
 			public const int measureWithLargestChild = 2130772236;
@@ -3452,6 +3965,45 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f010159
 			public const int navigationViewStyle = 2130772313;
+			
+			// aapt resource value: 0x7f0102a1
+			public const int needlePointerColor = 2130772641;
+			
+			// aapt resource value: 0x7f0102a6
+			public const int needlePointerKnobColor = 2130772646;
+			
+			// aapt resource value: 0x7f0102a4
+			public const int needlePointerKnobRadius = 2130772644;
+			
+			// aapt resource value: 0x7f0102a5
+			public const int needlePointerKnobStrokeColor = 2130772645;
+			
+			// aapt resource value: 0x7f0102a7
+			public const int needlePointerKnobStrokeWidth = 2130772647;
+			
+			// aapt resource value: 0x7f0102a3
+			public const int needlePointerLengthFactor = 2130772643;
+			
+			// aapt resource value: 0x7f0102a8
+			public const int needlePointerTailColor = 2130772648;
+			
+			// aapt resource value: 0x7f0102a9
+			public const int needlePointerTailLengthFactor = 2130772649;
+			
+			// aapt resource value: 0x7f0102ab
+			public const int needlePointerTailStrokeColor = 2130772651;
+			
+			// aapt resource value: 0x7f0102aa
+			public const int needlePointerTailStrokeWidth = 2130772650;
+			
+			// aapt resource value: 0x7f0102a0
+			public const int needlePointerType = 2130772640;
+			
+			// aapt resource value: 0x7f01029f
+			public const int needlePointerValue = 2130772639;
+			
+			// aapt resource value: 0x7f0102a2
+			public const int needlePointerWidth = 2130772642;
 			
 			// aapt resource value: 0x7f010010
 			public const int negativeButtonText = 2130771984;
@@ -3582,6 +4134,63 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0100f5
 			public const int radioButtonStyle = 2130772213;
 			
+			// aapt resource value: 0x7f0102db
+			public const int rangeColor = 2130772699;
+			
+			// aapt resource value: 0x7f0102d7
+			public const int rangeEndValue = 2130772695;
+			
+			// aapt resource value: 0x7f0102d9
+			public const int rangeEndWidth = 2130772697;
+			
+			// aapt resource value: 0x7f01029c
+			public const int rangeInnerEndOffset = 2130772636;
+			
+			// aapt resource value: 0x7f01029b
+			public const int rangeInnerStartOffset = 2130772635;
+			
+			// aapt resource value: 0x7f0102da
+			public const int rangeOffset = 2130772698;
+			
+			// aapt resource value: 0x7f01029e
+			public const int rangeOuterEndOffset = 2130772638;
+			
+			// aapt resource value: 0x7f01029d
+			public const int rangeOuterStartOffset = 2130772637;
+			
+			// aapt resource value: 0x7f0102b3
+			public const int rangePointerCap = 2130772659;
+			
+			// aapt resource value: 0x7f0102ae
+			public const int rangePointerColor = 2130772654;
+			
+			// aapt resource value: 0x7f0102b2
+			public const int rangePointerEndOffset = 2130772658;
+			
+			// aapt resource value: 0x7f0102b0
+			public const int rangePointerOffset = 2130772656;
+			
+			// aapt resource value: 0x7f0102b1
+			public const int rangePointerStartOffset = 2130772657;
+			
+			// aapt resource value: 0x7f0102ac
+			public const int rangePointerStartValue = 2130772652;
+			
+			// aapt resource value: 0x7f0102ad
+			public const int rangePointerValue = 2130772653;
+			
+			// aapt resource value: 0x7f0102af
+			public const int rangePointerWidth = 2130772655;
+			
+			// aapt resource value: 0x7f0102d6
+			public const int rangeStartValue = 2130772694;
+			
+			// aapt resource value: 0x7f0102d8
+			public const int rangeStartWidth = 2130772696;
+			
+			// aapt resource value: 0x7f010298
+			public const int rangeWidth = 2130772632;
+			
 			// aapt resource value: 0x7f0100f6
 			public const int ratingBarStyle = 2130772214;
 			
@@ -3599,6 +4208,159 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f01015a
 			public const int rippleColor = 2130772314;
+			
+			// aapt resource value: 0x7f01027b
+			public const int scaleAutoAngle = 2130772603;
+			
+			// aapt resource value: 0x7f01026f
+			public const int scaleAutoInterval = 2130772591;
+			
+			// aapt resource value: 0x7f0102c5
+			public const int scaleBarColor = 2130772677;
+			
+			// aapt resource value: 0x7f0102c7
+			public const int scaleBarLength = 2130772679;
+			
+			// aapt resource value: 0x7f0102c6
+			public const int scaleBarSize = 2130772678;
+			
+			// aapt resource value: 0x7f0102d4
+			public const int scaleCornerRadius = 2130772692;
+			
+			// aapt resource value: 0x7f0102d3
+			public const int scaleCornerRadiusType = 2130772691;
+			
+			// aapt resource value: 0x7f0102d2
+			public const int scaleDirection = 2130772690;
+			
+			// aapt resource value: 0x7f01026b
+			public const int scaleEndAngle = 2130772587;
+			
+			// aapt resource value: 0x7f01027a
+			public const int scaleEndOffset = 2130772602;
+			
+			// aapt resource value: 0x7f01026d
+			public const int scaleEndValue = 2130772589;
+			
+			// aapt resource value: 0x7f0102bc
+			public const int scaleInterval = 2130772668;
+			
+			// aapt resource value: 0x7f0102c8
+			public const int scaleLabelColor = 2130772680;
+			
+			// aapt resource value: 0x7f0102cb
+			public const int scaleLabelFontSize = 2130772683;
+			
+			// aapt resource value: 0x7f0102cc
+			public const int scaleLabelOffset = 2130772684;
+			
+			// aapt resource value: 0x7f0102ca
+			public const int scaleLabelPostfix = 2130772682;
+			
+			// aapt resource value: 0x7f0102c9
+			public const int scaleLabelPrefix = 2130772681;
+			
+			// aapt resource value: 0x7f0102be
+			public const int scaleMajorTickColor = 2130772670;
+			
+			// aapt resource value: 0x7f010286
+			public const int scaleMajorTickEndOffset = 2130772614;
+			
+			// aapt resource value: 0x7f0102bd
+			public const int scaleMajorTickLength = 2130772669;
+			
+			// aapt resource value: 0x7f0102c0
+			public const int scaleMajorTickOffset = 2130772672;
+			
+			// aapt resource value: 0x7f010281
+			public const int scaleMajorTickSize = 2130772609;
+			
+			// aapt resource value: 0x7f010285
+			public const int scaleMajorTickStartOffset = 2130772613;
+			
+			// aapt resource value: 0x7f0102bf
+			public const int scaleMajorTickStrokeWidth = 2130772671;
+			
+			// aapt resource value: 0x7f010283
+			public const int scaleMajorTickWidth = 2130772611;
+			
+			// aapt resource value: 0x7f0102bb
+			public const int scaleMaximum = 2130772667;
+			
+			// aapt resource value: 0x7f0102ba
+			public const int scaleMinimum = 2130772666;
+			
+			// aapt resource value: 0x7f0102c2
+			public const int scaleMinorTickColor = 2130772674;
+			
+			// aapt resource value: 0x7f01028c
+			public const int scaleMinorTickEndOffset = 2130772620;
+			
+			// aapt resource value: 0x7f0102c1
+			public const int scaleMinorTickLength = 2130772673;
+			
+			// aapt resource value: 0x7f0102c4
+			public const int scaleMinorTickOffset = 2130772676;
+			
+			// aapt resource value: 0x7f010287
+			public const int scaleMinorTickSize = 2130772615;
+			
+			// aapt resource value: 0x7f01028b
+			public const int scaleMinorTickStartOffset = 2130772619;
+			
+			// aapt resource value: 0x7f0102c3
+			public const int scaleMinorTickStrokeWidth = 2130772675;
+			
+			// aapt resource value: 0x7f010289
+			public const int scaleMinorTickWidth = 2130772617;
+			
+			// aapt resource value: 0x7f0102cf
+			public const int scaleMinorTicksPerInterval = 2130772687;
+			
+			// aapt resource value: 0x7f010295
+			public const int scaleNumberofDecimalDigits = 2130772629;
+			
+			// aapt resource value: 0x7f0102d5
+			public const int scaleOffset = 2130772693;
+			
+			// aapt resource value: 0x7f0102d1
+			public const int scaleOpposedPosition = 2130772689;
+			
+			// aapt resource value: 0x7f0102e6
+			public const int scaleOrientation = 2130772710;
+			
+			// aapt resource value: 0x7f010294
+			public const int scaleRadiusFactor = 2130772628;
+			
+			// aapt resource value: 0x7f01028d
+			public const int scaleRimColor = 2130772621;
+			
+			// aapt resource value: 0x7f01028e
+			public const int scaleRimWidth = 2130772622;
+			
+			// aapt resource value: 0x7f010277
+			public const int scaleShowFirstLabel = 2130772599;
+			
+			// aapt resource value: 0x7f0102cd
+			public const int scaleShowLabels = 2130772685;
+			
+			// aapt resource value: 0x7f010278
+			public const int scaleShowLastLabel = 2130772600;
+			
+			// aapt resource value: 0x7f010293
+			public const int scaleShowRim = 2130772627;
+			
+			// aapt resource value: 0x7f0102ce
+			public const int scaleShowTicks = 2130772686;
+			
+			// aapt resource value: 0x7f01026a
+			public const int scaleStartAngle = 2130772586;
+			
+			// aapt resource value: 0x7f010279
+			public const int scaleStartOffset = 2130772601;
+			
+			// aapt resource value: 0x7f01026c
+			public const int scaleStartValue = 2130772588;
 			
 			// aapt resource value: 0x7f0101ae
 			public const int scrimAnimationDuration = 2130772398;
@@ -3627,41 +4389,44 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0100f9
 			public const int seekBarStyle = 2130772217;
 			
-			// aapt resource value: 0x7f010258
-			public const int segmentBackColor = 2130772568;
+			// aapt resource value: 0x7f0102f4
+			public const int segmentBackColor = 2130772724;
 			
-			// aapt resource value: 0x7f010259
-			public const int segmentBorderColor = 2130772569;
+			// aapt resource value: 0x7f0102f5
+			public const int segmentBorderColor = 2130772725;
 			
-			// aapt resource value: 0x7f01025a
-			public const int segmentBorderThickness = 2130772570;
+			// aapt resource value: 0x7f0102f6
+			public const int segmentBorderThickness = 2130772726;
 			
-			// aapt resource value: 0x7f01025b
-			public const int segmentColor = 2130772571;
+			// aapt resource value: 0x7f0102f7
+			public const int segmentColor = 2130772727;
 			
-			// aapt resource value: 0x7f010260
-			public const int segmentCornerRadius = 2130772576;
+			// aapt resource value: 0x7f0102fc
+			public const int segmentCornerRadius = 2130772732;
 			
-			// aapt resource value: 0x7f010262
-			public const int segmentDisplayMode = 2130772578;
+			// aapt resource value: 0x7f0102fe
+			public const int segmentDisplayMode = 2130772734;
 			
-			// aapt resource value: 0x7f010261
-			public const int segmentPosition = 2130772577;
+			// aapt resource value: 0x7f0102fd
+			public const int segmentPosition = 2130772733;
 			
-			// aapt resource value: 0x7f010257
-			public const int segmentSelectedIndex = 2130772567;
+			// aapt resource value: 0x7f0102f3
+			public const int segmentSelectedIndex = 2130772723;
 			
-			// aapt resource value: 0x7f01025f
-			public const int segmentStrokeThickness = 2130772575;
+			// aapt resource value: 0x7f0102fb
+			public const int segmentStrokeThickness = 2130772731;
 			
-			// aapt resource value: 0x7f01025d
-			public const int segmentedHeight = 2130772573;
+			// aapt resource value: 0x7f0102eb
+			public const int segmentStrokeWidth = 2130772715;
 			
-			// aapt resource value: 0x7f01025c
-			public const int segmentedPadding = 2130772572;
+			// aapt resource value: 0x7f0102f9
+			public const int segmentedHeight = 2130772729;
 			
-			// aapt resource value: 0x7f01025e
-			public const int segmentedWidth = 2130772574;
+			// aapt resource value: 0x7f0102f8
+			public const int segmentedPadding = 2130772728;
+			
+			// aapt resource value: 0x7f0102fa
+			public const int segmentedWidth = 2130772730;
 			
 			// aapt resource value: 0x7f01001a
 			public const int selectable = 2130771994;
@@ -3677,6 +4442,15 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f010111
 			public const int showAsAction = 2130772241;
+			
+			// aapt resource value: 0x7f01025b
+			public const int showDivider = 2130772571;
+			
+			// aapt resource value: 0x7f01025c
+			public const int showDividerHorizontal = 2130772572;
+			
+			// aapt resource value: 0x7f01025d
+			public const int showDividerVertical = 2130772573;
 			
 			// aapt resource value: 0x7f01010d
 			public const int showDividers = 2130772237;
@@ -3741,8 +4515,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f010171
 			public const int state_collapsible = 2130772337;
 			
-			// aapt resource value: 0x7f010253
-			public const int state_indeterminate = 2130772563;
+			// aapt resource value: 0x7f0102ef
+			public const int state_indeterminate = 2130772719;
 			
 			// aapt resource value: 0x7f010173
 			public const int state_liftable = 2130772339;
@@ -3815,6 +4589,21 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f010044
 			public const int switchTextOn = 2130772036;
+			
+			// aapt resource value: 0x7f0102e2
+			public const int symbolPointerColor = 2130772706;
+			
+			// aapt resource value: 0x7f0102e4
+			public const int symbolPointerOffset = 2130772708;
+			
+			// aapt resource value: 0x7f0102e3
+			public const int symbolPointerStrokeWidth = 2130772707;
+			
+			// aapt resource value: 0x7f0102e1
+			public const int symbolPointerValue = 2130772705;
+			
+			// aapt resource value: 0x7f0102e5
+			public const int symbolPosition = 2130772709;
 			
 			// aapt resource value: 0x7f0101d3
 			public const int tabBackground = 2130772435;
@@ -4842,32 +5631,32 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0900d7
 			public const int compat_notification_large_icon_max_width = 2131296471;
 			
-			// aapt resource value: 0x7f0900eb
-			public const int cpv_color_preference_large = 2131296491;
+			// aapt resource value: 0x7f0900ed
+			public const int cpv_color_preference_large = 2131296493;
 			
-			// aapt resource value: 0x7f0900ea
-			public const int cpv_color_preference_normal = 2131296490;
-			
-			// aapt resource value: 0x7f0900e7
-			public const int cpv_column_width = 2131296487;
-			
-			// aapt resource value: 0x7f0900e6
-			public const int cpv_dialog_preview_height = 2131296486;
-			
-			// aapt resource value: 0x7f0900e5
-			public const int cpv_dialog_preview_width = 2131296485;
+			// aapt resource value: 0x7f0900ec
+			public const int cpv_color_preference_normal = 2131296492;
 			
 			// aapt resource value: 0x7f0900e9
-			public const int cpv_item_horizontal_padding = 2131296489;
+			public const int cpv_column_width = 2131296489;
 			
 			// aapt resource value: 0x7f0900e8
-			public const int cpv_item_size = 2131296488;
+			public const int cpv_dialog_preview_height = 2131296488;
 			
-			// aapt resource value: 0x7f0900e4
-			public const int cpv_required_padding = 2131296484;
+			// aapt resource value: 0x7f0900e7
+			public const int cpv_dialog_preview_width = 2131296487;
 			
-			// aapt resource value: 0x7f0900ed
-			public const int default_page_padding = 2131296493;
+			// aapt resource value: 0x7f0900eb
+			public const int cpv_item_horizontal_padding = 2131296491;
+			
+			// aapt resource value: 0x7f0900ea
+			public const int cpv_item_size = 2131296490;
+			
+			// aapt resource value: 0x7f0900e6
+			public const int cpv_required_padding = 2131296486;
+			
+			// aapt resource value: 0x7f0900ef
+			public const int default_page_padding = 2131296495;
 			
 			// aapt resource value: 0x7f090077
 			public const int design_appbar_elevation = 2131296375;
@@ -5001,8 +5790,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f09009a
 			public const int design_textinput_caption_translate_y = 2131296410;
 			
-			// aapt resource value: 0x7f0900e3
-			public const int disabledAlpha = 2131296483;
+			// aapt resource value: 0x7f0900e5
+			public const int disabledAlpha = 2131296485;
 			
 			// aapt resource value: 0x7f09005a
 			public const int disabled_alpha_material_dark = 2131296346;
@@ -5010,8 +5799,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f09005b
 			public const int disabled_alpha_material_light = 2131296347;
 			
-			// aapt resource value: 0x7f0900ec
-			public const int fab_margin = 2131296492;
+			// aapt resource value: 0x7f0900ee
+			public const int fab_margin = 2131296494;
 			
 			// aapt resource value: 0x7f090000
 			public const int fastscroll_default_thickness = 2131296256;
@@ -5240,6 +6029,12 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f0900e2
 			public const int notification_top_pad_large_text = 2131296482;
+			
+			// aapt resource value: 0x7f0900e4
+			public const int pading_bottom = 2131296484;
+			
+			// aapt resource value: 0x7f0900e3
+			public const int pading_top = 2131296483;
 			
 			// aapt resource value: 0x7f090006
 			public const int preference_category_padding_start = 2131296262;
@@ -5744,41 +6539,41 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0042
 			public const int SYM = 2131361858;
 			
-			// aapt resource value: 0x7f0a00eb
-			public const int action0 = 2131362027;
+			// aapt resource value: 0x7f0a0121
+			public const int action0 = 2131362081;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int action_bar = 2131361960;
+			// aapt resource value: 0x7f0a00d6
+			public const int action_bar = 2131362006;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int action_bar_activity_content = 2131361793;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int action_bar_container = 2131361959;
+			// aapt resource value: 0x7f0a00d5
+			public const int action_bar_container = 2131362005;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int action_bar_root = 2131361955;
+			// aapt resource value: 0x7f0a00d1
+			public const int action_bar_root = 2131362001;
 			
 			// aapt resource value: 0x7f0a0002
 			public const int action_bar_spinner = 2131361794;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int action_bar_subtitle = 2131361927;
+			// aapt resource value: 0x7f0a00b5
+			public const int action_bar_subtitle = 2131361973;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int action_bar_title = 2131361926;
+			// aapt resource value: 0x7f0a00b4
+			public const int action_bar_title = 2131361972;
 			
-			// aapt resource value: 0x7f0a00e8
-			public const int action_container = 2131362024;
+			// aapt resource value: 0x7f0a011e
+			public const int action_container = 2131362078;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int action_context_bar = 2131361961;
+			// aapt resource value: 0x7f0a00d7
+			public const int action_context_bar = 2131362007;
 			
-			// aapt resource value: 0x7f0a00ef
-			public const int action_divider = 2131362031;
+			// aapt resource value: 0x7f0a0125
+			public const int action_divider = 2131362085;
 			
-			// aapt resource value: 0x7f0a00e9
-			public const int action_image = 2131362025;
+			// aapt resource value: 0x7f0a011f
+			public const int action_image = 2131362079;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -5786,32 +6581,32 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0004
 			public const int action_menu_presenter = 2131361796;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int action_mode_bar = 2131361957;
+			// aapt resource value: 0x7f0a00d3
+			public const int action_mode_bar = 2131362003;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int action_mode_bar_stub = 2131361956;
+			// aapt resource value: 0x7f0a00d2
+			public const int action_mode_bar_stub = 2131362002;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int action_mode_close_button = 2131361928;
+			// aapt resource value: 0x7f0a00b6
+			public const int action_mode_close_button = 2131361974;
 			
-			// aapt resource value: 0x7f0a0117
-			public const int action_settings = 2131362071;
+			// aapt resource value: 0x7f0a014d
+			public const int action_settings = 2131362125;
 			
-			// aapt resource value: 0x7f0a00ea
-			public const int action_text = 2131362026;
+			// aapt resource value: 0x7f0a0120
+			public const int action_text = 2131362080;
 			
-			// aapt resource value: 0x7f0a00f8
-			public const int actions = 2131362040;
+			// aapt resource value: 0x7f0a012e
+			public const int actions = 2131362094;
 			
-			// aapt resource value: 0x7f0a0089
-			public const int activity_chooser_view_content = 2131361929;
+			// aapt resource value: 0x7f0a00b7
+			public const int activity_chooser_view_content = 2131361975;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int add = 2131361842;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int alertTitle = 2131361946;
+			// aapt resource value: 0x7f0a00c8
+			public const int alertTitle = 2131361992;
 			
 			// aapt resource value: 0x7f0a0068
 			public const int all = 2131361896;
@@ -5819,14 +6614,29 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0043
 			public const int always = 2131361859;
 			
+			// aapt resource value: 0x7f0a0086
+			public const int anticlockwise = 2131361926;
+			
 			// aapt resource value: 0x7f0a0076
 			public const int async = 2131361910;
 			
 			// aapt resource value: 0x7f0a0051
 			public const int auto = 2131361873;
 			
+			// aapt resource value: 0x7f0a00a2
+			public const int away = 2131361954;
+			
+			// aapt resource value: 0x7f0a00a0
+			public const int backward = 2131361952;
+			
+			// aapt resource value: 0x7f0a0098
+			public const int bar = 2131361944;
+			
 			// aapt resource value: 0x7f0a0071
 			public const int barrier = 2131361905;
+			
+			// aapt resource value: 0x7f0a0085
+			public const int baseline = 2131361925;
 			
 			// aapt resource value: 0x7f0a003a
 			public const int beginning = 2131361850;
@@ -5834,38 +6644,41 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0077
 			public const int blocking = 2131361911;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int border = 2131361917;
+			// aapt resource value: 0x7f0a00ad
+			public const int border = 2131361965;
+			
+			// aapt resource value: 0x7f0a009a
+			public const int both = 2131361946;
 			
 			// aapt resource value: 0x7f0a0048
 			public const int bottom = 2131361864;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int browser_actions_header_text = 2131361980;
-			
-			// aapt resource value: 0x7f0a00be
-			public const int browser_actions_menu_item_icon = 2131361982;
-			
-			// aapt resource value: 0x7f0a00bf
-			public const int browser_actions_menu_item_text = 2131361983;
-			
-			// aapt resource value: 0x7f0a00bd
-			public const int browser_actions_menu_items = 2131361981;
-			
-			// aapt resource value: 0x7f0a00bb
-			public const int browser_actions_menu_view = 2131361979;
-			
-			// aapt resource value: 0x7f0a008e
-			public const int buttonPanel = 2131361934;
-			
-			// aapt resource value: 0x7f0a00dc
-			public const int buttonUpdateTemp = 2131362012;
-			
-			// aapt resource value: 0x7f0a0109
-			public const int cancel = 2131362057;
+			// aapt resource value: 0x7f0a00ea
+			public const int browser_actions_header_text = 2131362026;
 			
 			// aapt resource value: 0x7f0a00ec
-			public const int cancel_action = 2131362028;
+			public const int browser_actions_menu_item_icon = 2131362028;
+			
+			// aapt resource value: 0x7f0a00ed
+			public const int browser_actions_menu_item_text = 2131362029;
+			
+			// aapt resource value: 0x7f0a00eb
+			public const int browser_actions_menu_items = 2131362027;
+			
+			// aapt resource value: 0x7f0a00e9
+			public const int browser_actions_menu_view = 2131362025;
+			
+			// aapt resource value: 0x7f0a00bc
+			public const int buttonPanel = 2131361980;
+			
+			// aapt resource value: 0x7f0a010f
+			public const int buttonUpdateTemp = 2131362063;
+			
+			// aapt resource value: 0x7f0a013f
+			public const int cancel = 2131362111;
+			
+			// aapt resource value: 0x7f0a0122
+			public const int cancel_action = 2131362082;
 			
 			// aapt resource value: 0x7f0a0050
 			public const int center = 2131361872;
@@ -5879,17 +6692,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0072
 			public const int chains = 2131361906;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int checkbox = 2131361953;
+			// aapt resource value: 0x7f0a00cf
+			public const int checkbox = 2131361999;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int @checked = 2131361914;
+			// aapt resource value: 0x7f0a00aa
+			public const int @checked = 2131361962;
 			
-			// aapt resource value: 0x7f0a00f4
-			public const int chronometer = 2131362036;
+			// aapt resource value: 0x7f0a012a
+			public const int chronometer = 2131362090;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int circle = 2131361920;
+			// aapt resource value: 0x7f0a009b
+			public const int circle = 2131361947;
 			
 			// aapt resource value: 0x7f0a0065
 			public const int clip_horizontal = 2131361893;
@@ -5897,38 +6710,47 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0066
 			public const int clip_vertical = 2131361894;
 			
+			// aapt resource value: 0x7f0a0087
+			public const int clockwise = 2131361927;
+			
 			// aapt resource value: 0x7f0a0044
 			public const int collapseActionView = 2131361860;
 			
-			// aapt resource value: 0x7f0a010c
-			public const int colorHex = 2131362060;
+			// aapt resource value: 0x7f0a0142
+			public const int colorHex = 2131362114;
 			
-			// aapt resource value: 0x7f0a010b
-			public const int colorIndicator = 2131362059;
+			// aapt resource value: 0x7f0a0141
+			public const int colorIndicator = 2131362113;
 			
-			// aapt resource value: 0x7f0a00e6
-			public const int colorPanelView1 = 2131362022;
+			// aapt resource value: 0x7f0a011c
+			public const int colorPanelView1 = 2131362076;
 			
-			// aapt resource value: 0x7f0a0108
-			public const int colorPickerView = 2131362056;
+			// aapt resource value: 0x7f0a013e
+			public const int colorPickerView = 2131362110;
 			
-			// aapt resource value: 0x7f0a00cd
-			public const int container = 2131361997;
+			// aapt resource value: 0x7f0a007a
+			public const int column = 2131361914;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int content = 2131361949;
+			// aapt resource value: 0x7f0a007b
+			public const int column_reverse = 2131361915;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int contentPanel = 2131361937;
+			// aapt resource value: 0x7f0a00fc
+			public const int container = 2131362044;
 			
-			// aapt resource value: 0x7f0a00ce
-			public const int coordinator = 2131361998;
+			// aapt resource value: 0x7f0a00cb
+			public const int content = 2131361995;
 			
-			// aapt resource value: 0x7f0a00c2
-			public const int cpv_arrow_right = 2131361986;
+			// aapt resource value: 0x7f0a00bf
+			public const int contentPanel = 2131361983;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int cpv_color_image_view = 2131361985;
+			// aapt resource value: 0x7f0a00fd
+			public const int coordinator = 2131362045;
+			
+			// aapt resource value: 0x7f0a00f1
+			public const int cpv_arrow_right = 2131362033;
+			
+			// aapt resource value: 0x7f0a00f0
+			public const int cpv_color_image_view = 2131362032;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int cpv_color_panel_new = 2131361830;
@@ -5936,44 +6758,47 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0025
 			public const int cpv_color_panel_old = 2131361829;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int cpv_color_panel_view = 2131361984;
+			// aapt resource value: 0x7f0a00ef
+			public const int cpv_color_panel_view = 2131362031;
 			
 			// aapt resource value: 0x7f0a0024
 			public const int cpv_color_picker_view = 2131361828;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int cpv_hex = 2131361987;
+			// aapt resource value: 0x7f0a00f2
+			public const int cpv_hex = 2131362034;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int cpv_preference_preview_color_panel = 2131361831;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int custom = 2131361924;
+			// aapt resource value: 0x7f0a00b2
+			public const int custom = 2131361970;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int customPanel = 2131361943;
-			
-			// aapt resource value: 0x7f0a00a6
-			public const int decor_content_parent = 2131361958;
-			
-			// aapt resource value: 0x7f0a008b
-			public const int default_activity_button = 2131361931;
-			
-			// aapt resource value: 0x7f0a00d0
-			public const int design_bottom_sheet = 2131362000;
-			
-			// aapt resource value: 0x7f0a00d5
-			public const int design_menu_item_action_area = 2131362005;
+			// aapt resource value: 0x7f0a00c5
+			public const int customPanel = 2131361989;
 			
 			// aapt resource value: 0x7f0a00d4
-			public const int design_menu_item_action_area_stub = 2131362004;
+			public const int decor_content_parent = 2131362004;
 			
-			// aapt resource value: 0x7f0a00d3
-			public const int design_menu_item_text = 2131362003;
+			// aapt resource value: 0x7f0a00b9
+			public const int default_activity_button = 2131361977;
 			
-			// aapt resource value: 0x7f0a00d2
-			public const int design_navigation_view = 2131362002;
+			// aapt resource value: 0x7f0a00ff
+			public const int design_bottom_sheet = 2131362047;
+			
+			// aapt resource value: 0x7f0a0104
+			public const int design_menu_item_action_area = 2131362052;
+			
+			// aapt resource value: 0x7f0a0103
+			public const int design_menu_item_action_area_stub = 2131362051;
+			
+			// aapt resource value: 0x7f0a0102
+			public const int design_menu_item_text = 2131362050;
+			
+			// aapt resource value: 0x7f0a0101
+			public const int design_navigation_view = 2131362049;
+			
+			// aapt resource value: 0x7f0a009c
+			public const int diamond = 2131361948;
 			
 			// aapt resource value: 0x7f0a0073
 			public const int dimensions = 2131361907;
@@ -5984,23 +6809,29 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a002b
 			public const int disableHome = 2131361835;
 			
-			// aapt resource value: 0x7f0a0111
-			public const int editTextFanDuration1 = 2131362065;
+			// aapt resource value: 0x7f0a0147
+			public const int editTextFanDuration1 = 2131362119;
 			
-			// aapt resource value: 0x7f0a0113
-			public const int editTextFanDuration2 = 2131362067;
+			// aapt resource value: 0x7f0a0149
+			public const int editTextFanDuration2 = 2131362121;
 			
-			// aapt resource value: 0x7f0a00db
-			public const int editTextTemperature = 2131362011;
+			// aapt resource value: 0x7f0a010e
+			public const int editTextTemperature = 2131362062;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int edit_query = 2131361962;
+			// aapt resource value: 0x7f0a00d8
+			public const int edit_query = 2131362008;
+			
+			// aapt resource value: 0x7f0a00a6
+			public const int eightCrossEightDotMatrix = 2131361958;
+			
+			// aapt resource value: 0x7f0a0107
+			public const int eightsegment = 2131362055;
 			
 			// aapt resource value: 0x7f0a003b
 			public const int end = 2131361851;
 			
-			// aapt resource value: 0x7f0a00fa
-			public const int end_padder = 2131362042;
+			// aapt resource value: 0x7f0a0130
+			public const int end_padder = 2131362096;
 			
 			// aapt resource value: 0x7f0a004a
 			public const int enterAlways = 2131361866;
@@ -6011,11 +6842,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a004c
 			public const int exitUntilCollapsed = 2131361868;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int expand_activities_button = 2131361930;
+			// aapt resource value: 0x7f0a00b8
+			public const int expand_activities_button = 2131361976;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int expanded_menu = 2131361952;
+			// aapt resource value: 0x7f0a00ce
+			public const int expanded_menu = 2131361998;
+			
+			// aapt resource value: 0x7f0a00a3
+			public const int far = 2131361955;
 			
 			// aapt resource value: 0x7f0a0062
 			public const int fill = 2131361890;
@@ -6032,11 +6866,71 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0060
 			public const int @fixed = 2131361888;
 			
+			// aapt resource value: 0x7f0a0080
+			public const int flex_end = 2131361920;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int flex_start = 2131361921;
+			
 			// aapt resource value: 0x7f0a0078
 			public const int forever = 2131361912;
 			
-			// aapt resource value: 0x7f0a00ba
-			public const int frame_layout_settings = 2131361978;
+			// aapt resource value: 0x7f0a00a1
+			public const int forward = 2131361953;
+			
+			// aapt resource value: 0x7f0a0108
+			public const int fourteensegment = 2131362056;
+			
+			// aapt resource value: 0x7f0a00e8
+			public const int frame_layout_settings = 2131362024;
+			
+			// aapt resource value: 0x7f0a008e
+			public const int gaugeBottom = 2131361934;
+			
+			// aapt resource value: 0x7f0a008f
+			public const int gaugeBottomLeft = 2131361935;
+			
+			// aapt resource value: 0x7f0a0090
+			public const int gaugeBottomRight = 2131361936;
+			
+			// aapt resource value: 0x7f0a0091
+			public const int gaugeCenter = 2131361937;
+			
+			// aapt resource value: 0x7f0a0092
+			public const int gaugeCustom = 2131361938;
+			
+			// aapt resource value: 0x7f0a0088
+			public const int gaugeHorizontalHeaderCenter = 2131361928;
+			
+			// aapt resource value: 0x7f0a0089
+			public const int gaugeHorizontalHeaderEnd = 2131361929;
+			
+			// aapt resource value: 0x7f0a008a
+			public const int gaugeHorizontalHeaderStart = 2131361930;
+			
+			// aapt resource value: 0x7f0a0093
+			public const int gaugeLeft = 2131361939;
+			
+			// aapt resource value: 0x7f0a0094
+			public const int gaugeRight = 2131361940;
+			
+			// aapt resource value: 0x7f0a0095
+			public const int gaugeTop = 2131361941;
+			
+			// aapt resource value: 0x7f0a0096
+			public const int gaugeTopLeft = 2131361942;
+			
+			// aapt resource value: 0x7f0a0097
+			public const int gaugeTopRight = 2131361943;
+			
+			// aapt resource value: 0x7f0a008b
+			public const int gaugeVerticalHeaderCenter = 2131361931;
+			
+			// aapt resource value: 0x7f0a008c
+			public const int gaugeVerticalHeaderEnd = 2131361932;
+			
+			// aapt resource value: 0x7f0a008d
+			public const int gaugeVerticalHeaderStart = 2131361933;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int ghost_view = 2131361802;
@@ -6044,11 +6938,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0069
 			public const int gone = 2131361897;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int gridView = 2131361988;
+			// aapt resource value: 0x7f0a00f3
+			public const int gridView = 2131362035;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int group_divider = 2131361948;
+			// aapt resource value: 0x7f0a00ca
+			public const int group_divider = 2131361994;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int home = 2131361797;
@@ -6056,32 +6950,38 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a002c
 			public const int homeAsUp = 2131361836;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int icon = 2131361933;
+			// aapt resource value: 0x7f0a00a4
+			public const int horizontal = 2131361956;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int icon_frame = 2131362007;
+			// aapt resource value: 0x7f0a00bb
+			public const int icon = 2131361979;
 			
-			// aapt resource value: 0x7f0a00f9
-			public const int icon_group = 2131362041;
+			// aapt resource value: 0x7f0a010a
+			public const int icon_frame = 2131362058;
+			
+			// aapt resource value: 0x7f0a012f
+			public const int icon_group = 2131362095;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int ifRoom = 2131361861;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int image = 2131361918;
+			// aapt resource value: 0x7f0a009d
+			public const int image = 2131361949;
 			
-			// aapt resource value: 0x7f0a00df
-			public const int imageViewLightStatus = 2131362015;
+			// aapt resource value: 0x7f0a0115
+			public const int imageViewLightStatus = 2131362069;
 			
-			// aapt resource value: 0x7f0a007f
-			public const int imagewithtext = 2131361919;
+			// aapt resource value: 0x7f0a00ae
+			public const int imagewithtext = 2131361966;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int indeterminate = 2131361915;
+			// aapt resource value: 0x7f0a00ab
+			public const int indeterminate = 2131361963;
 			
-			// aapt resource value: 0x7f0a00f5
-			public const int info = 2131362037;
+			// aapt resource value: 0x7f0a012b
+			public const int info = 2131362091;
+			
+			// aapt resource value: 0x7f0a009e
+			public const int invertedTriangle = 2131361950;
 			
 			// aapt resource value: 0x7f0a006a
 			public const int invisible = 2131361898;
@@ -6095,11 +6995,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0052
 			public const int labeled = 2131361874;
 			
-			// aapt resource value: 0x7f0a0082
-			public const int large = 2131361922;
+			// aapt resource value: 0x7f0a00b0
+			public const int large = 2131361968;
 			
-			// aapt resource value: 0x7f0a00cc
-			public const int largeLabel = 2131361996;
+			// aapt resource value: 0x7f0a00fb
+			public const int largeLabel = 2131362043;
 			
 			// aapt resource value: 0x7f0a0058
 			public const int left = 2131361880;
@@ -6110,29 +7010,29 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001d
 			public const int line3 = 2131361821;
 			
-			// aapt resource value: 0x7f0a00e2
-			public const int linearLayoutBrightness = 2131362018;
+			// aapt resource value: 0x7f0a0118
+			public const int linearLayoutBrightness = 2131362072;
 			
-			// aapt resource value: 0x7f0a00de
-			public const int linearLayoutLampMain = 2131362014;
+			// aapt resource value: 0x7f0a0114
+			public const int linearLayoutLampMain = 2131362068;
 			
-			// aapt resource value: 0x7f0a010e
-			public const int linearLayoutProgress = 2131362062;
+			// aapt resource value: 0x7f0a0144
+			public const int linearLayoutProgress = 2131362116;
 			
 			// aapt resource value: 0x7f0a0028
 			public const int listMode = 2131361832;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int list_item = 2131361932;
+			// aapt resource value: 0x7f0a00ba
+			public const int list_item = 2131361978;
 			
-			// aapt resource value: 0x7f0a0116
-			public const int masked = 2131362070;
+			// aapt resource value: 0x7f0a014c
+			public const int masked = 2131362124;
 			
-			// aapt resource value: 0x7f0a00ee
-			public const int media_actions = 2131362030;
+			// aapt resource value: 0x7f0a0124
+			public const int media_actions = 2131362084;
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int message = 2131361975;
+			// aapt resource value: 0x7f0a00e5
+			public const int message = 2131362021;
 			
 			// aapt resource value: 0x7f0a003c
 			public const int middle = 2131361852;
@@ -6149,8 +7049,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0033
 			public const int multiply = 2131361843;
 			
-			// aapt resource value: 0x7f0a00d1
-			public const int navigation_header_container = 2131362001;
+			// aapt resource value: 0x7f0a0100
+			public const int navigation_header_container = 2131362048;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int never = 2131361862;
@@ -6161,17 +7061,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0029
 			public const int normal = 2131361833;
 			
-			// aapt resource value: 0x7f0a00f7
-			public const int notification_background = 2131362039;
+			// aapt resource value: 0x7f0a012d
+			public const int notification_background = 2131362093;
 			
-			// aapt resource value: 0x7f0a00f1
-			public const int notification_main_column = 2131362033;
+			// aapt resource value: 0x7f0a0127
+			public const int notification_main_column = 2131362087;
 			
-			// aapt resource value: 0x7f0a00f0
-			public const int notification_main_column_container = 2131362032;
+			// aapt resource value: 0x7f0a0126
+			public const int notification_main_column_container = 2131362086;
 			
-			// aapt resource value: 0x7f0a010a
-			public const int ok = 2131362058;
+			// aapt resource value: 0x7f0a007e
+			public const int nowrap = 2131361918;
+			
+			// aapt resource value: 0x7f0a0140
+			public const int ok = 2131362112;
 			
 			// aapt resource value: 0x7f0a0064
 			public const int outline = 2131361892;
@@ -6185,8 +7088,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a006b
 			public const int parent = 2131361899;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int parentPanel = 2131361936;
+			// aapt resource value: 0x7f0a00be
+			public const int parentPanel = 2131361982;
 			
 			// aapt resource value: 0x7f0a000b
 			public const int parent_matrix = 2131361803;
@@ -6197,11 +7100,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a005c
 			public const int pin = 2131361884;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int preset = 2131361925;
+			// aapt resource value: 0x7f0a00b3
+			public const int preset = 2131361971;
 			
-			// aapt resource value: 0x7f0a010f
-			public const int progressBarOpening = 2131362063;
+			// aapt resource value: 0x7f0a0145
+			public const int progressBarOpening = 2131362117;
 			
 			// aapt resource value: 0x7f0a0006
 			public const int progress_circular = 2131361798;
@@ -6209,35 +7112,47 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0007
 			public const int progress_horizontal = 2131361799;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int radio = 2131361954;
+			// aapt resource value: 0x7f0a00d0
+			public const int radio = 2131362000;
 			
-			// aapt resource value: 0x7f0a00e7
-			public const int recyclerViewLights = 2131362023;
+			// aapt resource value: 0x7f0a009f
+			public const int rectangle = 2131361951;
 			
-			// aapt resource value: 0x7f0a0107
-			public const int recyclerViewMusic = 2131362055;
+			// aapt resource value: 0x7f0a011d
+			public const int recyclerViewLights = 2131362077;
 			
-			// aapt resource value: 0x7f0a00dd
-			public const int recyclerViewSensorTemperatures = 2131362013;
+			// aapt resource value: 0x7f0a013d
+			public const int recyclerViewMusic = 2131362109;
 			
-			// aapt resource value: 0x7f0a0100
-			public const int recyclerViewSettings = 2131362048;
+			// aapt resource value: 0x7f0a0110
+			public const int recyclerViewSensorTemperatures = 2131362064;
 			
-			// aapt resource value: 0x7f0a00fc
-			public const int recycler_view = 2131362044;
+			// aapt resource value: 0x7f0a0136
+			public const int recyclerViewSettings = 2131362102;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int regular = 2131361923;
+			// aapt resource value: 0x7f0a0132
+			public const int recycler_view = 2131362098;
+			
+			// aapt resource value: 0x7f0a00b1
+			public const int regular = 2131361969;
 			
 			// aapt resource value: 0x7f0a0059
 			public const int right = 2131361881;
 			
-			// aapt resource value: 0x7f0a00f6
-			public const int right_icon = 2131362038;
+			// aapt resource value: 0x7f0a012c
+			public const int right_icon = 2131362092;
 			
-			// aapt resource value: 0x7f0a00f2
-			public const int right_side = 2131362034;
+			// aapt resource value: 0x7f0a0128
+			public const int right_side = 2131362088;
+			
+			// aapt resource value: 0x7f0a00ee
+			public const int rootLayout = 2131362030;
+			
+			// aapt resource value: 0x7f0a007c
+			public const int row = 2131361916;
+			
+			// aapt resource value: 0x7f0a007d
+			public const int row_reverse = 2131361917;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int save_image_matrix = 2131361804;
@@ -6254,80 +7169,95 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a004d
 			public const int scroll = 2131361869;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int scrollIndicatorDown = 2131361942;
+			// aapt resource value: 0x7f0a00c4
+			public const int scrollIndicatorDown = 2131361988;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int scrollIndicatorUp = 2131361938;
+			// aapt resource value: 0x7f0a00c0
+			public const int scrollIndicatorUp = 2131361984;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int scrollView = 2131361939;
+			// aapt resource value: 0x7f0a00c1
+			public const int scrollView = 2131361985;
 			
 			// aapt resource value: 0x7f0a0061
 			public const int scrollable = 2131361889;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int search_badge = 2131361964;
+			// aapt resource value: 0x7f0a00da
+			public const int search_badge = 2131362010;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int search_bar = 2131361963;
+			// aapt resource value: 0x7f0a00d9
+			public const int search_bar = 2131362009;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int search_button = 2131361965;
+			// aapt resource value: 0x7f0a00db
+			public const int search_button = 2131362011;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int search_close_btn = 2131361970;
+			// aapt resource value: 0x7f0a00e0
+			public const int search_close_btn = 2131362016;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int search_edit_frame = 2131361966;
+			// aapt resource value: 0x7f0a00dc
+			public const int search_edit_frame = 2131362012;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int search_go_btn = 2131361972;
+			// aapt resource value: 0x7f0a00e2
+			public const int search_go_btn = 2131362018;
 			
-			// aapt resource value: 0x7f0a00af
-			public const int search_mag_icon = 2131361967;
+			// aapt resource value: 0x7f0a00dd
+			public const int search_mag_icon = 2131362013;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int search_plate = 2131361968;
+			// aapt resource value: 0x7f0a00de
+			public const int search_plate = 2131362014;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int search_src_text = 2131361969;
-			
-			// aapt resource value: 0x7f0a00b5
-			public const int search_voice_btn = 2131361973;
+			// aapt resource value: 0x7f0a00df
+			public const int search_src_text = 2131362015;
 			
 			// aapt resource value: 0x7f0a00e3
-			public const int seekBarBrightness = 2131362019;
+			public const int search_voice_btn = 2131362019;
 			
-			// aapt resource value: 0x7f0a0105
-			public const int seekBarVolume = 2131362053;
+			// aapt resource value: 0x7f0a0119
+			public const int seekBarBrightness = 2131362073;
 			
-			// aapt resource value: 0x7f0a00fd
-			public const int seekbar = 2131362045;
+			// aapt resource value: 0x7f0a013b
+			public const int seekBarVolume = 2131362107;
 			
-			// aapt resource value: 0x7f0a00fe
-			public const int seekbar_value = 2131362046;
+			// aapt resource value: 0x7f0a0133
+			public const int seekbar = 2131362099;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int select_dialog_listview = 2131361974;
+			// aapt resource value: 0x7f0a0134
+			public const int seekbar_value = 2131362100;
+			
+			// aapt resource value: 0x7f0a00a7
+			public const int segmentFourteen = 2131361959;
+			
+			// aapt resource value: 0x7f0a00a8
+			public const int segmentSeven = 2131361960;
+			
+			// aapt resource value: 0x7f0a00a9
+			public const int segmentSixteen = 2131361961;
+			
+			// aapt resource value: 0x7f0a00e4
+			public const int select_dialog_listview = 2131362020;
 			
 			// aapt resource value: 0x7f0a0053
 			public const int selected = 2131361875;
 			
-			// aapt resource value: 0x7f0a0101
-			public const int settingItemLayout = 2131362049;
+			// aapt resource value: 0x7f0a0137
+			public const int settingItemLayout = 2131362103;
 			
-			// aapt resource value: 0x7f0a00da
-			public const int sfSegmentedControlPower = 2131362010;
+			// aapt resource value: 0x7f0a0106
+			public const int sevensegment = 2131362054;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int shades_divider = 2131361989;
+			// aapt resource value: 0x7f0a0111
+			public const int sfCircularGaugeTemperature = 2131362065;
 			
-			// aapt resource value: 0x7f0a00c6
-			public const int shades_layout = 2131361990;
+			// aapt resource value: 0x7f0a010d
+			public const int sfSegmentedControlPower = 2131362061;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int shortcut = 2131361950;
+			// aapt resource value: 0x7f0a00f4
+			public const int shades_divider = 2131362036;
+			
+			// aapt resource value: 0x7f0a00f5
+			public const int shades_layout = 2131362037;
+			
+			// aapt resource value: 0x7f0a00cc
+			public const int shortcut = 2131361996;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int showCustom = 2131361838;
@@ -6338,8 +7268,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0030
 			public const int showTitle = 2131361840;
 			
-			// aapt resource value: 0x7f0a00cb
-			public const int smallLabel = 2131361995;
+			// aapt resource value: 0x7f0a0109
+			public const int sixteensegment = 2131362057;
+			
+			// aapt resource value: 0x7f0a00fa
+			public const int smallLabel = 2131362042;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int snackbar_action = 2131361814;
@@ -6353,11 +7286,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a004f
 			public const int snapMargins = 2131361871;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int spacer = 2131361935;
+			// aapt resource value: 0x7f0a0082
+			public const int space_around = 2131361922;
 			
-			// aapt resource value: 0x7f0a00fb
-			public const int spinner = 2131362043;
+			// aapt resource value: 0x7f0a0083
+			public const int space_between = 2131361923;
+			
+			// aapt resource value: 0x7f0a0084
+			public const int space_evenly = 2131361924;
+			
+			// aapt resource value: 0x7f0a00bd
+			public const int spacer = 2131361981;
+			
+			// aapt resource value: 0x7f0a0131
+			public const int spinner = 2131362097;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int split_action_bar = 2131361800;
@@ -6368,8 +7310,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0070
 			public const int spread_inside = 2131361904;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int square = 2131361921;
+			// aapt resource value: 0x7f0a00af
+			public const int square = 2131361967;
 			
 			// aapt resource value: 0x7f0a0035
 			public const int src_atop = 2131361845;
@@ -6386,26 +7328,26 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a005a
 			public const int start = 2131361882;
 			
-			// aapt resource value: 0x7f0a00ed
-			public const int status_bar_latest_event_content = 2131362029;
+			// aapt resource value: 0x7f0a0123
+			public const int status_bar_latest_event_content = 2131362083;
 			
 			// aapt resource value: 0x7f0a005f
 			public const int stretch = 2131361887;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int submenuarrow = 2131361951;
-			
-			// aapt resource value: 0x7f0a00b3
-			public const int submit_area = 2131361971;
-			
-			// aapt resource value: 0x7f0a00e5
-			public const int switchColorLightOn = 2131362021;
+			// aapt resource value: 0x7f0a00cd
+			public const int submenuarrow = 2131361997;
 			
 			// aapt resource value: 0x7f0a00e1
-			public const int switchLightOn = 2131362017;
+			public const int submit_area = 2131362017;
 			
-			// aapt resource value: 0x7f0a00ff
-			public const int switchWidget = 2131362047;
+			// aapt resource value: 0x7f0a011b
+			public const int switchColorLightOn = 2131362075;
+			
+			// aapt resource value: 0x7f0a0117
+			public const int switchLightOn = 2131362071;
+			
+			// aapt resource value: 0x7f0a0135
+			public const int switchWidget = 2131362101;
 			
 			// aapt resource value: 0x7f0a002a
 			public const int tabMode = 2131361834;
@@ -6425,41 +7367,47 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0022
 			public const int text2 = 2131361826;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int textSpacerNoButtons = 2131361941;
+			// aapt resource value: 0x7f0a00c3
+			public const int textSpacerNoButtons = 2131361987;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int textSpacerNoTitle = 2131361940;
+			// aapt resource value: 0x7f0a00c2
+			public const int textSpacerNoTitle = 2131361986;
 			
 			// aapt resource value: 0x7f0a005e
 			public const int textStart = 2131361886;
 			
-			// aapt resource value: 0x7f0a00d9
-			public const int textView1 = 2131362009;
+			// aapt resource value: 0x7f0a010c
+			public const int textView1 = 2131362060;
 			
-			// aapt resource value: 0x7f0a00e4
-			public const int textViewBrightnessLevel = 2131362020;
+			// aapt resource value: 0x7f0a011a
+			public const int textViewBrightnessLevel = 2131362074;
 			
-			// aapt resource value: 0x7f0a00e0
-			public const int textViewLightName = 2131362016;
+			// aapt resource value: 0x7f0a0113
+			public const int textViewGrades = 2131362067;
 			
-			// aapt resource value: 0x7f0a0110
-			public const int textViewProgressStatus = 2131362064;
+			// aapt resource value: 0x7f0a0116
+			public const int textViewLightName = 2131362070;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int textViewSaunaNameSettings = 2131361977;
+			// aapt resource value: 0x7f0a0146
+			public const int textViewProgressStatus = 2131362118;
 			
-			// aapt resource value: 0x7f0a0102
-			public const int textViewSettingName = 2131362050;
+			// aapt resource value: 0x7f0a00e7
+			public const int textViewSaunaNameSettings = 2131362023;
 			
-			// aapt resource value: 0x7f0a0103
-			public const int textViewSettingStatus = 2131362051;
+			// aapt resource value: 0x7f0a0112
+			public const int textViewSensorName = 2131362066;
 			
-			// aapt resource value: 0x7f0a0106
-			public const int textViewVolumeLevel = 2131362054;
+			// aapt resource value: 0x7f0a0138
+			public const int textViewSettingName = 2131362104;
 			
-			// aapt resource value: 0x7f0a00d6
-			public const int text_input_password_toggle = 2131362006;
+			// aapt resource value: 0x7f0a0139
+			public const int textViewSettingStatus = 2131362105;
+			
+			// aapt resource value: 0x7f0a013c
+			public const int textViewVolumeLevel = 2131362108;
+			
+			// aapt resource value: 0x7f0a0105
+			public const int text_input_password_toggle = 2131362053;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int textinput_counter = 2131361816;
@@ -6470,44 +7418,44 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001a
 			public const int textinput_helper_text = 2131361818;
 			
-			// aapt resource value: 0x7f0a00f3
-			public const int time = 2131362035;
+			// aapt resource value: 0x7f0a0129
+			public const int time = 2131362089;
 			
 			// aapt resource value: 0x7f0a0023
 			public const int title = 2131361827;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int titleDividerNoCustom = 2131361947;
+			// aapt resource value: 0x7f0a00c9
+			public const int titleDividerNoCustom = 2131361993;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int title_template = 2131361945;
+			// aapt resource value: 0x7f0a00c7
+			public const int title_template = 2131361991;
 			
-			// aapt resource value: 0x7f0a0112
-			public const int toggleButtonFan1 = 2131362066;
+			// aapt resource value: 0x7f0a0148
+			public const int toggleButtonFan1 = 2131362120;
 			
-			// aapt resource value: 0x7f0a0114
-			public const int toggleButtonFan2 = 2131362068;
+			// aapt resource value: 0x7f0a014a
+			public const int toggleButtonFan2 = 2131362122;
 			
-			// aapt resource value: 0x7f0a00d8
-			public const int toggleHeater = 2131362008;
+			// aapt resource value: 0x7f0a010b
+			public const int toggleHeater = 2131362059;
 			
-			// aapt resource value: 0x7f0a0104
-			public const int toggleSound = 2131362052;
+			// aapt resource value: 0x7f0a013a
+			public const int toggleSound = 2131362106;
 			
-			// aapt resource value: 0x7f0a010d
-			public const int toggleVentilation = 2131362061;
+			// aapt resource value: 0x7f0a0143
+			public const int toggleVentilation = 2131362115;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int toolbar = 2131361976;
+			// aapt resource value: 0x7f0a00e6
+			public const int toolbar = 2131362022;
 			
 			// aapt resource value: 0x7f0a0049
 			public const int top = 2131361865;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int topPanel = 2131361944;
+			// aapt resource value: 0x7f0a00c6
+			public const int topPanel = 2131361990;
 			
-			// aapt resource value: 0x7f0a00cf
-			public const int touch_outside = 2131361999;
+			// aapt resource value: 0x7f0a00fe
+			public const int touch_outside = 2131362046;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int transition_current_scene = 2131361807;
@@ -6524,20 +7472,23 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0013
 			public const int transition_transform = 2131361811;
 			
-			// aapt resource value: 0x7f0a00c8
-			public const int transparency_layout = 2131361992;
+			// aapt resource value: 0x7f0a00f7
+			public const int transparency_layout = 2131362039;
 			
-			// aapt resource value: 0x7f0a00c9
-			public const int transparency_seekbar = 2131361993;
+			// aapt resource value: 0x7f0a00f8
+			public const int transparency_seekbar = 2131362040;
 			
-			// aapt resource value: 0x7f0a00ca
-			public const int transparency_text = 2131361994;
+			// aapt resource value: 0x7f0a00f9
+			public const int transparency_text = 2131362041;
 			
-			// aapt resource value: 0x7f0a00c7
-			public const int transparency_title = 2131361991;
+			// aapt resource value: 0x7f0a00f6
+			public const int transparency_title = 2131362038;
 			
-			// aapt resource value: 0x7f0a007c
-			public const int @unchecked = 2131361916;
+			// aapt resource value: 0x7f0a0099
+			public const int triangle = 2131361945;
+			
+			// aapt resource value: 0x7f0a00ac
+			public const int @unchecked = 2131361964;
 			
 			// aapt resource value: 0x7f0a0038
 			public const int uniform = 2131361848;
@@ -6551,11 +7502,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0031
 			public const int useLogo = 2131361841;
 			
+			// aapt resource value: 0x7f0a00a5
+			public const int vertical = 2131361957;
+			
 			// aapt resource value: 0x7f0a001b
 			public const int view_offset_helper = 2131361819;
 			
-			// aapt resource value: 0x7f0a0115
-			public const int visible = 2131362069;
+			// aapt resource value: 0x7f0a014b
+			public const int visible = 2131362123;
 			
 			// aapt resource value: 0x7f0a0047
 			public const int withText = 2131361863;
@@ -6565,6 +7519,9 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 0x7f0a0039
 			public const int wrap_content = 2131361849;
+			
+			// aapt resource value: 0x7f0a007f
+			public const int wrap_reverse = 2131361919;
 			
 			static Id()
 			{
@@ -6771,214 +7728,220 @@ namespace firstxamarindroid
 			public const int browser_actions_context_menu_row = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int cpv_color_item_circle = 2130968607;
+			public const int circulargauge_layout = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int cpv_color_item_square = 2130968608;
+			public const int cpv_color_item_circle = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int cpv_dialog_color_picker = 2130968609;
+			public const int cpv_color_item_square = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int cpv_dialog_presets = 2130968610;
+			public const int cpv_dialog_color_picker = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int cpv_preference_circle = 2130968611;
+			public const int cpv_dialog_presets = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int cpv_preference_circle_large = 2130968612;
+			public const int cpv_preference_circle = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int cpv_preference_square = 2130968613;
+			public const int cpv_preference_circle_large = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int cpv_preference_square_large = 2130968614;
+			public const int cpv_preference_square = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_bottom_navigation_item = 2130968615;
+			public const int cpv_preference_square_large = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_bottom_sheet_dialog = 2130968616;
+			public const int design_bottom_navigation_item = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int design_layout_snackbar = 2130968617;
+			public const int design_bottom_sheet_dialog = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int design_layout_snackbar_include = 2130968618;
+			public const int design_layout_snackbar = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int design_layout_tab_icon = 2130968619;
+			public const int design_layout_snackbar_include = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int design_layout_tab_text = 2130968620;
+			public const int design_layout_tab_icon = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int design_menu_item_action_area = 2130968621;
+			public const int design_layout_tab_text = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int design_navigation_item = 2130968622;
+			public const int design_menu_item_action_area = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int design_navigation_item_header = 2130968623;
+			public const int design_navigation_item = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int design_navigation_item_separator = 2130968624;
+			public const int design_navigation_item_header = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int design_navigation_item_subheader = 2130968625;
+			public const int design_navigation_item_separator = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int design_navigation_menu = 2130968626;
+			public const int design_navigation_item_subheader = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int design_navigation_menu_item = 2130968627;
+			public const int design_navigation_menu = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int design_text_input_password_icon = 2130968628;
+			public const int design_navigation_menu_item = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int expand_button = 2130968629;
+			public const int design_text_input_password_icon = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int heater_fragment = 2130968630;
+			public const int digitalgauge_layout = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int item_sensor_layout = 2130968631;
+			public const int expand_button = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int light_item_layout = 2130968632;
+			public const int heater_fragment = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int light_settings_fragment = 2130968633;
+			public const int item_sensor_layout = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int lights_fragment = 2130968634;
+			public const int light_item_layout = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int mtrl_layout_snackbar = 2130968635;
+			public const int light_settings_fragment = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int mtrl_layout_snackbar_include = 2130968636;
+			public const int lights_fragment = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int notification_action = 2130968637;
+			public const int mtrl_layout_snackbar = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int notification_action_tombstone = 2130968638;
+			public const int mtrl_layout_snackbar_include = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int notification_media_action = 2130968639;
+			public const int notification_action = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int notification_media_cancel_action = 2130968640;
+			public const int notification_action_tombstone = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int notification_template_big_media = 2130968641;
+			public const int notification_media_action = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int notification_template_big_media_custom = 2130968642;
+			public const int notification_media_cancel_action = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int notification_template_big_media_narrow = 2130968643;
+			public const int notification_template_big_media = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int notification_template_big_media_narrow_custom = 2130968644;
+			public const int notification_template_big_media_custom = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int notification_template_custom_big = 2130968645;
+			public const int notification_template_big_media_narrow = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int notification_template_icon_group = 2130968646;
+			public const int notification_template_big_media_narrow_custom = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int notification_template_lines_media = 2130968647;
+			public const int notification_template_custom_big = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int notification_template_media = 2130968648;
+			public const int notification_template_icon_group = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int notification_template_media_custom = 2130968649;
+			public const int notification_template_lines_media = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int notification_template_part_chronometer = 2130968650;
+			public const int notification_template_media = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int notification_template_part_time = 2130968651;
+			public const int notification_template_media_custom = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int preference = 2130968652;
+			public const int notification_template_part_chronometer = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int preference_category = 2130968653;
+			public const int notification_template_part_time = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int preference_category_material = 2130968654;
+			public const int preference = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int preference_dialog_edittext = 2130968655;
+			public const int preference_category = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int preference_dropdown = 2130968656;
+			public const int preference_category_material = 2130968656;
 			
 			// aapt resource value: 0x7f040051
-			public const int preference_dropdown_material = 2130968657;
+			public const int preference_dialog_edittext = 2130968657;
 			
 			// aapt resource value: 0x7f040052
-			public const int preference_information = 2130968658;
+			public const int preference_dropdown = 2130968658;
 			
 			// aapt resource value: 0x7f040053
-			public const int preference_information_material = 2130968659;
+			public const int preference_dropdown_material = 2130968659;
 			
 			// aapt resource value: 0x7f040054
-			public const int preference_list_fragment = 2130968660;
+			public const int preference_information = 2130968660;
 			
 			// aapt resource value: 0x7f040055
-			public const int preference_material = 2130968661;
+			public const int preference_information_material = 2130968661;
 			
 			// aapt resource value: 0x7f040056
-			public const int preference_recyclerview = 2130968662;
+			public const int preference_list_fragment = 2130968662;
 			
 			// aapt resource value: 0x7f040057
-			public const int preference_widget_checkbox = 2130968663;
+			public const int preference_material = 2130968663;
 			
 			// aapt resource value: 0x7f040058
-			public const int preference_widget_seekbar = 2130968664;
+			public const int preference_recyclerview = 2130968664;
 			
 			// aapt resource value: 0x7f040059
-			public const int preference_widget_seekbar_material = 2130968665;
+			public const int preference_widget_checkbox = 2130968665;
 			
 			// aapt resource value: 0x7f04005a
-			public const int preference_widget_switch = 2130968666;
+			public const int preference_widget_seekbar = 2130968666;
 			
 			// aapt resource value: 0x7f04005b
-			public const int preference_widget_switch_compat = 2130968667;
+			public const int preference_widget_seekbar_material = 2130968667;
 			
 			// aapt resource value: 0x7f04005c
-			public const int sauna_settings_fragment = 2130968668;
+			public const int preference_widget_switch = 2130968668;
 			
 			// aapt resource value: 0x7f04005d
-			public const int select_dialog_item_material = 2130968669;
+			public const int preference_widget_switch_compat = 2130968669;
 			
 			// aapt resource value: 0x7f04005e
-			public const int select_dialog_multichoice_material = 2130968670;
+			public const int sauna_settings_fragment = 2130968670;
 			
 			// aapt resource value: 0x7f04005f
-			public const int select_dialog_singlechoice_material = 2130968671;
+			public const int select_dialog_item_material = 2130968671;
 			
 			// aapt resource value: 0x7f040060
-			public const int setting_item_layout = 2130968672;
+			public const int select_dialog_multichoice_material = 2130968672;
 			
 			// aapt resource value: 0x7f040061
-			public const int sound_fragment = 2130968673;
+			public const int select_dialog_singlechoice_material = 2130968673;
 			
 			// aapt resource value: 0x7f040062
-			public const int support_simple_spinner_dropdown_item = 2130968674;
+			public const int setting_item_layout = 2130968674;
 			
 			// aapt resource value: 0x7f040063
-			public const int top_defaults_view_color_picker_popup = 2130968675;
+			public const int sound_fragment = 2130968675;
 			
 			// aapt resource value: 0x7f040064
-			public const int ventilation_fragment = 2130968676;
+			public const int support_simple_spinner_dropdown_item = 2130968676;
+			
+			// aapt resource value: 0x7f040065
+			public const int top_defaults_view_color_picker_popup = 2130968677;
+			
+			// aapt resource value: 0x7f040066
+			public const int ventilation_fragment = 2130968678;
 			
 			static Layout()
 			{
@@ -7042,6 +8005,12 @@ namespace firstxamarindroid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f0b003b
+			public const int ApplicationName = 2131427387;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int Hello = 2131427386;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int abc_action_bar_home_description = 2131427332;
@@ -7160,11 +8129,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b001e
 			public const int abc_toolbar_collapse_description = 2131427358;
 			
-			// aapt resource value: 0x7f0b0040
-			public const int action_settings = 2131427392;
+			// aapt resource value: 0x7f0b0042
+			public const int action_settings = 2131427394;
 			
-			// aapt resource value: 0x7f0b003f
-			public const int app_name = 2131427391;
+			// aapt resource value: 0x7f0b0041
+			public const int app_name = 2131427393;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int appbar_scrolling_view_behavior = 2131427372;
@@ -7172,8 +8141,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b002d
 			public const int bottom_sheet_behavior = 2131427373;
 			
-			// aapt resource value: 0x7f0b0045
-			public const int brightness_text = 2131427397;
+			// aapt resource value: 0x7f0b0047
+			public const int brightness_text = 2131427399;
 			
 			// aapt resource value: 0x7f0b002e
 			public const int character_counter_content_description = 2131427374;
@@ -7181,20 +8150,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b002f
 			public const int character_counter_pattern = 2131427375;
 			
+			// aapt resource value: 0x7f0b003e
+			public const int cpv_custom = 2131427390;
+			
 			// aapt resource value: 0x7f0b003c
-			public const int cpv_custom = 2131427388;
-			
-			// aapt resource value: 0x7f0b003a
-			public const int cpv_default_title = 2131427386;
-			
-			// aapt resource value: 0x7f0b003b
-			public const int cpv_presets = 2131427387;
+			public const int cpv_default_title = 2131427388;
 			
 			// aapt resource value: 0x7f0b003d
-			public const int cpv_select = 2131427389;
+			public const int cpv_presets = 2131427389;
 			
-			// aapt resource value: 0x7f0b003e
-			public const int cpv_transparency = 2131427390;
+			// aapt resource value: 0x7f0b003f
+			public const int cpv_select = 2131427391;
+			
+			// aapt resource value: 0x7f0b0040
+			public const int cpv_transparency = 2131427392;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int expand_button_title = 2131427328;
@@ -7205,14 +8174,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b0031
 			public const int fab_transformation_sheet_behavior = 2131427377;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int fan_duration_hint = 2131427400;
-			
-			// aapt resource value: 0x7f0b0049
-			public const int fan_text_1 = 2131427401;
-			
 			// aapt resource value: 0x7f0b004a
-			public const int fan_text_2 = 2131427402;
+			public const int fan_duration_hint = 2131427402;
+			
+			// aapt resource value: 0x7f0b004b
+			public const int fan_text_1 = 2131427403;
+			
+			// aapt resource value: 0x7f0b004c
+			public const int fan_text_2 = 2131427404;
 			
 			// aapt resource value: 0x7f0b0032
 			public const int hide_bottom_view_on_scroll_behavior = 2131427378;
@@ -7235,20 +8204,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b0038
 			public const int path_password_strike_through = 2131427384;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int res_setting_tag_id = 2131427403;
+			// aapt resource value: 0x7f0b004d
+			public const int res_setting_tag_id = 2131427405;
 			
 			// aapt resource value: 0x7f0b001f
 			public const int search_menu_title = 2131427359;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int setting_off = 2131427394;
-			
-			// aapt resource value: 0x7f0b0041
-			public const int setting_on = 2131427393;
+			// aapt resource value: 0x7f0b0044
+			public const int setting_off = 2131427396;
 			
 			// aapt resource value: 0x7f0b0043
-			public const int setting_ventilation = 2131427395;
+			public const int setting_on = 2131427395;
+			
+			// aapt resource value: 0x7f0b0045
+			public const int setting_ventilation = 2131427397;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int status_bar_notification_info_overflow = 2131427385;
@@ -7256,14 +8225,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b0001
 			public const int summary_collapsed_preference_list = 2131427329;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int toggle_lamp = 2131427396;
-			
 			// aapt resource value: 0x7f0b0046
-			public const int toggle_lamp_color = 2131427398;
+			public const int toggle_lamp = 2131427398;
 			
-			// aapt resource value: 0x7f0b0047
-			public const int toggle_ventilation = 2131427399;
+			// aapt resource value: 0x7f0b0048
+			public const int toggle_lamp_color = 2131427400;
+			
+			// aapt resource value: 0x7f0b0049
+			public const int toggle_ventilation = 2131427401;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int v7_preference_off = 2131427330;
@@ -10255,9 +11224,9 @@ namespace firstxamarindroid
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
 			
 			public static int[] ColorPanelView = new int[] {
-					2130772579,
-					2130772580,
-					2130772581};
+					2130772735,
+					2130772736,
+					2130772737};
 			
 			// aapt resource value: 2
 			public const int ColorPanelView_cpv_borderColor = 2;
@@ -10269,11 +11238,11 @@ namespace firstxamarindroid
 			public const int ColorPanelView_cpv_showOldColor = 0;
 			
 			public static int[] ColorPickerView = new int[] {
-					2130772581,
-					2130772582,
-					2130772583,
-					2130772584,
-					2130772598};
+					2130772737,
+					2130772738,
+					2130772739,
+					2130772740,
+					2130772754};
 			
 			// aapt resource value: 2
 			public const int ColorPickerView_cpv_alphaChannelText = 2;
@@ -10291,20 +11260,20 @@ namespace firstxamarindroid
 			public const int ColorPickerView_enableAlpha = 4;
 			
 			public static int[] ColorPreference = new int[] {
-					2130772580,
-					2130772585,
-					2130772586,
-					2130772587,
-					2130772588,
-					2130772589,
-					2130772590,
-					2130772591,
-					2130772592,
-					2130772593,
-					2130772594,
-					2130772595,
-					2130772596,
-					2130772597};
+					2130772736,
+					2130772741,
+					2130772742,
+					2130772743,
+					2130772744,
+					2130772745,
+					2130772746,
+					2130772747,
+					2130772748,
+					2130772749,
+					2130772750,
+					2130772751,
+					2130772752,
+					2130772753};
 			
 			// aapt resource value: 8
 			public const int ColorPreference_cpv_allowCustom = 8;
@@ -11019,7 +11988,7 @@ namespace firstxamarindroid
 			public const int DialogPreference_positiveButtonText = 9;
 			
 			public static int[] DrawableStates = new int[] {
-					2130772563};
+					2130772719};
 			
 			// aapt resource value: 0
 			public const int DrawableStates_state_indeterminate = 0;
@@ -11057,6 +12026,98 @@ namespace firstxamarindroid
 			
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
+			
+			public static int[] FlexboxLayout = new int[] {
+					2130772563,
+					2130772564,
+					2130772565,
+					2130772566,
+					2130772567,
+					2130772568,
+					2130772569,
+					2130772570,
+					2130772571,
+					2130772572,
+					2130772573,
+					2130772574};
+			
+			// aapt resource value: 4
+			public const int FlexboxLayout_alignContent = 4;
+			
+			// aapt resource value: 3
+			public const int FlexboxLayout_alignItems = 3;
+			
+			// aapt resource value: 5
+			public const int FlexboxLayout_dividerDrawable = 5;
+			
+			// aapt resource value: 6
+			public const int FlexboxLayout_dividerDrawableHorizontal = 6;
+			
+			// aapt resource value: 7
+			public const int FlexboxLayout_dividerDrawableVertical = 7;
+			
+			// aapt resource value: 0
+			public const int FlexboxLayout_flexDirection = 0;
+			
+			// aapt resource value: 1
+			public const int FlexboxLayout_flexWrap = 1;
+			
+			// aapt resource value: 2
+			public const int FlexboxLayout_justifyContent = 2;
+			
+			// aapt resource value: 11
+			public const int FlexboxLayout_maxLine = 11;
+			
+			// aapt resource value: 8
+			public const int FlexboxLayout_showDivider = 8;
+			
+			// aapt resource value: 9
+			public const int FlexboxLayout_showDividerHorizontal = 9;
+			
+			// aapt resource value: 10
+			public const int FlexboxLayout_showDividerVertical = 10;
+			
+			public static int[] FlexboxLayout_Layout = new int[] {
+					2130772575,
+					2130772576,
+					2130772577,
+					2130772578,
+					2130772579,
+					2130772580,
+					2130772581,
+					2130772582,
+					2130772583,
+					2130772584};
+			
+			// aapt resource value: 4
+			public const int FlexboxLayout_Layout_layout_alignSelf = 4;
+			
+			// aapt resource value: 3
+			public const int FlexboxLayout_Layout_layout_flexBasisPercent = 3;
+			
+			// aapt resource value: 1
+			public const int FlexboxLayout_Layout_layout_flexGrow = 1;
+			
+			// aapt resource value: 2
+			public const int FlexboxLayout_Layout_layout_flexShrink = 2;
+			
+			// aapt resource value: 8
+			public const int FlexboxLayout_Layout_layout_maxHeight = 8;
+			
+			// aapt resource value: 7
+			public const int FlexboxLayout_Layout_layout_maxWidth = 7;
+			
+			// aapt resource value: 6
+			public const int FlexboxLayout_Layout_layout_minHeight = 6;
+			
+			// aapt resource value: 5
+			public const int FlexboxLayout_Layout_layout_minWidth = 5;
+			
+			// aapt resource value: 0
+			public const int FlexboxLayout_Layout_layout_order = 0;
+			
+			// aapt resource value: 9
+			public const int FlexboxLayout_Layout_layout_wrapBefore = 9;
 			
 			public static int[] FloatingActionButton = new int[] {
 					2130772078,
@@ -12281,9 +13342,9 @@ namespace firstxamarindroid
 			public const int SeekBarPreference_showSeekBarValue = 5;
 			
 			public static int[] SfCheckBox = new int[] {
-					2130772564,
-					2130772565,
-					2130772566};
+					2130772720,
+					2130772721,
+					2130772722};
 			
 			// aapt resource value: 2
 			public const int SfCheckBox_checked = 2;
@@ -12294,19 +13355,561 @@ namespace firstxamarindroid
 			// aapt resource value: 0
 			public const int SfCheckBox_isthreestate = 0;
 			
+			public static int[] SfCircularGauge = new int[] {
+					2130772585,
+					2130772586,
+					2130772587,
+					2130772588,
+					2130772589,
+					2130772590,
+					2130772591,
+					2130772592,
+					2130772593,
+					2130772594,
+					2130772595,
+					2130772596,
+					2130772597,
+					2130772598,
+					2130772599,
+					2130772600,
+					2130772601,
+					2130772602,
+					2130772603,
+					2130772604,
+					2130772605,
+					2130772606,
+					2130772607,
+					2130772608,
+					2130772609,
+					2130772610,
+					2130772611,
+					2130772612,
+					2130772613,
+					2130772614,
+					2130772615,
+					2130772616,
+					2130772617,
+					2130772618,
+					2130772619,
+					2130772620,
+					2130772621,
+					2130772622,
+					2130772623,
+					2130772624,
+					2130772625,
+					2130772626,
+					2130772627,
+					2130772628,
+					2130772629,
+					2130772630,
+					2130772631,
+					2130772632,
+					2130772633,
+					2130772634,
+					2130772635,
+					2130772636,
+					2130772637,
+					2130772638,
+					2130772639,
+					2130772640,
+					2130772641,
+					2130772642,
+					2130772643,
+					2130772644,
+					2130772645,
+					2130772646,
+					2130772647,
+					2130772648,
+					2130772649,
+					2130772650,
+					2130772651,
+					2130772652,
+					2130772653,
+					2130772654,
+					2130772655,
+					2130772656,
+					2130772657,
+					2130772658,
+					2130772659,
+					2130772660,
+					2130772661,
+					2130772662,
+					2130772663,
+					2130772664,
+					2130772665};
+			
+			// aapt resource value: 7
+			public const int SfCircularGauge_circularGaugeScaleDirection = 7;
+			
+			// aapt resource value: 5
+			public const int SfCircularGauge_circularScaleInterval = 5;
+			
+			// aapt resource value: 22
+			public const int SfCircularGauge_circularScaleLabelOffset = 22;
+			
+			// aapt resource value: 20
+			public const int SfCircularGauge_circularScaleLabelPostfix = 20;
+			
+			// aapt resource value: 19
+			public const int SfCircularGauge_circularScaleLabelPrefix = 19;
+			
+			// aapt resource value: 23
+			public const int SfCircularGauge_circularScaleLabelTextColor = 23;
+			
+			// aapt resource value: 21
+			public const int SfCircularGauge_circularScaleLabelTextSize = 21;
+			
+			// aapt resource value: 25
+			public const int SfCircularGauge_circularScaleMajorTickColor = 25;
+			
+			// aapt resource value: 27
+			public const int SfCircularGauge_circularScaleMajorTickOffset = 27;
+			
+			// aapt resource value: 39
+			public const int SfCircularGauge_circularScaleMaximumLabels = 39;
+			
+			// aapt resource value: 31
+			public const int SfCircularGauge_circularScaleMinorTickColor = 31;
+			
+			// aapt resource value: 33
+			public const int SfCircularGauge_circularScaleMinorTickOffset = 33;
+			
+			// aapt resource value: 38
+			public const int SfCircularGauge_circularScaleMinorTicksPerInterval = 38;
+			
+			// aapt resource value: 49
+			public const int SfCircularGauge_circularScaleRangeColor = 49;
+			
+			// aapt resource value: 46
+			public const int SfCircularGauge_circularScaleRangeEndValue = 46;
+			
+			// aapt resource value: 48
+			public const int SfCircularGauge_circularScaleRangeOffset = 48;
+			
+			// aapt resource value: 45
+			public const int SfCircularGauge_circularScaleRangeStartValue = 45;
+			
+			// aapt resource value: 40
+			public const int SfCircularGauge_circularScaleShowLabels = 40;
+			
+			// aapt resource value: 41
+			public const int SfCircularGauge_circularScaleShowTicks = 41;
+			
+			// aapt resource value: 0
+			public const int SfCircularGauge_gaugeCircularCoefficient = 0;
+			
+			// aapt resource value: 13
+			public const int SfCircularGauge_gaugeHeaderAlignment = 13;
+			
+			// aapt resource value: 8
+			public const int SfCircularGauge_gaugeHorizontalHeaderPosition = 8;
+			
+			// aapt resource value: 10
+			public const int SfCircularGauge_gaugeText = 10;
+			
+			// aapt resource value: 12
+			public const int SfCircularGauge_gaugeTextColor = 12;
+			
+			// aapt resource value: 11
+			public const int SfCircularGauge_gaugeTextSize = 11;
+			
+			// aapt resource value: 9
+			public const int SfCircularGauge_gaugeVerticalHeaderPosition = 9;
+			
+			// aapt resource value: 77
+			public const int SfCircularGauge_markerPointerColor = 77;
+			
+			// aapt resource value: 78
+			public const int SfCircularGauge_markerPointerHeight = 78;
+			
+			// aapt resource value: 80
+			public const int SfCircularGauge_markerPointerOffset = 80;
+			
+			// aapt resource value: 75
+			public const int SfCircularGauge_markerPointerValue = 75;
+			
+			// aapt resource value: 79
+			public const int SfCircularGauge_markerPointerWidth = 79;
+			
+			// aapt resource value: 76
+			public const int SfCircularGauge_markerShape = 76;
+			
+			// aapt resource value: 56
+			public const int SfCircularGauge_needlePointerColor = 56;
+			
+			// aapt resource value: 61
+			public const int SfCircularGauge_needlePointerKnobColor = 61;
+			
+			// aapt resource value: 59
+			public const int SfCircularGauge_needlePointerKnobRadius = 59;
+			
+			// aapt resource value: 60
+			public const int SfCircularGauge_needlePointerKnobStrokeColor = 60;
+			
+			// aapt resource value: 62
+			public const int SfCircularGauge_needlePointerKnobStrokeWidth = 62;
+			
+			// aapt resource value: 58
+			public const int SfCircularGauge_needlePointerLengthFactor = 58;
+			
+			// aapt resource value: 63
+			public const int SfCircularGauge_needlePointerTailColor = 63;
+			
+			// aapt resource value: 64
+			public const int SfCircularGauge_needlePointerTailLengthFactor = 64;
+			
+			// aapt resource value: 66
+			public const int SfCircularGauge_needlePointerTailStrokeColor = 66;
+			
+			// aapt resource value: 65
+			public const int SfCircularGauge_needlePointerTailStrokeWidth = 65;
+			
+			// aapt resource value: 55
+			public const int SfCircularGauge_needlePointerType = 55;
+			
+			// aapt resource value: 54
+			public const int SfCircularGauge_needlePointerValue = 54;
+			
+			// aapt resource value: 57
+			public const int SfCircularGauge_needlePointerWidth = 57;
+			
+			// aapt resource value: 51
+			public const int SfCircularGauge_rangeInnerEndOffset = 51;
+			
+			// aapt resource value: 50
+			public const int SfCircularGauge_rangeInnerStartOffset = 50;
+			
+			// aapt resource value: 53
+			public const int SfCircularGauge_rangeOuterEndOffset = 53;
+			
+			// aapt resource value: 52
+			public const int SfCircularGauge_rangeOuterStartOffset = 52;
+			
+			// aapt resource value: 74
+			public const int SfCircularGauge_rangePointerCap = 74;
+			
+			// aapt resource value: 69
+			public const int SfCircularGauge_rangePointerColor = 69;
+			
+			// aapt resource value: 73
+			public const int SfCircularGauge_rangePointerEndOffset = 73;
+			
+			// aapt resource value: 71
+			public const int SfCircularGauge_rangePointerOffset = 71;
+			
+			// aapt resource value: 72
+			public const int SfCircularGauge_rangePointerStartOffset = 72;
+			
+			// aapt resource value: 67
+			public const int SfCircularGauge_rangePointerStartValue = 67;
+			
+			// aapt resource value: 68
+			public const int SfCircularGauge_rangePointerValue = 68;
+			
+			// aapt resource value: 70
+			public const int SfCircularGauge_rangePointerWidth = 70;
+			
+			// aapt resource value: 47
+			public const int SfCircularGauge_rangeWidth = 47;
+			
+			// aapt resource value: 18
+			public const int SfCircularGauge_scaleAutoAngle = 18;
+			
+			// aapt resource value: 6
+			public const int SfCircularGauge_scaleAutoInterval = 6;
+			
+			// aapt resource value: 2
+			public const int SfCircularGauge_scaleEndAngle = 2;
+			
+			// aapt resource value: 17
+			public const int SfCircularGauge_scaleEndOffset = 17;
+			
+			// aapt resource value: 4
+			public const int SfCircularGauge_scaleEndValue = 4;
+			
+			// aapt resource value: 29
+			public const int SfCircularGauge_scaleMajorTickEndOffset = 29;
+			
+			// aapt resource value: 24
+			public const int SfCircularGauge_scaleMajorTickSize = 24;
+			
+			// aapt resource value: 28
+			public const int SfCircularGauge_scaleMajorTickStartOffset = 28;
+			
+			// aapt resource value: 26
+			public const int SfCircularGauge_scaleMajorTickWidth = 26;
+			
+			// aapt resource value: 35
+			public const int SfCircularGauge_scaleMinorTickEndOffset = 35;
+			
+			// aapt resource value: 30
+			public const int SfCircularGauge_scaleMinorTickSize = 30;
+			
+			// aapt resource value: 34
+			public const int SfCircularGauge_scaleMinorTickStartOffset = 34;
+			
+			// aapt resource value: 32
+			public const int SfCircularGauge_scaleMinorTickWidth = 32;
+			
+			// aapt resource value: 44
+			public const int SfCircularGauge_scaleNumberofDecimalDigits = 44;
+			
+			// aapt resource value: 43
+			public const int SfCircularGauge_scaleRadiusFactor = 43;
+			
+			// aapt resource value: 36
+			public const int SfCircularGauge_scaleRimColor = 36;
+			
+			// aapt resource value: 37
+			public const int SfCircularGauge_scaleRimWidth = 37;
+			
+			// aapt resource value: 14
+			public const int SfCircularGauge_scaleShowFirstLabel = 14;
+			
+			// aapt resource value: 15
+			public const int SfCircularGauge_scaleShowLastLabel = 15;
+			
+			// aapt resource value: 42
+			public const int SfCircularGauge_scaleShowRim = 42;
+			
+			// aapt resource value: 1
+			public const int SfCircularGauge_scaleStartAngle = 1;
+			
+			// aapt resource value: 16
+			public const int SfCircularGauge_scaleStartOffset = 16;
+			
+			// aapt resource value: 3
+			public const int SfCircularGauge_scaleStartValue = 3;
+			
+			public static int[] SfDigitalGauge = new int[] {
+					2130772711,
+					2130772712,
+					2130772713,
+					2130772714,
+					2130772715,
+					2130772716,
+					2130772717,
+					2130772718};
+			
+			// aapt resource value: 1
+			public const int SfDigitalGauge_characterHeight = 1;
+			
+			// aapt resource value: 2
+			public const int SfDigitalGauge_characterSpacing = 2;
+			
+			// aapt resource value: 0
+			public const int SfDigitalGauge_characterStrokeColor = 0;
+			
+			// aapt resource value: 7
+			public const int SfDigitalGauge_characterType = 7;
+			
+			// aapt resource value: 3
+			public const int SfDigitalGauge_characterWidth = 3;
+			
+			// aapt resource value: 6
+			public const int SfDigitalGauge_dimmedSegmentAlpha = 6;
+			
+			// aapt resource value: 5
+			public const int SfDigitalGauge_dimmedSegmentColor = 5;
+			
+			// aapt resource value: 4
+			public const int SfDigitalGauge_segmentStrokeWidth = 4;
+			
+			public static int[] SfLinearGauge = new int[] {
+					2130772666,
+					2130772667,
+					2130772668,
+					2130772669,
+					2130772670,
+					2130772671,
+					2130772672,
+					2130772673,
+					2130772674,
+					2130772675,
+					2130772676,
+					2130772677,
+					2130772678,
+					2130772679,
+					2130772680,
+					2130772681,
+					2130772682,
+					2130772683,
+					2130772684,
+					2130772685,
+					2130772686,
+					2130772687,
+					2130772688,
+					2130772689,
+					2130772690,
+					2130772691,
+					2130772692,
+					2130772693,
+					2130772694,
+					2130772695,
+					2130772696,
+					2130772697,
+					2130772698,
+					2130772699,
+					2130772700,
+					2130772701,
+					2130772702,
+					2130772703,
+					2130772704,
+					2130772705,
+					2130772706,
+					2130772707,
+					2130772708,
+					2130772709,
+					2130772710};
+			
+			// aapt resource value: 35
+			public const int SfLinearGauge_barPointerColor = 35;
+			
+			// aapt resource value: 38
+			public const int SfLinearGauge_barPointerCornerRadius = 38;
+			
+			// aapt resource value: 37
+			public const int SfLinearGauge_barPointerCornerRadiusType = 37;
+			
+			// aapt resource value: 36
+			public const int SfLinearGauge_barPointerStrokeWidth = 36;
+			
+			// aapt resource value: 34
+			public const int SfLinearGauge_barPointerValue = 34;
+			
+			// aapt resource value: 22
+			public const int SfLinearGauge_maximumLabels = 22;
+			
+			// aapt resource value: 33
+			public const int SfLinearGauge_rangeColor = 33;
+			
+			// aapt resource value: 29
+			public const int SfLinearGauge_rangeEndValue = 29;
+			
+			// aapt resource value: 31
+			public const int SfLinearGauge_rangeEndWidth = 31;
+			
+			// aapt resource value: 32
+			public const int SfLinearGauge_rangeOffset = 32;
+			
+			// aapt resource value: 28
+			public const int SfLinearGauge_rangeStartValue = 28;
+			
+			// aapt resource value: 30
+			public const int SfLinearGauge_rangeStartWidth = 30;
+			
+			// aapt resource value: 11
+			public const int SfLinearGauge_scaleBarColor = 11;
+			
+			// aapt resource value: 13
+			public const int SfLinearGauge_scaleBarLength = 13;
+			
+			// aapt resource value: 12
+			public const int SfLinearGauge_scaleBarSize = 12;
+			
+			// aapt resource value: 26
+			public const int SfLinearGauge_scaleCornerRadius = 26;
+			
+			// aapt resource value: 25
+			public const int SfLinearGauge_scaleCornerRadiusType = 25;
+			
+			// aapt resource value: 24
+			public const int SfLinearGauge_scaleDirection = 24;
+			
+			// aapt resource value: 2
+			public const int SfLinearGauge_scaleInterval = 2;
+			
+			// aapt resource value: 14
+			public const int SfLinearGauge_scaleLabelColor = 14;
+			
+			// aapt resource value: 17
+			public const int SfLinearGauge_scaleLabelFontSize = 17;
+			
+			// aapt resource value: 18
+			public const int SfLinearGauge_scaleLabelOffset = 18;
+			
+			// aapt resource value: 16
+			public const int SfLinearGauge_scaleLabelPostfix = 16;
+			
+			// aapt resource value: 15
+			public const int SfLinearGauge_scaleLabelPrefix = 15;
+			
+			// aapt resource value: 4
+			public const int SfLinearGauge_scaleMajorTickColor = 4;
+			
+			// aapt resource value: 3
+			public const int SfLinearGauge_scaleMajorTickLength = 3;
+			
+			// aapt resource value: 6
+			public const int SfLinearGauge_scaleMajorTickOffset = 6;
+			
+			// aapt resource value: 5
+			public const int SfLinearGauge_scaleMajorTickStrokeWidth = 5;
+			
+			// aapt resource value: 1
+			public const int SfLinearGauge_scaleMaximum = 1;
+			
+			// aapt resource value: 0
+			public const int SfLinearGauge_scaleMinimum = 0;
+			
+			// aapt resource value: 8
+			public const int SfLinearGauge_scaleMinorTickColor = 8;
+			
+			// aapt resource value: 7
+			public const int SfLinearGauge_scaleMinorTickLength = 7;
+			
+			// aapt resource value: 10
+			public const int SfLinearGauge_scaleMinorTickOffset = 10;
+			
+			// aapt resource value: 9
+			public const int SfLinearGauge_scaleMinorTickStrokeWidth = 9;
+			
+			// aapt resource value: 21
+			public const int SfLinearGauge_scaleMinorTicksPerInterval = 21;
+			
+			// aapt resource value: 27
+			public const int SfLinearGauge_scaleOffset = 27;
+			
+			// aapt resource value: 23
+			public const int SfLinearGauge_scaleOpposedPosition = 23;
+			
+			// aapt resource value: 44
+			public const int SfLinearGauge_scaleOrientation = 44;
+			
+			// aapt resource value: 19
+			public const int SfLinearGauge_scaleShowLabels = 19;
+			
+			// aapt resource value: 20
+			public const int SfLinearGauge_scaleShowTicks = 20;
+			
+			// aapt resource value: 40
+			public const int SfLinearGauge_symbolPointerColor = 40;
+			
+			// aapt resource value: 42
+			public const int SfLinearGauge_symbolPointerOffset = 42;
+			
+			// aapt resource value: 41
+			public const int SfLinearGauge_symbolPointerStrokeWidth = 41;
+			
+			// aapt resource value: 39
+			public const int SfLinearGauge_symbolPointerValue = 39;
+			
+			// aapt resource value: 43
+			public const int SfLinearGauge_symbolPosition = 43;
+			
 			public static int[] SfSegmentedControl = new int[] {
-					2130772567,
-					2130772568,
-					2130772569,
-					2130772570,
-					2130772571,
-					2130772572,
-					2130772573,
-					2130772574,
-					2130772575,
-					2130772576,
-					2130772577,
-					2130772578};
+					2130772723,
+					2130772724,
+					2130772725,
+					2130772726,
+					2130772727,
+					2130772728,
+					2130772729,
+					2130772730,
+					2130772731,
+					2130772732,
+					2130772733,
+					2130772734};
 			
 			// aapt resource value: 1
 			public const int SfSegmentedControl_segmentBackColor = 1;
