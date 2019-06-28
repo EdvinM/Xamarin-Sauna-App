@@ -54,6 +54,7 @@ namespace firstxamarindroid
             // Enable back press
             SupportActionBar.SetHomeButtonEnabled(true);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
 
             textViewSaunaNameSettings.Text = "Sauna 1";
 

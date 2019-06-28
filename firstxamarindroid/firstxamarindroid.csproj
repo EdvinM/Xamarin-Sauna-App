@@ -109,19 +109,12 @@
     <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher_round.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\ic_launcher.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\ic_launcher_foreground.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\ic_launcher_round.png" />
-    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png" />
-    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher_foreground.png" />
-    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher_round.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher_round.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
-    <AndroidResource Include="Resources\layout\setting_item_layout.axml" />
     <AndroidResource Include="Resources\mipmap-xhdpi\ic_right_arrow.png" />
     <AndroidResource Include="Resources\layout\sauna_settings_fragment.axml" />
     <AndroidResource Include="Resources\layout\ventilation_fragment.axml" />
@@ -139,6 +132,12 @@
     <AndroidResource Include="Resources\drawable\splash_screen_drawable.xml" />
     <AndroidResource Include="Resources\mipmap-mdpi\ic_logo.png" />
     <AndroidResource Include="Resources\mipmap-mdpi\ic_splash_logo.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_logo.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_settings_heating.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_settings_sound.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_settings_lights.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_settings_ventilation.png" />
+    <AndroidResource Include="Resources\layout\setting_item_layout.axml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />

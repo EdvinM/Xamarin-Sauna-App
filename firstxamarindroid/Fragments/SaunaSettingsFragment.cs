@@ -15,6 +15,7 @@ using Com.Lilarcor.Cheeseknife;
 using firstxamarindroid.Helpers;
 using firstxamarindroid.Models;
 using Android.Support.V4.App;
+using Android.Flexbox;
 
 namespace firstxamarindroid.SettingsModule
 {
@@ -57,20 +58,24 @@ namespace firstxamarindroid.SettingsModule
                 // Generate fake menu items based on settings for each sauna
                 this.settingItemModelsList = new List<SettingItemModel>()
                 {
-                    new SettingItemModel("Ventilation controlling system",
+                    new SettingItemModel("Ventilation",
                                         (this.saunaModel.Ventilation.Status ? "On" : "Off"),
+                                        Resource.Mipmap.ic_settings_ventilation,
                                         VentilationFragment.NewInstance(saunaId)),
 
-                    new SettingItemModel("Heater controlling system",
+                    new SettingItemModel("Heater",
                                         (this.saunaModel.Heater.Status ? "On" : "Off"),
+                                        Resource.Mipmap.ic_settings_heating,
                                         HeaterFragment.NewInstance(saunaId)),
 
-                    new SettingItemModel("Lights controlling system",
+                    new SettingItemModel("Lights",
                                         (this.saunaModel.LightsStatus ? "On" : "Off"),
+                                        Resource.Mipmap.ic_settings_lights,
                                         LightsFragment.NewInstance(saunaId)),
 
-                    new SettingItemModel("Sound controlling system",
+                    new SettingItemModel("Sound",
                                         (this.saunaModel.Ventilation.Status ? "On" : "Off"),
+                                        Resource.Mipmap.ic_settings_sound,
                                         SoundFragment.NewInstance(saunaId)),
                 };
 
@@ -94,7 +99,13 @@ namespace firstxamarindroid.SettingsModule
             base.OnViewCreated(view, savedInstanceState);
 
             this.recyclerViewSettings.SetAdapter(this.settingsListAdapter);
-            this.recyclerViewSettings.SetLayoutManager(new LinearLayoutManager(view.Context));
+
+            FlexboxLayoutManager flexboxLayoutManager = new FlexboxLayoutManager(this.Activity, FlexDirection.Row, FlexWrap.Wrap);
+            flexboxLayoutManager.JustifyContent = JustifyContent.Center;
+            flexboxLayoutManager.AlignItems = AlignItems.Stretch;
+            flexboxLayoutManager.FlexWrap = FlexWrap.Wrap;
+
+            this.recyclerViewSettings.SetLayoutManager(flexboxLayoutManager);
 
             this.settingsListAdapter.OnItemClick += SettingsListAdapter_OnItemClick;
         }

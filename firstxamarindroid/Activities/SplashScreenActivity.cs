@@ -34,7 +34,7 @@ namespace firstxamarindroid.Activities
         async void SimulateStartup()
         {
             Log.Debug("SplashActivity", "Loading data...");
-            await Task.Delay(1000);
+            await Task.Delay(500);
 
             Log.Debug("SplashActivity", "Data loading finished - starting MainActivity.");
 

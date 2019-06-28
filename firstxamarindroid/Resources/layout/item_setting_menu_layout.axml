@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center|center_vertical|center_horizontal"
+    android:id="@+id/settingItemLayout"
+    android:background="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true">
+    
+    <LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+		<TextView
+			android:text="Text"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/textViewSettingName"
+			tools:text="Ventilation"
+			android:textSize="18dp"
+            android:singleLine="true"
+			android:textStyle="bold" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/textViewSettingStatus"
+			android:text="Status: On" />
+
+    </LinearLayout>
+
+	<ImageView
+		android:layout_weight="1"
+		android:layout_height="30dp"
+		android:layout_width="30dp"
+		tools:src="@mipmap/ic_right_arrow"
+		android:src="@mipmap/ic_right_arrow"/>
+    
+</LinearLayout>

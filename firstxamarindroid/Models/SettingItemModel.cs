@@ -7,6 +7,7 @@ namespace firstxamarindroid.Models
     {
         private String _Name;
         private String _Status;
+        private int _Icon;
         private Fragment _Fragment;
 
         public String Name
@@ -19,6 +20,11 @@ namespace firstxamarindroid.Models
             get { return _Status; }
             set { _Status = value; }
         }
+        public int Icon
+        {
+            get { return _Icon; }
+            set { _Icon = value; }
+        }
         public Fragment GetFragment
         {
             get { return _Fragment; }
@@ -30,10 +36,11 @@ namespace firstxamarindroid.Models
 
         }
 
-        public SettingItemModel(String Name, String Status, Fragment fragment)
+        public SettingItemModel(String Name, String Status, int Icon, Fragment fragment)
         {
             this.Name       = Name;
             this.Status     = Status;
+            this.Icon       = Icon;
             this._Fragment  = fragment;
         }
     }

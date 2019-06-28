@@ -18,6 +18,9 @@ namespace firstxamarindroid.Helpers
         [InjectView(Resource.Id.textViewSettingStatus)]
         public TextView textViewSettingStatus;
 
+        [InjectView(Resource.Id.imageViewSettingIcon)]
+        public ImageView imageViewSettingIcon;
+
         public SettingsItemViewHolder(View view) : base(view)
         {
             Cheeseknife.Inject(this, view);
