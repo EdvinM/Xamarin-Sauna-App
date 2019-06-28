@@ -84,6 +84,9 @@
     <Compile Include="ViewHolders\LightItemViewHolder.cs" />
     <Compile Include="ViewHolders\SettingsItemViewHolder.cs" />
     <Compile Include="ViewHolders\HeaterSensorViewHolder.cs" />
+    <Compile Include="Adapters\SongsAdapter.cs" />
+    <Compile Include="Models\SongModel.cs" />
+    <Compile Include="ViewHolders\SongViewHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -130,6 +133,8 @@
     <AndroidResource Include="Resources\layout\light_settings_fragment.axml" />
     <AndroidResource Include="Resources\mipmap-xhdpi\ic_back.png" />
     <AndroidResource Include="Resources\layout\item_sensor_layout.axml" />
+    <AndroidResource Include="Resources\layout\item_song_layout.axml" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_play.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />

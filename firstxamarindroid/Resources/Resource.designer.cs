@@ -6539,8 +6539,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0042
 			public const int SYM = 2131361858;
 			
-			// aapt resource value: 0x7f0a0121
-			public const int action0 = 2131362081;
+			// aapt resource value: 0x7f0a0125
+			public const int action0 = 2131362085;
 			
 			// aapt resource value: 0x7f0a00d6
 			public const int action_bar = 2131362006;
@@ -6563,17 +6563,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00b4
 			public const int action_bar_title = 2131361972;
 			
-			// aapt resource value: 0x7f0a011e
-			public const int action_container = 2131362078;
+			// aapt resource value: 0x7f0a0122
+			public const int action_container = 2131362082;
 			
 			// aapt resource value: 0x7f0a00d7
 			public const int action_context_bar = 2131362007;
 			
-			// aapt resource value: 0x7f0a0125
-			public const int action_divider = 2131362085;
+			// aapt resource value: 0x7f0a0129
+			public const int action_divider = 2131362089;
 			
-			// aapt resource value: 0x7f0a011f
-			public const int action_image = 2131362079;
+			// aapt resource value: 0x7f0a0123
+			public const int action_image = 2131362083;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -6590,14 +6590,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00b6
 			public const int action_mode_close_button = 2131361974;
 			
-			// aapt resource value: 0x7f0a014d
-			public const int action_settings = 2131362125;
+			// aapt resource value: 0x7f0a0151
+			public const int action_settings = 2131362129;
 			
-			// aapt resource value: 0x7f0a0120
-			public const int action_text = 2131362080;
+			// aapt resource value: 0x7f0a0124
+			public const int action_text = 2131362084;
 			
-			// aapt resource value: 0x7f0a012e
-			public const int actions = 2131362094;
+			// aapt resource value: 0x7f0a0132
+			public const int actions = 2131362098;
 			
 			// aapt resource value: 0x7f0a00b7
 			public const int activity_chooser_view_content = 2131361975;
@@ -6674,11 +6674,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a010f
 			public const int buttonUpdateTemp = 2131362063;
 			
-			// aapt resource value: 0x7f0a013f
-			public const int cancel = 2131362111;
+			// aapt resource value: 0x7f0a0143
+			public const int cancel = 2131362115;
 			
-			// aapt resource value: 0x7f0a0122
-			public const int cancel_action = 2131362082;
+			// aapt resource value: 0x7f0a0126
+			public const int cancel_action = 2131362086;
 			
 			// aapt resource value: 0x7f0a0050
 			public const int center = 2131361872;
@@ -6698,8 +6698,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00aa
 			public const int @checked = 2131361962;
 			
-			// aapt resource value: 0x7f0a012a
-			public const int chronometer = 2131362090;
+			// aapt resource value: 0x7f0a012e
+			public const int chronometer = 2131362094;
 			
 			// aapt resource value: 0x7f0a009b
 			public const int circle = 2131361947;
@@ -6716,17 +6716,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0044
 			public const int collapseActionView = 2131361860;
 			
+			// aapt resource value: 0x7f0a0146
+			public const int colorHex = 2131362118;
+			
+			// aapt resource value: 0x7f0a0145
+			public const int colorIndicator = 2131362117;
+			
+			// aapt resource value: 0x7f0a0120
+			public const int colorPanelView1 = 2131362080;
+			
 			// aapt resource value: 0x7f0a0142
-			public const int colorHex = 2131362114;
-			
-			// aapt resource value: 0x7f0a0141
-			public const int colorIndicator = 2131362113;
-			
-			// aapt resource value: 0x7f0a011c
-			public const int colorPanelView1 = 2131362076;
-			
-			// aapt resource value: 0x7f0a013e
-			public const int colorPickerView = 2131362110;
+			public const int colorPickerView = 2131362114;
 			
 			// aapt resource value: 0x7f0a007a
 			public const int column = 2131361914;
@@ -6809,11 +6809,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a002b
 			public const int disableHome = 2131361835;
 			
-			// aapt resource value: 0x7f0a0147
-			public const int editTextFanDuration1 = 2131362119;
+			// aapt resource value: 0x7f0a014b
+			public const int editTextFanDuration1 = 2131362123;
 			
-			// aapt resource value: 0x7f0a0149
-			public const int editTextFanDuration2 = 2131362121;
+			// aapt resource value: 0x7f0a014d
+			public const int editTextFanDuration2 = 2131362125;
 			
 			// aapt resource value: 0x7f0a010e
 			public const int editTextTemperature = 2131362062;
@@ -6830,8 +6830,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a003b
 			public const int end = 2131361851;
 			
-			// aapt resource value: 0x7f0a0130
-			public const int end_padder = 2131362096;
+			// aapt resource value: 0x7f0a0134
+			public const int end_padder = 2131362100;
 			
 			// aapt resource value: 0x7f0a004a
 			public const int enterAlways = 2131361866;
@@ -6959,8 +6959,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a010a
 			public const int icon_frame = 2131362058;
 			
-			// aapt resource value: 0x7f0a012f
-			public const int icon_group = 2131362095;
+			// aapt resource value: 0x7f0a0133
+			public const int icon_group = 2131362099;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int ifRoom = 2131361861;
@@ -6968,8 +6968,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a009d
 			public const int image = 2131361949;
 			
-			// aapt resource value: 0x7f0a0115
-			public const int imageViewLightStatus = 2131362069;
+			// aapt resource value: 0x7f0a0119
+			public const int imageViewLightStatus = 2131362073;
+			
+			// aapt resource value: 0x7f0a0117
+			public const int imageViewPlay = 2131362071;
 			
 			// aapt resource value: 0x7f0a00ae
 			public const int imagewithtext = 2131361966;
@@ -6977,8 +6980,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00ab
 			public const int indeterminate = 2131361963;
 			
-			// aapt resource value: 0x7f0a012b
-			public const int info = 2131362091;
+			// aapt resource value: 0x7f0a012f
+			public const int info = 2131362095;
 			
 			// aapt resource value: 0x7f0a009e
 			public const int invertedTriangle = 2131361950;
@@ -7010,14 +7013,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001d
 			public const int line3 = 2131361821;
 			
+			// aapt resource value: 0x7f0a011c
+			public const int linearLayoutBrightness = 2131362076;
+			
 			// aapt resource value: 0x7f0a0118
-			public const int linearLayoutBrightness = 2131362072;
+			public const int linearLayoutLampMain = 2131362072;
 			
-			// aapt resource value: 0x7f0a0114
-			public const int linearLayoutLampMain = 2131362068;
-			
-			// aapt resource value: 0x7f0a0144
-			public const int linearLayoutProgress = 2131362116;
+			// aapt resource value: 0x7f0a0148
+			public const int linearLayoutProgress = 2131362120;
 			
 			// aapt resource value: 0x7f0a0028
 			public const int listMode = 2131361832;
@@ -7025,11 +7028,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00ba
 			public const int list_item = 2131361978;
 			
-			// aapt resource value: 0x7f0a014c
-			public const int masked = 2131362124;
+			// aapt resource value: 0x7f0a0150
+			public const int masked = 2131362128;
 			
-			// aapt resource value: 0x7f0a0124
-			public const int media_actions = 2131362084;
+			// aapt resource value: 0x7f0a0128
+			public const int media_actions = 2131362088;
 			
 			// aapt resource value: 0x7f0a00e5
 			public const int message = 2131362021;
@@ -7061,20 +7064,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0029
 			public const int normal = 2131361833;
 			
-			// aapt resource value: 0x7f0a012d
-			public const int notification_background = 2131362093;
+			// aapt resource value: 0x7f0a0131
+			public const int notification_background = 2131362097;
 			
-			// aapt resource value: 0x7f0a0127
-			public const int notification_main_column = 2131362087;
+			// aapt resource value: 0x7f0a012b
+			public const int notification_main_column = 2131362091;
 			
-			// aapt resource value: 0x7f0a0126
-			public const int notification_main_column_container = 2131362086;
+			// aapt resource value: 0x7f0a012a
+			public const int notification_main_column_container = 2131362090;
 			
 			// aapt resource value: 0x7f0a007e
 			public const int nowrap = 2131361918;
 			
-			// aapt resource value: 0x7f0a0140
-			public const int ok = 2131362112;
+			// aapt resource value: 0x7f0a0144
+			public const int ok = 2131362116;
 			
 			// aapt resource value: 0x7f0a0064
 			public const int outline = 2131361892;
@@ -7103,8 +7106,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00b3
 			public const int preset = 2131361971;
 			
-			// aapt resource value: 0x7f0a0145
-			public const int progressBarOpening = 2131362117;
+			// aapt resource value: 0x7f0a0149
+			public const int progressBarOpening = 2131362121;
 			
 			// aapt resource value: 0x7f0a0006
 			public const int progress_circular = 2131361798;
@@ -7118,20 +7121,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a009f
 			public const int rectangle = 2131361951;
 			
-			// aapt resource value: 0x7f0a011d
-			public const int recyclerViewLights = 2131362077;
+			// aapt resource value: 0x7f0a0121
+			public const int recyclerViewLights = 2131362081;
 			
-			// aapt resource value: 0x7f0a013d
-			public const int recyclerViewMusic = 2131362109;
+			// aapt resource value: 0x7f0a0141
+			public const int recyclerViewMusic = 2131362113;
 			
 			// aapt resource value: 0x7f0a0110
 			public const int recyclerViewSensorTemperatures = 2131362064;
 			
-			// aapt resource value: 0x7f0a0136
-			public const int recyclerViewSettings = 2131362102;
+			// aapt resource value: 0x7f0a013a
+			public const int recyclerViewSettings = 2131362106;
 			
-			// aapt resource value: 0x7f0a0132
-			public const int recycler_view = 2131362098;
+			// aapt resource value: 0x7f0a0136
+			public const int recycler_view = 2131362102;
 			
 			// aapt resource value: 0x7f0a00b1
 			public const int regular = 2131361969;
@@ -7139,11 +7142,11 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0059
 			public const int right = 2131361881;
 			
-			// aapt resource value: 0x7f0a012c
-			public const int right_icon = 2131362092;
+			// aapt resource value: 0x7f0a0130
+			public const int right_icon = 2131362096;
 			
-			// aapt resource value: 0x7f0a0128
-			public const int right_side = 2131362088;
+			// aapt resource value: 0x7f0a012c
+			public const int right_side = 2131362092;
 			
 			// aapt resource value: 0x7f0a00ee
 			public const int rootLayout = 2131362030;
@@ -7211,17 +7214,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00e3
 			public const int search_voice_btn = 2131362019;
 			
-			// aapt resource value: 0x7f0a0119
-			public const int seekBarBrightness = 2131362073;
+			// aapt resource value: 0x7f0a011d
+			public const int seekBarBrightness = 2131362077;
 			
-			// aapt resource value: 0x7f0a013b
-			public const int seekBarVolume = 2131362107;
+			// aapt resource value: 0x7f0a013f
+			public const int seekBarVolume = 2131362111;
 			
-			// aapt resource value: 0x7f0a0133
-			public const int seekbar = 2131362099;
+			// aapt resource value: 0x7f0a0137
+			public const int seekbar = 2131362103;
 			
-			// aapt resource value: 0x7f0a0134
-			public const int seekbar_value = 2131362100;
+			// aapt resource value: 0x7f0a0138
+			public const int seekbar_value = 2131362104;
 			
 			// aapt resource value: 0x7f0a00a7
 			public const int segmentFourteen = 2131361959;
@@ -7238,8 +7241,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0053
 			public const int selected = 2131361875;
 			
-			// aapt resource value: 0x7f0a0137
-			public const int settingItemLayout = 2131362103;
+			// aapt resource value: 0x7f0a013b
+			public const int settingItemLayout = 2131362107;
 			
 			// aapt resource value: 0x7f0a0106
 			public const int sevensegment = 2131362054;
@@ -7298,8 +7301,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00bd
 			public const int spacer = 2131361981;
 			
-			// aapt resource value: 0x7f0a0131
-			public const int spinner = 2131362097;
+			// aapt resource value: 0x7f0a0135
+			public const int spinner = 2131362101;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int split_action_bar = 2131361800;
@@ -7328,8 +7331,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a005a
 			public const int start = 2131361882;
 			
-			// aapt resource value: 0x7f0a0123
-			public const int status_bar_latest_event_content = 2131362083;
+			// aapt resource value: 0x7f0a0127
+			public const int status_bar_latest_event_content = 2131362087;
 			
 			// aapt resource value: 0x7f0a005f
 			public const int stretch = 2131361887;
@@ -7340,14 +7343,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00e1
 			public const int submit_area = 2131362017;
 			
+			// aapt resource value: 0x7f0a011f
+			public const int switchColorLightOn = 2131362079;
+			
 			// aapt resource value: 0x7f0a011b
-			public const int switchColorLightOn = 2131362075;
+			public const int switchLightOn = 2131362075;
 			
-			// aapt resource value: 0x7f0a0117
-			public const int switchLightOn = 2131362071;
-			
-			// aapt resource value: 0x7f0a0135
-			public const int switchWidget = 2131362101;
+			// aapt resource value: 0x7f0a0139
+			public const int switchWidget = 2131362105;
 			
 			// aapt resource value: 0x7f0a002a
 			public const int tabMode = 2131361834;
@@ -7379,17 +7382,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a010c
 			public const int textView1 = 2131362060;
 			
-			// aapt resource value: 0x7f0a011a
-			public const int textViewBrightnessLevel = 2131362074;
+			// aapt resource value: 0x7f0a011e
+			public const int textViewBrightnessLevel = 2131362078;
 			
 			// aapt resource value: 0x7f0a0113
 			public const int textViewGrades = 2131362067;
 			
-			// aapt resource value: 0x7f0a0116
-			public const int textViewLightName = 2131362070;
+			// aapt resource value: 0x7f0a011a
+			public const int textViewLightName = 2131362074;
 			
-			// aapt resource value: 0x7f0a0146
-			public const int textViewProgressStatus = 2131362118;
+			// aapt resource value: 0x7f0a0114
+			public const int textViewOrderNr = 2131362068;
+			
+			// aapt resource value: 0x7f0a014a
+			public const int textViewProgressStatus = 2131362122;
 			
 			// aapt resource value: 0x7f0a00e7
 			public const int textViewSaunaNameSettings = 2131362023;
@@ -7397,14 +7403,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a0112
 			public const int textViewSensorName = 2131362066;
 			
-			// aapt resource value: 0x7f0a0138
-			public const int textViewSettingName = 2131362104;
-			
-			// aapt resource value: 0x7f0a0139
-			public const int textViewSettingStatus = 2131362105;
-			
 			// aapt resource value: 0x7f0a013c
-			public const int textViewVolumeLevel = 2131362108;
+			public const int textViewSettingName = 2131362108;
+			
+			// aapt resource value: 0x7f0a013d
+			public const int textViewSettingStatus = 2131362109;
+			
+			// aapt resource value: 0x7f0a0116
+			public const int textViewSongDuration = 2131362070;
+			
+			// aapt resource value: 0x7f0a0115
+			public const int textViewSongName = 2131362069;
+			
+			// aapt resource value: 0x7f0a0140
+			public const int textViewVolumeLevel = 2131362112;
 			
 			// aapt resource value: 0x7f0a0105
 			public const int text_input_password_toggle = 2131362053;
@@ -7418,8 +7430,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001a
 			public const int textinput_helper_text = 2131361818;
 			
-			// aapt resource value: 0x7f0a0129
-			public const int time = 2131362089;
+			// aapt resource value: 0x7f0a012d
+			public const int time = 2131362093;
 			
 			// aapt resource value: 0x7f0a0023
 			public const int title = 2131361827;
@@ -7430,20 +7442,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a00c7
 			public const int title_template = 2131361991;
 			
-			// aapt resource value: 0x7f0a0148
-			public const int toggleButtonFan1 = 2131362120;
+			// aapt resource value: 0x7f0a014c
+			public const int toggleButtonFan1 = 2131362124;
 			
-			// aapt resource value: 0x7f0a014a
-			public const int toggleButtonFan2 = 2131362122;
+			// aapt resource value: 0x7f0a014e
+			public const int toggleButtonFan2 = 2131362126;
 			
 			// aapt resource value: 0x7f0a010b
 			public const int toggleHeater = 2131362059;
 			
-			// aapt resource value: 0x7f0a013a
-			public const int toggleSound = 2131362106;
+			// aapt resource value: 0x7f0a013e
+			public const int toggleSound = 2131362110;
 			
-			// aapt resource value: 0x7f0a0143
-			public const int toggleVentilation = 2131362115;
+			// aapt resource value: 0x7f0a0147
+			public const int toggleVentilation = 2131362119;
 			
 			// aapt resource value: 0x7f0a00e6
 			public const int toolbar = 2131362022;
@@ -7508,8 +7520,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0a001b
 			public const int view_offset_helper = 2131361819;
 			
-			// aapt resource value: 0x7f0a014b
-			public const int visible = 2131362123;
+			// aapt resource value: 0x7f0a014f
+			public const int visible = 2131362127;
 			
 			// aapt resource value: 0x7f0a0047
 			public const int withText = 2131361863;
@@ -7809,139 +7821,142 @@ namespace firstxamarindroid
 			public const int item_sensor_layout = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int light_item_layout = 2130968634;
+			public const int item_song_layout = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int light_settings_fragment = 2130968635;
+			public const int light_item_layout = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int lights_fragment = 2130968636;
+			public const int light_settings_fragment = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int mtrl_layout_snackbar = 2130968637;
+			public const int lights_fragment = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int mtrl_layout_snackbar_include = 2130968638;
+			public const int mtrl_layout_snackbar = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int notification_action = 2130968639;
+			public const int mtrl_layout_snackbar_include = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int notification_action_tombstone = 2130968640;
+			public const int notification_action = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int notification_media_action = 2130968641;
+			public const int notification_action_tombstone = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int notification_media_cancel_action = 2130968642;
+			public const int notification_media_action = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int notification_template_big_media = 2130968643;
+			public const int notification_media_cancel_action = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int notification_template_big_media_custom = 2130968644;
+			public const int notification_template_big_media = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int notification_template_big_media_narrow = 2130968645;
+			public const int notification_template_big_media_custom = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int notification_template_big_media_narrow_custom = 2130968646;
+			public const int notification_template_big_media_narrow = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int notification_template_custom_big = 2130968647;
+			public const int notification_template_big_media_narrow_custom = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int notification_template_icon_group = 2130968648;
+			public const int notification_template_custom_big = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int notification_template_lines_media = 2130968649;
+			public const int notification_template_icon_group = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int notification_template_media = 2130968650;
+			public const int notification_template_lines_media = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int notification_template_media_custom = 2130968651;
+			public const int notification_template_media = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int notification_template_part_chronometer = 2130968652;
+			public const int notification_template_media_custom = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int notification_template_part_time = 2130968653;
+			public const int notification_template_part_chronometer = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int preference = 2130968654;
+			public const int notification_template_part_time = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int preference_category = 2130968655;
+			public const int preference = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int preference_category_material = 2130968656;
+			public const int preference_category = 2130968656;
 			
 			// aapt resource value: 0x7f040051
-			public const int preference_dialog_edittext = 2130968657;
+			public const int preference_category_material = 2130968657;
 			
 			// aapt resource value: 0x7f040052
-			public const int preference_dropdown = 2130968658;
+			public const int preference_dialog_edittext = 2130968658;
 			
 			// aapt resource value: 0x7f040053
-			public const int preference_dropdown_material = 2130968659;
+			public const int preference_dropdown = 2130968659;
 			
 			// aapt resource value: 0x7f040054
-			public const int preference_information = 2130968660;
+			public const int preference_dropdown_material = 2130968660;
 			
 			// aapt resource value: 0x7f040055
-			public const int preference_information_material = 2130968661;
+			public const int preference_information = 2130968661;
 			
 			// aapt resource value: 0x7f040056
-			public const int preference_list_fragment = 2130968662;
+			public const int preference_information_material = 2130968662;
 			
 			// aapt resource value: 0x7f040057
-			public const int preference_material = 2130968663;
+			public const int preference_list_fragment = 2130968663;
 			
 			// aapt resource value: 0x7f040058
-			public const int preference_recyclerview = 2130968664;
+			public const int preference_material = 2130968664;
 			
 			// aapt resource value: 0x7f040059
-			public const int preference_widget_checkbox = 2130968665;
+			public const int preference_recyclerview = 2130968665;
 			
 			// aapt resource value: 0x7f04005a
-			public const int preference_widget_seekbar = 2130968666;
+			public const int preference_widget_checkbox = 2130968666;
 			
 			// aapt resource value: 0x7f04005b
-			public const int preference_widget_seekbar_material = 2130968667;
+			public const int preference_widget_seekbar = 2130968667;
 			
 			// aapt resource value: 0x7f04005c
-			public const int preference_widget_switch = 2130968668;
+			public const int preference_widget_seekbar_material = 2130968668;
 			
 			// aapt resource value: 0x7f04005d
-			public const int preference_widget_switch_compat = 2130968669;
+			public const int preference_widget_switch = 2130968669;
 			
 			// aapt resource value: 0x7f04005e
-			public const int sauna_settings_fragment = 2130968670;
+			public const int preference_widget_switch_compat = 2130968670;
 			
 			// aapt resource value: 0x7f04005f
-			public const int select_dialog_item_material = 2130968671;
+			public const int sauna_settings_fragment = 2130968671;
 			
 			// aapt resource value: 0x7f040060
-			public const int select_dialog_multichoice_material = 2130968672;
+			public const int select_dialog_item_material = 2130968672;
 			
 			// aapt resource value: 0x7f040061
-			public const int select_dialog_singlechoice_material = 2130968673;
+			public const int select_dialog_multichoice_material = 2130968673;
 			
 			// aapt resource value: 0x7f040062
-			public const int setting_item_layout = 2130968674;
+			public const int select_dialog_singlechoice_material = 2130968674;
 			
 			// aapt resource value: 0x7f040063
-			public const int sound_fragment = 2130968675;
+			public const int setting_item_layout = 2130968675;
 			
 			// aapt resource value: 0x7f040064
-			public const int support_simple_spinner_dropdown_item = 2130968676;
+			public const int sound_fragment = 2130968676;
 			
 			// aapt resource value: 0x7f040065
-			public const int top_defaults_view_color_picker_popup = 2130968677;
+			public const int support_simple_spinner_dropdown_item = 2130968677;
 			
 			// aapt resource value: 0x7f040066
-			public const int ventilation_fragment = 2130968678;
+			public const int top_defaults_view_color_picker_popup = 2130968678;
+			
+			// aapt resource value: 0x7f040067
+			public const int ventilation_fragment = 2130968679;
 			
 			static Layout()
 			{
@@ -7991,7 +8006,10 @@ namespace firstxamarindroid
 			public const int ic_launcher_round = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int ic_right_arrow = 2130903046;
+			public const int ic_play = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int ic_right_arrow = 2130903047;
 			
 			static Mipmap()
 			{
@@ -8141,8 +8159,8 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b002d
 			public const int bottom_sheet_behavior = 2131427373;
 			
-			// aapt resource value: 0x7f0b0047
-			public const int brightness_text = 2131427399;
+			// aapt resource value: 0x7f0b0048
+			public const int brightness_text = 2131427400;
 			
 			// aapt resource value: 0x7f0b002e
 			public const int character_counter_content_description = 2131427374;
@@ -8174,14 +8192,14 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b0031
 			public const int fab_transformation_sheet_behavior = 2131427377;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int fan_duration_hint = 2131427402;
-			
 			// aapt resource value: 0x7f0b004b
-			public const int fan_text_1 = 2131427403;
+			public const int fan_duration_hint = 2131427403;
 			
 			// aapt resource value: 0x7f0b004c
-			public const int fan_text_2 = 2131427404;
+			public const int fan_text_1 = 2131427404;
+			
+			// aapt resource value: 0x7f0b004d
+			public const int fan_text_2 = 2131427405;
 			
 			// aapt resource value: 0x7f0b0032
 			public const int hide_bottom_view_on_scroll_behavior = 2131427378;
@@ -8204,20 +8222,20 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b0038
 			public const int path_password_strike_through = 2131427384;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int res_setting_tag_id = 2131427405;
+			// aapt resource value: 0x7f0b004e
+			public const int res_setting_tag_id = 2131427406;
 			
 			// aapt resource value: 0x7f0b001f
 			public const int search_menu_title = 2131427359;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int setting_off = 2131427396;
-			
-			// aapt resource value: 0x7f0b0043
-			public const int setting_on = 2131427395;
-			
 			// aapt resource value: 0x7f0b0045
-			public const int setting_ventilation = 2131427397;
+			public const int setting_off = 2131427397;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int setting_on = 2131427396;
+			
+			// aapt resource value: 0x7f0b0046
+			public const int setting_ventilation = 2131427398;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int status_bar_notification_info_overflow = 2131427385;
@@ -8225,14 +8243,17 @@ namespace firstxamarindroid
 			// aapt resource value: 0x7f0b0001
 			public const int summary_collapsed_preference_list = 2131427329;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int toggle_lamp = 2131427398;
+			// aapt resource value: 0x7f0b0043
+			public const int syncfusion_licence = 2131427395;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int toggle_lamp_color = 2131427400;
+			// aapt resource value: 0x7f0b0047
+			public const int toggle_lamp = 2131427399;
 			
 			// aapt resource value: 0x7f0b0049
-			public const int toggle_ventilation = 2131427401;
+			public const int toggle_lamp_color = 2131427401;
+			
+			// aapt resource value: 0x7f0b004a
+			public const int toggle_ventilation = 2131427402;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int v7_preference_off = 2131427330;

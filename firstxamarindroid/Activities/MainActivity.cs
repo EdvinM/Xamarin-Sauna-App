@@ -28,7 +28,14 @@ namespace firstxamarindroid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
+            // Initialize xamarin platform essentials
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+
+            // Register syncfusion products
+            
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(Resources.GetString(Resource.String.syncfusion_licence));
+
             SetContentView(Resource.Layout.activity_main);
 
             // Initialize cheeseknife

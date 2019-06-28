@@ -8,6 +8,7 @@ namespace firstxamarindroid.Models
         [PrimaryKey]
         public String Id { get; set; }
 
+        public bool Status { get; set; }
         public int Volume { get; set; }
 
         public SoundModel()

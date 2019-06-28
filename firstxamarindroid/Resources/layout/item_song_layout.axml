@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:orientation="horizontal" 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:padding="@dimen/default_page_padding">
+
+	<TextView
+		android:text="1."
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textViewOrderNr"
+		android:textStyle="bold" />
+
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1">
+
+		<TextView
+			android:text="Adele Hello - Remix"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+            android:singleLine="true"
+			android:id="@+id/textViewSongName" />
+
+		<TextView
+			android:text="Text"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+			android:id="@+id/textViewSongDuration" />
+
+	</LinearLayout>
+    
+	<ImageView
+		android:src="@mipmap/ic_play"
+		android:layout_width="32dp"
+		android:layout_height="32dp"
+        android:scaleType="fitXY"
+		android:id="@+id/imageViewPlay" />
+    
+</LinearLayout>
