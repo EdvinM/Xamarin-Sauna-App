@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Realms;
 
 namespace firstxamarindroid.Models
@@ -11,6 +12,9 @@ namespace firstxamarindroid.Models
         public Boolean Status { get; set; }
         public String Power { get; set; }
         public int TemperatureThreshold { get; set; }
+
+        [Ignored]
+        public List<HeaterSensorModel> Sensors { get; set; }
 
         public HeaterModel()
         {
