@@ -14,6 +14,7 @@
     <string name="toggle_lamp">Toggle Lamp   </string>
     <string name="brightness_text">Set lamp\'s brightness level</string>
     <string name="toggle_lamp_color">Lamp Color   </string>
+    <string name="tap_for_color">Tap to select color</string>
     
     <!-- Ventilation Settings fragment strings -->
     <string name="toggle_ventilation">Toggle Ventilation</string>

@@ -53,33 +53,6 @@ namespace firstxamarindroid.SettingsModule
                 int saunaId = Arguments.GetInt(Helpers.Helpers.ARG_1);
 
                 this.saunaModel = DbController.Instance.GetSauna(saunaId);
-
-
-                // Generate fake menu items based on settings for each sauna
-                this.settingItemModelsList = new List<SettingItemModel>()
-                {
-                    new SettingItemModel("Ventilation",
-                                        (this.saunaModel.Ventilation.Status ? "On" : "Off"),
-                                        Resource.Mipmap.ic_settings_ventilation,
-                                        VentilationFragment.NewInstance(saunaId)),
-
-                    new SettingItemModel("Heater",
-                                        (this.saunaModel.Heater.Status ? "On" : "Off"),
-                                        Resource.Mipmap.ic_settings_heating,
-                                        HeaterFragment.NewInstance(saunaId)),
-
-                    new SettingItemModel("Lights",
-                                        (this.saunaModel.LightsStatus ? "On" : "Off"),
-                                        Resource.Mipmap.ic_settings_lights,
-                                        LightsFragment.NewInstance(saunaId)),
-
-                    new SettingItemModel("Sound",
-                                        (this.saunaModel.Sound.Status ? "On" : "Off"),
-                                        Resource.Mipmap.ic_settings_sound,
-                                        SoundFragment.NewInstance(saunaId)),
-                };
-
-                this.settingsListAdapter = new SettingsListAdapter(this.settingItemModelsList);
             }
         }
 
@@ -90,6 +63,10 @@ namespace firstxamarindroid.SettingsModule
 
             // Initialize cheeseknife view injection.
             Cheeseknife.Inject(this, view);
+
+            // Function to generate settings menu items
+            GenerateSettingsMenuItems();
+            this.settingsListAdapter = new SettingsListAdapter(this.settingItemModelsList);
 
             return view;
         }
@@ -111,9 +88,39 @@ namespace firstxamarindroid.SettingsModule
         }
 
 
+
         private void SettingsListAdapter_OnItemClick(object sender, SettingItemModel e)
         {
             this.Activity.SupportFragmentManager.BeginTransaction().Replace(this.Id, e.GetFragment).AddToBackStack(e.GetFragment.Class.Name).Commit();
+        }
+
+
+
+        private void GenerateSettingsMenuItems()
+        {
+            // Generate fake menu items based on settings for each sauna
+            this.settingItemModelsList = new List<SettingItemModel>()
+            {
+                new SettingItemModel("Ventilation",
+                                    (this.saunaModel.Ventilation.Status ? "On" : "Off"),
+                                    Resource.Mipmap.ic_settings_ventilation,
+                                    VentilationFragment.NewInstance(this.saunaModel.Id)),
+
+                new SettingItemModel("Heater",
+                                    (this.saunaModel.Heater.Status ? "On" : "Off"),
+                                    Resource.Mipmap.ic_settings_heating,
+                                    HeaterFragment.NewInstance(this.saunaModel.Id)),
+
+                new SettingItemModel("Lights",
+                                    (this.saunaModel.LightsStatus ? "On" : "Off"),
+                                    Resource.Mipmap.ic_settings_lights,
+                                    LightsFragment.NewInstance(this.saunaModel.Id)),
+
+                new SettingItemModel("Sound",
+                                    (this.saunaModel.Sound.Status ? "On" : "Off"),
+                                    Resource.Mipmap.ic_settings_sound,
+                                    SoundFragment.NewInstance(this.saunaModel.Id)),
+            };
         }
     }
 }

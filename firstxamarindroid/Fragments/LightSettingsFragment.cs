@@ -38,6 +38,9 @@ namespace firstxamarindroid.Fragments
         [InjectView(Resource.Id.colorPanelView1)]
         private ColorPanelView colorPanelView;
 
+        [InjectView(Resource.Id.textViewTapForColor)]
+        private TextView textViewTapForColor;
+
         // Other variable declarations
         private LightModel lightModel;
 
@@ -86,19 +89,26 @@ namespace firstxamarindroid.Fragments
             base.OnViewCreated(view, savedInstanceState);
 
             // At first, set all values acording to model values
+            Log.Debug("LightSettings", "Debug message 2");
+
+            this.toggleButtons = new ToggleButtons(view);
+            this.toggleButtons.UpdateToggleButtons(this.lightModel.Status);
+            this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
+
             if ((!this.lightModel.Status && this.lightModel.ColorStatus) || this.lightModel.Status)
             {
                 Realm.GetInstance().Write(() => this.lightModel.Status = true);
 
-                this.toggleButtons = new ToggleButtons(view);
+                Log.Debug("LightSettings", "Debug message 1");
+
                 this.toggleButtons.UpdateToggleButtons(this.lightModel.Status);
-                this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
 
                 this.switchColorLightOn.Checked = this.lightModel.ColorStatus;
 
                 if (this.lightModel.ColorStatus)
                 {
                     this.colorPanelView.Visibility = ViewStates.Visible;
+                    this.textViewTapForColor.Visibility = ViewStates.Visible;
 
                     this.colorPanelView.SetColor(this.lightModel.GetColor);
                 }
@@ -152,6 +162,7 @@ namespace firstxamarindroid.Fragments
             Realm.GetInstance().Write(() => this.lightModel.ColorStatus = e.IsChecked);
 
             this.colorPanelView.Visibility = e.IsChecked ? ViewStates.Visible : ViewStates.Gone;
+            this.textViewTapForColor.Visibility = e.IsChecked ? ViewStates.Visible : ViewStates.Gone;
         }
 
         private void ToggleButtons_OnToggleChanged(object sender, bool e)
@@ -162,11 +173,17 @@ namespace firstxamarindroid.Fragments
 
             // Also hide or show the color panel view based on previous light settings.
             if (!e)
+            {
                 this.colorPanelView.Visibility = ViewStates.Gone;
+                this.textViewTapForColor.Visibility = ViewStates.Gone;
+            }
             else
             {
                 if (this.lightModel.ColorStatus)
+                {
                     this.colorPanelView.Visibility = ViewStates.Visible;
+                    this.textViewTapForColor.Visibility = ViewStates.Visible;
+                }
             }
         }
 
