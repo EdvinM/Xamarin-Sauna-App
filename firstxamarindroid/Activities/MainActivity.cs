@@ -25,6 +25,7 @@ namespace firstxamarindroid
         [InjectView(Resource.Id.textViewSaunaNameSettings)]
         private TextView textViewSaunaNameSettings;
 
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -33,20 +34,23 @@ namespace firstxamarindroid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 
             // Register syncfusion products
-            
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(Resources.GetString(Resource.String.syncfusion_licence));
+
 
             SetContentView(Resource.Layout.activity_main);
 
             // Initialize cheeseknife
             Cheeseknife.Inject(this);
 
+
             // ------- Save generate 10 saunas for demonstration purposes ------- //
             Helpers.Helpers.SaveSaunaGenerate(10);
             // ------- // ------- //
 
+
             // Set custom toolbar back icon
             toolbar.NavigationIcon = GetDrawable(Resource.Mipmap.ic_back);
+
 
             // Set actionbar
             SetSupportActionBar(toolbar);
@@ -56,7 +60,9 @@ namespace firstxamarindroid
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetDisplayShowTitleEnabled(false);
 
+            //TODO: Here should be set the sauna ID for which we are viewing settings
             textViewSaunaNameSettings.Text = "Sauna 1";
+
 
             SupportFragmentManager.BeginTransaction().Replace(Resource.Id.frame_layout_settings, SaunaSettingsFragment.NewInstance(1)).Commit();
         }
@@ -68,23 +74,6 @@ namespace firstxamarindroid
             return base.OnSupportNavigateUp();
         }
 
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            //MenuInflater.Inflate(Resource.Menu.menu_main, menu);
-            return true;
-        }
-
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            //int id = item.ItemId;
-            //if (id == Resource.Id.action_settings)
-            //{
-            //    return true;
-            //}
-
-            return base.OnOptionsItemSelected(item);
-        }
-
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -92,6 +81,13 @@ namespace firstxamarindroid
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
+
+        /// <summary>
+        /// Method callback when user selects a lamp color. Returned to main activity from which is called, then send to requesting fragment
+        /// 
+        /// </summary>
+        /// <param name="dialogId">Color Dialog ID</param>
+        /// <param name="color">Selected color by user.</param>
         public void OnColorSelected(int dialogId, Color color)
         {
             // Get shown fragment instance from support fragment manager

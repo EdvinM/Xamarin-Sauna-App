@@ -72,7 +72,6 @@
     <Compile Include="Adapters\LightsAdapter.cs" />
     <Compile Include="Models\LightModel.cs" />
     <Compile Include="Fragments\LightSettingsFragment.cs" />
-    <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\SaunaModel.cs" />
     <Compile Include="Models\VentilationModel.cs" />
     <Compile Include="Models\HeaterModel.cs" />
@@ -148,6 +147,8 @@
     <AndroidResource Include="Resources\drawable\button_off_pressed.xml" />
     <AndroidResource Include="Resources\layout\item_fan_layout.axml" />
     <AndroidResource Include="Resources\drawable\normal_button_style.xml" />
+    <AndroidResource Include="Resources\anim\fade_out.xml" />
+    <AndroidResource Include="Resources\anim\fade_in.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
@@ -196,6 +197,7 @@
     <Folder Include="Activities\" />
     <Folder Include="Adapters\" />
     <Folder Include="ViewHolders\" />
+    <Folder Include="Resources\anim\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

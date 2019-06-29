@@ -2571,10 +2571,16 @@ namespace firstxamarindroid
 			public const int design_snackbar_out = 2131034144;
 			
 			// aapt resource value: 0x7f050021
-			public const int top_defaults_view_color_picker_popup_hide = 2131034145;
+			public const int fade_in = 2131034145;
 			
 			// aapt resource value: 0x7f050022
-			public const int top_defaults_view_color_picker_popup_show = 2131034146;
+			public const int fade_out = 2131034146;
+			
+			// aapt resource value: 0x7f050023
+			public const int top_defaults_view_color_picker_popup_hide = 2131034147;
+			
+			// aapt resource value: 0x7f050024
+			public const int top_defaults_view_color_picker_popup_show = 2131034148;
 			
 			static Animation()
 			{

@@ -33,6 +33,13 @@ namespace firstxamarindroid.Helpers
             realmConfiguration.SchemaVersion = 1;
         }
 
+
+        /// <summary>
+        /// Method which queries for Sauna with specific id and returns the result.
+        /// 
+        /// </summary>
+        /// <param name="id">Sauna ID</param>
+        /// <returns>Found sauna model or NULL otherwise</returns>
         public SaunaModel GetSauna(int id)
         {
             var saunas = Realm.GetInstance().All<SaunaModel>().Where(p => p.Id == id);
@@ -40,12 +47,26 @@ namespace firstxamarindroid.Helpers
             return (saunas != null && saunas.Any<SaunaModel>()) ? saunas.First<SaunaModel>() : null;
         }
 
+
+        /// <summary>
+        /// Method which adds new sauna to database
+        /// 
+        /// </summary>
+        /// <param name="saunaModel">SaunaModel with all parameters set</param>
         public void SetSauna(SaunaModel saunaModel)
         {
             var realm = Realm.GetInstance();
             realm.Write(() => realm.Add(saunaModel));
         }
 
+
+        /// <summary>
+        /// Method which returns a specific light model based on given parameters
+        /// 
+        /// </summary>
+        /// <param name="saunaId">Sauna ID</param>
+        /// <param name="lightId">Light ID</param>
+        /// <returns></returns>
         public LightModel GetLight(int saunaId, String lightId)
         {
             var sauna = this.GetSauna(saunaId);

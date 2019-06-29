@@ -21,16 +21,33 @@ namespace firstxamarindroid.SettingsModule
 {
     public class SaunaSettingsFragment : Fragment
     {
-        // Inject used views into the variables
+        /*
+         ************************************
+         *      Bind Views to Variables
+         ************************************
+         */
+
         [InjectView(Resource.Id.recyclerViewSettings)]
         private RecyclerView recyclerViewSettings;
 
-        // Declare other variables
+
+        /*
+         ************************************
+         *      Declare Variables
+         ************************************
+         */
         private SettingsListAdapter settingsListAdapter;
 
         private List<SettingItemModel> settingItemModelsList;
 
         private SaunaModel saunaModel;
+
+
+        /*
+        ************************************
+        *      Fragment methods
+        ************************************
+        */
 
         public static SaunaSettingsFragment NewInstance(int saunaId)
         {
@@ -64,7 +81,7 @@ namespace firstxamarindroid.SettingsModule
             // Initialize cheeseknife view injection.
             Cheeseknife.Inject(this, view);
 
-            // Function to generate settings menu items
+            // Function to regenerate settings menu items on each view creation.
             GenerateSettingsMenuItems();
             this.settingsListAdapter = new SettingsListAdapter(this.settingItemModelsList);
 
@@ -77,10 +94,11 @@ namespace firstxamarindroid.SettingsModule
 
             this.recyclerViewSettings.SetAdapter(this.settingsListAdapter);
 
-            FlexboxLayoutManager flexboxLayoutManager = new FlexboxLayoutManager(this.Activity, FlexDirection.Row, FlexWrap.Wrap);
-            flexboxLayoutManager.JustifyContent = JustifyContent.Center;
-            flexboxLayoutManager.AlignItems = AlignItems.Stretch;
-            flexboxLayoutManager.FlexWrap = FlexWrap.Wrap;
+            // Create flexbox layout manager to fit all sizes of screens.
+            FlexboxLayoutManager flexboxLayoutManager   = new FlexboxLayoutManager(this.Activity, FlexDirection.Row, FlexWrap.Wrap);
+            flexboxLayoutManager.JustifyContent         = JustifyContent.Center;
+            flexboxLayoutManager.AlignItems             = AlignItems.Stretch;
+            flexboxLayoutManager.FlexWrap               = FlexWrap.Wrap;
 
             this.recyclerViewSettings.SetLayoutManager(flexboxLayoutManager);
 
@@ -88,6 +106,11 @@ namespace firstxamarindroid.SettingsModule
         }
 
 
+        /*
+         ************************************
+         *      Callbacks
+         ************************************
+         */
 
         private void SettingsListAdapter_OnItemClick(object sender, SettingItemModel e)
         {

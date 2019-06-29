@@ -22,6 +22,12 @@ namespace firstxamarindroid.SettingsModule
 {
     public class SoundFragment : Fragment
     {
+        /*
+         ************************************
+         *      Bind Views to Variables
+         ************************************
+         */
+
         [InjectView(Resource.Id.seekBarVolume)]
         SeekBar seekBarVolume;
 
@@ -31,6 +37,11 @@ namespace firstxamarindroid.SettingsModule
         [InjectView(Resource.Id.recyclerViewMusic)]
         RecyclerView recyclerViewMusic;
 
+        /*
+         ************************************
+         *      Declare Variables
+         ************************************
+         */
 
         private SaunaModel saunaModel;
         private SoundModel soundModel;
@@ -39,7 +50,7 @@ namespace firstxamarindroid.SettingsModule
 
         private ToggleButtons toggleButtons;
 
-
+        // Create a fake list of songs. Thos should query from server
         private List<SongModel> songModels = new List<SongModel>()
         {
             new SongModel(1, "Song name 1", 362),
@@ -49,6 +60,12 @@ namespace firstxamarindroid.SettingsModule
             new SongModel(5, "Song name 5", 369),
         };
 
+
+        /*
+         ************************************
+         *      Fragment methods
+         ************************************
+         */
 
         public static SoundFragment NewInstance(int saunaId)
         {
@@ -90,12 +107,12 @@ namespace firstxamarindroid.SettingsModule
         {
             base.OnViewCreated(view, savedInstanceState);
 
-            this.toggleButtons = new ToggleButtons(view);
+            this.toggleButtons = new ToggleButtons(view, this.saunaModel);
             this.toggleButtons.UpdateToggleButtons(this.soundModel.Status);
             this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
 
-            this.textViewVolumeLevel.Text = this.soundModel.Volume.ToString();
-            this.seekBarVolume.Progress = this.soundModel.Volume;
+            this.textViewVolumeLevel.Text   = this.soundModel.Volume.ToString();
+            this.seekBarVolume.Progress     = this.soundModel.Volume;
             this.seekBarVolume.ProgressChanged += SeekBarVolume_ProgressChanged;
 
             this.recyclerViewMusic.SetAdapter(this.songsAdapter);
@@ -104,14 +121,18 @@ namespace firstxamarindroid.SettingsModule
 
 
 
+        /*
+         ************************************
+         *      Callbacks
+         ************************************
+         */
+
         private void SeekBarVolume_ProgressChanged(object sender, SeekBar.ProgressChangedEventArgs e)
         {
             this.textViewVolumeLevel.Text = e.Progress.ToString();
 
             Realm.GetInstance().Write(() => this.soundModel.Volume = e.Progress);
         }
-
-
 
         private void ToggleButtons_OnToggleChanged(object sender, bool e)
         {

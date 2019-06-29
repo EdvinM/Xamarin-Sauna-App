@@ -17,6 +17,7 @@ namespace firstxamarindroid.Helpers
         [InjectView(Resource.Id.linearLayoutLampMain)]
         public LinearLayout linearLayoutLampMain;
 
+
         public LightItemViewHolder(View view) : base(view)
         {
             Cheeseknife.Inject(this, view);

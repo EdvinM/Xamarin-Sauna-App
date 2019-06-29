@@ -21,6 +21,12 @@ namespace firstxamarindroid.SettingsModule
 {
     public class VentilationFragment : Fragment
     {
+        /*
+         ************************************
+         *      Bind Views to Variables
+         ************************************
+         */
+
         [InjectView(Resource.Id.linearLayoutProgress)]
         private LinearLayout linearLayoutProgress;
 
@@ -43,7 +49,11 @@ namespace firstxamarindroid.SettingsModule
         private ToggleButton toggleButtonFan2;
 
 
-
+        /*
+         ************************************
+         *      Declare Variables
+         ************************************
+         */
         private SaunaModel saunaModel;
         private VentilationModel ventilationModel;
 
@@ -96,7 +106,7 @@ namespace firstxamarindroid.SettingsModule
         {
             base.OnViewCreated(view, savedInstanceState);
 
-            this.toggleButtons = new ToggleButtons(view);
+            this.toggleButtons = new ToggleButtons(view, this.saunaModel);
             this.toggleButtons.UpdateToggleButtons(this.ventilationModel.Status);
             this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
 
@@ -117,6 +127,8 @@ namespace firstxamarindroid.SettingsModule
             toggleButtonFan1.Checked = DateTimeOffset.UtcNow.ToUnixTimeSeconds() < this.ventilationModel.Fan1ClosingAt;
             toggleButtonFan2.Checked = DateTimeOffset.UtcNow.ToUnixTimeSeconds() < this.ventilationModel.Fan2ClosingAt;
 
+
+            // Create a timer which should update the views, when time runs out and ventilation completes to updated
             timer = new Timer();
             timer.Enabled = true;
             timer.Interval = 1005;
@@ -141,6 +153,7 @@ namespace firstxamarindroid.SettingsModule
         [InjectOnCheckedChange(Resource.Id.toggleButtonFan1)]
         void OnToggleButton1CheckedListener(object sender, CompoundButton.CheckedChangeEventArgs e)
         {
+            // Open fan only if ventilation is opened
             if (!this.ventilationModel.Status)
             {
                 Toast.MakeText(this.Activity, "Please open ventilation first, then you can open this fan.", ToastLength.Short).Show();
@@ -161,9 +174,10 @@ namespace firstxamarindroid.SettingsModule
                 return;
             }
 
-
+            // Get fan duration seconds
             int secondsDuration = (toggleButtonSender == toggleButtonFan1 ? Convert.ToInt16(editTextFanDuration1.Text) : Convert.ToInt16(editTextFanDuration2.Text));
 
+            // Calculate when the fan should close
             long closingAt = e.IsChecked ? (DateTimeOffset.UtcNow.ToUnixTimeSeconds() + secondsDuration) : -1;
 
             Toast.MakeText(this.Activity, e.IsChecked ? "Fan opened successfully" : "Fan closed successfully", ToastLength.Short).Show();
@@ -246,6 +260,7 @@ namespace firstxamarindroid.SettingsModule
 
         private void Timer_Elapsed()
         {
+            // Should run on Ui Thread.
             this.Activity.RunOnUiThread(() =>
             {
                 if (this.linearLayoutProgress.Visibility == ViewStates.Visible)
@@ -267,6 +282,7 @@ namespace firstxamarindroid.SettingsModule
                 }
 
 
+                // If current time is greater than fan closing time, close the fan
                 if (DateTimeOffset.UtcNow.ToUnixTimeSeconds() > this.ventilationModel.Fan1ClosingAt && toggleButtonFan1.Checked)
                 {
                     toggleButtonFan1.Checked = false;

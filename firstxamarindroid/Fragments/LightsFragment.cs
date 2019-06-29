@@ -22,14 +22,31 @@ namespace firstxamarindroid.SettingsModule
 {
     public class LightsFragment : Fragment
     {
-        // Bind views to variables
+        /*
+         ************************************
+         *      Bind Views to Variables
+         ************************************
+         */
+
         [InjectView(Resource.Id.recyclerViewLights)]
         private RecyclerView recyclerViewLights;
 
+
+        /*
+         ************************************
+         *      Declare Variables
+         ************************************
+         */
         private LightsAdapter lightsAdapter;
 
         private SaunaModel saunaModel;
 
+
+        /*
+         ************************************
+         *      Fragment methods
+         ************************************
+         */
 
         public static LightsFragment NewInstance(int saunaId)
         {
@@ -76,6 +93,8 @@ namespace firstxamarindroid.SettingsModule
             // Handle adapter item click listener
             this.lightsAdapter.OnItemClick += LightsAdapter_OnItemClick;
         }
+
+
 
         /// <summary>
         /// Click listener method, to handle item clicks on lamps. Navigate to lamp settings fragment when clicked on a given lamp.

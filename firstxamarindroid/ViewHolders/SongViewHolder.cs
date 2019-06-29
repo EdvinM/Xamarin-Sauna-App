@@ -20,6 +20,7 @@ namespace firstxamarindroid.ViewHolders
         [InjectView(Resource.Id.imageViewPlay)]
         public ImageView imageViewPlay;
 
+
         public SongViewHolder(View view) : base(view)
         {
             Cheeseknife.Inject(this, view);

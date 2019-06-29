@@ -26,19 +26,25 @@ namespace firstxamarindroid.ViewHolders
         }
 
 
+        /// <summary>
+        /// Method created to update data visuals on temperature UI element
+        /// </summary>
+        /// <param name="temperature"></param>
         public void UpdateCircularGauge(int temperature)
         {
             ObservableCollection<CircularScale> scales = new ObservableCollection<CircularScale>();
             CircularScale scale = new CircularScale();
-            scale.StartValue = 0;
-            scale.EndValue = 100;
+            scale.StartValue    = 0;
+            scale.EndValue      = 100;
+
             NeedlePointer needlePointer = new NeedlePointer();
-            needlePointer.Value = temperature;
-            needlePointer.KnobRadius = 15;
-            needlePointer.TailColor = Color.ParseColor("#757575");
-            needlePointer.TailLengthFactor = 0.2;
-            needlePointer.TailStrokeWidth = 1;
-            needlePointer.TailStrokeColor = Color.ParseColor("#757575");
+            needlePointer.Value             = temperature;
+            needlePointer.KnobRadius        = 15;
+            needlePointer.TailColor         = Color.ParseColor("#757575");
+            needlePointer.TailLengthFactor  = 0.2;
+            needlePointer.TailStrokeWidth   = 1;
+            needlePointer.TailStrokeColor   = Color.ParseColor("#757575");
+
             scale.CircularPointers.Add(needlePointer);
             scales.Add(scale);
 

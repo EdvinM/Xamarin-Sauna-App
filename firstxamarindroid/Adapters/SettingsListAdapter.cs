@@ -25,27 +25,36 @@ namespace firstxamarindroid.Helpers
             this.settingItemModelsList = SettingItemModelsList;
         }
 
+
+        /// <summary>
+        /// Method which returns items count to be shown in recyclerview
+        /// </summary>
         public override int ItemCount => this.settingItemModelsList.Count;
 
+
+        /// <summary>
+        /// Method which binds data from models to views based on position
+        /// 
+        /// </summary>
+        /// <param name="holder">Custom ViewHolder</param>
+        /// <param name="position">Position on which recyclerview is</param>
         [Obsolete]
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             SettingItemModel settingItemModel = this.settingItemModelsList[position];
 
 
-
             // Set values corresponding to settings items.
             SettingsItemViewHolder settingsItemViewHolder = (SettingsItemViewHolder)holder;
-            settingsItemViewHolder.textViewSettingName.Text = settingItemModel.Name;
+            settingsItemViewHolder.textViewSettingName.Text         = settingItemModel.Name;
 
-            settingsItemViewHolder.textViewSettingStatus.Text = settingItemModel.Status;
+            settingsItemViewHolder.textViewSettingStatus.Text       = settingItemModel.Status;
             settingsItemViewHolder.textViewSettingStatus.Background = settingsItemViewHolder.ItemView.Context.Resources.GetDrawable((settingItemModel.Status.Equals("On") ? Resource.Drawable.rounded_textview_on : Resource.Drawable.rounded_textview_off));
             settingsItemViewHolder.textViewSettingStatus.SetTextColor(new Color(ContextCompat.GetColor(settingsItemViewHolder.ItemView.Context, (settingItemModel.Status.Equals("On") ? Resource.Color.colorPrimaryGreen : Resource.Color.colorPrimaryRed))));
 
             Glide.With(settingsItemViewHolder.ItemView.Context).Load(settingItemModel.Icon)
                 .Apply(new Com.Bumptech.Glide.Request.RequestOptions().Override(64, 64))
                 .Into(settingsItemViewHolder.imageViewSettingIcon);
-
 
 
             // Add layout setting position tag, so we can access it from click handler function
@@ -55,6 +64,14 @@ namespace firstxamarindroid.Helpers
             settingsItemViewHolder.settingItemLayout.Click += (sender, e) => this.OnItemClick(this, this.settingItemModelsList[position]);
         }
 
+
+        /// <summary>
+        /// Method on which we specified layout and view holder on which this recyclerview should run
+        /// 
+        /// </summary>
+        /// <param name="parent">View group parent</param>
+        /// <param name="viewType">Returned viewtype from getviewtype method of recyclerview adapter method</param>
+        /// <returns></returns>
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
             View view = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.setting_item_layout, parent, false);

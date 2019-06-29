@@ -11,6 +11,7 @@ using Android.Runtime;
 using Android.Support.V4.App;
 using Android.Util;
 using Android.Views;
+using Android.Views.Animations;
 using Android.Widget;
 using Com.Lilarcor.Cheeseknife;
 using firstxamarindroid.Helpers;
@@ -22,7 +23,12 @@ namespace firstxamarindroid.Fragments
 {
     public class LightSettingsFragment : Fragment
     {
-        // Injects views to variables
+        /*
+         ************************************
+         *      Bind Views to Variables
+         ************************************
+         */
+
         [InjectView(Resource.Id.linearLayoutBrightness)]
         private LinearLayout linearLayoutBrightness;
 
@@ -41,12 +47,23 @@ namespace firstxamarindroid.Fragments
         [InjectView(Resource.Id.textViewTapForColor)]
         private TextView textViewTapForColor;
 
-        // Other variable declarations
+
+        /*
+         ************************************
+         *      Declare Variables
+         ************************************
+         */
         private LightModel lightModel;
+        private SaunaModel saunaModel;
 
         private ToggleButtons toggleButtons;
 
 
+        /*
+         ************************************
+         *      Fragment methods
+         ************************************
+         */
 
         public static LightSettingsFragment NewInstance(int saunaId, String lightId)
         {
@@ -71,6 +88,7 @@ namespace firstxamarindroid.Fragments
                 String lightId = Arguments.GetString(Helpers.Helpers.ARG_2);
 
                 this.lightModel = DbController.Instance.GetLight(saunaId, lightId);
+                this.saunaModel = DbController.Instance.GetSauna(saunaId);
             }
         }
 
@@ -88,31 +106,28 @@ namespace firstxamarindroid.Fragments
         {
             base.OnViewCreated(view, savedInstanceState);
 
-            // At first, set all values acording to model values
-            Log.Debug("LightSettings", "Debug message 2");
 
-            this.toggleButtons = new ToggleButtons(view);
+            // At first, set all values acording to model values
+            this.toggleButtons = new ToggleButtons(view, this.saunaModel);
             this.toggleButtons.UpdateToggleButtons(this.lightModel.Status);
             this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
 
-            if ((!this.lightModel.Status && this.lightModel.ColorStatus) || this.lightModel.Status)
+            // Update color switch, based on saved settings
+            this.switchColorLightOn.Checked = this.lightModel.ColorStatus;
+
+            // Set selected color for panel view
+            this.colorPanelView.SetColor(this.lightModel.GetColor);
+
+            // Update color layout visibilities based on color status
+            if (this.lightModel.ColorStatus)
             {
-                Realm.GetInstance().Write(() => this.lightModel.Status = true);
+                this.colorPanelView.Visibility      = ViewStates.Visible;
+                this.textViewTapForColor.Visibility = ViewStates.Visible;
+            }
 
-                Log.Debug("LightSettings", "Debug message 1");
-
-                this.toggleButtons.UpdateToggleButtons(this.lightModel.Status);
-
-                this.switchColorLightOn.Checked = this.lightModel.ColorStatus;
-
-                if (this.lightModel.ColorStatus)
-                {
-                    this.colorPanelView.Visibility = ViewStates.Visible;
-                    this.textViewTapForColor.Visibility = ViewStates.Visible;
-
-                    this.colorPanelView.SetColor(this.lightModel.GetColor);
-                }
-
+            // Update layout if light status is on
+            if (this.lightModel.Status)
+            {
                 // Set visible brightness layout
                 this.linearLayoutBrightness.Visibility = ViewStates.Visible;
 
@@ -123,8 +138,6 @@ namespace firstxamarindroid.Fragments
 
             this.seekBarBrightness.ProgressChanged += SeekBarBrightness_ProgressChanged;
         }
-
-
 
 
 
@@ -154,36 +167,45 @@ namespace firstxamarindroid.Fragments
 
 
 
-
+        /*
+         ************************************
+         *      Callbacks
+         ************************************
+         */
 
         [InjectOnCheckedChange(Resource.Id.switchColorLightOn)]
         void OnColorLightCheckedListener(object sender, CompoundButton.CheckedChangeEventArgs e)
         {
             Realm.GetInstance().Write(() => this.lightModel.ColorStatus = e.IsChecked);
 
-            this.colorPanelView.Visibility = e.IsChecked ? ViewStates.Visible : ViewStates.Gone;
+            this.colorPanelView.Visibility      = e.IsChecked ? ViewStates.Visible : ViewStates.Gone;
             this.textViewTapForColor.Visibility = e.IsChecked ? ViewStates.Visible : ViewStates.Gone;
+
+            // Start animation only if switch is on.
+            if (e.IsChecked)
+            {
+                this.colorPanelView.StartAnimation(AnimationUtils.LoadAnimation(this.Activity, Resource.Animation.fade_in));
+                this.textViewTapForColor.StartAnimation(AnimationUtils.LoadAnimation(this.Activity, Resource.Animation.fade_in));
+            }
         }
 
         private void ToggleButtons_OnToggleChanged(object sender, bool e)
         {
             Realm.GetInstance().Write(() => this.lightModel.Status = e);
 
+            // Start linear layout animation only when showing the layout
+            if (e)
+            {
+                this.linearLayoutBrightness.StartAnimation(AnimationUtils.LoadAnimation(this.Activity, Resource.Animation.fade_in));
+            }
+
             this.linearLayoutBrightness.Visibility = e ? ViewStates.Visible : ViewStates.Gone;
 
             // Also hide or show the color panel view based on previous light settings.
-            if (!e)
+            if (!e && !this.lightModel.ColorStatus)
             {
-                this.colorPanelView.Visibility = ViewStates.Gone;
+                this.colorPanelView.Visibility      = ViewStates.Gone;
                 this.textViewTapForColor.Visibility = ViewStates.Gone;
-            }
-            else
-            {
-                if (this.lightModel.ColorStatus)
-                {
-                    this.colorPanelView.Visibility = ViewStates.Visible;
-                    this.textViewTapForColor.Visibility = ViewStates.Visible;
-                }
             }
         }
 

@@ -25,18 +25,27 @@ namespace firstxamarindroid.SettingsModule
 {
     public class HeaterFragment : Fragment
     {
+        /*
+         ************************************
+         *      Bind Views to Variables
+         ************************************
+         */
+
         [InjectView(Resource.Id.sfSegmentedControlPower)]
         SfSegmentedControl sfSegmentedControlPower;
 
         [InjectView(Resource.Id.editTextTemperature)]
         EditText editTextTemperature;
 
-        [InjectView(Resource.Id.buttonUpdateTemp)]
-        Button buttonUpdateTemp;
-
         [InjectView(Resource.Id.recyclerViewSensorTemperatures)]
         RecyclerView recyclerViewSensorTemperatures;
 
+
+        /*
+         ************************************
+         *      Declare Variables
+         ************************************
+         */
         private SaunaModel saunaModel;
         private HeaterModel heaterModel;
 
@@ -58,6 +67,11 @@ namespace firstxamarindroid.SettingsModule
         private HeaterSensorsAdapter heaterSensorsAdapter;
 
 
+        /*
+         ************************************
+         *      Fragment methods
+         ************************************
+         */
 
         public static HeaterFragment NewInstance(int saunaId)
         {
@@ -76,17 +90,15 @@ namespace firstxamarindroid.SettingsModule
 
             if (Arguments != null)
             {
-                int saunaId = Arguments.GetInt(Helpers.Helpers.ARG_1);
+                int saunaId         = Arguments.GetInt(Helpers.Helpers.ARG_1);
 
-                this.saunaModel = DbController.Instance.GetSauna(saunaId);
-                this.heaterModel = this.saunaModel.Heater;
+                this.saunaModel     = DbController.Instance.GetSauna(saunaId);
+                this.heaterModel    = this.saunaModel.Heater;
 
                 // Create heater sensors adapter
                 this.heaterSensorsAdapter = new HeaterSensorsAdapter(this.heaterSensorModels);
             }
         }
-
-
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -103,28 +115,29 @@ namespace firstxamarindroid.SettingsModule
             base.OnViewCreated(view, savedInstanceState);
 
             // Set heater value
-            this.toggleButtons = new ToggleButtons(view);
+            this.toggleButtons = new ToggleButtons(view, this.saunaModel);
             this.toggleButtons.UpdateToggleButtons(this.heaterModel.Status);
             this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
 
             // Set segmented control power items, selection event and selected index
-            this.sfSegmentedControlPower.DisplayMode = SegmentDisplayMode.Text;
-            this.sfSegmentedControlPower.SegmentHeight = 33;
-            this.sfSegmentedControlPower.SelectionTextColor = Color.DarkGreen;
-            this.sfSegmentedControlPower.FontColor = Color.White;
-            this.sfSegmentedControlPower.CornerRadius = 10;
-            this.sfSegmentedControlPower.BackColor = Color.LightGray;
-            this.sfSegmentedControlPower.BorderColor = Color.DarkGreen;
-            this.sfSegmentedControlPower.BorderThickness = 2;
-            this.sfSegmentedControlPower.VisibleSegmentsCount = 3;
-            this.sfSegmentedControlPower.ItemsSource = this.heterModelList;
-            this.sfSegmentedControlPower.SelectedIndex = GetSelectedHeatingIndex(this.heterModelList, this.heaterModel);
+            this.sfSegmentedControlPower.DisplayMode            = SegmentDisplayMode.Text;
+            this.sfSegmentedControlPower.SegmentHeight          = 33;
+            this.sfSegmentedControlPower.SelectionTextColor     = Color.DarkGreen;
+            this.sfSegmentedControlPower.FontColor              = Color.White;
+            this.sfSegmentedControlPower.CornerRadius           = 10;
+            this.sfSegmentedControlPower.BackColor              = Color.LightGray;
+            this.sfSegmentedControlPower.BorderColor            = Color.DarkGreen;
+            this.sfSegmentedControlPower.BorderThickness        = 2;
+            this.sfSegmentedControlPower.VisibleSegmentsCount   = 3;
+            this.sfSegmentedControlPower.ItemsSource            = this.heterModelList;
+            this.sfSegmentedControlPower.SelectedIndex          = GetSelectedHeatingIndex(this.heterModelList, this.heaterModel);
+
             SelectionIndicatorSettings selectionIndicator = new SelectionIndicatorSettings();
             selectionIndicator.Color = Color.White;
-
             this.sfSegmentedControlPower.SelectionIndicatorSettings = selectionIndicator;
 
             this.sfSegmentedControlPower.SelectionChanged += SfSegmentedControlPower_SelectionChanged;
+
 
             // Update selected edit temperature
             this.editTextTemperature.Text = this.heaterModel.TemperatureThreshold.ToString();
@@ -150,7 +163,13 @@ namespace firstxamarindroid.SettingsModule
         }
 
         
-
+        /// <summary>
+        /// Method which returns current heater power type index.
+        /// 
+        /// </summary>
+        /// <param name="items">List of String items</param>
+        /// <param name="heaterModel">HeaterModel</param>
+        /// <returns>Index's of items currently selected item</returns>
         private int GetSelectedHeatingIndex(List<String> items, HeaterModel heaterModel)
         {
             for (int i = 0; i < items.Count(); i++)
@@ -161,10 +180,15 @@ namespace firstxamarindroid.SettingsModule
         }
 
 
-
+        /*
+         ************************************
+         *      Callbacks
+         ************************************
+         */
 
         private void ToggleButtons_OnToggleChanged(object sender, bool e)
         {
+            // Persist changes to database.
             Realm.GetInstance().Write(() => this.heaterModel.Status = e);
         }
 
