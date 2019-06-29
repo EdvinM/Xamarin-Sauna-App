@@ -109,13 +109,13 @@ namespace firstxamarindroid.SettingsModule
 
             // Set segmented control power items, selection event and selected index
             this.sfSegmentedControlPower.DisplayMode = SegmentDisplayMode.Text;
-            this.sfSegmentedControlPower.SegmentHeight = 25;
-            this.sfSegmentedControlPower.SelectionTextColor = Color.LimeGreen;
+            this.sfSegmentedControlPower.SegmentHeight = 33;
+            this.sfSegmentedControlPower.SelectionTextColor = Color.DarkGreen;
             this.sfSegmentedControlPower.FontColor = Color.White;
-            this.sfSegmentedControlPower.CornerRadius = 15;
-            this.sfSegmentedControlPower.BackColor = Color.LightGreen;
+            this.sfSegmentedControlPower.CornerRadius = 10;
+            this.sfSegmentedControlPower.BackColor = Color.LightGray;
             this.sfSegmentedControlPower.BorderColor = Color.DarkGreen;
-            this.sfSegmentedControlPower.BorderThickness = 5;
+            this.sfSegmentedControlPower.BorderThickness = 2;
             this.sfSegmentedControlPower.VisibleSegmentsCount = 3;
             this.sfSegmentedControlPower.ItemsSource = this.heterModelList;
             this.sfSegmentedControlPower.SelectedIndex = GetSelectedHeatingIndex(this.heterModelList, this.heaterModel);
