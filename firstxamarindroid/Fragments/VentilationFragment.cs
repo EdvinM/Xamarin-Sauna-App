@@ -14,6 +14,7 @@ using Android.Widget;
 using Com.Lilarcor.Cheeseknife;
 using firstxamarindroid.Helpers;
 using firstxamarindroid.Models;
+using Java.Lang;
 using Realms;
 
 namespace firstxamarindroid.SettingsModule
@@ -42,6 +43,7 @@ namespace firstxamarindroid.SettingsModule
         private ToggleButton toggleButtonFan2;
 
 
+
         private SaunaModel saunaModel;
         private VentilationModel ventilationModel;
 
@@ -49,6 +51,11 @@ namespace firstxamarindroid.SettingsModule
 
         private ToggleButtons toggleButtons;
 
+        /*
+         *********************************
+         *      Fragment methods
+         *********************************
+         */
 
         public static VentilationFragment NewInstance(int saunaId)
         {
@@ -101,12 +108,12 @@ namespace firstxamarindroid.SettingsModule
                 int diff = (int)(this.ventilationModel.OpenedAt - DateTimeOffset.UtcNow.ToUnixTimeSeconds());
 
                 this.progressBarOpening.Progress = 150 - diff;
-                this.textViewProgressStatus.Text = Math.Ceiling(100 - ((diff * 100) / 150.0)) + " %";
+                this.textViewProgressStatus.Text = System.Math.Ceiling(100 - ((diff * 100) / 150.0)) + " %";
             }
 
             editTextFanDuration1.Text = this.ventilationModel.FanRunningTime1.ToString();
             editTextFanDuration2.Text = this.ventilationModel.FanRunningTime2.ToString();
-
+            
             toggleButtonFan1.Checked = DateTimeOffset.UtcNow.ToUnixTimeSeconds() < this.ventilationModel.Fan1ClosingAt;
             toggleButtonFan2.Checked = DateTimeOffset.UtcNow.ToUnixTimeSeconds() < this.ventilationModel.Fan2ClosingAt;
 
@@ -124,6 +131,13 @@ namespace firstxamarindroid.SettingsModule
             base.OnStop();
         }
 
+
+        /*
+         ****************************************************
+         *      Callbacks & UI elements listeners
+         ****************************************************
+         */
+
         [InjectOnCheckedChange(Resource.Id.toggleButtonFan1)]
         void OnToggleButton1CheckedListener(object sender, CompoundButton.CheckedChangeEventArgs e)
         {
@@ -133,10 +147,22 @@ namespace firstxamarindroid.SettingsModule
                 return;
             }
 
-
             ToggleButton toggleButtonSender = (ToggleButton)sender;
 
-            int secondsDuration = toggleButtonSender == toggleButtonFan1 ? Convert.ToInt16(editTextFanDuration1.Text) : Convert.ToInt16(editTextFanDuration2.Text);
+            if (toggleButtonSender == toggleButtonFan1 && this.editTextFanDuration1.Text.Length <= 0)
+            {
+                Toast.MakeText(this.Activity, "Fan durations cannot be empty", ToastLength.Short).Show();
+                return;
+            }
+
+            if (toggleButtonSender == toggleButtonFan2 && this.editTextFanDuration2.Text.Length <= 0)
+            {
+                Toast.MakeText(this.Activity, "Fan durations cannot be empty", ToastLength.Short).Show();
+                return;
+            }
+
+
+            int secondsDuration = (toggleButtonSender == toggleButtonFan1 ? Convert.ToInt16(editTextFanDuration1.Text) : Convert.ToInt16(editTextFanDuration2.Text));
 
             long closingAt = e.IsChecked ? (DateTimeOffset.UtcNow.ToUnixTimeSeconds() + secondsDuration) : -1;
 
@@ -163,6 +189,23 @@ namespace firstxamarindroid.SettingsModule
             OnToggleButton1CheckedListener(sender, e);
         }
 
+        [InjectOnTextChanged(Resource.Id.editTextFanDuration1)]
+        void OnFan1_TextChanged(object sender, Android.Text.TextChangedEventArgs e)
+        {
+            if (e.Text.ToString().Length <= 0)
+                return;
+
+            Realm.GetInstance().Write(() => this.ventilationModel.FanRunningTime1 = int.Parse(e.Text.ToString()));
+        }
+
+        [InjectOnTextChanged(Resource.Id.editTextFanDuration2)]
+        void OnFan2_TextChanged(object sender, Android.Text.TextChangedEventArgs e)
+        {
+            if (e.Text.ToString().Length <= 0)
+                return;
+
+            Realm.GetInstance().Write(() => this.ventilationModel.FanRunningTime2 = int.Parse(e.Text.ToString()));
+        }
 
         void ToggleButtons_OnToggleChanged(object sender, bool e)
         {
@@ -195,6 +238,12 @@ namespace firstxamarindroid.SettingsModule
 
 
 
+        /*
+         ****************************************************
+         *                  Other methods
+         ****************************************************
+         */
+
         private void Timer_Elapsed()
         {
             this.Activity.RunOnUiThread(() =>
@@ -213,7 +262,7 @@ namespace firstxamarindroid.SettingsModule
                         int diff = (int)(this.ventilationModel.OpenedAt - DateTimeOffset.UtcNow.ToUnixTimeSeconds());
 
                         this.progressBarOpening.Progress = 150 - diff;
-                        this.textViewProgressStatus.Text = Math.Ceiling(100 - ((diff * 100) / 150.0)) + " %";
+                        this.textViewProgressStatus.Text = System.Math.Ceiling(100 - ((diff * 100) / 150.0)) + " %";
                     }
                 }
 

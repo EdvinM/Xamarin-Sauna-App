@@ -146,6 +146,7 @@
     <AndroidResource Include="Resources\drawable\button_on_pressed.xml" />
     <AndroidResource Include="Resources\drawable\button_off_not_pressed.xml" />
     <AndroidResource Include="Resources\drawable\button_off_pressed.xml" />
+    <AndroidResource Include="Resources\layout\item_fan_layout.axml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
@@ -181,6 +182,9 @@
     </PackageReference>
     <PackageReference Include="XAB.FlexboxLayout">
       <Version>1.0.0.210670</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfMaskedEdit.Android">
+      <Version>17.1.0.53</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
