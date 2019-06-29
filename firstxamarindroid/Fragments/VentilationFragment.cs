@@ -57,6 +57,8 @@ namespace firstxamarindroid.SettingsModule
         private SaunaModel saunaModel;
         private VentilationModel ventilationModel;
 
+        private Helpers.PopupWindow popupWindow;
+
         private Timer timer;
 
         private ToggleButtons toggleButtons;
@@ -98,6 +100,8 @@ namespace firstxamarindroid.SettingsModule
             View view = inflater.Inflate(Resource.Layout.ventilation_fragment, container, false);
 
             Cheeseknife.Inject(this, view);
+
+            popupWindow = new Helpers.PopupWindow(view);
 
             return view;
         }
@@ -180,7 +184,8 @@ namespace firstxamarindroid.SettingsModule
             // Calculate when the fan should close
             long closingAt = e.IsChecked ? (DateTimeOffset.UtcNow.ToUnixTimeSeconds() + secondsDuration) : -1;
 
-            Toast.MakeText(this.Activity, e.IsChecked ? "Fan opened successfully" : "Fan closed successfully", ToastLength.Short).Show();
+            // Show popup with fan status
+            this.popupWindow.Show("Fan Status", e.IsChecked ? "Fan opened successfully" : "Fan closed successfully");
 
             Realm.GetInstance().Write(() =>
             {
