@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:orientation="horizontal" 
+              android:layout_width="match_parent" 
+              android:layout_height="wrap_content">
+    
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_on"
+            android:id="@+id/buttonSettingOn"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/button_on_not_pressed"
+            android:layout_weight="1"/>
+    
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_off"
+            android:id="@+id/buttonSettingOff"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/button_off_not_pressed"
+            android:layout_weight="1"/>
+    
+</LinearLayout>
+              
+              

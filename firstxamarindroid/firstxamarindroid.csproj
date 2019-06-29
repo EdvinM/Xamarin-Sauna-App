@@ -88,6 +88,7 @@
     <Compile Include="Models\SongModel.cs" />
     <Compile Include="ViewHolders\SongViewHolder.cs" />
     <Compile Include="Activities\SplashScreenActivity.cs" />
+    <Compile Include="Helpers\ToggleButtons.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -140,6 +141,11 @@
     <AndroidResource Include="Resources\layout\setting_item_layout.axml" />
     <AndroidResource Include="Resources\drawable\rounded_textview_on.xml" />
     <AndroidResource Include="Resources\drawable\rounded_textview_off.xml" />
+    <AndroidResource Include="Resources\layout\toggle_buttons_layout.axml" />
+    <AndroidResource Include="Resources\drawable\button_on_not_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\button_on_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\button_off_not_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\button_off_pressed.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />

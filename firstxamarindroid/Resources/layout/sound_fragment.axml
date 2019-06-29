@@ -1,65 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
-              android:orientation="vertical" 
-              android:layout_width="match_parent" 
-              android:layout_height="match_parent"
-              android:padding="@dimen/default_page_padding">
-	
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:id="@+id/toggleSound"
-        android:text="Toggle Music"
-        android:textStyle="bold"
-        android:textSize="18sp" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@android:color/darker_gray" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+	android:layout_height="match_parent">
     
-    <TextView
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1"
-        android:layout_marginBottom="20dp"
-        android:text="Volume" />
-
-	<SeekBar
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:min="0"
-		android:max="10"
-		android:layout_marginBottom="5dp"
-		android:id="@+id/seekBarVolume" />
-    
-	<TextView
-		android:text="0"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/textViewVolumeLevel"
-        android:layout_marginBottom="20dp"
-        android:textAlignment="center"/>
+    <android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
         
-    <TextView
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1"
-        android:layout_marginBottom="20dp"
-        android:text="Available Music" />
-	<android.support.v7.widget.RecyclerView
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/recyclerViewMusic" />
-    
-</LinearLayout>
+    	<LinearLayout
+    		android:orientation="vertical"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+            android:layout_marginBottom="45dp"
+    		android:padding="@dimen/default_page_padding">
+
+    		<TextView
+    			android:textAppearance="?android:attr/textAppearanceLarge"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/textView1"
+    			android:layout_marginBottom="20dp"
+    			android:text="Volume" />
+
+    		<SeekBar
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:min="0"
+    			android:max="10"
+    			android:layout_marginBottom="5dp"
+    			android:id="@+id/seekBarVolume" />
+
+    		<TextView
+    			android:text="0"
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/textViewVolumeLevel"
+    			android:layout_marginBottom="20dp"
+    			android:textAlignment="center"/>
+
+    		<TextView
+    			android:textAppearance="?android:attr/textAppearanceLarge"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/textView1"
+    			android:layout_marginBottom="20dp"
+    			android:text="Available Music" />
+
+    		<android.support.v7.widget.RecyclerView
+    			android:minWidth="25px"
+    			android:minHeight="25px"
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/recyclerViewMusic" />
+
+    	</LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+	<include layout="@layout/toggle_buttons_layout"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

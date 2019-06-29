@@ -22,9 +22,6 @@ namespace firstxamarindroid.SettingsModule
 {
     public class SoundFragment : Fragment
     {
-        [InjectView(Resource.Id.toggleSound)]
-        Switch toggleSound;
-
         [InjectView(Resource.Id.seekBarVolume)]
         SeekBar seekBarVolume;
 
@@ -39,6 +36,9 @@ namespace firstxamarindroid.SettingsModule
         private SoundModel soundModel;
 
         private SongsAdapter songsAdapter;
+
+        private ToggleButtons toggleButtons;
+
 
         private List<SongModel> songModels = new List<SongModel>()
         {
@@ -90,8 +90,11 @@ namespace firstxamarindroid.SettingsModule
         {
             base.OnViewCreated(view, savedInstanceState);
 
-            this.toggleSound.Checked = this.soundModel.Status;
+            this.toggleButtons = new ToggleButtons(view);
+            this.toggleButtons.UpdateToggleButtons(this.soundModel.Status);
+            this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
 
+            this.textViewVolumeLevel.Text = this.soundModel.Volume.ToString();
             this.seekBarVolume.Progress = this.soundModel.Volume;
             this.seekBarVolume.ProgressChanged += SeekBarVolume_ProgressChanged;
 
@@ -110,10 +113,9 @@ namespace firstxamarindroid.SettingsModule
 
 
 
-        [InjectOnClick(Resource.Id.toggleSound)]
-        private void ToggleSound_Click(object sender, EventArgs e)
+        private void ToggleButtons_OnToggleChanged(object sender, bool e)
         {
-            Realm.GetInstance().Write(() => this.soundModel.Status = this.toggleSound.Checked);
+            Realm.GetInstance().Write(() => this.soundModel.Status = e);
         }
     }
 }

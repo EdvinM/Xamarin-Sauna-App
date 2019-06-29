@@ -23,9 +23,6 @@ namespace firstxamarindroid.Fragments
     public class LightSettingsFragment : Fragment
     {
         // Injects views to variables
-        [InjectView(Resource.Id.switchLightOn)]
-        private Switch switchLightOn;
-
         [InjectView(Resource.Id.linearLayoutBrightness)]
         private LinearLayout linearLayoutBrightness;
 
@@ -44,7 +41,7 @@ namespace firstxamarindroid.Fragments
         // Other variable declarations
         private LightModel lightModel;
 
-
+        private ToggleButtons toggleButtons;
 
 
 
@@ -92,8 +89,11 @@ namespace firstxamarindroid.Fragments
             if ((!this.lightModel.Status && this.lightModel.ColorStatus) || this.lightModel.Status)
             {
                 Realm.GetInstance().Write(() => this.lightModel.Status = true);
-               
-                this.switchLightOn.Checked = this.lightModel.Status;
+
+                this.toggleButtons = new ToggleButtons(view);
+                this.toggleButtons.UpdateToggleButtons(this.lightModel.Status);
+                this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
+
                 this.switchColorLightOn.Checked = this.lightModel.ColorStatus;
 
                 if (this.lightModel.ColorStatus)
@@ -154,15 +154,14 @@ namespace firstxamarindroid.Fragments
             this.colorPanelView.Visibility = e.IsChecked ? ViewStates.Visible : ViewStates.Gone;
         }
 
-        [InjectOnCheckedChange(Resource.Id.switchLightOn)]
-        void OnSwitchCheckedListener(object sender, CompoundButton.CheckedChangeEventArgs e)
+        private void ToggleButtons_OnToggleChanged(object sender, bool e)
         {
-            Realm.GetInstance().Write(() => this.lightModel.Status = e.IsChecked);
+            Realm.GetInstance().Write(() => this.lightModel.Status = e);
 
-            this.linearLayoutBrightness.Visibility = e.IsChecked ? ViewStates.Visible : ViewStates.Gone;
+            this.linearLayoutBrightness.Visibility = e ? ViewStates.Visible : ViewStates.Gone;
 
             // Also hide or show the color panel view based on previous light settings.
-            if (!e.IsChecked)
+            if (!e)
                 this.colorPanelView.Visibility = ViewStates.Gone;
             else
             {

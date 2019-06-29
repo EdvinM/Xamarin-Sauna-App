@@ -18,6 +18,7 @@
     <!-- Ventilation Settings fragment strings -->
     <string name="toggle_ventilation">Toggle Ventilation</string>
     <string name="fan_duration_hint">Duration (Seconds)</string>
+    <string name="ventilation_opening">Opening Ventilation...</string>
     <string name="fan_text_1">Ventilation Fan 1</string>
     <string name="fan_text_2">Ventilation Fan 2</string>
     

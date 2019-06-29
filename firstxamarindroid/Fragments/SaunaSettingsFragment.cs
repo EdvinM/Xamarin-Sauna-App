@@ -74,7 +74,7 @@ namespace firstxamarindroid.SettingsModule
                                         LightsFragment.NewInstance(saunaId)),
 
                     new SettingItemModel("Sound",
-                                        (this.saunaModel.Ventilation.Status ? "On" : "Off"),
+                                        (this.saunaModel.Sound.Status ? "On" : "Off"),
                                         Resource.Mipmap.ic_settings_sound,
                                         SoundFragment.NewInstance(saunaId)),
                 };

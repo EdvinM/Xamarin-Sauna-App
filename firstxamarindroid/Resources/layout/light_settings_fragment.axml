@@ -1,82 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/default_page_padding">
-
-    <Switch
-        android:id="@+id/switchLightOn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="@string/toggle_lamp"
-        android:text="@string/toggle_lamp"
-        android:textOn="On"
-        android:textOff="Off"
-        android:textStyle="bold"
-        android:textSize="16dp" />
-        
-    <LinearLayout android:id="@+id/linearLayoutBrightness"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:orientation="vertical"
-                  android:layout_marginTop="10dp"
-                  android:layout_marginBottom="10dp"
-                  android:visibility="gone">
+    android:layout_height="match_parent">
     
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  tools:text="@string/brightness_text"
-                  android:text="@string/brightness_text"
-                  android:textSize="16dp"
-                  android:textStyle="bold"/>
-
-        <SeekBar
-            android:id="@+id/seekBarBrightness"
+    <android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:min="1"
-            android:max="100"/>
-    
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:id="@+id/textViewBrightnessLevel"
-                  android:text="Brightness: 0"/>
-    
-    </LinearLayout>
-    
-    <View android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-          android:layout_marginLeft="20dp"
-          android:layout_marginRight="20dp"
-        android:background="@android:color/darker_gray" />
-        
-    <Switch
-        android:id="@+id/switchColorLightOn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="@string/toggle_lamp_color"
-        android:text="@string/toggle_lamp_color"
-        android:textOn="On"
-        android:textOff="Off"
-        android:textStyle="bold"
-        android:textSize="16dp" />
+            android:layout_height="match_parent"
+            android:layout_marginBottom="45dp"
+            android:padding="@dimen/default_page_padding">
+                
+            <LinearLayout android:id="@+id/linearLayoutBrightness"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:layout_marginTop="10dp"
+                          android:layout_marginBottom="10dp"
+                          android:visibility="gone">
+            
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          tools:text="@string/brightness_text"
+                          android:text="@string/brightness_text"
+                          android:textSize="16dp"
+                          android:textStyle="bold"/>
 
-	<Net.ArcanaStudio.ColorPicker.ColorPanelView
-		android:id="@+id/colorPanelView1"
-		android:layout_width="120dp"
-		android:layout_height="20dp"
-		android:visibility="visible"
-		android:layout_marginBottom="3dp"
-		android:layout_marginTop="3dp"
-		android:layout_marginLeft="10dp"
-		android:layout_marginRight="10dp"/>
-    
-</LinearLayout>
+                <SeekBar
+                    android:id="@+id/seekBarBrightness"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:min="1"
+                    android:max="100"/>
+            
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/textViewBrightnessLevel"
+                          android:text="Brightness: 0"/>
+            
+            </LinearLayout>
+            
+            <!--<View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                android:background="@android:color/darker_gray" />-->
+                
+            <Switch
+                android:id="@+id/switchColorLightOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/toggle_lamp_color"
+                android:text="@string/toggle_lamp_color"
+                android:textOn="On"
+                android:textOff="Off"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+        	<Net.ArcanaStudio.ColorPicker.ColorPanelView
+        		android:id="@+id/colorPanelView1"
+        		android:layout_width="120dp"
+        		android:layout_height="20dp"
+        		android:visibility="gone"
+        		android:layout_marginBottom="3dp"
+        		android:layout_marginTop="3dp"
+        		android:layout_marginLeft="10dp"
+        		android:layout_marginRight="10dp"/>
+            
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <include layout="@layout/toggle_buttons_layout"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

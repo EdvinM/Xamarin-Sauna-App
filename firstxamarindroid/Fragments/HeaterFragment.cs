@@ -25,9 +25,6 @@ namespace firstxamarindroid.SettingsModule
 {
     public class HeaterFragment : Fragment
     {
-        [InjectView(Resource.Id.toggleHeater)]
-        private Switch toggleHeater;
-
         [InjectView(Resource.Id.sfSegmentedControlPower)]
         SfSegmentedControl sfSegmentedControlPower;
 
@@ -42,6 +39,9 @@ namespace firstxamarindroid.SettingsModule
 
         private SaunaModel saunaModel;
         private HeaterModel heaterModel;
+
+        private ToggleButtons toggleButtons;
+
 
         private List<String> heterModelList = new List<String>()
         {
@@ -103,7 +103,9 @@ namespace firstxamarindroid.SettingsModule
             base.OnViewCreated(view, savedInstanceState);
 
             // Set heater value
-            this.toggleHeater.Checked = this.heaterModel.Status;
+            this.toggleButtons = new ToggleButtons(view);
+            this.toggleButtons.UpdateToggleButtons(this.heaterModel.Status);
+            this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
 
             // Set segmented control power items, selection event and selected index
             this.sfSegmentedControlPower.DisplayMode = SegmentDisplayMode.Text;
@@ -147,8 +149,7 @@ namespace firstxamarindroid.SettingsModule
             this.recyclerViewSensorTemperatures.NestedScrollingEnabled = false;
         }
 
-
-
+        
 
         private int GetSelectedHeatingIndex(List<String> items, HeaterModel heaterModel)
         {
@@ -162,12 +163,9 @@ namespace firstxamarindroid.SettingsModule
 
 
 
-        [InjectOnCheckedChange(Resource.Id.toggleHeater)]
-        void OnHeater_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
+        private void ToggleButtons_OnToggleChanged(object sender, bool e)
         {
-            Realm.GetInstance().Write(() => this.heaterModel.Status = e.IsChecked);
-
-            Toast.MakeText(this.Activity, "Heater " + ((e.IsChecked) ? "On" : "Off"), ToastLength.Short).Show();
+            Realm.GetInstance().Write(() => this.heaterModel.Status = e);
         }
 
         [InjectOnClick(Resource.Id.buttonUpdateTemp)]

@@ -20,9 +20,6 @@ namespace firstxamarindroid.SettingsModule
 {
     public class VentilationFragment : Fragment
     {
-        [InjectView(Resource.Id.toggleVentilation)]
-        private Switch toggleVentilation;
-
         [InjectView(Resource.Id.linearLayoutProgress)]
         private LinearLayout linearLayoutProgress;
 
@@ -50,7 +47,7 @@ namespace firstxamarindroid.SettingsModule
 
         private Timer timer;
 
-        private bool manualToggle = false;
+        private ToggleButtons toggleButtons;
 
 
         public static VentilationFragment NewInstance(int saunaId)
@@ -92,7 +89,10 @@ namespace firstxamarindroid.SettingsModule
         {
             base.OnViewCreated(view, savedInstanceState);
 
-            this.toggleVentilation.Checked = this.ventilationModel.Status;
+            this.toggleButtons = new ToggleButtons(view);
+            this.toggleButtons.UpdateToggleButtons(this.ventilationModel.Status);
+            this.toggleButtons.OnToggleChanged += ToggleButtons_OnToggleChanged;
+
 
             if (DateTimeOffset.UtcNow.ToUnixTimeSeconds() < this.ventilationModel.OpenedAt)
             {
@@ -127,7 +127,7 @@ namespace firstxamarindroid.SettingsModule
         [InjectOnCheckedChange(Resource.Id.toggleButtonFan1)]
         void OnToggleButton1CheckedListener(object sender, CompoundButton.CheckedChangeEventArgs e)
         {
-            if (!toggleVentilation.Checked)
+            if (!this.ventilationModel.Status)
             {
                 Toast.MakeText(this.Activity, "Please open ventilation first, then you can open this fan.", ToastLength.Short).Show();
                 return;
@@ -164,29 +164,27 @@ namespace firstxamarindroid.SettingsModule
         }
 
 
-        [InjectOnClick(Resource.Id.toggleVentilation)]
-        void ToggleVentilation_Click(object sender, EventArgs e)
+        void ToggleButtons_OnToggleChanged(object sender, bool e)
         {
             // This is important to be set to true, because we don't want to call code from toggle checked function if user did not
             // press this toggle ventilation.
-            this.manualToggle = true;
             Log.Debug("VentilationFragment", "Clicked listener");
 
-            this.linearLayoutProgress.Visibility = this.toggleVentilation.Checked ? ViewStates.Visible : ViewStates.Gone;
+            this.linearLayoutProgress.Visibility = e ? ViewStates.Visible : ViewStates.Gone;
 
-            if (this.toggleVentilation.Checked)
+            if (e)
             {
                 Realm.GetInstance().Write(() =>
                 {
                     this.ventilationModel.OpenedAt = (DateTimeOffset.UtcNow.ToUnixTimeSeconds() + 150);
-                    this.ventilationModel.Status = this.toggleVentilation.Checked;
+                    this.ventilationModel.Status = e;
                 });
             }
             else
             {
                 Realm.GetInstance().Write(() =>
                 {
-                    this.ventilationModel.Status = this.toggleVentilation.Checked;
+                    this.ventilationModel.Status = e;
                     this.ventilationModel.OpenedAt = -1;
                 });
 
